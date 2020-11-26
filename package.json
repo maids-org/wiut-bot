@@ -1,6 +1,6 @@
 {
   "name": "westmaid.ts",
-  "version": "5.0.0",
+  "version": "2.2.3",
   "description": "WIUT BIS group manager & handler",
   "main": "app.js",
   "scripts": {
