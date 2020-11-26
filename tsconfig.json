@@ -18,6 +18,7 @@
       "@actions/*": ["src/actions/*"],
       "@assets/*": ["src/assets/*"],
       "@src/*": ["src/*"],
+      "@type/*": ["src/types/*"],
       "@core/*": ["src/core/*"],
       "@database/*": ["src/database/*"],
       "@layouts/*": ["src/layouts/*"]

@@ -2,7 +2,7 @@
  * Database Exports
  * @name database
  * @description exporting all database in one point
- * @type {{eternal: *, temporary: *}}
+ * @types {{eternal: *, temporary: *}}
  */
 
 interface Users {
