@@ -5,12 +5,10 @@
   "main": "app.js",
   "scripts": {
     "start": "node ./dist/app.js",
-    "build-ts": "tsc",
-    "watch-ts": "tsc -w",
-    "dev-ts": "nodemon --watch 'src/**/*.ts' --exec ts-node src/app.ts",
+    "build": "tsc",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec ts-node src/app.ts",
     "lint": "eslint ./src --ext .ts",
-    "watch-js": "ts-node src/app.ts",
-    "format": "prettier --write --check \"**/*.{ts,js}\"\n",
+    "format": "yarn format:check --write",
     "format:check": "prettier --check \"**/*.{ts,js}\"\n"
   },
   "keywords": [
