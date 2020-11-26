@@ -1,5 +1,4 @@
 import { composer, middleware } from '@core/bot'
-
 import * as consoles from '@layouts/consoles'
 import security from '@actions/security/index'
 import * as database from '@database/db'

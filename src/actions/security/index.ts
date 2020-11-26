@@ -1,7 +1,6 @@
 import * as database from '@database/db'
 import * as message from '@layouts/messages'
 import * as keyboard from '@layouts/keyboards'
-
 import { TelegrafContext } from 'telegraf/typings/context'
 
 export default async (ctx: TelegrafContext, func: Function) => {
