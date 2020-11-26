@@ -1,4 +1,4 @@
-export default async (acronym: string) => {
+export default async (acronym: string): Promise<string> => {
     const baseUrl =
         'https://intranet.wiut.uz/LearningMaterial/Videoconference/StudentVideoconference?moduleId='
 
