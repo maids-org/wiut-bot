@@ -18,13 +18,13 @@ interface Timetable {
     '7': Array<Record<string, unknown>>
 }
 
-import bis1 = require('../../timetable/4BIS1.json')
-import bis2 = require('../../timetable/4BIS2.json')
-import bis3 = require('../../timetable/4BIS3.json')
-import bis4 = require('../../timetable/4BIS4.json')
-import bis5 = require('../../timetable/4BIS5.json')
-import bis6 = require('../../timetable/4BIS6.json')
-import bis7 = require('../../timetable/4BIS7.json')
+import bis1 = require('../timetable/4BIS1.json')
+import bis2 = require('../timetable/4BIS2.json')
+import bis3 = require('../timetable/4BIS3.json')
+import bis4 = require('../timetable/4BIS4.json')
+import bis5 = require('../timetable/4BIS5.json')
+import bis6 = require('../timetable/4BIS6.json')
+import bis7 = require('../timetable/4BIS7.json')
 
 export default async (chat: string | number): Promise<Timetable> => {
     switch (await groups(chat)) {

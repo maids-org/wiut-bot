@@ -1,7 +1,7 @@
 {
-  "name": "nyaasi-bot",
+  "name": "westmaid.ts",
   "version": "5.0.0",
-  "description": "nyaa.si telegram bot",
+  "description": "WIUT BIS group manager & handler",
   "main": "app.js",
   "scripts": {
     "start": "node ./dist/app.js",
@@ -9,7 +9,7 @@
     "watch-ts": "tsc -w",
     "dev-ts": "nodemon --watch 'src/**/*.ts' --exec ts-node src/app.ts",
     "lint": "eslint ./src --ext .ts",
-    "watch-js": "forever -c 'node --inspect=0.0.0.0:9222 --nolazy' --watchDirectory dist/ ./dist/app.js",
+    "watch-js": "ts-node src/app.ts",
     "format": "prettier --write --check \"**/*.{ts,js}\"\n",
     "format:check": "prettier --check \"**/*.{ts,js}\"\n"
   },
@@ -19,8 +19,8 @@
     "bot"
   ],
   "repository": "github:wiut-bis/maid",
-  "author": "ejnshtein",
-  "license": "MIT",
+  "author": "Genemator Sakhib <genemators@gmail.com> (https://genemator.me)",
+  "license": "CC0-1.0",
   "dependencies": {
     "axios": "^0.21.0",
     "bad-words": "^3.0.4",
