@@ -29,7 +29,7 @@ composer.command(`init`, async (ctx: TelegrafContext) => {
         `\n` +
         `<b>Thanks for your attention and arigatō! ༼ つ ◕_◕ ༽つ</b>`
 
-    for (let group of groups) {
+    for (const group of groups) {
         await ctx.telegram.sendMessage(group, text, {
             parse_mode: 'HTML',
             reply_markup: keyboard.init

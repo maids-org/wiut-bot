@@ -13,7 +13,7 @@ import * as consoles from '@layouts/consoles'
 
 export const bot = new Telegraf<TelegrafContext>(env.TOKEN)
 export const composer = new Composer<TelegrafContext>()
-export const middleware = (composer: Composer<any>) => {
+export const middleware = (composer: Composer<TelegrafContext>): void => {
     bot.use(composer.middleware())
 }
 
@@ -21,7 +21,7 @@ bot.telegram.getMe().then((botInfo: User) => {
     bot.options.username = botInfo.username
 })
 
-if (env.ENVIRONMENT === 'heroku') {
+if (env.ENVIRONMENT === 'heroku')
     bot.launch({
         webhook: {
             domain: env.DOMAIN,
@@ -33,10 +33,8 @@ if (env.ENVIRONMENT === 'heroku') {
             consoles.launch(env.ENVIRONMENT)
         })
         .catch((error: Error) => consoles.errors(error))
-} else if (env.ENVIRONMENT === 'local') {
+else if (env.ENVIRONMENT === 'local')
     bot.launch()
         .then(() => consoles.launch(env.ENVIRONMENT))
         .catch((error: Error) => consoles.errors(error))
-} else {
-    consoles.wrongEnv()
-}
+else consoles.wrongEnv()

@@ -6,7 +6,7 @@
  * @returns Number
  */
 
-export default async (name: string | undefined) => {
+export default async (name: string | undefined): Promise<number> => {
     switch (name) {
         case '4BIS1':
             return -1001475679372

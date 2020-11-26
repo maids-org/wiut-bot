@@ -22,18 +22,18 @@ import parser from '@database/parse'
             }
         })
     )
-    for (let group of groups) {
-        for (let day of Object.keys(group['data'])) {
-            for (let subject of group['data'][day]) {
+    for (const group of groups) {
+        for (const day of Object.keys(group.data)) {
+            for (const subject of group.data[day]) {
                 await cron.schedule(
-                    `50 ${subject['start'] - 1.0} * * ${day}`,
+                    `50 ${subject.start - 1.0} * * ${day}`,
                     async () => {
-                        const groupTo = parser(group['name'])
+                        const groupTo = parser(group.name)
 
                         const text =
                             `<b>⛓ Upcoming Class Notification ⛓</b> \n` +
                             `\n` +
-                            `⚠ <b>10 minutes left</b> for <code>${subject['name']} ${subject['type']}</code> class. ` +
+                            `⚠ <b>10 minutes left</b> for <code>${subject.name} ${subject.type}</code> class. ` +
                             `Please, get ready as soon as possible! ` +
                             `You can get to the website by pressing buttons below: `
 
@@ -41,7 +41,7 @@ import parser from '@database/parse'
                             [
                                 Markup.urlButton(
                                     `📺 Video Conference`,
-                                    await identifier(subject['acronym'])
+                                    await identifier(subject.acronym)
                                 )
                             ]
                         ])

@@ -6,7 +6,7 @@ import security from '@actions/security/index'
 import { TelegrafContext } from 'telegraf/typings/context'
 
 composer.hears(/\/tell (.*)/gi, async (ctx: TelegrafContext) => {
-    let input = ctx.match[1]
+    const input = ctx.match[1]
 
     await security(ctx, async () => {
         const text =
@@ -16,7 +16,7 @@ composer.hears(/\/tell (.*)/gi, async (ctx: TelegrafContext) => {
             `\n` +
             `<b>Sincerely, admins of +70 (or genemator (☞ﾟヮﾟ)☞)</b> \n`
 
-        for (let group of groups) {
+        for (const group of groups) {
             await ctx.telegram
                 .sendMessage(group, text, {
                     parse_mode: 'HTML',

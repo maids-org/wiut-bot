@@ -6,13 +6,11 @@
  */
 import axios, { AxiosResponse } from 'axios'
 
-export default (link: string | URL) => {
-    return axios
-        .get(<string>link)
-        .then((response: AxiosResponse) => {
-            return response.data
-        })
-        .catch(() => {
-            return null
-        })
+export default async (link: string | URL): Promise<string | JSON> => {
+    try {
+        const response: AxiosResponse = await axios.get(<string>link)
+        return response.data
+    } catch (e) {
+        return null
+    }
 }

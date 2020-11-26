@@ -3,6 +3,7 @@
  * @module layouts/keyboards
  */
 import { Markup } from 'telegraf'
+import { InlineKeyboardMarkup } from 'telegraf/typings/telegram-types'
 
 export const start = Markup.inlineKeyboard([
     [Markup.callbackButton('Show more information', 'help')]
@@ -16,11 +17,11 @@ export const invalid = Markup.inlineKeyboard([
     Markup.callbackButton(`Show available commands`, `help`)
 ])
 
-export const error_admin = Markup.inlineKeyboard([
+export const errorAdmin = Markup.inlineKeyboard([
     Markup.urlButton(`Contact with admin`, `https://t.me/genemator`)
 ])
 
-export const links = async () => {
+export const links = async (): Promise<InlineKeyboardMarkup> => {
     return Markup.inlineKeyboard([
         [
             Markup.urlButton(

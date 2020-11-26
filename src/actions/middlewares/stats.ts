@@ -17,8 +17,8 @@ composer.command(`stats`, async (ctx: TelegrafContext) => {
         lang: ctx.from.language_code,
         superuser: async () => {
             if (
-                database.users['eternal'].includes(ctx.from.id) ||
-                database.users['temporary'].includes(ctx.from.username)
+                database.users.eternal.includes(ctx.from.id) ||
+                database.users.temporary.includes(ctx.from.username)
             ) {
                 return `admin`
             } else {

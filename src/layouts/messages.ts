@@ -27,7 +27,7 @@ export const start: string =
     `\n` +
     `<i>In order to see full detailed usage information of the bot, press the button below.</i>`
 
-export const help = (isAdmin: boolean) => {
+export const help = (isAdmin: boolean): string => {
     const base: string =
         `<b>List of available commands:</b>` +
         `\n` +
@@ -65,12 +65,12 @@ export const help = (isAdmin: boolean) => {
     else return base
 }
 
-export const invalid: string = `<b>Hey, I didn't get this command or message. Please see my command list for more information!</b>`
+export const invalid = `<b>Hey, I didn't get this command or message. Please see my command list for more information!</b>`
 
-export const error_admin: string = `<b>You don't have enough power to do that!</b>`
+export const errorAdmin = `<b>You don't have enough power to do that!</b>`
 
-export const invalid_query: string = `<b>Ehm!</b>`
+export const invalidQuery = `<b>Ehm!</b>`
 
-export const contributes: string = `<b>I'm so happy that you wanted to upgrade me 😁. Please, press the button below to get to my GitHub repo...</b>`
+export const contributes = `<b>I'm so happy that you wanted to upgrade me 😁. Please, press the button below to get to my GitHub repo...</b>`
 
-export const links: string = `<b>Here are BIS groups & channels:</b>`
+export const links = `<b>Here are BIS groups & channels:</b>`

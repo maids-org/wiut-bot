@@ -3,16 +3,16 @@ import * as message from '@layouts/messages'
 import * as keyboard from '@layouts/keyboards'
 import { TelegrafContext } from 'telegraf/typings/context'
 
-export default async (ctx: TelegrafContext, func: Function) => {
+export default async (ctx: TelegrafContext, func: void | any) => {
     if (
-        database.users['eternal'].includes(ctx.from.id) ||
-        database.users['temporary'].includes(ctx.from.username)
+        database.users.eternal.includes(ctx.from.id) ||
+        database.users.temporary.includes(ctx.from.username)
     ) {
         await func()
     } else {
-        await ctx.replyWithHTML(message.error_admin, {
+        await ctx.replyWithHTML(message.errorAdmin, {
             parse_mode: 'HTML',
-            reply_markup: keyboard.error_admin
+            reply_markup: keyboard.errorAdmin
         })
     }
 }

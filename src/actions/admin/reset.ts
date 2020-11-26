@@ -6,7 +6,7 @@ import { TelegrafContext } from 'telegraf/typings/context'
 
 composer.command(`reset`, async (ctx: TelegrafContext) => {
     await security(ctx, async () => {
-        database.users['temporary'] = []
+        database.users.temporary = []
         await ctx.replyWithHTML(`<b>Temporary admins successfully reset!</b>`, {
             parse_mode: 'HTML'
         })

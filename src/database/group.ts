@@ -2,10 +2,10 @@
  * Group Identifier
  * @name group
  * @description return group number from chat id
- * @returns Number
+ * @returns Promise<number>
  */
 
-export default async (chat: number | string) => {
+export default async (chat: number | string): Promise<number> => {
     switch (chat) {
         case -1001475679372:
             return 1

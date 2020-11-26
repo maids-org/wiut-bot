@@ -6,7 +6,7 @@
  */
 
 interface Users {
-    eternal: Array<number>,
+    eternal: Array<number>
     temporary: Array<number | string>
 }
 
