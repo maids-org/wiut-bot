@@ -1,0 +1,79 @@
+{
+	"0": [],
+	"1": [
+		{
+			"name": "Computer Science Fundamentals",
+			"tutor": "Olga Yugay",
+			"type": "lecture",
+			"start": 11.0,
+			"length": 2.0,
+			"acronym": "csf"
+		},
+		{
+			"name": "Introduction to Management and Organisational Behaviour",
+			"tutor": "Alisher Ismailov",
+			"type": "lecture",
+			"start": 15.0,
+			"length": 1.0,
+			"acronym": "imob"
+		}
+	],
+	"2": [
+		{
+			"name": "Web Technology",
+			"tutor": "Bunyod Khoshimkhujaev",
+			"type": "seminar",
+			"start": 9.0,
+			"length": 2.0,
+			"acronym": "wt"
+		},
+		{
+			"name": "Introduction to Statistics and Data Science",
+			"tutor": "Olmas Isakov",
+			"type": "lecture",
+			"start": 11.0,
+			"length": 1.0,
+			"acronym": "isds"
+		}
+	],
+	"3": [
+		{
+			"name": "Introduction to Management and Organisational Behavior",
+			"tutor": "Khabibullo Akramov",
+			"type": "seminar",
+			"start": 9.0,
+			"length": 2.0,
+			"acronym": "imob"
+		},
+		{
+			"name": "Computer Science Fundamentals",
+			"tutor": "Olga Yugay",
+			"type": "seminar",
+			"start": 13.0,
+			"length": 2.0,
+			"acronym": "csf"
+		}
+	],
+	"4": [
+		{
+			"name": "Fundamentals of programming",
+			"tutor": "Vasiliy Kuznetsov",
+			"type": "seminar",
+			"start": 9.0,
+			"length": 2.0,
+			"acronym": "fop"
+		}
+	],
+	"5": [
+		{
+			"name": "Introduction to Statistics and Data Science",
+			"tutor": "Olmas Isakov",
+			"type": "seminar",
+			"start": 11.0,
+			"length": 2.0,
+			"acronym": "isds"
+		}
+	],
+	"6": [],
+	"7": []
+}

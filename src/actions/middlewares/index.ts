@@ -1,0 +1,8 @@
+import '@actions/middlewares/help'
+import '@actions/middlewares/init'
+import '@actions/middlewares/start'
+import '@actions/middlewares/links'
+import '@actions/middlewares/stats'
+import '@actions/middlewares/feedback'
+import '@actions/middlewares/timetable'
+import '@actions/middlewares/contribute'

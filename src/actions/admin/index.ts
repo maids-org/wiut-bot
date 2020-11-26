@@ -1,0 +1,6 @@
+import '@actions/admin/add'
+import '@actions/admin/send'
+import '@actions/admin/list'
+import '@actions/admin/tell'
+import '@actions/admin/chat'
+import '@actions/admin/reset'
