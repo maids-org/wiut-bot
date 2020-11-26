@@ -6,7 +6,7 @@ import { TelegrafContext } from 'telegraf/typings/context'
 
 composer.command(`list`, async (ctx: TelegrafContext) => {
     await security(ctx, async () => {
-        const list = database.users['temporary'].toString()
+        const list: string = database.users.temporary.toString()
 
         if (list === '') {
             await ctx.replyWithHTML(`<b>Temporary admin list is empty!</b>`, {

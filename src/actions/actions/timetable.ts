@@ -38,15 +38,15 @@ composer.action(`timetable`, async (ctx: TelegrafContext) => {
             ctx.chat.id
         )} ⛓</b>`
 
-        for (let subject of database[currentDay]) {
-            let subText =
+        for (const subject of database[currentDay]) {
+            const subText =
                 `\n` +
                 `\n` +
-                `<b>💠 Name:</b> <i>${subject['name']}</i> \n` +
-                `<b>🌀 Type:</b> <i>${subject['type']}</i> \n` +
-                `<b>👨‍💻 Tutor:</b> <i>${subject['tutor']}</i> \n` +
-                `<b>⏰ Time (start-end):</b> <code>${subject['start']}-${
-                    subject['start'] + subject['length']
+                `<b>💠 Name:</b> <i>${subject.name}</i> \n` +
+                `<b>🌀 Type:</b> <i>${subject.type}</i> \n` +
+                `<b>👨‍💻 Tutor:</b> <i>${subject.tutor}</i> \n` +
+                `<b>⏰ Time (start-end):</b> <code>${subject.start}-${
+                    subject.start + subject.length
                 }</code>`
 
             text += subText

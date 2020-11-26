@@ -6,7 +6,7 @@ import { TelegrafContext } from 'telegraf/typings/context'
 
 composer.hears(/\/add (.+)/gi, async (ctx: TelegrafContext) => {
     await security(ctx, async () => {
-        await database.users['temporary'].push(ctx.match[1])
+        await database.users.temporary.push(ctx.match[1])
         await ctx.replyWithHTML(`<b>Successfully added a temporary admin!</b>`)
     })
 })

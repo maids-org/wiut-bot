@@ -5,7 +5,12 @@
  * @type {{eternal: *, temporary: *}}
  */
 
-export const users: Object = {
+interface Users {
+    eternal: Array<number>,
+    temporary: Array<number | string>
+}
+
+export const users: Users = {
     eternal: [
         756870298,
         1291710566,

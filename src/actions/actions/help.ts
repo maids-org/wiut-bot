@@ -7,8 +7,8 @@ import { TelegrafContext } from 'telegraf/typings/context'
 
 composer.action(`help`, async (ctx: TelegrafContext) => {
     if (
-        database.users['eternal'].includes(ctx.from.id) ||
-        database.users['temporary'].includes(ctx.from.username)
+        database.users.eternal.includes(ctx.from.id) ||
+        database.users.temporary.includes(ctx.from.username)
     )
         await ctx.editMessageText(message.help(true), {
             parse_mode: 'HTML',
