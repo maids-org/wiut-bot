@@ -22,6 +22,7 @@
   "license": "CC0-1.0",
   "dependencies": {
     "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
     "is-reachable": "^5.0.0",
     "node-cron": "^2.0.3",
     "telegraf": "^3.38.0"
@@ -36,7 +37,6 @@
     "@typescript-eslint/eslint-plugin": "^4.6.0",
     "@typescript-eslint/parser": "^4.6.0",
     "babel-plugin-add-import-extension": "^1.4.3",
-    "dotenv": "^8.2.0",
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^6.15.0",
     "eslint-config-standard": "^16.0.1",
