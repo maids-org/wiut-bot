@@ -11,7 +11,7 @@ import { User } from 'telegram-typings'
 import env from '@core/env'
 import * as consoles from '@layouts/consoles'
 
-export const bot = new Telegraf<TelegrafContext>(process.env.TOKEN)
+export const bot = new Telegraf<TelegrafContext>(env.TOKEN)
 export const composer = new Composer<TelegrafContext>()
 export const middleware = (composer: Composer<TelegrafContext>): void => {
     bot.use(composer.middleware())
