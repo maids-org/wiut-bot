@@ -6,6 +6,7 @@
 
 import * as dotenv from 'dotenv'
 
-dotenv.config()
+if (process.env.ENVIRONMENT === 'local')
+    dotenv.config()
 
 export default process.env
