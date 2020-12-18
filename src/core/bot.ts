@@ -21,6 +21,7 @@ bot.telegram.getMe().then((botInfo: User) => {
     bot.options.username = botInfo.username
 })
 
+console.clear()
 if (env.ENVIRONMENT === 'heroku')
     bot.launch({
         webhook: {

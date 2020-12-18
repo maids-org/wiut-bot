@@ -7,7 +7,7 @@
     "start": "node ./dist/app.js",
     "build": "tsc",
     "watch": "tsc -w",
-    "development": "nodemon -e ts --exec ts-node src/app.ts",
+    "development": "nodemon ./dist/app.js",
     "lint": "eslint ./src --ext .ts",
     "format": "yarn format:check --write",
     "format:check": "prettier --config .prettierrc --check \"src/**/*.ts\""
