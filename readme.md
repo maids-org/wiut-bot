@@ -25,6 +25,8 @@ This bot exists thankfully for those who contributed this project and they are:
     of the project and active contributor
 -   [Khassanboi](https://github.com/khassanboi) _(Uncle)_ - Active contributor
     and the people who realise all feature
+-   [Senpaichan](https://github.com/wiut-bis/senpai) _(Mother)_ - The concept
+    where it was taken from. True inspiration for this bot!
 
 > Start contributing to become relative to maid!
 
