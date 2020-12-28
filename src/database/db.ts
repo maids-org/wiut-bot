@@ -10,6 +10,11 @@ interface Users {
     temporary: Array<number | string>
 }
 
+interface Banned {
+    usernames: Array<string>
+    ids: Array<number | string>
+}
+
 export const users: Users = {
     eternal: [
         756870298,
@@ -20,4 +25,9 @@ export const users: Users = {
         1087968824
     ],
     temporary: [100000000]
+}
+
+export const bans: Banned = {
+    usernames: [],
+    ids: []
 }

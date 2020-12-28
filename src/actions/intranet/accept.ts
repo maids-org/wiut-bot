@@ -7,15 +7,18 @@ import { TelegrafContext } from 'telegraf/typings/context'
 
 composer.action(`copy_accept`, async (ctx: TelegrafContext) => {
     if (
-        database.users.eternal.includes(ctx.from.id) ||
-        database.users.temporary.includes(ctx.from.username)
+        database.bans.ids.includes(ctx.from.id) ||
+        database.bans.usernames.includes(ctx.from.username)
     )
-        await ctx.editMessageText(message.help(true), {
-            parse_mode: 'HTML',
-            reply_markup: keyboard.help
-        })
+        await ctx.editMessageText(
+            `<b>Hey, wait a minute! I remember this account... ` +
+                `Yeah, it's you! Go stick to your restrictions!!!</b>`,
+            {
+                parse_mode: 'HTML'
+            }
+        )
     else
-        await ctx.editMessageText(message.help(false), {
+        await ctx.editMessageText(`<b>Please choose module from the list below:</b>`, {
             parse_mode: 'HTML',
             reply_markup: keyboard.help
         })
