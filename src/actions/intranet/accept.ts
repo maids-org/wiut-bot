@@ -26,10 +26,16 @@ composer.action(`copy_accept`, async (ctx: TelegrafContext) => {
                 parse_mode: 'HTML',
                 reply_markup: Markup.inlineKeyboard([
                     [
-                        Markup.callbackButton(`Computer Science Foundamentals`, `csf`)
+                        Markup.callbackButton(
+                            `Computer Science Foundamentals`,
+                            `csf`
+                        )
                     ],
                     [
-                        Markup.callbackButton(`Introduction to Statistics and Data Science`, `isds`)
+                        Markup.callbackButton(
+                            `Introduction to Statistics and Data Science`,
+                            `isds`
+                        )
                     ]
                 ])
             }
