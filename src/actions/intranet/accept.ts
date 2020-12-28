@@ -27,7 +27,7 @@ composer.action(`copy_accept`, async (ctx: TelegrafContext) => {
                 reply_markup: Markup.inlineKeyboard([
                     [
                         Markup.callbackButton(
-                            `Computer Science Foundamentals`,
+                            `Computer Science Fundamentals`,
                             `csf`
                         )
                     ],
