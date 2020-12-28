@@ -5,10 +5,10 @@ import { TelegrafContext } from 'telegraf/typings/context'
 composer.action(`copy_decline`, async (ctx: TelegrafContext) => {
     await ctx.telegram.sendMessage(
         process.env.CONTROLLER,
-        `User ${ctx.from.id} declined copy rights!`
+        `User ${ctx.from.id} with @${ctx.from.username} declined copy rights!`
     )
     await ctx.editMessageText(
-        `Ok, delete that chat and you're free to learn yourself!`,
+        `<b>Ok, delete that chat and you're free to learn yourself!</b>`,
         {
             parse_mode: 'HTML'
         }
