@@ -28,6 +28,6 @@ export const users: Users = {
 }
 
 export const bans: Banned = {
-    usernames: [],
+    usernames: ['DrJafreeShok', 'venenatus', 'Alex_engl', 'sakhib_orzklv'],
     ids: []
 }

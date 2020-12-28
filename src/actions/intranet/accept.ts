@@ -18,10 +18,13 @@ composer.action(`copy_accept`, async (ctx: TelegrafContext) => {
             }
         )
     else
-        await ctx.editMessageText(`<b>Please choose module from the list below:</b>`, {
-            parse_mode: 'HTML',
-            reply_markup: keyboard.help
-        })
+        await ctx.editMessageText(
+            `<b>Please choose module from the list below:</b>`,
+            {
+                parse_mode: 'HTML',
+                reply_markup: keyboard.help
+            }
+        )
 })
 
 middleware(composer)
