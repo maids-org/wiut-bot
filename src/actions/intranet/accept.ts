@@ -12,7 +12,8 @@ composer.action(`copy_accept`, async (ctx: TelegrafContext) => {
     )
         await ctx.editMessageText(
             `<b>Hey, wait a minute! I remember this account... ` +
-                `Yeah, it's you! Go stick to your restrictions!!!</b>`,
+                `Yeah, it's you! Go stick to your restrictions! ` +
+                `That's for blaming my master @genemator</b>`,
             {
                 parse_mode: 'HTML'
             }
