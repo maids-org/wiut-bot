@@ -22,20 +22,25 @@ bot.telegram.getMe().then((botInfo: User) => {
 })
 
 console.clear()
-if (env.ENVIRONMENT === 'heroku')
-    bot.launch({
-        webhook: {
-            domain: env.DOMAIN,
-            hookPath: '/bot',
-            port: parseInt(env.PORT)
-        }
-    })
-        .then(async () => {
-            consoles.launch(env.ENVIRONMENT)
+
+try {
+    if (env.ENVIRONMENT === 'heroku')
+        bot.launch({
+            webhook: {
+                domain: env.DOMAIN,
+                hookPath: '/bot',
+                port: parseInt(env.PORT)
+            }
         })
-        .catch((error: Error) => consoles.errors(error))
-else if (env.ENVIRONMENT === 'local')
-    bot.launch()
-        .then(() => consoles.launch(env.ENVIRONMENT))
-        .catch((error: Error) => consoles.errors(error))
-else consoles.wrongEnv()
+            .then(async () => {
+                consoles.launch(env.ENVIRONMENT)
+            })
+            .catch((error: Error) => consoles.errors(error))
+    else if (env.ENVIRONMENT === 'local')
+        bot.launch()
+            .then(() => consoles.launch(env.ENVIRONMENT))
+            .catch((error: Error) => consoles.errors(error))
+    else consoles.wrongEnv()
+} catch (e) {
+    console.log(e)
+}
