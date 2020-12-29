@@ -8,7 +8,7 @@ composer.command(`intranet`, async (ctx: TelegrafContext) => {
     const copyright =
         `<b>Dear ${ctx.from.first_name},</b>\n` +
         `Before opening intranet page, we would like to ` +
-        `inform you that by using our copy of intranet  infos ` +
+        `inform you that by using our copy of intranet infos ` +
         `you take all responsibilities to yourself, we don't ` +
         `care about your privacy bla-bla, so if you think that ` +
         `we are obligating copyright things, pls gotta hell out ` +
@@ -17,8 +17,8 @@ composer.command(`intranet`, async (ctx: TelegrafContext) => {
         `solve tha test without our materials. We do apologize for being ` +
         `little bit rough, anyway, it's up to you, you know...\n` +
         `\n` +
-        `<i>By the way, your id, username will be saved, just in order to ensure ` +
-        `if our law lovers using it or not...</i>`
+        `<i>By the way, your id, username will be checked, just in order to ensure ` +
+        `if our law lovers using it or not, they are not granted to use this source (banned)...</i>`
     await ctx.replyWithHTML(copyright, {
         parse_mode: 'HTML',
         reply_markup: Markup.inlineKeyboard([

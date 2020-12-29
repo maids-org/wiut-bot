@@ -9,10 +9,12 @@ composer.start(async (ctx: TelegrafContext) => {
         case 'intranet':
             await ctx.replyWithHTML(
                 `<b>Ora, ora... Wanna use intranet, aren't ya senpai?! 😏</b>\n` +
-                `<i>Feel free to use command /intranet to access intranet from now so on!</i>`, {
-                parse_mode: 'HTML',
-                reply_markup: keyboard.start
-            })
+                    `<i>Feel free to use command /intranet to access intranet from now so on!</i>`,
+                {
+                    parse_mode: 'HTML',
+                    reply_markup: keyboard.start
+                }
+            )
             break
         default:
             await ctx.replyWithHTML(message.start, {
