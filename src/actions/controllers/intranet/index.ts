@@ -1,2 +1,2 @@
-import '@actions/controllers/intraneters/intranet/accept'
-import '@actions/controllers/intraneters/intranet/decline'
+import '@actions/controllers/intranet/intranet/accept'
+import '@actions/controllers/intranet/intranet/decline'
