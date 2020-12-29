@@ -4,7 +4,6 @@ import * as message from '@layouts/messages'
 import * as keyboard from '@layouts/keyboards'
 import * as database from '@database/db'
 import { TelegrafContext } from 'telegraf/typings/context'
-import { Markup } from 'telegraf'
 
 composer.action(`copy_accept`, async (ctx: TelegrafContext) => {
     if (
@@ -24,20 +23,7 @@ composer.action(`copy_accept`, async (ctx: TelegrafContext) => {
             `<b>Please choose module from the list below:</b>`,
             {
                 parse_mode: 'HTML',
-                reply_markup: Markup.inlineKeyboard([
-                    [
-                        Markup.callbackButton(
-                            `Computer Science Fundamentals`,
-                            `csf`
-                        )
-                    ],
-                    [
-                        Markup.callbackButton(
-                            `Introduction to Statistics and Data Science`,
-                            `isds`
-                        )
-                    ]
-                ])
+                reply_markup: keyboard.intranet
             }
         )
 })

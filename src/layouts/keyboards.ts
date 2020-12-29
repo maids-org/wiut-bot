@@ -54,3 +54,13 @@ export const init = Markup.inlineKeyboard([
     [Markup.urlButton(`My father's website`, `https://genemator.me/`)],
     [Markup.urlButton(`My cousin's website`, `http://khassanboi.uz/`)]
 ])
+
+export const intranet = Markup.inlineKeyboard([
+    [Markup.callbackButton(`Computer Science Fundamentals`, `csf`)],
+    [
+        Markup.callbackButton(
+            `Introduction to Statistics and Data Science`,
+            `isds`
+        )
+    ]
+])
