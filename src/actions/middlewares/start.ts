@@ -7,7 +7,7 @@ import { TelegrafContext } from '@type/telegraf'
 composer.start(async (ctx: TelegrafContext) => {
     switch (ctx.startPayload) {
         case 'intranet':
-            await ctx.replyWithHTML(`Intranet message here`, {
+            await ctx.replyWithHTML(`Ora, ora... Wanna use intranet, aren't ya senpai?! 😏`, {
                 parse_mode: 'HTML',
                 reply_markup: keyboard.start
             })
