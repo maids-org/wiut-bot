@@ -1,4 +1,4 @@
-export default async function (course: string) {
+export default async function (course: string): Promise<string> {
     switch (course) {
         case 'csf':
             return 'Computer Science Fundamentals'
