@@ -1,1 +1,1 @@
-import '@actions/controllers/intranet'
+import './intranet'
