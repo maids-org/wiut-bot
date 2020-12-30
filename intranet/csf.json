@@ -65,6 +65,36 @@
 		{
 			"name": "Lecture Video",
 			"link": "https://vcsd1.wiut.uz/playback/presentation/2.0/playback.html?meetingId=cfa3d3807eb5a26fe9d65f40f199b7144cdbe8fb-1601877408051&moduleID=559&way=lm"
+		},
+		{
+			"name": "Seminar Video",
+			"link": "https://vcsd1.wiut.uz/playback/presentation/2.0/playback.html?meetingId=da72f637844146ebcdc9a293c50145e9347d3e71-1602050045157&moduleID=559&way=lm"
+		}
+	],
+	"Teaching Week 3": [
+		{
+			"name": "Lecture File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/888/CSF_Lecture3_2020_2021.pdf"
+		},
+		{
+			"name": "Seminar File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/888/Seminar_3_2020_2021.pdf"
+		},
+		{
+			"name": "Start using git & GitHub",
+			"link": "https://intranet.wiut.uz/LearningMaterial/Media/Details?ID=203&moduleID=559&way=lm"
+		},
+		{
+			"name": "ColinsLab Binary Hex",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/1166/ColinsLab_binary_hex.mp4"
+		},
+		{
+			"name": "Lecture Video",
+			"link": "https://vcsd1.wiut.uz/playback/presentation/2.0/playback.html?meetingId=cace250ec48aead9c813a77ba1087f72ba98c36c-1602482250126&moduleID=559&way=lm"
+		},
+		{
+			"name": "Seminar Video",
+			"link": "https://vcde7.wiut.uz/playback/presentation/2.0/playback.html?meetingId=568251a1f60959c5eb40c1826518b9b0519259e1-1602734210580&moduleID=559&way=lm"
 		}
 	]
 }
