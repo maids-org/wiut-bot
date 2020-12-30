@@ -1,7 +1,7 @@
 import { composer, middleware } from '@core/bot'
 import { Markup } from 'telegraf'
 import * as consoles from '@layouts/consoles'
-import dataset from '@database/index'
+import dataset from '@database/timetable'
 import group from '@database/group'
 import { TelegrafContext } from 'telegraf/typings/context'
 

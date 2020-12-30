@@ -5,7 +5,8 @@
  */
 
 import * as dotenv from 'dotenv'
-
-if (process.env.ENVIRONMENT === 'local') dotenv.config()
+;(async () => {
+    await dotenv.config()
+})()
 
 export default process.env

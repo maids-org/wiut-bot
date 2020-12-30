@@ -22,11 +22,11 @@ composer.command(`intranet`, async (ctx: TelegrafContext) => {
     await ctx.replyWithHTML(copyright, {
         parse_mode: 'HTML',
         reply_markup: Markup.inlineKeyboard([
-            [Markup.callbackButton(`I don't care, I'm in!`, `copy_accept`)],
+            [Markup.callbackButton(`I don't care, I'm in!`, `intranet`)],
             [
                 Markup.callbackButton(
                     `I'm too loyal for restrictions`,
-                    `copy_decline`
+                    `intranet_decline`
                 )
             ]
         ])

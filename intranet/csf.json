@@ -1,0 +1,28 @@
+{
+	"Assesment": [
+		{
+			"name": "Question and Answers",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/1166/coursework_Q&A.mp4"
+		}
+	],
+	"General Information": [
+		{
+			"name": "Dale - Computer science illuminated. (2020)",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/886/Dale%20-%20Computer%20science%20illuminated.%20(2020).pdf"
+		},
+		{
+			"name": "Wladston Ferreira Filho - Learn the Art of Solving",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/886/Wladston%20Ferreira%20Filho%20-%20Computer%20Science%20Distilled_%20Learn%20the%20Art%20of%20Solving%20Computational%20Problems%20(2017,%20Code%20Energy%20LLC).pdf"
+		}
+	],
+	"Teaching Week 1": [
+		{
+			"name": "Computer Science Fundamentals",
+			"link": "Olga Yugay"
+		},
+		{
+			"name": "Computer Science Fundamentals",
+			"link": "Olga Yugay"
+		}
+	]
+}

@@ -38,6 +38,8 @@ export const help = (isAdmin: boolean): string => {
         `\n` +
         `/links - <code>show url links</code>` +
         `\n` +
+        `/intranet - <code>accessing intranet</code>` +
+        `\n` +
         `/timetable - <code>today's timetable</code>` +
         `\n` +
         `/contribute - <code>enhance me more</code>` +
