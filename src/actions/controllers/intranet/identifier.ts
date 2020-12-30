@@ -5,6 +5,6 @@ export default async function (course: string): Promise<string> {
         case 'isds':
             return 'Introduction to Statistics and Data Science'
         default:
-            return 'Undefined course, needs admin action!'
+            return 'Deconstruction!'
     }
 }
