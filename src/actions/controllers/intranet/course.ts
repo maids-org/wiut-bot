@@ -32,8 +32,19 @@ composer.action(/intranet_course_(.*)/gi, async (ctx: TelegrafContext) => {
         ])
     }
     keyboard.push([Markup.callbackButton(`⬅ Back`, `intranet`)])
+    const text =
+        `🎛 <b>IntraX V0.3.3 Beta</b>` +
+        `\n` +
+        `\n` +
+        `📼 <b>There you can list out modules that exist on our database.</b>` +
+        `\n` +
+        `\n` +
+        `⚠ <b>Choose topic from the list below in order to get files of it:</b>` +
+        `\n` +
+        `\n` +
+        `👉🏻 <b>Cursor:</b> <code>intranet/${course}</code>`
     await ctx.editMessageText(
-        `<b>Choose topic from the list below in order to get files of it:</b>`,
+        text,
         {
             parse_mode: 'HTML',
             reply_markup: Markup.inlineKeyboard(keyboard)

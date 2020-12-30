@@ -45,8 +45,20 @@ composer.action(`intranet`, async (ctx: TelegrafContext) => {
                 )
             ])
         }
+        const text =
+            `🎛 <b>IntraX V0.3.3 Beta</b>` +
+            `\n` +
+            `\n` +
+            `📼 <b>Welcome to intranet explorer. ` + `\n` +
+            `Brought to you by @genemator and @khassanboi</b>` +
+            `\n` +
+            `\n` +
+            `⚠ <b>Instruction:</b> <i>use buttons provided below in order to interact with datasets, choose a module from the list in order to get resources:</i>` +
+            `\n` +
+            `\n` +
+            `👉🏻 <b>Cursor:</b> <code>intranet/</code>`
         await ctx.editMessageText(
-            `<b>Welcome to intranet explorer. Choose from the list module from resources you will get:</b>`,
+            text,
             {
                 parse_mode: 'HTML',
                 reply_markup: Markup.inlineKeyboard(keyboard)

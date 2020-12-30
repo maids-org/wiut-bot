@@ -30,7 +30,18 @@ composer.action(/intranet_files_(.+)_(.+)/gi, async (ctx: TelegrafContext) => {
     keyboard.push([
         Markup.callbackButton(`⬅ Back`, `intranet_course_${course}`)
     ])
-    await ctx.editMessageText(`<b>Hello:</b>`, {
+    const text =
+        `🎛 <b>IntraX V0.3.3 Beta</b>` +
+        `\n` +
+        `\n` +
+        `📼 <b>There you can list out links of files that exist on our database.</b>` +
+        `\n` +
+        `\n` +
+        `⚠ <b>Choose a file from the list below in order to get url link to it:</b>` +
+        `\n` +
+        `\n` +
+        `👉🏻 <b>Cursor:</b> <code>intranet/${course}/${topics}</code>`
+    await ctx.editMessageText(text, {
         parse_mode: 'HTML',
         reply_markup: Markup.inlineKeyboard(keyboard)
     })
