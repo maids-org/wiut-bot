@@ -96,5 +96,67 @@
 			"name": "Seminar Video",
 			"link": "https://vcde7.wiut.uz/playback/presentation/2.0/playback.html?meetingId=568251a1f60959c5eb40c1826518b9b0519259e1-1602734210580&moduleID=559&way=lm"
 		}
+	],
+	"Teaching Week 4": [
+		{
+			"name": "Lecture File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/887/CSF_Lecture4_2020_2021.pdf"
+		},
+		{
+			"name": "Seminar File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/888/Seminar_4_2020_2021.pdf"
+		},
+		{
+			"name": "GitHub Branch Merge",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/10423/888/Seminar4-github-branch-and-merge.mkv"
+		},
+		{
+			"name": "Lecture Video",
+			"link": "https://vcde6.wiut.uz/playback/presentation/2.0/playback.html?meetingId=abdfe4fc71c292127cdb5266d586e4af6327d0d8-1603086879600&moduleID=559&way=lm"
+		},
+		{
+			"name": "Seminar Video",
+			"link": "https://vcde5.wiut.uz/playback/presentation/2.0/playback.html?meetingId=bc297385bf5cedc259fc3f21f2bfebc9cfb5594e-1603267316700&moduleID=559&way=lm"
+		}
+	],
+	"Teaching Week 5": [
+		{
+			"name": "Lecture File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/887/CSF_Lecture5_2020_2021.pdf"
+		},
+		{
+			"name": "Seminar File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/888/Seminar_5_2020_2021.pdf"
+		},
+		{
+			"name": "Lecture Video",
+			"link": "https://vcde8.wiut.uz/playback/presentation/2.0/playback.html?meetingId=9f26c66bbebc0b038c7170a9d90372c46dfa90ca-1603691722266&moduleID=559&way=lm"
+		},
+		{
+			"name": "Seminar Video",
+			"link": "https://vcde8.wiut.uz/playback/presentation/2.0/playback.html?meetingId=9f26c66bbebc0b038c7170a9d90372c46dfa90ca-1603691722266&moduleID=559&way=lm"
+		}
+	],
+	"Teaching Week 6": [
+		{
+			"name": "Lecture File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/887/CSF_Lecture6_2020_2021.pdf"
+		},
+		{
+			"name": "Seminar File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/888/Seminar_6_2020_2021.pdf"
+		},
+		{
+			"name": "Chipset Architecture",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/887/chipset_architecture.pdf"
+		},
+		{
+			"name": "Lecture Video",
+			"link": "https://vcde2.wiut.uz/playback/presentation/2.0/playback.html?meetingId=7bfb110aed69924e1a1c5ce656de6e23b2e3ef2a-1604296633972&moduleID=559&way=lm"
+		},
+		{
+			"name": "Seminar Video",
+			"link": "https://vcde7.wiut.uz/playback/presentation/2.0/playback.html?meetingId=4127c02b18338a621df8c23bf150dc2ac0a86b0a-1604548855115&moduleID=559&way=lm"
+		}
 	]
 }
