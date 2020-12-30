@@ -1,3 +1,3 @@
-import '@actions/actions/help'
-import '@actions/actions/timetable'
-import '@actions/actions/tomorrow'
+import './help'
+import './timetable'
+import './tomorrow'
