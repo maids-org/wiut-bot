@@ -13,9 +13,9 @@ composer.action(`intranet`, async (ctx: TelegrafContext) => {
         database.bans.usernames.includes(ctx.from.username)
     ) {
         await ctx.editMessageText(
-            `<b>Hey, wait a minute! I remember this account... ` +
-                `Yeah, it's you! Go stick to your restrictions! ` +
-                `That's for blaming my master @genemator</b>`,
+            `<b>Hey, wait a minute! I remember this account...</b> ` +
+                `<i>Yeah, it's you! Go stick to your restrictions!</i> ` +
+                `<i>That's for blaming my master @genemator</i>`,
             {
                 parse_mode: 'HTML'
             }
