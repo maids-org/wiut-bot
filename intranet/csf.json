@@ -158,5 +158,81 @@
 			"name": "Seminar Video",
 			"link": "https://vcde7.wiut.uz/playback/presentation/2.0/playback.html?meetingId=4127c02b18338a621df8c23bf150dc2ac0a86b0a-1604548855115&moduleID=559&way=lm"
 		}
+	],
+	"Teaching Week 7": [
+		{
+			"name": "Lecture File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/887/CSF_Lecture7_2020_2021.pdf"
+		},
+		{
+			"name": "Seminar File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/888/Seminar_7_2020_2021.pdf"
+		},
+		{
+			"name": "The mind behind Linux | Linus Torvalds",
+			"link": "https://www.youtube.com/watch?v=o8NPllzkFhE&t=56s"
+		},
+		{
+			"name": "Lecture Video",
+			"link": "https://vcde11.wiut.uz/playback/presentation/2.0/playback.html?meetingId=53cae71be13f2b58ba603e69d80eb6678cab8e5d-1604901403851&moduleID=559&way=lm"
+		},
+		{
+			"name": "Seminar Video",
+			"link": "https://vcde11.wiut.uz/playback/presentation/2.0/playback.html?meetingId=1d08c412abb6e21b5eae47eccecd7e858d18e94e-1605168135593&moduleID=559&way=lm"
+		}
+	],
+	"Teaching Week 8": [
+		{
+			"name": "Lecture File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/887/CSF_Lecture8_2020_2021.pdf"
+		},
+		{
+			"name": "Seminar File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/888/Seminar_8_2020_2021.pdf"
+		},
+		{
+			"name": "Lecture Video",
+			"link": "https://vcde13.wiut.uz/playback/presentation/2.0/playback.html?meetingId=b81637cd380d01c9517f5e33c4177f843debfb73-1605506498214&moduleID=559&way=lm"
+		},
+		{
+			"name": "Seminar Video",
+			"link": "https://vcde14.wiut.uz/playback/presentation/2.0/playback.html?meetingId=3e361369dd0df859dce1c1579d0422bf493f6d04-1605772633965&moduleID=559&way=lm"
+		}
+	],
+	"Teaching Week 9": [
+		{
+			"name": "Lecture File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/887/CSF_Lecture9_2020_2021_.pdf"
+		},
+		{
+			"name": "Seminar File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/888/Seminar_9_2020_2021.pdf"
+		},
+		{
+			"name": "Lecture Video",
+			"link": "https://vcde7.wiut.uz/playback/presentation/2.0/playback.html?meetingId=6245a969d9382b04e0d88e66a585ad5e3bd7a767-1606111121160&moduleID=559&way=lm"
+		},
+		{
+			"name": "Seminar Video",
+			"link": "https://vcde14.wiut.uz/playback/presentation/2.0/playback.html?meetingId=444fb6b8f16f6ff9720786f90da869fcb6176c28-1606377447904&moduleID=559&way=lm"
+		}
+	],
+	"Teaching Week 10": [
+		{
+			"name": "Lecture File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/887/CSF_Lecture10_2020_2021.pdf"
+		},
+		{
+			"name": "Seminar File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/888/Seminar_10_2020_2021.pdf"
+		},
+		{
+			"name": "Lecture Video",
+			"link": "https://vcsd1.wiut.uz/playback/presentation/2.0/playback.html?meetingId=813651693073114c980f8b29c01c2dcb434cd5d3-1606715938789&moduleID=559&way=lm"
+		},
+		{
+			"name": "Seminar Video",
+			"link": "https://vcde13.wiut.uz/playback/presentation/2.0/playback.html?meetingId=07d27acfc91e3a014e0418a44b6a819608d1d7db-1606982189973&moduleID=559&way=lm"
+		}
 	]
 }
