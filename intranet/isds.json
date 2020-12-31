@@ -26,12 +26,24 @@
 	],
 	"Teaching Week 1": [
 		{
-			"name": "Dale - Computer science illuminated. (2020)",
-			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/886/Dale%20-%20Computer%20science%20illuminated.%20(2020).pdf"
+			"name": "Lecture Video",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/785/Week_1_Lecture.mp4"
 		},
 		{
-			"name": "Wladston Ferreira Filho - Learn the Art of Solving",
-			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/886/Wladston%20Ferreira%20Filho%20-%20Computer%20Science%20Distilled_%20Learn%20the%20Art%20of%20Solving%20Computational%20Problems%20(2017,%20Code%20Energy%20LLC).pdf"
+			"name": "Lecture Video (Playback)",
+			"link": "https://vcsd1.wiut.uz/playback/presentation/2.0/playback.html?meetingId=a159aa2b66313cd5d21ae7a5d297589d4a724193-1601287607347&moduleID=556&way=lm"
+		},
+		{
+			"name": "Lecture File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/785/Week%201%20ISDS.pdf"
+		},
+		{
+			"name": "Week Q&A",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/785/Week%201%20Tutorial.pdf"
+		},
+		{
+			"name": "Week Q&A Solution",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/785/Week%201%20Tutorial%20solutions.pdf"
 		}
 	]
 }
