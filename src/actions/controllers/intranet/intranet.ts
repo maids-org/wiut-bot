@@ -49,7 +49,8 @@ composer.action(`intranet`, async (ctx: TelegrafContext) => {
             `🎛 <b>IntraX V0.3.3 Beta</b>` +
             `\n` +
             `\n` +
-            `📼 <b>Welcome to intranet explorer. ` + `\n` +
+            `📼 <b>Welcome to intranet explorer. ` +
+            `\n` +
             `Brought to you by @genemator and @khassanboi</b>` +
             `\n` +
             `\n` +
@@ -57,13 +58,10 @@ composer.action(`intranet`, async (ctx: TelegrafContext) => {
             `\n` +
             `\n` +
             `👉🏻 <b>Cursor:</b> <code>intranet/</code>`
-        await ctx.editMessageText(
-            text,
-            {
-                parse_mode: 'HTML',
-                reply_markup: Markup.inlineKeyboard(keyboard)
-            }
-        )
+        await ctx.editMessageText(text, {
+            parse_mode: 'HTML',
+            reply_markup: Markup.inlineKeyboard(keyboard)
+        })
     }
 })
 

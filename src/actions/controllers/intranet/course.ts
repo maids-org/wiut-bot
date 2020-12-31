@@ -43,13 +43,10 @@ composer.action(/intranet_course_(.*)/gi, async (ctx: TelegrafContext) => {
         `\n` +
         `\n` +
         `👉🏻 <b>Cursor:</b> <code>intranet/${course}</code>`
-    await ctx.editMessageText(
-        text,
-        {
-            parse_mode: 'HTML',
-            reply_markup: Markup.inlineKeyboard(keyboard)
-        }
-    )
+    await ctx.editMessageText(text, {
+        parse_mode: 'HTML',
+        reply_markup: Markup.inlineKeyboard(keyboard)
+    })
 })
 
 middleware(composer)

@@ -46,7 +46,8 @@ composer.command(`intranet`, async (ctx: TelegrafContext) => {
             `🎛 <b>IntraX V0.3.3 Beta</b>` +
             `\n` +
             `\n` +
-            `📼 <b>Welcome to intranet explorer. ` + `\n` +
+            `📼 <b>Welcome to intranet explorer. ` +
+            `\n` +
             `Brought to you by @genemator and @khassanboi</b>` +
             `\n` +
             `\n` +
