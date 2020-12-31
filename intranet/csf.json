@@ -234,5 +234,41 @@
 			"name": "Seminar Video",
 			"link": "https://vcde13.wiut.uz/playback/presentation/2.0/playback.html?meetingId=07d27acfc91e3a014e0418a44b6a819608d1d7db-1606982189973&moduleID=559&way=lm"
 		}
+	],
+	"Teaching Week 11": [
+		{
+			"name": "Lecture File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/887/CSF_Lecture11_2020_2021.pdf"
+		},
+		{
+			"name": "Seminar File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/888/Seminar_11_2020_2021.pdf"
+		},
+		{
+			"name": "Lecture Video",
+			"link": "https://vcde14.wiut.uz/playback/presentation/2.0/playback.html?meetingId=e91827dfae3ed11b0a31402a097b60ffcd38ba26-1607320068012&moduleID=559&way=lm"
+		},
+		{
+			"name": "Seminar Video",
+			"link": "https://vcde11.wiut.uz/playback/presentation/2.0/playback.html?meetingId=70a0ed9b71921bc3159d3a7d8c2b3c0ed67b9456-1607586502322&moduleID=559&way=lm"
+		}
+	],
+	"Teaching Week 12": [
+		{
+			"name": "FIT Exam Example",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/886/FIT_exam_sample.docx"
+		},
+		{
+			"name": "Question & Answers",
+			"link": "https://intranet.wiut.uz/LearningMaterial/Discussion/Details?ID=689&moduleID=559&way=lm"
+		},
+		{
+			"name": "Seminar File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/73/888/Seminar_12_2020_2021.pdf"
+		},
+		{
+			"name": "Seminar Video",
+			"link": "https://vcde6.wiut.uz/playback/presentation/2.0/playback.html?meetingId=be3ce8e63f9e3387233e40e369dedab276015c31-1608176930647&moduleID=559&way=lm"
+		}
 	]
 }
