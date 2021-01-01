@@ -107,5 +107,49 @@
 			"name": "Week Q&A Solutions",
 			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/1107/Week%204%20Tutorial%20Solutions.pdf"
 		}
+	],
+	"Teaching Week 5": [
+		{
+			"name": "Lecture Video",
+			"link": "https://vcde11.wiut.uz/playback/presentation/2.0/playback.html?meetingId=a1de7782085e4a0dd5d322f42e8ed81a7cbb331f-1603709935363&moduleID=556&way=lm"
+		},
+		{
+			"name": "Lecture File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/1356/Week%205%20ISDS.pdf"
+		},
+		{
+			"name": "Week Q&A",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/1356/Week%205%20Tutorial.pdf"
+		},
+		{
+			"name": "Week Q&A Solutions",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/1356/Week%205%20Tutorial%20Solutions.pdf"
+		}
+	],
+	"Teaching Week 6": [
+		{
+			"name": "Lecture Video (Part 1)",
+			"link": "https://vcde10.wiut.uz/playback/presentation/2.0/playback.html?meetingId=6c65a54a0a4cb089089bbb9f4bfb818738378abe-1604310932849&moduleID=556&way=lm"
+		},
+		{
+			"name": "Lecture Video (Part 2)",
+			"link": "https://vcsd1.wiut.uz/playback/presentation/2.0/playback.html?meetingId=92f600cb03803136ee4556170b5f971435db89ae-1604383060139&moduleID=556&way=lm"
+		},
+		{
+			"name": "Lecture File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/1441/Week%206%20ISDS_1.pdf"
+		},
+		{
+			"name": "Z Table",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/1441/z_table.pdf"
+		},
+		{
+			"name": "Week Q&A",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/1441/Week%206%20Tutorial.pdf"
+		},
+		{
+			"name": "Week Q&A Solutions",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/1441/Week%206%20Tutorial%20Solutions.pdf"
+		}
 	]
 }
