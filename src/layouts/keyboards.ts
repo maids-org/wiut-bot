@@ -55,7 +55,12 @@ export const init = Markup.inlineKeyboard([
 ])
 
 export const shelter = Markup.inlineKeyboard([
-    [Markup.urlButton(`Enter the shelter`, `https://github.com/wiut-bis/shelter`)]
+    [
+        Markup.urlButton(
+            `Enter the shelter`,
+            `https://github.com/wiut-bis/shelter`
+        )
+    ]
 ])
 
 export const intranet = Markup.inlineKeyboard([
