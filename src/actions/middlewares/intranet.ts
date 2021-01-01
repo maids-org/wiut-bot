@@ -43,7 +43,7 @@ composer.command(`intranet`, async (ctx: TelegrafContext) => {
             ])
         }
         const text =
-            `🎛 <b>IntraX V0.3.3 Beta</b>` +
+            `🎛 <b>IntraneX V0.3.3 Beta</b>` +
             `\n` +
             `\n` +
             `📼 <b>Welcome to intranet explorer. ` +
