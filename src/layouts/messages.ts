@@ -73,6 +73,6 @@ export const errorAdmin = `<b>You don't have enough power to do that!</b>`
 
 export const invalidQuery = `<b>Ehm!</b>`
 
-export const contributes = `<b>I'm so happy that you wanted to upgrade me 😁. Please, press the button below to get to my GitHub repo...</b>`
+export const contributes = `<b>I'm so happy that you wanted to upgrade me, but starting from 2021th year, my Genemator Senpai decided to contribute me on private. However, you can join our organization and be able to private me then!</b>`
 
 export const links = `<b>Here are BIS groups & channels:</b>`

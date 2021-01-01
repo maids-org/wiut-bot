@@ -46,8 +46,7 @@ export const links = async (): Promise<InlineKeyboardMarkup> => {
 }
 
 export const contribute = Markup.inlineKeyboard([
-    [Markup.urlButton(`Contribute!`, `https://github.com/wiut-bis/maid`)],
-    [Markup.urlButton(`Organisation`, `https://github.com/wiut-bis/`)]
+    [Markup.urlButton(`Organization`, `https://github.com/wiut-bis/`)]
 ])
 
 export const init = Markup.inlineKeyboard([
