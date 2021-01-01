@@ -33,7 +33,7 @@ composer.action(/intranet_course_(.*)/gi, async (ctx: TelegrafContext) => {
     }
     keyboard.push([Markup.callbackButton(`⬅ Back`, `intranet`)])
     const text =
-        `🎛 <b>IntraX V0.3.3 Beta</b>` +
+        `🎛 <b>IntraneX V0.3.3 Beta</b>` +
         `\n` +
         `\n` +
         `📼 <b>There you can list out modules that exist on our database.</b>` +

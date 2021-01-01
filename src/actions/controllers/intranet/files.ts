@@ -31,7 +31,7 @@ composer.action(/intranet_files_(.+)_(.+)/gi, async (ctx: TelegrafContext) => {
         Markup.callbackButton(`⬅ Back`, `intranet_course_${course}`)
     ])
     const text =
-        `🎛 <b>IntraX V0.3.3 Beta</b>` +
+        `🎛 <b>IntraneX V0.3.3 Beta</b>` +
         `\n` +
         `\n` +
         `📼 <b>There you can list out links of files that exist on our database.</b>` +
