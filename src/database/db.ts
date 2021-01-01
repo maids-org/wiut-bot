@@ -29,5 +29,5 @@ export const users: Users = {
 
 export const bans: Banned = {
     ids: [],
-    usernames: ['venenatus']
+    usernames: []
 }
