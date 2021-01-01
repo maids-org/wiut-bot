@@ -23,22 +23,22 @@ export default async (chat: string | number): Promise<Timetable> => {
     const bis1 = await promises.readFile(join('./timetable', '4BIS1.json'), {
         encoding: 'utf8'
     })
-    const bis2 = await promises.readFile(join('./timetable', '4BIS1.json'), {
+    const bis2 = await promises.readFile(join('./timetable', '4BIS2.json'), {
         encoding: 'utf8'
     })
-    const bis3 = await promises.readFile(join('./timetable', '4BIS1.json'), {
+    const bis3 = await promises.readFile(join('./timetable', '4BIS3.json'), {
         encoding: 'utf8'
     })
-    const bis4 = await promises.readFile(join('./timetable', '4BIS1.json'), {
+    const bis4 = await promises.readFile(join('./timetable', '4BIS4.json'), {
         encoding: 'utf8'
     })
-    const bis5 = await promises.readFile(join('./timetable', '4BIS1.json'), {
+    const bis5 = await promises.readFile(join('./timetable', '4BIS5.json'), {
         encoding: 'utf8'
     })
-    const bis6 = await promises.readFile(join('./timetable', '4BIS1.json'), {
+    const bis6 = await promises.readFile(join('./timetable', '4BIS6.json'), {
         encoding: 'utf8'
     })
-    const bis7 = await promises.readFile(join('./timetable', '4BIS1.json'), {
+    const bis7 = await promises.readFile(join('./timetable', '4BIS7.json'), {
         encoding: 'utf8'
     })
     switch (await groups(chat)) {
