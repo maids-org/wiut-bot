@@ -45,5 +45,67 @@
 			"name": "Week Q&A Solution",
 			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/785/Week%201%20Tutorial%20solutions.pdf"
 		}
+	],
+	"Teaching Week 2":[
+		{
+			"name": "Lecture Video",
+			"link": "https://vcsd1.wiut.uz/playback/presentation/2.0/playback.html?meetingId=43c9fa513ec6c8491073b65be3d3c57c0fadf85a-1601895927671&moduleID=556&way=lm"
+		},
+		{
+			"name": "Lecture File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/46/785/Week%202%20ISDS.pdf"
+		},
+		{
+			"name": "Week Q&A",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/46/785/Week%202%20Tutorial.pdf"
+		},
+		{
+			"name": "Week Q&A Solutions",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/46/1023/Week%202%20Tutorial%20solutions.pdf"
+		}
+	],
+	"Teaching Week 3": [
+		{
+			"name": "Lecture Video",
+			"link": "https://vcde5.wiut.uz/playback/presentation/2.0/playback.html?meetingId=896cf540ad1d4918e179f39fd85bb756325b1c31-1602565303353&moduleID=556&way=lm"
+		},
+		{
+			"name": "Lecture File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/46/1106/Week%203%20ISDS.pdf"
+		},
+		{
+			"name": "Week Q&A",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/46/1106/Week%203%20Tutorial.pdf"
+		},
+		{
+			"name": "Week Q&A Solutions",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/46/1106/Week%203%20Tutorial%20solutions.pdf"
+		}
+	],
+	"Teaching Week 4": [
+		{
+			"name": "Lecture Video",
+			"link": "https://vcde5.wiut.uz/playback/presentation/2.0/playback.html?meetingId=381006d89d0eb631464b5bf8b5bf2a1393084b1b-1603101685138&moduleID=556&way=lm"
+		},
+		{
+			"name": "Lecture File",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/1107/Week%204%20ISDS.pdf"
+		},
+		{
+			"name": "Binomial Probability Table",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/1107/Binomial_Probability_Table.pdf"
+		},
+		{
+			"name": "Cumulative Poisson Table",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/1107/Cumulative%20Poisson%20Table.pdf"
+		},
+		{
+			"name": "Week Q&A",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/1107/Week%204%20Tutorial.pdf"
+		},
+		{
+			"name": "Week Q&A Solutions",
+			"link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/9536/1107/Week%204%20Tutorial%20Solutions.pdf"
+		}
 	]
 }
