@@ -54,6 +54,10 @@ export const init = Markup.inlineKeyboard([
     [Markup.urlButton(`My cousin's website`, `http://khassanboi.uz/`)]
 ])
 
+export const shelter = Markup.inlineKeyboard([
+    [Markup.urlButton(`Enter the shelter`, `https://github.com/wiut-bis/shelter`)]
+])
+
 export const intranet = Markup.inlineKeyboard([
     [Markup.callbackButton(`Computer Science Fundamentals`, `csf`)],
     [

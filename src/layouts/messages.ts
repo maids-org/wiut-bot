@@ -76,3 +76,5 @@ export const invalidQuery = `<b>Ehm!</b>`
 export const contributes = `<b>I'm so happy that you wanted to upgrade me, but starting from 2021th year, my Genemator Senpai decided to contribute me on private. However, you can join our organization and be able to contribute me then!</b>`
 
 export const links = `<b>Here are BIS groups & channels:</b>`
+
+export const shelter = `<b>Here are you, way to our shelter:</b>`
