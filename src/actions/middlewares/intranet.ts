@@ -10,10 +10,10 @@ import identifier from '@actions/controllers/intranet/identifier'
 composer.command(`intranet`, async (ctx: TelegrafContext) => {
     if (ctx.chat.type != 'private') {
         const text: string =
-            `⚠️ Due to spam records, we decided to make this command available private chat only...` +
+            `<b>⚠️ Due to spam records, we decided to make this command available private chat only...</b>` +
             `\n` +
             `\n` +
-            `<b>Please, access this command on private chat!</b>`
+            `<code>Please, access this command on private chat!</code>`
         await ctx.replyWithHTML(text, {
             reply_markup: Markup.inlineKeyboard([
                 Markup.urlButton(`Go DM me`, `https://t.me/westmaid_bot`)
