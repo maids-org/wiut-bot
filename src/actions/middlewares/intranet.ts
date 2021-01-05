@@ -13,7 +13,7 @@ composer.command(`intranet`, async (ctx: TelegrafContext) => {
             `⚠️ Due to spam records, we decided to make this command available private chat only...` +
             `\n` +
             `\n` +
-            `Please, access this command on private chat!`
+            `<b>Please, access this command on private chat!</b>`
         await ctx.replyWithHTML(text, {
             reply_markup: Markup.inlineKeyboard([
                 Markup.urlButton(`Go DM me`, `https://t.me/westmaid_bot`)
