@@ -23,7 +23,7 @@ export default async (subject: string): Promise<string> => {
         case 'efas':
             return baseUrl + 25
         case 'fa':
-            return baseUrl + 0
+            return baseUrl + 687
         default:
             return 'https://intranet.wiut.uz/UserModuleMaterials'
     }
