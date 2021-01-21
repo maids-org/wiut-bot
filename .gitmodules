@@ -1,0 +1,4 @@
+[submodule "timetable"]
+  path = tablelist
+  url = https://github.com/wiut-bis/timetable
+
