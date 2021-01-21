@@ -1,9 +1,11 @@
 name: Update CI
 
-on:
-  schedule:
-    - cron: "59 23 * * *"
-  workflow_dispatch:
+on: [push, pull_request]
+
+#on:
+#  schedule:
+#    - cron: "59 23z * * *"
+#  workflow_dispatch:
 
 jobs:
   build:
