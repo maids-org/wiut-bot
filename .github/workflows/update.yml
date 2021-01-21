@@ -19,7 +19,7 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          cd timetables && git pull origin master && cd ..
+          git submodule update --remote --merge
           rm -rf ./timetable && cp -a ./timetables ./timetable
           git commit -m "Updating Timetables" -a
       - name: Push changes
