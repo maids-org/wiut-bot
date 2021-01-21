@@ -8,7 +8,7 @@ import { join } from 'path'
 import identifier from '@actions/controllers/intranet/identifier'
 
 composer.command(`intranet`, async (ctx: TelegrafContext) => {
-    if (ctx.chat.type != 'private') {
+    if (ctx.chat.type !== 'private') {
         const text: string =
             `<b>⚠️ Due to spam records, we decided to make this command available private chat only...</b>` +
             `\n` +

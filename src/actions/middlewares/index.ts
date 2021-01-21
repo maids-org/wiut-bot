@@ -1,5 +1,5 @@
 import './help'
-import './init'
+// import './init'
 import './start'
 import './links'
 import './stats'

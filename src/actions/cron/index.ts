@@ -34,14 +34,16 @@ import parser from '@database/parse'
                             `<b>⛓ Upcoming Class Notification ⛓</b> \n` +
                             `\n` +
                             `⚠ <b>10 minutes left</b> for <code>${subject.name} ${subject.type}</code> class. ` +
-                            `Please, get ready as soon as possible! ` +
-                            `You can get to the website by pressing buttons below: `
+                            `Please, get ready as soon as possible!` +
+                            `\n` +
+                            `Class is located at ${subject.room} of ${subject.building}` +
+                            `If you're studying at home, then follow this link for online: `
 
                         const keyboard = Markup.inlineKeyboard([
                             [
                                 Markup.urlButton(
                                     `📺 Video Conference`,
-                                    await identifier(subject.acronym)
+                                    await identifier(subject.name)
                                 )
                             ]
                         ])

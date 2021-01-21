@@ -1,20 +1,29 @@
-export default async (acronym: string): Promise<string> => {
+export default async (subject: string): Promise<string> => {
     const baseUrl =
         'https://intranet.wiut.uz/LearningMaterial/Videoconference/StudentVideoconference?moduleId='
+
+    const matches: Array<string> = await subject.match(/\b(\w)/g)
+    const acronym: string = await matches.join('').toLocaleLowerCase()
 
     switch (acronym) {
         case 'fop':
             return baseUrl + 314
         case 'wt':
             return baseUrl + 599
-        case 'csf':
-            return baseUrl + 559
         case 'mfc':
             return baseUrl + 600
-        case 'isds':
+        case 'itsads':
             return baseUrl + 556
-        case 'imob':
+        case 'itmaob':
             return baseUrl + 539
+        case 'taid':
+            return baseUrl + 561
+        case 'adr':
+            return baseUrl + 541
+        case 'efas':
+            return baseUrl + 25
+        case 'fa':
+            return baseUrl + 0
         default:
             return 'https://intranet.wiut.uz/UserModuleMaterials'
     }

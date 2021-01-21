@@ -62,13 +62,3 @@ export const shelter = Markup.inlineKeyboard([
         )
     ]
 ])
-
-export const intranet = Markup.inlineKeyboard([
-    [Markup.callbackButton(`Computer Science Fundamentals`, `csf`)],
-    [
-        Markup.callbackButton(
-            `Introduction to Statistics and Data Science`,
-            `isds`
-        )
-    ]
-])

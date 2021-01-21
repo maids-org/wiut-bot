@@ -3,6 +3,7 @@ import { Markup } from 'telegraf'
 import * as consoles from '@layouts/consoles'
 import dataset from '@database/timetable'
 import group from '@database/group'
+import groupLink from '@database/timetableLinks'
 import { TelegrafContext } from 'telegraf/typings/context'
 
 composer.action(/tomorrow_(.+)/gi, async (ctx: TelegrafContext) => {
@@ -23,7 +24,8 @@ composer.action(/tomorrow_(.+)/gi, async (ctx: TelegrafContext) => {
                 `<b>👨‍💻 Tutor:</b> <i>${subject.tutor}</i> \n` +
                 `<b>⏰ Time (start-end):</b> <code>${subject.start}-${
                     subject.start + subject.length
-                }</code>`
+                }</code> \n` +
+                `<b>📍 Location:</b> <i>${subject.room} of ${subject.building}</i>`
 
             text += subText
         }
@@ -35,7 +37,7 @@ composer.action(/tomorrow_(.+)/gi, async (ctx: TelegrafContext) => {
                 `<b>🎉 Feel free to enjoy today, you don't have any classes!</b>`
         }
 
-        const editLink = `https://github.com/wiut-bis/maid/tree/main/timetable`
+        const editLink = `https://github.com/wiut-bis/maid.ts/tree/main/timetable`
         const editString =
             `\n` +
             `\n` +
@@ -50,12 +52,7 @@ composer.action(/tomorrow_(.+)/gi, async (ctx: TelegrafContext) => {
         parse_mode: 'HTML',
         reply_markup: Markup.inlineKeyboard([
             [Markup.callbackButton(`◀ Back`, `timetable`)],
-            [
-                Markup.urlButton(
-                    `🕸 Webtable`,
-                    `https://intranet.wiut.uz/TimeTableNew/GetLessons?classid=3AD620ED9D52D489`
-                )
-            ]
+            [Markup.urlButton(`🕸 Webtable`, `${await groupLink(ctx.chat.id)}`)]
         ]),
         disable_web_page_preview: true
     })
