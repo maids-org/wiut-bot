@@ -7,11 +7,11 @@ import * as consoles from '@layouts/consoles'
 import identifier from '@actions/cron/identifier'
 import parser from '@database/parse'
 ;(async () => {
-    const dir = await promises.readdir('./timetables')
+    const dir = await promises.readdir('./timetable')
     const groupIdentifier = dir.filter((name) => name.endsWith('.json'))
     const groups = await Promise.all(
         groupIdentifier.map(async (name) => {
-            const file = await promises.readFile(join('./timetables', name), {
+            const file = await promises.readFile(join('./timetable', name), {
                 encoding: 'utf8'
             })
             return {
