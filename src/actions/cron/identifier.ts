@@ -3,7 +3,7 @@ export default async (subject: string): Promise<string> => {
         'https://intranet.wiut.uz/LearningMaterial/Videoconference/StudentVideoconference?moduleId='
 
     const matches: Array<string> = await subject.match(/\b(\w)/g)
-    const acronym: string = await matches.join('').toLocaleLowerCase()
+    const acronym: string = await matches.join('').toLowerCase()
 
     switch (acronym) {
         case 'fop':
