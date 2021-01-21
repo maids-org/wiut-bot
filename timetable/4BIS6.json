@@ -1,0 +1,96 @@
+{
+	"0": [],
+	"1": [
+		{
+			"name": "Introduction to Statistics and Data Science",
+			"tutor": "Rui Dang",
+			"type": "workshop",
+			"start": 11.0,
+			"length": 2.0,
+			"building": "ATB",
+			"room": "302"
+		},
+		{
+			"name": "Fundamentals of Programming",
+			"tutor": "Vasiliy Kuznetsov",
+			"type": "lecture",
+			"start": 17.0,
+			"length": 1.0,
+			"building": "New Building",
+			"room": "501"
+		}
+	],
+	"2": [
+		{
+			"name": "Mathematics for Computing",
+			"tutor": "Ali Subair",
+			"type": "lecture",
+			"start": 12.0,
+			"length": 1.0,
+			"building": "New Building",
+			"room": "501"
+		},
+		{
+			"name": "Mathematics for Computing",
+			"tutor": "Ali Subair",
+			"type": "workshop",
+			"start": 13.0,
+			"length": 1.0,
+			"building": "ATB",
+			"room": "207"
+		},
+		{
+			"name": "Introduction to Management and Organisational Behavior",
+			"tutor": "Alisher Ismailov",
+			"type": "lecture",
+			"start": 14.0,
+			"length": 1.0,
+			"building": "Lyceum Building",
+			"room": "Hall"
+		}
+	],
+	"3": [
+		{
+			"name": "Web Technology",
+			"tutor": "Said Abduvaliev",
+			"type": "seminar",
+			"start": 16.0,
+			"length": 2.0,
+			"building": "New Building",
+			"room": "408"
+		}
+	],
+	"4": [
+		{
+			"name": "Introduction to Management and Organisational Behavior",
+			"tutor": "Sarvar Djalilov",
+			"type": "seminar",
+			"start": 9.0,
+			"length": 2.0,
+			"building": "ATB",
+			"room": "310"
+		},
+		{
+			"name": "Mathematics for Computing",
+			"tutor": "Ikrom Rikhsiboev",
+			"type": "seminar",
+			"start": 11.0,
+			"length": 2.0,
+			"building": "IB",
+			"room": "215"
+		}
+	],
+	"5": [
+		{
+			"name": "Fundamentals of Programming",
+			"tutor": "Mikhail Shpirko",
+			"type": "seminar",
+			"start": 9.0,
+			"length": 2.0,
+			"building": "New Building",
+			"room": "408"
+		}
+	],
+	"6": [],
+	"7": []
+}
