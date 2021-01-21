@@ -31,7 +31,7 @@ export const links = async (): Promise<InlineKeyboardMarkup> => {
         ],
         [
             Markup.urlButton(`4BIS1`, `https://t.me/The4BIS1`),
-            Markup.urlButton(`4BIS2`, `https://t.me/The4BIS2`)
+            Markup.urlButton(`4BIS2`, `https://t.me/joinchat/STjh7h6K0j8K4_P3`)
         ],
         [
             Markup.urlButton(`4BIS3`, `https://t.me/The4BIS3`),
@@ -47,18 +47,4 @@ export const links = async (): Promise<InlineKeyboardMarkup> => {
 
 export const contribute = Markup.inlineKeyboard([
     [Markup.urlButton(`Organization`, `https://github.com/wiut-bis/`)]
-])
-
-export const init = Markup.inlineKeyboard([
-    [Markup.urlButton(`My father's website`, `https://genemator.me/`)],
-    [Markup.urlButton(`My cousin's website`, `http://khassanboi.uz/`)]
-])
-
-export const shelter = Markup.inlineKeyboard([
-    [
-        Markup.urlButton(
-            `Enter the shelter`,
-            `https://github.com/wiut-bis/shelter`
-        )
-    ]
 ])
