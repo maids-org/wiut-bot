@@ -1,3 +1,4 @@
 [submodule "timetables"]
 	path = timetables
 	url = https://github.com/wiut-bis/timetable
+    branch = master
