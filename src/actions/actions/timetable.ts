@@ -68,7 +68,7 @@ composer.action(`timetable`, async (ctx: TelegrafContext) => {
                 refreshTime + (await identifier(5))
             }</code>`
 
-        const editLink = `https://github.com/wiut-bis/maid.ts/tree/main/timetable`
+        const editLink = `https://github.com/wiut-bis/timetable`
         const editString =
             `\n` +
             `\n` +

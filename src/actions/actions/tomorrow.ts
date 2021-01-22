@@ -37,7 +37,7 @@ composer.action(/tomorrow_(.+)/gi, async (ctx: TelegrafContext) => {
                 `<b>🎉 Feel free to enjoy today, you don't have any classes!</b>`
         }
 
-        const editLink = `https://github.com/wiut-bis/maid.ts/tree/main/timetable`
+        const editLink = `https://github.com/wiut-bis/timetable`
         const editString =
             `\n` +
             `\n` +

@@ -29,19 +29,14 @@ export const links = async (): Promise<InlineKeyboardMarkup> => {
                 `https://t.me/SeventyPlusBIS`
             )
         ],
+        [Markup.urlButton(`Accomodation`, `http://t.me/wiut_accomodation`)],
         [
-            Markup.urlButton(`4BIS1`, `https://t.me/The4BIS1`),
-            Markup.urlButton(`4BIS2`, `https://t.me/joinchat/STjh7h6K0j8K4_P3`)
+            Markup.urlButton(
+                `General Chat Group`,
+                `https://t.me/joinchat/Vao3J-FcSBf5Bo2B`
+            )
         ],
-        [
-            Markup.urlButton(`4BIS3`, `https://t.me/The4BIS3`),
-            Markup.urlButton(`4BIS4`, `https://t.me/The4BIS4`)
-        ],
-        [
-            Markup.urlButton(`4BIS5`, `https://t.me/The4BIS5`),
-            Markup.urlButton(`4BIS6`, `https://t.me/The4BIS6`)
-        ],
-        [Markup.urlButton(`4BIS7`, `https://t.me/The4BIS7`)]
+        [Markup.urlButton(`Anime focused chat group`, `https://t.me/wiutanime`)]
     ])
 }
 
