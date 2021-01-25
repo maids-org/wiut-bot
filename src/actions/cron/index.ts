@@ -36,7 +36,8 @@ import parser from '@database/parse'
                             `⚠ <b>10 minutes left</b> for <code>${subject.name} ${subject.type}</code> class. ` +
                             `Please, get ready as soon as possible!` +
                             `\n` +
-                            `Class is located at ${subject.room} of ${subject.building}` +
+                            `Class is located at ${subject.room} of ${subject.building} \n` +
+                            `\n` +
                             `If you're studying at home, then follow this link for online: `
 
                         const keyboard = Markup.inlineKeyboard([
@@ -53,14 +54,15 @@ import parser from '@database/parse'
                                 parse_mode: 'HTML',
                                 reply_markup: keyboard
                             })
-                            .then(async (message) => {
-                                await bot.telegram
-                                    .pinChatMessage(
-                                        await groupTo,
-                                        message.message_id
-                                    )
-                                    .catch(null)
-                            })
+                            .catch(null)
+                        // .then(async (message) => {
+                        //     await bot.telegram
+                        //         .pinChatMessage(
+                        //             await groupTo,
+                        //             message.message_id
+                        //         )
+                        //         .catch(null)
+                        // })
                     },
                     {
                         timezone: 'Asia/Tashkent'
