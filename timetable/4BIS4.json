@@ -1,95 +1,86 @@
 {
-	"0": [],
-	"1": [
-		{
-			"name": "Fundamentals of Programming",
-			"tutor": "Vasiliy Kuznetsov",
-			"type": "seminar",
-			"start": 9.0,
-			"length": 2.0,
-			"building": "New Building",
-			"room": "305"
-		},
-		{
-			"name": "Web Technology",
-			"tutor": "Bunyod Khoshimkhujaev",
-			"type": "seminar",
-			"start": 11.0,
-			"length": 2.0,
-			"building": "New Building",
-			"room": "303"
-		},
-		{
-			"name": "Fundamentals of Programming",
-			"tutor": "Vasiliy Kuznetsov",
-			"type": "lecture",
-			"start": 17.0,
-			"length": 1.0,
-			"building": "New Building",
-			"room": "501"
-		}
-	],
-	"2": [
-		{
-			"name": "Mathematics for Computing",
-			"tutor": "Ali Subair",
-			"type": "lecture",
-			"start": 12.0,
-			"length": 1.0,
-			"building": "New Building",
-			"room": "501"
-		},
-		{
-			"name": "Mathematics for Computing",
-			"tutor": "Ali Subair",
-			"type": "workshop",
-			"start": 13.0,
-			"length": 1.0,
-			"building": "New Building",
-			"room": "501"
-		},
-		{
-			"name": "Introduction to Management and Organisational Behavior",
-			"tutor": "Alisher Ismailov",
-			"type": "lecture",
-			"start": 14.0,
-			"length": 1.0,
-			"building": "Lyceum Building",
-			"room": "Hall"
-		}
-	],
-	"3": [],
-	"4": [
-		{
-			"name": "Mathematics for Computing",
-			"tutor": "Ikrom Rikhsiboev",
-			"type": "seminar",
-			"start": 9.0,
-			"length": 2.0,
-			"building": "IB",
-			"room": "215"
-		}
-	],
-	"5": [
-		{
-			"name": "Introduction to Statistics and Data Science",
-			"tutor": "Olmas Isakov",
-			"type": "workshop",
-			"start": 9.0,
-			"length": 2.0,
-			"building": "ATB",
-			"room": "212"
-		},
-		{
-			"name": "Introduction to Management and Organisational Behavior",
-			"tutor": "Abror Abduvaliev",
-			"type": "seminar",
-			"start": 11.0,
-			"length": 2.0,
-			"building": "IB",
-			"room": "311"
-		}
-	],
-	"6": [],
-	"7": []
+    "0": [],
+    "1": [
+        {
+            "name": "Fundamentals of Programming",
+            "tutor": "Vasiliy Kuznetsov",
+            "type": "seminar",
+            "start": 9.0,
+            "length": 2.0,
+            "location": "New305 CL"
+        },
+        {
+            "name": "Web Technology",
+            "tutor": "Bunyod Khoshimkhujaev",
+            "type": "seminar",
+            "start": 11.0,
+            "length": 2.0,
+            "location": "New303 CL"
+        },
+        {
+            "name": "Fundamentals of Programming",
+            "tutor": "Vasiliy Kuznetsov",
+            "type": "lecture",
+            "start": 17.0,
+            "length": 1.0,
+            "location": "New501 H"
+        }
+    ],
+    "2": [
+        {
+            "name": "Mathematics for Computing",
+            "tutor": "Ali Subair",
+            "type": "lecture",
+            "start": 12.0,
+            "length": 1.0,
+            "location": "New501 H"
+        },
+        {
+            "name": "Mathematics for Computing",
+            "tutor": "Ali Subair",
+            "type": "workshop",
+            "start": 13.0,
+            "length": 1.0,
+            "location": "New501 H"
+        },
+        {
+            "name": "Introduction to Management and Organisational Behavior",
+            "tutor": "Alisher Ismailov",
+            "type": "lecture",
+            "start": 14.0,
+            "length": 1.0,
+            "location": "Lyceum Hall"
+        }
+    ],
+    "3": [],
+    "4": [
+        {
+            "name": "Mathematics for Computing",
+            "tutor": "Ikrom Rikhsiboev",
+            "type": "seminar",
+            "start": 15.0,
+            "length": 2.0,
+            "location": "IB209 CL"
+        }
+    ],
+    "5": [
+        {
+            "name": "Introduction to Statistics and Data Science",
+            "tutor": "Olmas Isakov",
+            "type": "workshop",
+            "start": 9.0,
+            "length": 2.0,
+            "location": "ATB212 CL"
+        },
+        {
+            "name": "Introduction to Management and Organisational Behavior",
+            "tutor": "Abror Abduvaliev",
+            "type": "seminar",
+            "start": 11.0,
+            "length": 2.0,
+            "location": "IB311"
+        }
+    ],
+    "6": [],
+    "7": []
 }

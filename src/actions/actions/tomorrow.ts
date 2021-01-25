@@ -25,7 +25,7 @@ composer.action(/tomorrow_(.+)/gi, async (ctx: TelegrafContext) => {
                 `<b>⏰ Time (start-end):</b> <code>${subject.start}-${
                     subject.start + subject.length
                 }</code> \n` +
-                `<b>📍 Location:</b> <i>${subject.room} of ${subject.building}</i>`
+                `<b>📍 Location:</b> <i>${subject.location}</i>`
 
             text += subText
         }

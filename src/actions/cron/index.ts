@@ -31,14 +31,14 @@ import parser from '@database/parse'
                         const groupTo = parser(group.name)
 
                         const text =
-                            `<b>⛓ Upcoming Class Notification ⛓</b> \n` +
+                            `<b>⚠️ Upcoming Class Notification ⚠️</b> \n` +
                             `\n` +
                             `⚠ <b>10 minutes left</b> for <code>${subject.name} ${subject.type}</code> class. ` +
-                            `Please, get ready as soon as possible!` +
+                            `Please, get ready as soon as possible! You should attend the seminars on-campus and lectures online.` +
                             `\n` +
-                            `Class is located at ${subject.room} of ${subject.building} \n` +
+                            `The class is going to be held by ${subject.tutor} at ${subject.location} \n` +
                             `\n` +
-                            `If you're studying at home, then follow this link for online: `
+                            `<b>Refer to the link below for videoconferences:</b> `
 
                         const keyboard = Markup.inlineKeyboard([
                             [

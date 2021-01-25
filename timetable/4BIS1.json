@@ -1,86 +1,78 @@
 {
-	"0": [],
-	"1": [
-		{
-			"name": "Introduction to Statistics and Data Science",
-			"tutor": "Olmas Isakov",
-			"type": "workshop",
-			"start": 9.0,
-			"length": 2.0,
-			"building": "ATB",
-			"room": "214"
-		},
-		{
-			"name": "Tourism and Its Dynamics",
-			"tutor": "Imran Safarov",
-			"type": "seminar",
-			"start": 11.0,
-			"length": 2.0,
-			"building": "ATB",
-			"room": "311"
-		},
-		{
-			"name": "Fundamentals of Programming",
-			"tutor": "Vasiliy Kuznetsov",
-			"type": "lecture",
-			"start": 17.0,
-			"length": 1.0,
-			"building": "New Building",
-			"room": "501"
-		}
-	],
-	"2": [
-		{
-			"name": "Fundamentals of programming",
-			"tutor": "Vasiliy Kuznetsov",
-			"type": "seminar",
-			"start": 9.0,
-			"length": 2.0,
-			"building": "New Building",
-			"room": "408"
-		},
-		{
-			"name": "Tourism and Its Dynamics",
-			"tutor": "Alisher Ismailov",
-			"type": "lecture",
-			"start": 13.0,
-			"length": 1.0,
-			"building": "Lyceum Building",
-			"room": "Hall"
-		},
-		{
-			"name": "Introduction to Management and Organisational Behavior",
-			"tutor": "Alisher Ismailov",
-			"type": "lecture",
-			"start": 14.0,
-			"length": 1.0,
-			"building": "Lyceum Building",
-			"room": "Hall"
-		}
-	],
-	"3": [
-		{
-			"name": "Web Technology",
-			"tutor": "Bunyod Khoshimkhujaev",
-			"type": "seminar",
-			"start": 13.0,
-			"length": 2.0,
-			"building": "New Building",
-			"room": "303"
-		}
-	],
-	"4": [],
-	"5": [
-		{
-			"name": "Introduction to Management and Organisational Behavior",
-			"tutor": "Malik Normuradov",
-			"type": "seminar",
-			"start": 13.0,
-			"length": 2.0,
-			"building": "New Building",
-			"room": "207"
-		}
-	],
-	"6": [],
-	"7": []
+    "0": [],
+    "1": [
+        {
+            "name": "Introduction to Statistics and Data Science",
+            "tutor": "Olmas Isakov",
+            "type": "workshop",
+            "start": 9.0,
+            "length": 2.0,
+            "location": "ATB214 CL"
+        },
+        {
+            "name": "Tourism and Its Dynamics",
+            "tutor": "Imran Safarov",
+            "type": "seminar",
+            "start": 11.0,
+            "length": 2.0,
+            "location": "ATB311"
+        },
+        {
+            "name": "Fundamentals of Programming",
+            "tutor": "Vasiliy Kuznetsov",
+            "type": "lecture",
+            "start": 17.0,
+            "length": 1.0,
+            "location": "New501 H"
+        }
+    ],
+    "2": [
+        {
+            "name": "Fundamentals of programming",
+            "tutor": "Vasiliy Kuznetsov",
+            "type": "seminar",
+            "start": 9.0,
+            "length": 2.0,
+            "location": "New408 CL"
+        },
+        {
+            "name": "Tourism and Its Dynamics",
+            "tutor": "Alisher Ismailov",
+            "type": "lecture",
+            "start": 13.0,
+            "length": 1.0,
+            "location": "Lyceum Hall"
+        },
+        {
+            "name": "Introduction to Management and Organisational Behavior",
+            "tutor": "Alisher Ismailov",
+            "type": "lecture",
+            "start": 14.0,
+            "length": 1.0,
+            "location": "Lyceum Hall"
+        }
+    ],
+    "3": [
+        {
+            "name": "Web Technology",
+            "tutor": "Bunyod Khoshimkhujaev",
+            "type": "seminar",
+            "start": 13.0,
+            "length": 2.0,
+            "location": "New303 CL"
+        }
+    ],
+    "4": [],
+    "5": [
+        {
+            "name": "Introduction to Management and Organisational Behavior",
+            "tutor": "Malik Normuradov",
+            "type": "seminar",
+            "start": 13.0,
+            "length": 2.0,
+            "location": "New207"
+        }
+    ],
+    "6": [],
+    "7": []
 }
