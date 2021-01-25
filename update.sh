@@ -20,6 +20,7 @@ then
   rm -rf ./timetable
   rsync -a ./datasets/ ./timetable
   rm -rf ./timetable/.git
+  rm -rf ./datasets
   git add .
   git commit -m "Updated timetables"
   git push
@@ -27,8 +28,8 @@ else
   echo "Error: Directory timetable does not exists, just updating!"
   rsync -a ./datasets/ ./timetable
   rm -rf ./timetable/.git
+  rm -rf ./datasets
+  git add .
   git commit -m "Updated timetables"
   git push
 fi
-
-rm -rf ./datasets
