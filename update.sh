@@ -18,9 +18,12 @@ if [ -d "./timetable" ]
 then
   echo "Directory timetable exists, removing!" &&
   rm -rf ./timetable &&
-  cp -R ./dataset ./timetable
+  rsync -a ./datasets/ ./timetable
+  rm -rf ./timetable/.git
 else
   echo "Error: Directory timetable does not exists, just updating!" &&
-  cp -R ./dataset ./timetable
+  rsync -a ./datasets/ ./timetable
+  rm -rf ./timetable/.git
 fi
 
+rm -rf ./datasets

@@ -36,14 +36,6 @@
             "location": "IB209 CL"
         },
         {
-            "name": "Mathematics for Computing",
-            "tutor": "Ali Subair",
-            "type": "lecture",
-            "start": 12.0,
-            "length": 1.0,
-            "location": "New501 H"
-        },
-        {
             "name": "Introduction to Management and Organisational Behavior",
             "tutor": "Alisher Ismailov",
             "type": "lecture",
