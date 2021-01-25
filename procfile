@@ -1,1 +1,1 @@
-web: git submodule update --init --recursive && yarn build && yarn start
+web: yarn build && yarn start
