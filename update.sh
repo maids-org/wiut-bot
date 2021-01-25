@@ -23,6 +23,7 @@ lazy_copy()
 }
 lazy_pull()
 {
+  yarn format
   git add .
   git commit -m "Updated timetables"
   git push
