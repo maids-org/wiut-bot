@@ -3,13 +3,46 @@
 #
 # Focus on current working space
 #
-# shellcheck disable=SC2164
-cd "$( dirname "$0" )"
+cd "$( dirname "$0" )" || exit
 
 #
-# Check git modules update
+# Ordering all things to functions
 #
-git clone https://github.com/wiut-bis/timetable.git ./datasets
+lazy_git(){
+  if [ -d "./datasets" ]
+  then
+    rm -rf ./datasets
+    git clone https://github.com/wiut-bis/timetable.git ./datasets
+  else
+    git clone https://github.com/wiut-bis/timetable.git ./datasets
+  fi
+}
+lazy_copy()
+{
+  rsync -a ./datasets/ ./timetable
+}
+lazy_pull()
+{
+  git add .
+  git commit -m "Updated timetables"
+  git push
+}
+lazy_clean()
+{
+  rm -rf ./timetable/.git
+  rm -rf ./datasets
+}
+lazy_main()
+{
+  lazy_git
+  lazy_copy
+  lazy_clean
+  if [[ $(git status --porcelain) ]]; then
+    lazy_pull
+  else
+    echo "Yay, no changes to commit"
+  fi
+}
 
 #
 # Start removing and updating datasets
@@ -18,18 +51,9 @@ if [ -d "./timetable" ]
 then
   echo "Directory timetable exists, removing!" &&
   rm -rf ./timetable
-  rsync -a ./datasets/ ./timetable
-  rm -rf ./timetable/.git
-  rm -rf ./datasets
-  git add .
-  git commit -m "Updated timetables"
-  git push
+  lazy_main
+
 else
   echo "Error: Directory timetable does not exists, just updating!"
-  rsync -a ./datasets/ ./timetable
-  rm -rf ./timetable/.git
-  rm -rf ./datasets
-  git add .
-  git commit -m "Updated timetables"
-  git push
+  lazy_main
 fi
