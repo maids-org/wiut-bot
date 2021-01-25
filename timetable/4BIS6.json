@@ -7,8 +7,8 @@
 			"type": "workshop",
 			"start": 11.0,
 			"length": 2.0,
-			"building": "ATB",
-			"room": "302"
+			"building": "New Building",
+			"room": "408"
 		},
 		{
 			"name": "Fundamentals of Programming",
@@ -36,8 +36,8 @@
 			"type": "workshop",
 			"start": 13.0,
 			"length": 1.0,
-			"building": "ATB",
-			"room": "207"
+			"building": "New Building",
+			"room": "501"
 		},
 		{
 			"name": "Introduction to Management and Organisational Behavior",
@@ -68,7 +68,7 @@
 			"start": 9.0,
 			"length": 2.0,
 			"building": "ATB",
-			"room": "310"
+			"room": "310B"
 		},
 		{
 			"name": "Mathematics for Computing",

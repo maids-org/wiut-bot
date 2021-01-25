@@ -2,6 +2,15 @@
 	"0": [],
 	"1": [
 		{
+			"name": "Introduction to Statistics and Data Science",
+			"tutor": "Rui Dang",
+			"type": "workshop",
+			"start": 9.0,
+			"length": 2.0,
+			"building": "New Building",
+			"room": "408"
+		},
+		{
 			"name": "Alternative Dispute Resolution",
 			"tutor": "Nilufar Abdulatova",
 			"type": "lecture",
@@ -21,15 +30,6 @@
 		}
 	],
 	"2": [
-		{
-			"name": "Introduction to Statistics and Data Science",
-			"tutor": "Rui Dang",
-			"type": "workshop",
-			"start": 9.0,
-			"length": 2.0,
-			"building": "ATB",
-			"room": "303"
-		},
 		{
 			"name": "Introduction to Management and Organisational Behavior",
 			"tutor": "Alisher Ismailov",

@@ -2,6 +2,15 @@
 	"0": [],
 	"1": [
 		{
+			"name": "Fundamentals of Programming",
+			"tutor": "Vasiliy Kuznetsov",
+			"type": "seminar",
+			"start": 9.0,
+			"length": 2.0,
+			"building": "New Building",
+			"room": "305"
+		},
+		{
 			"name": "Web Technology",
 			"tutor": "Bunyod Khoshimkhujaev",
 			"type": "seminar",
@@ -36,8 +45,8 @@
 			"type": "workshop",
 			"start": 13.0,
 			"length": 1.0,
-			"building": "ATB",
-			"room": "207"
+			"building": "New Building",
+			"room": "501"
 		},
 		{
 			"name": "Introduction to Management and Organisational Behavior",
@@ -49,17 +58,7 @@
 			"room": "Hall"
 		}
 	],
-	"3": [
-		{
-			"name": "Fundamentals of Programming",
-			"tutor": "Vasiliy Kuznetsov",
-			"type": "seminar",
-			"start": 16.0,
-			"length": 2.0,
-			"building": "New Building",
-			"room": "304"
-		}
-	],
+	"3": [],
 	"4": [
 		{
 			"name": "Mathematics for Computing",

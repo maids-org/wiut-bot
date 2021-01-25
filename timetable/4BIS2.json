@@ -36,8 +36,8 @@
 			"type": "workshop",
 			"start": 13.0,
 			"length": 1.0,
-			"building": "ATB",
-			"room": "207"
+			"building": "New Building",
+			"room": "501"
 		},
 		{
 			"name": "Introduction to Management and Organisational Behavior",
@@ -74,10 +74,10 @@
 			"name": "Fundamentals of Programming",
 			"tutor": "Vasiliy Kuznetsov",
 			"type": "seminar",
-			"start": 15.0,
+			"start": 9.0,
 			"length": 2.0,
 			"building": "New Building",
-			"room": "305"
+			"room": "408"
 		}
 	],
 	"5": [

@@ -4,6 +4,15 @@
 		{
 			"name": "Fundamentals of Programming",
 			"tutor": "Vasiliy Kuznetsov",
+			"type": "seminar",
+			"start": 11.0,
+			"length": 2.0,
+			"building": "New Building",
+			"room": "305"
+		},
+		{
+			"name": "Fundamentals of Programming",
+			"tutor": "Vasiliy Kuznetsov",
 			"type": "lecture",
 			"start": 17.0,
 			"length": 1.0,
@@ -71,15 +80,6 @@
 			"length": 2.0,
 			"building": "ATB",
 			"room": "212"
-		},
-		{
-			"name": "Fundamentals of Programming",
-			"tutor": "Vasiliy Kuznetsov",
-			"type": "seminar",
-			"start": 14.0,
-			"length": 2.0,
-			"building": "New Building",
-			"room": "408"
 		}
 	],
 	"6": [],

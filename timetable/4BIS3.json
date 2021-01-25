@@ -2,22 +2,22 @@
 	"0": [],
 	"1": [
 		{
-			"name": "Web Technology",
-			"tutor": "Bunyod Khoshimkhujaev",
+			"name": "Fundamentals of Programming",
+			"tutor": "Vasiliy Kuznetsov",
 			"type": "seminar",
 			"start": 9.0,
 			"length": 2.0,
 			"building": "New Building",
-			"room": "303"
+			"room": "305"
 		},
 		{
-			"name": "Financial Accounting",
-			"tutor": "Lilya Memesheva",
-			"type": "lecture",
-			"start": 15.0,
-			"length": 1.0,
-			"building": "IB",
-			"room": "301"
+			"name": "Web Technology",
+			"tutor": "Bunyod Khoshimkhujaev",
+			"type": "seminar",
+			"start": 11.0,
+			"length": 2.0,
+			"building": "New Building",
+			"room": "303"
 		},
 		{
 			"name": "Fundamentals of Programming",
@@ -31,13 +31,22 @@
 	],
 	"2": [
 		{
-			"name": "Introduction to Statistics and Data Science",
-			"tutor": "Olmas Isakov",
+			"name": "Mathematics for Computing",
+			"tutor": "Ali Subair",
+			"type": "lecture",
+			"start": 12.0,
+			"length": 1.0,
+			"building": "New Building",
+			"room": "501"
+		},
+		{
+			"name": "Mathematics for Computing",
+			"tutor": "Ali Subair",
 			"type": "workshop",
-			"start": 9.0,
-			"length": 2.0,
-			"building": "IB",
-			"room": "209"
+			"start": 13.0,
+			"length": 1.0,
+			"building": "New Building",
+			"room": "501"
 		},
 		{
 			"name": "Introduction to Management and Organisational Behavior",
@@ -49,46 +58,36 @@
 			"room": "Hall"
 		}
 	],
-	"3": [
-		{
-			"name": "Fundamentals of Programming",
-			"tutor": "Vasiliy Kuznetsov",
-			"type": "seminar",
-			"start": 14.0,
-			"length": 2.0,
-			"building": "New Building",
-			"room": "304"
-		}
-	],
+	"3": [],
 	"4": [
 		{
-			"name": "Introduction to Management and Organisational Behavior",
-			"tutor": "Yulduz Yakubova",
-			"type": "seminar",
-			"start": 16.0,
-			"length": 2.0,
-			"building": "IB",
-			"room": "307"
-		}
-	],
-	"5": [
-		{
-			"name": "Financial Accounting",
-			"tutor": "Indira Khadjieva",
+			"name": "Mathematics for Computing",
+			"tutor": "Ikrom Rikhsiboev",
 			"type": "seminar",
 			"start": 9.0,
 			"length": 2.0,
 			"building": "IB",
-			"room": "216"
+			"room": "215"
+		}
+	],
+	"5": [
+		{
+			"name": "Introduction to Statistics and Data Science",
+			"tutor": "Olmas Isakov",
+			"type": "workshop",
+			"start": 9.0,
+			"length": 2.0,
+			"building": "ATB",
+			"room": "212"
 		},
 		{
-			"name": "Financial Accounting",
-			"tutor": "Indira Khadjieva",
+			"name": "Introduction to Management and Organisational Behavior",
+			"tutor": "Abror Abduvaliev",
 			"type": "seminar",
 			"start": 11.0,
-			"length": 1.0,
+			"length": 2.0,
 			"building": "IB",
-			"room": "215"
+			"room": "311"
 		}
 	],
 	"6": [],
