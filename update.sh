@@ -9,7 +9,7 @@ cd "$( dirname "$0" )"
 #
 # Check git modules update
 #
-git submodule update --remote --merge
+git clone https://github.com/wiut-bis/timetable.git ./datasets
 
 #
 # Start removing and updating datasets
