@@ -1,6 +1,6 @@
 /**
- * Wishes Session
- * @wish
+ * Admin Panel Session
+ * @panel
  * @description Create another session with submodule system
  */
 
