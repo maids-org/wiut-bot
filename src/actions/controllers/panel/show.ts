@@ -7,7 +7,7 @@ export default async function (ctx: TelegrafContext): Promise<void> {
         return (
             `<b>🔰 Announcement</b> \n` +
             `\n` +
-            `<i>${await scheme[ctx.from.id].messages.join('\n\n')}</i> \n` +
+            `${await scheme[ctx.from.id].messages.join('\n\n')} \n` +
             `\n` +
             `<b>Sincerely, admins of +70 (or genemator (☞ﾟヮﾟ)☞)</b> \n`
         )

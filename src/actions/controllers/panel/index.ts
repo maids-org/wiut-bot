@@ -29,13 +29,13 @@ panel
     .help(async (ctx: TelegrafContext) => await help(ctx))
     .command('show', async (ctx: TelegrafContext) => await show(ctx))
     .command('clear', async (ctx: TelegrafContext) => await clear(ctx))
+    .command('stop', leave())
     .on('text', async (ctx: TelegrafContext) => await text(ctx))
     .on(
         ['photo', 'video', 'animation', 'audio', 'sticker'],
         async (ctx: TelegrafContext) => await wbis(ctx)
     )
     .leave(async (ctx: TelegrafContext) => await left(ctx))
-    .command('stop', leave())
 
 // Command manager
 composer.command('panel', async (ctx: TelegrafContext) =>
