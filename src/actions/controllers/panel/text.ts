@@ -9,13 +9,30 @@ export default async function (ctx: TelegrafContext): Promise<void> {
         if (!scheme[ctx.from.id].messages) {
             scheme[ctx.from.id].messages = []
         }
-        scheme[ctx.from.id].messages.push(ctx.message.text)
-        await ctx.reply(
-            'This text message has been added to database, keep adding!',
-            {
-                reply_to_message_id: ctx.message.message_id
-            }
-        )
+
+        const checker = async (html) => {
+            const doc = await document.createElement('div');
+            doc.innerHTML = html;
+            return ( doc.innerHTML === html );
+        }
+
+        if (await checker(ctx.message.text)) {
+            scheme[ctx.from.id].messages.push(ctx.message.text)
+            await ctx.reply(
+                'This text message has been added to database, keep adding!',
+                {
+                    reply_to_message_id: ctx.message.message_id
+                }
+            )
+        } else {
+            await ctx.reply(
+                'Sorry, that message has some html errors!',
+                {
+                    reply_to_message_id: ctx.message.message_id
+                }
+            )
+        }
+
     } catch (err) {
         await ctx
             .reply('Facing with some trouble while initializing data!', {
