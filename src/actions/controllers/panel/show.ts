@@ -13,12 +13,12 @@ export default async function (ctx: TelegrafContext): Promise<void> {
         )
     }
     try {
-        if (scheme[ctx.from.id])
-            await ctx.replyWithHTML(await templating())
+        if (scheme[ctx.from.id]) await ctx.replyWithHTML(await templating())
         else await ctx.replyWithHTML(message.panels.noMessage)
     } catch (err) {
-        await ctx.replyWithHTML("<b>Oops, there are some issues with formatting!</b>")
+        await ctx.replyWithHTML(
+            '<b>Oops, there are some issues with formatting!</b>'
+        )
         console.log(err)
     }
-
 }

@@ -28,15 +28,9 @@ export default async function (ctx: TelegrafContext): Promise<void> {
                 }
             )
         } else {
-            await ctx.reply(
-                'Sorry, that message has some errors!',
-                {
-                    reply_to_message_id: ctx.message.message_id
-                }
-            )
+            await ctx.reply('Sorry, that message has some errors!', {
+                reply_to_message_id: ctx.message.message_id
+            })
         }
-    }
-    catch (err) {
-
-    }
+    } catch (err) {}
 }
