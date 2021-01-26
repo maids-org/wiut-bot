@@ -92,13 +92,13 @@ export const panels: {
         '/help - <code>show this message</code>\n' +
         '/clear - <code>clear all messages</code>\n' +
         '/show - <code>preview all your message you wanna send</code>\n' +
-        '/send - <code>composer all your messages and send</code>',
+        '/stop - <code>composer all your messages and send</code>',
     help:
         '<b>Here are the available commands:</b>' +
         '/help - <code>show this message</code>\n' +
         '/clear - <code>clear all messages</code>\n' +
         '/show - <code>preview all your message you wanna send</code>\n' +
-        '/send - <code>composer all your messages and send</code>',
+        '/stop - <code>composer all your messages and send</code>',
     leave:
         "<b>Successfully composed all messages. Alright, it's the end. Thanks for using me!</b>",
     noMessage: '<b>There is no message to show or composer! Exiting...</b>',
