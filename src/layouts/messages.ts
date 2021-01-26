@@ -76,3 +76,31 @@ export const invalidQuery = `<b>Ehm!</b>`
 export const contributes = `<b>I'm so happy that you wanted to upgrade me, but starting from 2021th year, my Genemator Senpai decided to contribute me on private. However, you can join our organization and be able to contribute me then!</b>`
 
 export const links = `<b>Here are BIS groups & channels:</b>`
+
+export const panels: {
+    entry: string
+    help: string
+    leave: string
+    noMessage: string
+    destroy: string
+} = {
+    entry:
+        '<b>Welcome to our admin panel of announcing section!</b>\n\n' +
+        'Here you can send your contents and we will be processing it to send to groups!\n' +
+        'In order to get started, keep in mind that you have to interact with the help those commands:\n' +
+        '\n' +
+        '/help - <code>show this message</code>\n' +
+        '/clear - <code>clear all messages</code>\n' +
+        '/show - <code>preview all your message you wanna send</code>\n' +
+        '/send - <code>composer all your messages and send</code>',
+    help:
+        '<b>Here are the available commands:</b>' +
+        '/help - <code>show this message</code>\n' +
+        '/clear - <code>clear all messages</code>\n' +
+        '/show - <code>preview all your message you wanna send</code>\n' +
+        '/send - <code>composer all your messages and send</code>',
+    leave:
+        "<b>Successfully composed all messages. Alright, it's the end. Thanks for using me!</b>",
+    noMessage: '<b>There is no message to show or composer!</b>',
+    destroy: '<b>All messages has been deleted... Feel free to start again!</b>'
+}

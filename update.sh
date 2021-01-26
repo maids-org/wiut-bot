@@ -25,7 +25,7 @@ lazy_pull()
 {
   yarn format
   git add .
-  git commit -m "Updated timetables"
+  git commit -m "Updated timetables & modules"
   git push
 }
 lazy_clean()

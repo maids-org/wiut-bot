@@ -5,7 +5,7 @@
  * @return { bot, composer, middleware }
  */
 
-import { Telegraf, Composer } from 'telegraf'
+import { Telegraf, Composer, session } from 'telegraf'
 import { TelegrafContext } from 'telegraf/typings/context'
 import { User } from 'telegram-typings'
 import env from '@core/env'
@@ -21,6 +21,7 @@ bot.telegram.getMe().then((botInfo: User) => {
     bot.options.username = botInfo.username
 })
 
+bot.use(session())
 console.clear()
 
 try {

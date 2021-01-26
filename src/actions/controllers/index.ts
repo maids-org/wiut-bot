@@ -1,1 +1,2 @@
 import './intranet'
+import './panel'
