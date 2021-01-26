@@ -53,7 +53,6 @@ then
   echo "Directory timetable exists, removing!" &&
   rm -rf ./timetable
   lazy_main
-
 else
   echo "Error: Directory timetable does not exists, just updating!"
   lazy_main
