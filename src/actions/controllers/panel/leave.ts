@@ -21,7 +21,7 @@ export default async function (ctx: TelegrafContext): Promise<void> {
                 parse_mode: 'HTML'
             })
         }
-        await ctx.reply(message.panels.leave)
+        await ctx.replyWithHTML(message.panels.leave)
         delete scheme[ctx.from.id]
     } else {
         await ctx.replyWithHTML(message.panels.noMessage)
