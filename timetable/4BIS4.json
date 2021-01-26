@@ -52,17 +52,17 @@
             "location": "Lyceum Hall"
         }
     ],
-    "3": [],
-    "4": [
+    "3": [
         {
             "name": "Mathematics for Computing",
             "tutor": "Ikrom Rikhsiboev",
             "type": "seminar",
-            "start": 15.0,
+            "start": 12.0,
             "length": 2.0,
-            "location": "IB209 CL"
+            "location": "IB208 CL"
         }
     ],
+    "4": [],
     "5": [
         {
             "name": "Introduction to Statistics and Data Science",
