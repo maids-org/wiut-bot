@@ -101,6 +101,6 @@ export const panels: {
         '/send - <code>composer all your messages and send</code>',
     leave:
         "<b>Successfully composed all messages. Alright, it's the end. Thanks for using me!</b>",
-    noMessage: '<b>There is no message to show or composer!</b>',
+    noMessage: '<b>There is no message to show or composer! Exiting...</b>',
     destroy: '<b>All messages has been deleted... Feel free to start again!</b>'
 }
