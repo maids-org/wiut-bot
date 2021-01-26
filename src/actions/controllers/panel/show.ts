@@ -14,8 +14,6 @@ export default async function (ctx: TelegrafContext): Promise<void> {
     }
 
     if (scheme[ctx.from.id])
-        await ctx.replyWithHTML(await templating(), {
-            parse_mode: 'HTML'
-        })
-    else await ctx.reply(message.panels.noMessage)
+        await ctx.replyWithHTML(await templating())
+    else await ctx.replyWithHTML(message.panels.noMessage)
 }

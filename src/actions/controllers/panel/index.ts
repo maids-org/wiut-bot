@@ -35,7 +35,7 @@ panel
         async (ctx: TelegrafContext) => await wbis(ctx)
     )
     .leave(async (ctx: TelegrafContext) => await left(ctx))
-    .command('send', leave())
+    .command('stop', leave())
 
 // Command manager
 composer.command('panel', async (ctx: TelegrafContext) =>
