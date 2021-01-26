@@ -86,7 +86,7 @@ export const panels: {
 } = {
     entry:
         '<b>Welcome to our admin panel of announcing section!</b>\n\n' +
-        'Here you can send your contents and we will be processing it to send to groups!\n' +
+        'Here you can send your contents and we will be processing it to send to groups! (No links)\n' +
         'In order to get started, keep in mind that you have to interact with the help those commands:\n' +
         '\n' +
         '/help - <code>show this message</code>\n' +
