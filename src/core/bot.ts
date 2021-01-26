@@ -5,16 +5,17 @@
  * @return { bot, composer, middleware }
  */
 
-import { Telegraf, Composer, session } from 'telegraf'
+import { Telegraf, Composer, Stage, session } from 'telegraf'
 import { TelegrafContext } from 'telegraf/typings/context'
+import { SceneContextMessageUpdate } from "telegraf/typings/stage";
 import { User } from 'telegram-typings'
 import env from '@core/env'
 import * as consoles from '@layouts/consoles'
 
 export const bot = new Telegraf<TelegrafContext>(env.TOKEN)
 export const composer = new Composer<TelegrafContext>()
-export const middleware = (composer: Composer<TelegrafContext>): void => {
-    bot.use(composer.middleware())
+export const middleware = (mod: Composer<TelegrafContext> | Stage<SceneContextMessageUpdate>): void => {
+    bot.use(mod.middleware())
 }
 
 bot.telegram.getMe().then((botInfo: User) => {
