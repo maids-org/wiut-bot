@@ -8,6 +8,7 @@ import { middleware, composer } from '@core/bot'
 import * as consoles from '@layouts/consoles'
 import { Stage, BaseScene } from 'telegraf'
 import { TelegrafContext } from '@type/telegraf'
+import security from '@actions/security'
 
 // Functions
 import help from './help'
@@ -38,9 +39,12 @@ panel
     .leave(async (ctx: TelegrafContext) => await left(ctx))
 
 // Command manager
-composer.command('panel', async (ctx: TelegrafContext) =>
-    ctx.scene.enter('panel')
-)
+
+composer.command('panel', async (ctx: TelegrafContext) => {
+    await security(ctx, async () => {
+        await ctx.scene.enter('panel')
+    })
+})
 
 middleware(scenes)
 middleware(composer)
