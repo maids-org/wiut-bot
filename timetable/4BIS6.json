@@ -62,6 +62,14 @@
             "start": 9.0,
             "length": 2.0,
             "location": "ATB310|B"
+        },
+        {
+            "name": "Mathematics for Computing",
+            "tutor": "Ikrom Rikhsiboev",
+            "type": "seminar",
+            "start": 11.0,
+            "length": 2.0,
+            "location": "IB215 CL"
         }
     ],
     "5": [
@@ -72,14 +80,6 @@
             "start": 9.0,
             "length": 2.0,
             "location": "New408 CL"
-        },
-        {
-            "name": "Mathematics for Computing",
-            "tutor": "Ikrom Rikhsiboev",
-            "type": "seminar",
-            "start": 11.0,
-            "length": 2.0,
-            "location": "IB208 CL"
         }
     ],
     "6": [],
