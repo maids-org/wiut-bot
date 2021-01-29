@@ -54,16 +54,7 @@
             "location": "New305 CL"
         }
     ],
-    "4": [
-        {
-            "name": "Introduction to Management and Organisational Behavior",
-            "tutor": "Abror Abduvaliev",
-            "type": "seminar",
-            "start": 16.0,
-            "length": 2.0,
-            "location": "New207"
-        }
-    ],
+    "4": [],
     "5": [
         {
             "name": "Introduction to Statistics and Data Science",
@@ -72,6 +63,14 @@
             "start": 11.0,
             "length": 2.0,
             "location": "ATB212 CL"
+        },
+        {
+            "name": "Introduction to Management and Organisational Behavior",
+            "tutor": "Jobir Mallaboev",
+            "type": "seminar",
+            "start": 15.0,
+            "length": 2.0,
+            "location": "New404"
         }
     ],
     "6": [],
