@@ -45,6 +45,6 @@ This bot exists thankfully for those who contributed this project and they are:
 > creator "Genemator" according to the CC0-1.0 license. Check [LICENSE](license)
 > for more info.
 
-<p align="center">Copyright &copy; 2020 <a href="https://genemator.me" target="_blank">WIUT BIS => Genemator Sakhib</a></p>
+<p align="center">Copyright &copy; 2020 <a href="https://genemator.uz" target="_blank">WIUT BIS => Genemator Sakhib</a></p>
 
 <p align="center"><a href="https://github.com/wiut-bis/maid/blob/master/license"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=CC0-1.0&logoColor=eceff4&logo=github&colorA=000000&colorB=ffffff"/></a></p>

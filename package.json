@@ -18,7 +18,7 @@
     "bot"
   ],
   "repository": "github:wiut-bis/maid",
-  "author": "Genemator Sakhib <genemators@gmail.com> (https://genemator.me)",
+  "author": "Genemator Sakhib <genemators@gmail.com> (https://genemator.uz)",
   "license": "CC0-1.0",
   "dependencies": {
     "axios": "^0.21.0",
