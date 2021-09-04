@@ -1,5 +1,5 @@
 {
-  "name": "westmaid.ts",
+  "name": "maid.ts",
   "version": "2.2.3",
   "description": "WIUT BIS group manager & handler",
   "main": "app.js",
