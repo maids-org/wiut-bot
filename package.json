@@ -17,8 +17,8 @@
     "telegram",
     "bot"
   ],
-  "repository": "github:wiut-bis/maid",
-  "author": "Genemator Sakhib <genemators@gmail.com> (https://genemator.uz)",
+  "repository": "https://github.com/mad-maids/maid.ts",
+  "author": "Mad Maids (https://maid.uz)",
   "license": "CC0-1.0",
   "dependencies": {
     "axios": "^0.21.0",
