@@ -1,9 +1,11 @@
-export default [
-    -1001475679372,
-    -1001228464622,
-    -1001485097584,
-    -1001196795338,
-    -1001478232152,
-    -1001425513613,
-    -1001186912477
-]
+import { promises } from 'fs'
+import { join } from 'path'
+
+export default async (): Promise<(number | string)[]> => {
+    const json = JSON.parse(
+        await promises.readFile(join(`./`, `groups.json`), {
+            encoding: 'utf8'
+        })
+    )
+    return Object.keys(json).map((obj) => parseInt(obj))
+}

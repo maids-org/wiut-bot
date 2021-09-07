@@ -10,8 +10,7 @@ export default async (): Promise<number> => {
     const date: Date = await new Date()
 
     // convert to milliseconds, add local time zone offset and get UTC time in milliseconds
-    const utcTime =
-        (await date.getTime()) + (await date.getTimezoneOffset()) * 60000
+    const utcTime = date.getTime() + date.getTimezoneOffset() * 60000
 
     // time offset for Uzbekistan is +5
     const timeOffset = 5

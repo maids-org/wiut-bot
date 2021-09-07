@@ -1,10 +1,8 @@
 import cron from 'node-cron'
 import { promises } from 'fs'
 import { join } from 'path'
-import { Markup } from 'telegraf'
 import { composer, middleware, bot } from '@core/bot'
 import * as consoles from '@layouts/consoles'
-import identifier from '@actions/cron/identifier'
 import parser from '@database/parse'
 ;(async () => {
     const dir = await promises.readdir('./timetable')
@@ -25,7 +23,7 @@ import parser from '@database/parse'
     for (const group of groups) {
         for (const day of Object.keys(group.data)) {
             for (const subject of group.data[day]) {
-                await cron.schedule(
+                cron.schedule(
                     `50 ${subject.start - 1.0} * * ${day}`,
                     async () => {
                         const groupTo = parser(group.name)
@@ -45,29 +43,11 @@ import parser from '@database/parse'
                             `\n` +
                             `<b>Refer to the link below for videoconferences:</b> `
 
-                        const keyboard = Markup.inlineKeyboard([
-                            [
-                                Markup.urlButton(
-                                    `📺 Video Conference`,
-                                    await identifier(subject.name)
-                                )
-                            ]
-                        ])
-
                         await bot.telegram
                             .sendMessage(await groupTo, text, {
-                                parse_mode: 'HTML',
-                                reply_markup: keyboard
+                                parse_mode: 'HTML'
                             })
                             .catch(null)
-                        // .then(async (message) => {
-                        //     await bot.telegram
-                        //         .pinChatMessage(
-                        //             await groupTo,
-                        //             message.message_id
-                        //         )
-                        //         .catch(null)
-                        // })
                     },
                     {
                         timezone: 'Asia/Tashkent'

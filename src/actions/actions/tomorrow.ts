@@ -3,6 +3,7 @@ import { Markup } from 'telegraf'
 import * as consoles from '@layouts/consoles'
 import dataset from '@database/timetable'
 import group from '@database/group'
+import { editLink } from '@database/db'
 import groupLink from '@database/timetableLinks'
 import { TelegrafContext } from 'telegraf/typings/context'
 
@@ -11,9 +12,9 @@ composer.action(/tomorrow_(.+)/gi, async (ctx: TelegrafContext) => {
     const database = await dataset(ctx.chat.id)
 
     const tomorrow = async () => {
-        let text = `<b>⛓ Timetable for Tomorrow for 4BIS${await group(
-            ctx.chat.id
-        )} ⛓</b>`
+        let text = `<b>⛓ Timetable for Tomorrow for ${
+            (await group(ctx.chat.id)).toString()[0]
+        }BIS${(await group(ctx.chat.id)).toString()[1]} ⛓</b>`
 
         for (const subject of database[tomorrowDay]) {
             const subText =
@@ -37,7 +38,6 @@ composer.action(/tomorrow_(.+)/gi, async (ctx: TelegrafContext) => {
                 `<b>🎉 Feel free to enjoy today, you don't have any classes!</b>`
         }
 
-        const editLink = `https://github.com/wiut-bis/timetable`
         const editString =
             `\n` +
             `\n` +

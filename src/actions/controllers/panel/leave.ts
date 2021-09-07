@@ -8,7 +8,7 @@ export default async function (ctx: TelegrafContext): Promise<void> {
         return (
             `<b>🔰 Announcement</b> \n` +
             `\n` +
-            `${await scheme[ctx.from.id].messages.join('\n\n')} \n` +
+            `${scheme[ctx.from.id].messages.join('\n\n')} \n` +
             `\n` +
             `<b>Sincerely, Westmaid!</b> \n`
         )
@@ -16,7 +16,7 @@ export default async function (ctx: TelegrafContext): Promise<void> {
 
     if (scheme[ctx.from.id]) {
         await ctx.replyWithHTML(await templating())
-        for (const group of groups) {
+        for (const group of await groups()) {
             await ctx.telegram.sendMessage(group, await templating(), {
                 parse_mode: 'HTML'
             })

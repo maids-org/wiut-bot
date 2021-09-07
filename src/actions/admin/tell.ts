@@ -16,7 +16,7 @@ composer.hears(/\/tell (.*)/gi, async (ctx: TelegrafContext) => {
             `\n` +
             `<b>Sincerely, admins of +70 (or genemator (☞ﾟヮﾟ)☞)</b> \n`
 
-        for (const group of groups) {
+        for (const group of await groups()) {
             await ctx.telegram
                 .sendMessage(group, text, {
                     parse_mode: 'HTML',

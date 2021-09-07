@@ -3,6 +3,7 @@ import { Markup } from 'telegraf'
 import date from '@database/dt'
 import * as consoles from '@layouts/consoles'
 import dataset from '@database/timetable'
+import { editLink } from '@database/db'
 import group from '@database/group'
 import groupLink from '@database/timetableLinks'
 import { TelegrafContext } from 'telegraf/typings/context'
@@ -11,7 +12,7 @@ composer.action(`timetable`, async (ctx: TelegrafContext) => {
     const database = await dataset(ctx.chat.id)
     const currentDay = (await date()).toString()
     const tomorrowDay = ((await date()) + 1).toString()
-    const refreshTime = await new Date(
+    const refreshTime = new Date(
         new Date().getTime() +
             new Date().getTimezoneOffset() * 60000 +
             3600000 * 5
@@ -35,9 +36,9 @@ composer.action(`timetable`, async (ctx: TelegrafContext) => {
     }
 
     const timetable = async () => {
-        let text = `<b>⛓ Today's Timetable for 4BIS${await group(
-            ctx.chat.id
-        )} ⛓</b>`
+        let text = `<b>⛓ Today's Timetable for ${
+            (await group(ctx.chat.id)).toString()[0]
+        }BIS${(await group(ctx.chat.id)).toString()[1]} ⛓</b>`
 
         for (const subject of database[currentDay]) {
             const subText =
@@ -68,7 +69,6 @@ composer.action(`timetable`, async (ctx: TelegrafContext) => {
                 refreshTime + (await identifier(5))
             }</code>`
 
-        const editLink = `https://github.com/wiut-bis/timetable`
         const editString =
             `\n` +
             `\n` +
@@ -84,9 +84,7 @@ composer.action(`timetable`, async (ctx: TelegrafContext) => {
         disable_web_page_preview: true,
         reply_markup: Markup.inlineKeyboard([
             [Markup.callbackButton(`🔁 Refresh`, `timetable`)],
-
             [Markup.callbackButton(`⌚ Tomorrow`, `tomorrow_${tomorrowDay}`)],
-
             [Markup.urlButton(`🕸 Webtable`, `${await groupLink(ctx.chat.id)}`)]
         ])
     })

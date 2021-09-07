@@ -9,7 +9,7 @@ composer.hears(/\/send (.*) : (.*)/, async (ctx: TelegrafContext) => {
     const status = ctx.match[2]
 
     await security(ctx, async () => {
-        for (const group of groups) {
+        for (const group of await groups()) {
             await ctx.telegram
                 .sendMessage(
                     group,

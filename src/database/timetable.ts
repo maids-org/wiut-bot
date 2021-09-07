@@ -8,53 +8,29 @@ import groups from './group'
 import { promises } from 'fs'
 import { join } from 'path'
 
+interface Day {
+    name: string
+    tutor: string
+    type: string
+    start: number
+    length: number
+    location: string
+}
+
 interface Timetable {
-    '0': Array<Record<string, unknown>>
-    '1': Array<Record<string, unknown>>
-    '2': Array<Record<string, unknown>>
-    '3': Array<Record<string, unknown>>
-    '4': Array<Record<string, unknown>>
-    '5': Array<Record<string, unknown>>
-    '6': Array<Record<string, unknown>>
-    '7': Array<Record<string, unknown>>
+    [key: string]: Day[]
 }
 
 export default async (chat: string | number): Promise<Timetable> => {
-    const bis1 = await promises.readFile(join('./timetable', '4BIS1.json'), {
-        encoding: 'utf8'
-    })
-    const bis2 = await promises.readFile(join('./timetable', '4BIS2.json'), {
-        encoding: 'utf8'
-    })
-    const bis3 = await promises.readFile(join('./timetable', '4BIS3.json'), {
-        encoding: 'utf8'
-    })
-    const bis4 = await promises.readFile(join('./timetable', '4BIS4.json'), {
-        encoding: 'utf8'
-    })
-    const bis5 = await promises.readFile(join('./timetable', '4BIS5.json'), {
-        encoding: 'utf8'
-    })
-    const bis6 = await promises.readFile(join('./timetable', '4BIS6.json'), {
-        encoding: 'utf8'
-    })
-    const bis7 = await promises.readFile(join('./timetable', '4BIS7.json'), {
-        encoding: 'utf8'
-    })
-    switch (await groups(chat)) {
-        case 1:
-            return JSON.parse(bis1)
-        case 2:
-            return JSON.parse(bis2)
-        case 3:
-            return JSON.parse(bis3)
-        case 4:
-            return JSON.parse(bis4)
-        case 5:
-            return JSON.parse(bis5)
-        case 6:
-            return JSON.parse(bis6)
-        case 7:
-            return JSON.parse(bis7)
-    }
+    const chatString = (await groups(chat)).toString() // XY
+    const filePath = await promises.readFile(
+        join(
+            `./timetable/${chatString[0]}BIS`,
+            `${chatString[0]}BIS${chatString[1]}.json`
+        ),
+        {
+            encoding: 'utf8'
+        }
+    )
+    return JSON.parse(filePath)
 }

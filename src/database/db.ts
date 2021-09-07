@@ -15,6 +15,8 @@ interface Banned {
     ids: Array<number | string>
 }
 
+export const editLink = 'https://github.com/mad-maids/maid.table'
+
 export const users: Users = {
     eternal: [
         756870298,
