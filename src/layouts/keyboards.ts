@@ -32,7 +32,12 @@ export const links = async (): Promise<InlineKeyboardMarkup> => {
             )
         ],
         [Markup.urlButton(`General Chat Group (4BIS)`, `https://t.me/BIS_24`)],
-        [Markup.urlButton(`Mad Maids General Community`, `https://t.me/madmaids`)],
+        [
+            Markup.urlButton(
+                `Mad Maids General Community`,
+                `https://t.me/madmaids`
+            )
+        ],
         [Markup.urlButton(`Anime focused chat group`, `https://t.me/wiutanime`)]
     ])
 }
