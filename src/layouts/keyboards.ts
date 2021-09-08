@@ -31,12 +31,7 @@ export const links = async (): Promise<InlineKeyboardMarkup> => {
                 `https://t.me/joinchat/Vao3J-FcSBf5Bo2B`
             )
         ],
-        [
-            Markup.urlButton(
-                `General Chat Group (4BIS)`,
-                `https://t.me/BIS_24`
-            )
-        ],
+        [Markup.urlButton(`General Chat Group (4BIS)`, `https://t.me/BIS_24`)],
         [Markup.urlButton(`Anime focused chat group`, `https://t.me/wiutanime`)]
     ])
 }

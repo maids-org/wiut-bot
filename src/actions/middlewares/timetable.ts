@@ -11,9 +11,10 @@ import { TelegrafContext } from 'telegraf/typings/context'
 
 composer.command(`timetable`, async (ctx: TelegrafContext) => {
     if (ctx.chat.type === 'group' || ctx.chat.type === 'supergroup') {
+        await console.log(await groups())
+        console.log(ctx.chat.id)
         if ((await groups()).includes(ctx.chat.id)) {
             const database = await dataset(ctx.chat.id)
-            console.log(database)
             const currentDay = (await date()).toString()
             const tomorrowDay = ((await date()) + 1).toString()
 
