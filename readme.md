@@ -4,7 +4,7 @@
 
 <p align="center"><a href="https://t.me/westmaid_bot"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=heroku&message=deployed&logoColor=eceff4&logo=github&colorA=000000&colorB=ffffff"/></a></p>
 
-<p align="center"> Elegant Network Manager for <a href="https://t.me/s/SeventyPlusBIS" target="_blank">WIUT +70 BIS</a> Groups.</p>
+<p align="center"> Elegant Network Manager for <a href="https://t.me/s/SeventyPlus" target="_blank">WIUT +70 BIS</a> Groups.</p>
 
 **This bot was built with [telegraf.js](https://github.com/telegraf/telegraf) in
 [Node.js](https://nodejs.org/en/). This bot works as package modular, so don't
@@ -33,18 +33,18 @@ This bot exists thankfully for those who contributed this project and they are:
 ---
 
 > The bot page is still in beta phase so feel free to
-> [open issues](https://github.com/wiut-bis/maid/issues/new) and give me some
+> [open issues](https://github.com/mad-maids/maid.ts/issues/new) and give me some
 > suggestions.
 
 ---
 
 > **Important Note:** Under the CC0-1.0 license, you are not allowed to run your
 > own instance unless Genemator won't permit
-> [(this repository)](https://github.com/wiut-bis/maid). If you're modifying
+> [(this repository)](https://github.com/mad-maids/maid.ts). If you're modifying
 > this source and making your own bot, you have to ask for permission from
 > creator "Genemator" according to the CC0-1.0 license. Check [LICENSE](license)
 > for more info.
 
-<p align="center">Copyright &copy; 2020 <a href="https://genemator.uz" target="_blank">WIUT BIS => Genemator Sakhib</a></p>
+<p align="center">Copyright &copy; 2020-2021 <a href="https://maid.uz" target="_blank">Mad Maids</a></p>
 
-<p align="center"><a href="https://github.com/wiut-bis/maid/blob/master/license"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=CC0-1.0&logoColor=eceff4&logo=github&colorA=000000&colorB=ffffff"/></a></p>
+<p align="center"><a href="https://github.com/mad-maids/maid.ts/blob/master/license"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=CC0-1.0&logoColor=eceff4&logo=github&colorA=000000&colorB=ffffff"/></a></p>
