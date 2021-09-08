@@ -22,7 +22,7 @@ interface Timetable {
 }
 
 export default async (chat: string | number): Promise<Timetable> => {
-    const chatString = (await groups(chat)).toString() // XY
+    const chatString = (await groups(chat)).toString()
     const filePath = await promises.readFile(
         join(
             `./timetable/${chatString[0]}BIS`,
