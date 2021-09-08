@@ -13,7 +13,7 @@ composer.command(`timetable`, async (ctx: TelegrafContext) => {
     if (ctx.chat.type === 'group' || ctx.chat.type === 'supergroup') {
         if ((await groups()).includes(ctx.chat.id)) {
             const database = await dataset(ctx.chat.id)
-
+            console.log(database)
             const currentDay = (await date()).toString()
             const tomorrowDay = ((await date()) + 1).toString()
 

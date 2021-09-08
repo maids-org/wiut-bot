@@ -20,11 +20,8 @@ export const editLink = 'https://github.com/mad-maids/maid.table'
 export const users: Users = {
     eternal: [
         756870298,
-        1291710566,
-        736452073,
-        1279456254,
-        1100492815,
-        1087968824
+        341799700,
+        730343697
     ],
     temporary: [100000000]
 }

@@ -6,7 +6,7 @@ import { TelegrafContext } from 'telegraf/typings/context'
 
 composer.command(`stats`, async (ctx: TelegrafContext) => {
     const status = {
-        id: ctx.chat.id,
+        id: ctx.from.id,
         first_name: ctx.from.first_name,
         last_name: ctx.from.last_name,
         username: ctx.from.username,
