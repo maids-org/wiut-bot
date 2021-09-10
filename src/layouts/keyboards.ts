@@ -99,37 +99,37 @@ export const linksGroupChat = async (
                 [
                     Markup.urlButton(
                         `5BIS1`,
-                        `https://t.me/joinchat/OmkEDTN8NX4wZjFi`
+                        `https://t.me/joinchat/14ZhVmbAV64yYTc6`
                     )
                 ],
                 [
                     Markup.urlButton(
                         `5BIS2`,
-                        `https://t.me/joinchat/_V7dNGYCcOM4NDJi`
+                        `https://t.me/joinchat/jbNKZAuYwPNmMzEy`
                     )
                 ],
                 [
                     Markup.urlButton(
                         `5BIS3`,
-                        `https://t.me/joinchat/1T7go2nro85mY2Iy`
+                        `https://t.me/joinchat/cRyyCZnm8VpjNjcy`
                     )
                 ],
                 [
                     Markup.urlButton(
                         `5BIS4`,
-                        `https://t.me/joinchat/w3C3vkgQ1Fs5Yzg6`
+                        `https://t.me/joinchat/Oy4aRsUUmTo2OTMy`
                     )
                 ],
                 [
                     Markup.urlButton(
                         `5BIS5`,
-                        `https://t.me/joinchat/G1gLe0CUFXUwZTVi`
+                        `https://t.me/joinchat/ngGgItTOzU9jOGIy`
                     )
                 ],
                 [
                     Markup.urlButton(
                         `5BIS6`,
-                        `https://t.me/joinchat/YFXlQi0lBvBjYzEy`
+                        `https://t.me/joinchat/cPRdhtwWPTs1ZGNi`
                     )
                 ],
                 [Markup.callbackButton(`⬅ Back`, `links_group`)]
