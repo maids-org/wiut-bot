@@ -3,7 +3,7 @@ name: Timetable CI
 on: [push, pull_request]
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -12,10 +12,12 @@ jobs:
           repository: mad-maids/maid.table
           path: new-timetable
       - run: |
-          ls -la
-          ls new-timetable
-#          rm -rf timetable
-#          mv new-timetable timetable
-#          git config user.name github-actions
-#          git config user.email github-actions@github.com
-#          git add .
+          rm -rf timetable/5BIS
+          mv new-timetable/5BIS timetable/5BIS
+          rm -rf timetable/4BIS
+          mv new-timetable/4BIS timetable/4BIS
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Updated timetable"
+          git push
