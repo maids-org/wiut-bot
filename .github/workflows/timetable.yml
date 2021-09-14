@@ -20,6 +20,6 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          [[ -z $(git status -uno --porcelain) ]] && echo "this branch is clean, no need to push..." && kill -SIGINT $$;
+          [[ -z $(git status -uno --porcelain) ]] && echo "this branch is clean, no need to push..." && kill -SIGINT 0;
           git commit -m "Updated timetable"
           git push
