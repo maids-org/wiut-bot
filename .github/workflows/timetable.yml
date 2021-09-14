@@ -10,6 +10,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           repository: mad-maids/maid.table
-          path: timetable
+          path: new-timetable
       - run: |
           ls -la
