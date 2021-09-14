@@ -6,9 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Initialize the repo itself
       - uses: actions/checkout@v2
-      - name: Initialize timetable repo
       - uses: actions/checkout@v2
         with:
           repository: mad-maids/maid.table
