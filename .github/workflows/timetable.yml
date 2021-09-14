@@ -16,6 +16,7 @@ jobs:
           mv new-timetable/5BIS timetable/5BIS
           rm -rf timetable/4BIS
           mv new-timetable/4BIS timetable/4BIS
+          rm -rf new-timetable
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
