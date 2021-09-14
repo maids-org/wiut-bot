@@ -11,4 +11,4 @@ jobs:
           repository: mad-maids/maid.table
           path: timetable
       - run: |
-        ls -la
+          ls -la
