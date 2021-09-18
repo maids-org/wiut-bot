@@ -4,28 +4,28 @@
     {
       "name": "Introduction to Management and Organisational Behaviour",
       "tutor": "Alisher Ismailov",
-      "type": "lecture",
+      "type": "online",
       "start": 15.0,
       "length": 1.0,
-      "location": "Harvard306 | Online"
+      "location": "Harvard306"
     },
     {
       "name": "Computer Science Fundamentals",
       "tutor": "Olga Yugay",
-      "type": "lecture",
+      "type": "online",
       "start": 16.0,
       "length": 2.0,
-      "location": "New305 CL | Online"
+      "location": "New305 CL"
     }
   ],
   "2": [
     {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Olmas Isakov",
-      "type": "lecture",
+      "type": "online",
       "start": 9.0,
       "length": 1.0,
-      "location": "Harvard306 | Online"
+      "location": "Harvard306"
     }
   ],
   "3": [
