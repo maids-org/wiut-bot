@@ -1,6 +1,8 @@
 name: Timetable CI
 
-on: [push, pull_request]
+on:
+  schedule:
+    - cron: "*/30 * * * *"
 
 jobs:
   update:
