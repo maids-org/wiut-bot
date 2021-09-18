@@ -40,7 +40,13 @@ import parser from '@database/parse'
                                 `You should attend the seminars on-campus and lectures online.` +
                                 `\n` +
                                 `\n` +
-                                `The class is going to be held by <b>${subject.tutor}</b> at <code>${subject.location}</code> \n`
+                                `The class is going to be held by <b>${
+                                    subject.tutor
+                                }</b> ${
+                                    subject.type === 'online'
+                                        ? 'on the internet <b>online</b>'
+                                        : `at <code>${subject.location}</code>`
+                                } \n`
 
                             await bot.telegram
                                 .sendMessage(groupTo, text, {
