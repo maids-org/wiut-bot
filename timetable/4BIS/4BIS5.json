@@ -1,78 +1,78 @@
 {
-    "0": [],
-    "1": [
+        "0": [],
+        "1": [
         {
-            "name": "Fundamentals of Programming",
-            "tutor": "Vasiliy Kuznetsov",
-            "type": "seminar",
-            "start": 11.0,
-            "length": 2.0,
-            "location": "New305 CL"
+                "name": "Fundamentals of Programming",
+                "tutor": "Anonymous",
+                "type": "seminar",
+                "start": 9.0,
+                "length": 2.0,
+                "location": "New408 CL"
         },
         {
-            "name": "Fundamentals of Programming",
-            "tutor": "Vasiliy Kuznetsov",
-            "type": "lecture",
-            "start": 17.0,
-            "length": 1.0,
-            "location": "New501 H"
-        }
-    ],
-    "2": [
-        {
-            "name": "Tourism and Its Dynamics",
-            "tutor": "Alisher Ismailov",
-            "type": "lecture",
-            "start": 13.0,
-            "length": 1.0,
-            "location": "Lyceum Hall"
+                "name": "Introduction to Management and Organisational Beheaviour",
+                "tutor": "Alisher Ismailov",
+                "type": "lecture",
+                "start": 15.0,
+                "length": 1.0,
+                "location": "Harvard306 | Online"
         },
         {
-            "name": "Introduction to Management and Organisational Behavior",
-            "tutor": "Alisher Ismailov",
-            "type": "lecture",
-            "start": 14.0,
-            "length": 1.0,
-            "location": "Lyceum Hall"
+                "name": "Computer Science Fundamentals",
+                "tutor": "Olga Yugay",
+                "type": "lecture",
+                "start": 16.0,
+                "length": 2.0,
+                "location": "New305 CL | Online"
         }
-    ],
-    "3": [
+        ],
+        "2": [
         {
-            "name": "Tourism and Its Dynamics",
-            "tutor": "Imran Safarov",
-            "type": "seminar",
-            "start": 13.0,
-            "length": 2.0,
-            "location": "IB313"
+                "name": "Introduction to Statistics and Data Science",
+                "tutor": "Olmas Isakov",
+                "type": "leture",
+                "start": 9.0,
+                "length": 1.0,
+                "location": "Harvard306 | Online"
         },
         {
-            "name": "Web Technology",
-            "tutor": "Bunyod Khoshimkhujaev",
-            "type": "seminar",
-            "start": 16.0,
-            "length": 2.0,
-            "location": "New305 CL"
+                "name": "Introduction to Management and Organisational Beheaviour",
+                "tutor": "Sung-Jae Sin",
+                "type": "seminar",
+                "start": 16.0,
+                "length": 2.0,
+                "location": "ATB207"
         }
-    ],
-    "4": [],
-    "5": [
+        ],
+        "3": [
         {
-            "name": "Introduction to Statistics and Data Science",
-            "tutor": "Olmas Isakov",
-            "type": "workshop",
-            "start": 11.0,
-            "length": 2.0,
-            "location": "ATB212 CL"
+                "name": "Web Technology",
+                "tutor": "Bunyod Khoshimkhujaev",
+                "type": "seminar",
+                "start": 11.0,
+                "length": 2.0,
+                "location": "New408 CL"
+        },
+
+        "4": [
+        {
+                "name": "Computer Science Fundamentals",
+                "tutor": "Ali Subair",
+                "type": "seminar",
+                "start": 11.0,
+                "length": 2.0,
+                "location": "New304 CL"
         },
         {
-            "name": "Introduction to Management and Organisational Behavior",
-            "tutor": "Jobir Mallaboev",
-            "type": "seminar",
-            "start": 15.0,
-            "length": 2.0,
-            "location": "New404"
+                "name": "Introduction to Statistics and Data Science",
+                "tutor": "Zarrukh Rakhimov",
+                "type": "seminar",
+                "start": 13.0,
+                "length": 2.0,
+                "location": "ATB310"
         }
-    ],
-    "6": [],
-    "7": []
+        ],
+        "5": [],
+        "6": [],
+        "7": []
 }
