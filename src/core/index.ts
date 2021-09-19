@@ -1,2 +1,2 @@
-import '@core/env'
-import '@core/bot'
+import "@core/env";
+import "@core/bot";

@@ -1,8 +1,8 @@
 export interface Scheme {
-    [key: number]: {
-        photos?: string[]
-        messages?: string[]
-    }
+  [key: number]: {
+    photos?: string[];
+    messages?: string[];
+  };
 }
 
-export const scheme: Scheme = {}
+export const scheme: Scheme = {};

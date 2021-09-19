@@ -1,3 +1,3 @@
-import './intranet'
-import './course'
-import './files'
+import "./intranet";
+import "./course";
+import "./files";

@@ -1,2 +1,2 @@
-import './intranet'
-import './panel'
+import "./intranet";
+import "./panel";

@@ -1,4 +1,4 @@
-import './help'
-import './timetable'
-import './tomorrow'
-import './links'
+import "./help";
+import "./timetable";
+import "./tomorrow";
+import "./links";
