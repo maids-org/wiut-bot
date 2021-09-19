@@ -10,7 +10,7 @@
     "development": "nodemon ./dist/app.js",
     "lint": "eslint ./src --ext .ts",
     "format": "yarn format:check --write",
-    "format:check": "prettier --config .prettierrc --check \"src/**/*.ts\""
+    "format:check": "prettier --check \"src/**/*.ts\""
   },
   "keywords": [
     "nyaasi",
