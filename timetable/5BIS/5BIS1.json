@@ -1,70 +1,70 @@
 {
-    "0": [],
-    "1": [
-        {
-            "name": "Game Development",
-            "tutor": "Akmal Salikov",
-            "type": "seminar",
-            "start": 14.0,
-            "length": 2.0,
-            "location": "New305 CL"
-        },
-        {
-            "name": "Database Systems Development",
-            "tutor": "Dmitriy Pochitaev",
-            "type": "workshop",
-            "start": 16.0,
-            "length": 2.0,
-            "location": "New304 CL"
-        }
-    ],
-    "2": [
-        {
-            "name": "Object Oriented Programming",
-            "tutor": "Avazkhan Khalikov",
-            "type": "lecture",
-            "start": 13.0,
-            "length": 2.0,
-            "location": "New206 H"
-        }
-    ],
-    "3": [
-        {
-            "name": "Mobile Application Development",
-            "tutor": "Said Abduvaliev",
-            "type": "workshop",
-            "start": 9.0,
-            "length": 2.0,
-            "location": "New206 H"
-        },
-        {
-            "name": "Object Oriented Programming",
-            "tutor": "Ali Subair",
-            "type": "seminar",
-            "start": 11.0,
-            "length": 2.0,
-            "location": "New305 CL"
-        }
-    ],
-    "4": [
-        {
-            "name": "Game Development",
-            "tutor": "Timur Martinez-Mukimov",
-            "type": "lecture",
-            "start": 12.0,
-            "length": 2.0,
-            "location": "New303 CL"
-        },
-        {
-            "name": "Mobile Application Development",
-            "tutor": "Said Abduvaliev",
-            "type": "seminar",
-            "start": 15.0,
-            "length": 2.0,
-            "location": "New304 CL"
-        }
-    ],
-    "5": [],
-    "6": [],
-    "7": []
+  "0": [],
+  "1": [
+    {
+      "name": "Game Development",
+      "tutor": "Akmal Salikov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "New305 CL"
+    },
+    {
+      "name": "Database Systems Development",
+      "tutor": "Dmitriy Pochitaev",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New304 CL"
+    }
+  ],
+  "2": [
+    {
+      "name": "Object Oriented Programming",
+      "tutor": "Avazkhan Khalikov",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "New206 H"
+    }
+  ],
+  "3": [
+    {
+      "name": "Mobile Application Development",
+      "tutor": "Said Abduvaliev",
+      "type": "workshop",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "New206 H"
+    },
+    {
+      "name": "Object Oriented Programming",
+      "tutor": "Ali Subair",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New305 CL"
+    }
+  ],
+  "4": [
+    {
+      "name": "Game Development",
+      "tutor": "Timur Martinez-Mukimov",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "Mobile Application Development",
+      "tutor": "Said Abduvaliev",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "New304 CL"
+    }
+  ],
+  "5": [],
+  "6": [],
+  "7": []
 }
