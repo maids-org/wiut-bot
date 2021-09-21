@@ -19,6 +19,7 @@
       "@assets/*": ["src/assets/*"],
       "@src/*": ["src/*"],
       "@type/*": ["src/types/*"],
+      "@modals/*": ["src/modals/*"],
       "@core/*": ["src/core/*"],
       "@database/*": ["src/database/*"],
       "@layouts/*": ["src/layouts/*"]

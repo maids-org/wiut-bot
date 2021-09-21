@@ -55,6 +55,7 @@
     "@actions": "dist/actions",
     "@src": "dist",
     "@core": "dist/core",
+    "@modals": "dist/modals",
     "@database": "dist/database",
     "@layouts": "dist/layouts"
   }
