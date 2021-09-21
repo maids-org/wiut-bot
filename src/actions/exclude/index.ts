@@ -16,7 +16,6 @@ composer.on("animation", async (ctx) => {
 });
 
 composer.on("text", async (ctx: TelegrafContext) => {
-  const message = ctx.message.text.toLowerCase();
   if (ctx.message.from.id === 103666150 || ctx.message.from.id === 756870298) {
     await Modals(ctx);
   } else {

@@ -1,4 +1,3 @@
-import * as fs from "fs";
 import { TelegrafContext } from "@type/telegraf";
 
 const contents = [
