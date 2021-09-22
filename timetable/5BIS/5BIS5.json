@@ -33,8 +33,8 @@
   "4": [
     {
       "name": "Game Development",
-      "tutor": "Timur Martinez-Mukimov",
-      "type": "lecture",
+      "tutor": "Akmal Salikov",
+      "type": "online",
       "start": 12.0,
       "length": 2.0,
       "location": "New303 CL"
@@ -59,7 +59,7 @@
     },
     {
       "name": "Game Development",
-      "tutor": "Timur Martinez-Mukimov",
+      "tutor": "Akmal Salikov",
       "type": "seminar",
       "start": 13.0,
       "length": 2.0,
