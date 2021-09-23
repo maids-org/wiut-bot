@@ -16,13 +16,13 @@ import Modals from "@modals/index";
 // });
 
 composer.on("text", async (ctx: TelegrafContext) => {
-//   if (ctx.message.from.id === 103666150 || ctx.message.from.id === 756870298) {
-//     await Modals(ctx);
-//   } else {
-//     await ctx.replyWithHTML(
-//       phrases.exception[Math.floor(Math.random() * phrases.exception.length)]
-//     );
-//   }
+  //   if (ctx.message.from.id === 103666150 || ctx.message.from.id === 756870298) {
+  //     await Modals(ctx);
+  //   } else {
+  //     await ctx.replyWithHTML(
+  //       phrases.exception[Math.floor(Math.random() * phrases.exception.length)]
+  //     );
+  //   }
 
   /**
    * Ignore in cases removed due to chat bot addition
