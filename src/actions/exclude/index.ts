@@ -1,7 +1,7 @@
 import { composer, middleware } from "@core/bot";
 import * as consoles from "@layouts/consoles";
 import { TelegrafContext } from "@type/telegraf";
-import Modals from "@modals/index";
+// import Modals from "@modals/index";
 
 // const phrases = {
 //   exception: [
