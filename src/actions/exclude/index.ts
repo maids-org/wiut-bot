@@ -15,7 +15,7 @@ import Modals from "@modals/index";
 //   await console.log(ctx.message);
 // });
 
-// composer.on("text", async (ctx: TelegrafContext) => {
+composer.on("text", async (ctx: TelegrafContext) => {
 //   if (ctx.message.from.id === 103666150 || ctx.message.from.id === 756870298) {
 //     await Modals(ctx);
 //   } else {
