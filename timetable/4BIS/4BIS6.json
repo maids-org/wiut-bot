@@ -48,20 +48,12 @@
   ],
   "4": [
     {
-      "name": "Introduction to Management and Organisational Behaviour",
-      "tutor": "Sing-Jae Sin",
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Zarrukh Rakhimov",
       "type": "seminar",
-      "start": 11.0,
+      "start": 15.0,
       "length": 2.0,
-      "location": "IB301"
-    },
-    {
-      "name": "Computer Science Fundamentals",
-      "tutor": "Olga Yugay",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "New408 CL"
+      "location": "ATB310 B"
     }
   ],
   "5": [
