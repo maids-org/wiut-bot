@@ -10,7 +10,7 @@
       "location": "New305 CL"
     },
     {
-      "name": "Fundamentals of Programming",
+      "name": "Fundametals of Programming",
       "tutor": "Vasiliy Kuznetsov",
       "type": "seminar",
       "start": 11.0,
@@ -67,7 +67,7 @@
       "name": "Introduction to Management and Organisational Behaviour",
       "tutor": "Gulnaz Bektemirova",
       "type": "seminar",
-      "start": 11.0,
+      "start": 13.0,
       "length": 2.0,
       "location": "ATB209"
     }
