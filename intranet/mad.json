@@ -1,0 +1,40 @@
+{
+  "Useful": [
+    {
+      "name": "Android Studio",
+      "link": "https://developer.android.com/studio?gclid=CjwKCAjwqeWKBhBFEiwABo_XBvtGVKm1fyqxucjfVhJzNbT2vb9RkFlqdjBWKu_DDlHGYc5PFvKHVRoCWdkQAvD_BwE&gclsrc=aw.ds"
+    }
+  ],
+  "Teaching Week 1": [
+    {
+      "name": "Solution",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/83/1101/Tutorial-01-Solution.zip"
+    },
+    {
+      "name": "Presentation",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/83/1101/Tutorial%2001.pptx"
+    },
+    {
+      "name": "Introduction to Android Studio",
+      "link": "https://intranet.wiut.uz/LearningMaterial/Pages/Details?ID=2995&moduleID=513&way=lm"
+    },
+    {
+      "name": "Lecture",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/83/904/Lecture%2001.pptx  "
+    }
+  ],
+  "Teaching Week 2": [
+    {
+      "name": "Tutorial",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/83/1101/Tutorial%2002.pptx"
+    },
+    {
+      "name": "Background.png (use case material)",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/83/1101/background.png"
+    },
+    {
+      "name": "Lecture",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/83/904/Lecture%2002.pptx"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "Useful": [
+    {
+      "name": "Syllabus",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/113/919/OOP%20Syllabus%20.pdf"
+    },
+    {
+      "name": "Object Oriented Design (Book)",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/113/921/Object-Oriented%20Design.pdf"
+    },
+    {
+      "name": "Object Oriented Programming using C# (Book)",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/113/921/object-oriented-programming-using-c-sharp.pdf"
+    }
+  ],
+  "Teaching Week 1": [
+    {
+      "name": "Lecture",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/7/3362/OOP%20Lecture%201.pptx"
+    },
+    {
+      "name": "Seminar",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/7/3363/OOP%20Seminar%201.docx"
+    },
+    {
+      "name": "Creating Classes and Objects",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/7/3363/Creating%20Classes%20and%20Objects.pdf"
+    }
+  ],
+  "Teaching Week 2": [
+    {
+      "name": "Lecture",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/7/3362/OOP%20Lecture%202.pptx"
+    },
+    {
+      "name": "Seminar",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/7/3363/OOP%20Seminar%202.docx"
+    },
+    {
+      "name": "Encapsulation",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/7/3362/Encapsulation.rar"
+    },
+    {
+      "name": "Console Application (Source Code)",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/7/3362/ConsoleApp2.zip"
+    }
+  ]
+}

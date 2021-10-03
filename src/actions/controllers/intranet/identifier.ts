@@ -1,24 +1,28 @@
 export default async function (course: string): Promise<string> {
   switch (course) {
-    case "isds1":
-      return "Introduction to Statistics and Data Science (Semester 1)";
-    case "isds2":
-      return "Introduction to Statistics and Data Science (Semester 2)";
-    case "imob1":
-      return "Introduction to Management and Organisational Behavior (Semester 1)";
-    case "imob2":
-      return "Introduction to Management and Organisational Behavior (Semester 2)";
-    case "fop1":
-      return "Fundamentals of Programming (Semester 1)";
-    case "fop2":
-      return "Fundamentals of Programming (Semester 2)";
-    case "wt1":
-      return "Web Technology (Semester 1)";
-    case "wt2":
-      return "Web Technology (Semester 2)";
+    case "isds":
+      return "Introduction to Statistics and Data Science";
+    case "imob":
+      return "Introduction to Management and Organisational Behavior";
+    case "fop":
+      return "Fundamentals of Programming";
+    case "wt":
+      return "Web Technology";
     case "mfc":
       return "Mathematics for Computing";
+    case "dsd":
+      return "Database Systems Development";
+    case "mad":
+      return "Mobile Applications Development";
+    case "gd":
+      return "Game Development";
+    case "oop":
+      return "Object Oriented Programming";
+    case "wad":
+      return "Web Applications Development";
+    case "ism":
+      return "Information Systems Management";
     default:
-      return "Underconstruction!";
+      return "Under maintenance!";
   }
 }

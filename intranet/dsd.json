@@ -1,0 +1,92 @@
+{
+  "Useful": [
+    {
+      "name": "Telegram Group",
+      "link": "https://t.me/joinchat/fIhsOD-oASoyZWVi"
+    },
+    {
+      "name": "SQL Server Express 2019",
+      "link": "https://www.microsoft.com/en-US/download/details.aspx?id=55994"
+    },
+    {
+      "name": "SQL Server Management Studio",
+      "link": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15"
+    },
+    {
+      "name": "DBeaver (Community Edition)",
+      "link": "https://dbeaver.io/"
+    },
+    {
+      "name": "DataGrip",
+      "link": "https://www.jetbrains.com/ru-ru/datagrip/"
+    },
+    {
+      "name": "ER Nary Relationships (Book)",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/31/3355/ER_Nary_relationships.pdf"
+    },
+    {
+      "name": "Fundamentals of Database System (Book)",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/31/3355/Elmasri%2010th%20edition%20Fundamentals%20of%20Database%20Systems.pdf"
+    },
+    {
+      "name": "A Practical Approach to Design Implementation and Management (Book)",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/31/3355/Conolly%206th%20edition%20Database%20Systems,%20A%20Practical%20Approach%20to%20Design%20Implementation%20and%20Management%20(2015).pdf"
+    }
+  ],
+  "Seminar 1 (ER Concepts)": [
+    {
+      "name": "DB intro ER model concepts",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/31/3356/L01%20DB%20intro%20ER%20model%20concepts.pptx"
+    },
+    {
+      "name": "ER model concepts",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/31/3356/T01%20ER%20model%20concepts.docx"
+    },
+    {
+      "name": "Solutions",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/31/3356/solutions_tasks_1_and2__group1.zip"
+    }
+  ],
+  "Seminar 2 (Enhanced ER)": [
+    {
+      "name": "Tutorial",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/31/3357/T02%20EnhancedER.doc"
+    },
+    {
+      "name": "Lecture",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/31/3357/L02%20EnhancedER.pptx"
+    },
+    {
+      "name": "Lecture (Video)",
+      "link": "https://intranet.wiut.uz/LearningMaterial/Media/Details?ID=553&moduleID=319&way=lm"
+    },
+    {
+      "name": "ER Nary Relationships",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/31/3355/ER_Nary_relationships.pdf"
+    }
+  ],
+  "Seminar 3 (Relational Model)": [
+    {
+      "name": "Lecture",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/31/3553/L03%20Relational%20model.pptx"
+    },
+    {
+      "name": "ER Mapping Steps",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/31/3553/ER%20mapping%20steps.pptx"
+    },
+    {
+      "name": "Mapping ER to relational model",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/31/3553/T03%20Mapping%20ER%20to%20relational%20model.doc"
+    }
+  ],
+  "Seminar 4 (SQL DDL)": [
+    {
+      "name": "Lecture",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/31/3554/L04%20SQL%20DDL.pptx"
+    },
+    {
+      "name": "Tutorial",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/31/3554/T04%20SQL%20DDL.docx"
+    }
+  ]
+}

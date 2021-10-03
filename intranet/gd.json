@@ -1,0 +1,48 @@
+{
+  "Useful": [
+    {
+      "name": "Telegram Group",
+      "link": "https://t.me/joinchat/AkF7kA2JatDQO0z8xAERIQ"
+    },
+    {
+      "name": "Unity Engine",
+      "link": "https://store.unity.com/?_ga=2.239607875.1182383314.1633216559-1697584147.1633216559#plans-individual"
+    }
+  ],
+  "Teaching Week 1": [
+    {
+      "name": "Seminar",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/15058/875/Intro.%20Seminar%201.pptx"
+    },
+    {
+      "name": "Introduction (Video)",
+      "link": "https://vcsd1.wiut.uz/playback/presentation/2.0/playback.html?meetingId=7e5db3bf5c99c48fe6f2378cf6fd2e23542801fc-1632379888087&moduleID=604&way=lm"
+    },
+    {
+      "name": "Lecture",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/15329/3454/L1_2021.pptx"
+    },
+    {
+      "name": "Lecture (Video)",
+      "link": "https://vcde18.wiut.uz/playback/presentation/2.0/playback.html?meetingId=694e3f906d0a29a265ab59be441e545d60bffd79-1632384314437&moduleID=604&way=lm"
+    }
+  ],
+  "Teaching Week 2": [
+    {
+      "name": "Lecture (Video)",
+      "link": "https://vcsd1.wiut.uz/playback/presentation/2.0/playback.html?meetingId=6ed5d4dc74309c9ff47a9fdd0241ad57f3394cbf-1632984819790&moduleID=604&way=lm"
+    },
+    {
+      "name": "Lecture",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/15329/3462/L2.pptx"
+    },
+    {
+      "name": "Seminar (Video)",
+      "link": "https://vcsd1.wiut.uz/playback/presentation/2.0/playback.html?meetingId=a32381d0628bcca9d01cc6fdf9a05f7c5ff0c75a-1632989219472&moduleID=604&way=lm"
+    },
+    {
+      "name": "Seminar",
+      "link": "https://intranet.wiut.uz/Uploads/LearningMaterialFiles/15329/3535/S2.docx"
+    }
+  ]
+}
