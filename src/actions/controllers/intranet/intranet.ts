@@ -51,7 +51,7 @@ composer.action(`intranet`, async (ctx: TelegrafContext) => {
       `\n` +
       `📼 <b>Welcome to intranet explorer. ` +
       `\n` +
-      `Brought to you by @genemator and @khassanboi</b>` +
+      `Brought to you by Team Mad Maids!</b>` +
       `\n` +
       `\n` +
       `⚠ <b>Instruction:</b> <i>use buttons provided below in order to interact with datasets, choose a module from the list in order to get resources:</i>` +

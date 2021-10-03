@@ -55,12 +55,12 @@ composer.command(`intranet`, async (ctx: TelegrafContext) => {
         ]);
       }
       const text =
-        `🎛 <b>IntraneX V1.2 Alpha</b>` +
+        `🎛 <b>IntraneX</b>` +
         `\n` +
         `\n` +
         `📼 <b>Welcome to intranet explorer. ` +
         `\n` +
-        `Brought to you by @genemator and @khassanboi</b>` +
+        `Brought to you by Team Mad Maids!</b>` +
         `\n` +
         `\n` +
         `⚠ <b>Instruction:</b> <i>use buttons provided below in order to interact with datasets, choose a module from the list in order to get resources:</i>` +
