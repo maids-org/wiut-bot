@@ -21,8 +21,8 @@
   "author": "Mad Maids (https://maid.uz)",
   "license": "CC0-1.0",
   "dependencies": {
+    "@thisshu/bad-words": "^3.0.14",
     "axios": "^0.21.0",
-    "bad-words": "^3.0.4",
     "dotenv": "^8.2.0",
     "is-reachable": "^5.0.0",
     "node-cron": "^2.0.3",

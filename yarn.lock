@@ -289,6 +289,13 @@
   resolved "https://registry.yarnpkg.com/@telegraf/core/-/core-1.1.0.tgz#658268cb8a9aeb2a52e8419b8ec7bb5123d02b6e"
   integrity sha512-haLTcbV+v4EP8H4PDbO9YM14Z3UmGEUyLqbwSn5lAWojzRP+EWf9ozmOBEiQCqDL0u0okcZaGt45QdW0nU/0Pg==
 
+"@thisshu/bad-words@^3.0.14":
+  version "3.0.14"
+  resolved "https://registry.yarnpkg.com/@thisshu/bad-words/-/bad-words-3.0.14.tgz#9e6052a2892ef0d3881d77c62be684b197887dfb"
+  integrity sha512-9UVsuVKpm4Y3Ido+j4FVd04MmKiCTpZFzogI7OOGDRl0LZg5G8alXml14FD5vhWa5cM6L1T6M7pzCVu2+q/mpA==
+  dependencies:
+    badwords-list "^1.0.0"
+
 "@types/cacheable-request@^6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@types/cacheable-request/-/cacheable-request-6.0.1.tgz#5d22f3dded1fd3a84c0bbeb5039a7419c2c91976"
@@ -565,13 +572,6 @@ babel-plugin-add-import-extension@^1.4.3:
   integrity sha512-NiKs80ucIlktWtQ6VGovyVprpgaDxqlo3fT2e2vIyF6k3+02YMmQt+QrBDOq/YImkK/pIXb/SKaO+FxKsfvNlA==
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
-
-bad-words@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/bad-words/-/bad-words-3.0.4.tgz#044c83935c4c363a905d47b5e0179f7241fecaec"
-  integrity sha512-v/Q9uRPH4+yzDVLL4vR1+S9KoFgOEUl5s4axd6NIAq8SV2mradgi4E8lma/Y0cw1ltVdvyegCQQKffCPRCp8fg==
-  dependencies:
-    badwords-list "^1.0.0"
 
 badwords-list@^1.0.0:
   version "1.0.0"

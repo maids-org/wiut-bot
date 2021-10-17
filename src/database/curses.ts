@@ -1,4 +1,4 @@
-import Filter from "bad-words";
+import Filter from "@thisshu/bad-words";
 
 const filter = new Filter();
 const words = [
