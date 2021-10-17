@@ -1,4 +1,7 @@
-export default [
+import Filter from "bad-words";
+
+const filter = new Filter();
+const words = [
   "fuck",
   "fxck",
   "motherfucker",
@@ -17,3 +20,6 @@ export default [
   "damn",
   "cunt",
 ];
+
+filter.addWords(words);
+export default filter;
