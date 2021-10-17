@@ -3,6 +3,7 @@ import { scheme, used } from "@database/user";
 import * as message from "@layouts/messages";
 import encoder from "@actions/controllers/confession/encoder";
 import cursed from "@actions/controllers/confession/cursed";
+import { Markup } from "telegraf";
 
 // If you want to send all groups
 // import groups from "@database/groups";
@@ -35,7 +36,11 @@ export default async function (ctx: TelegrafContext): Promise<void> {
           parse_mode: "HTML",
         }
       );
-      await ctx.replyWithHTML(message.confession.leave);
+      await ctx.replyWithHTML(message.confession.leave, {
+        reply_markup: Markup.inlineKeyboard([
+          Markup.urlButton(`Checkout the channel`, `https://t.me/maidession`),
+        ]),
+      });
       delete scheme[ctx.from.id];
       used.push(ctx.from.id);
     } catch (e) {
