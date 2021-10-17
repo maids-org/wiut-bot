@@ -6,7 +6,7 @@
 
 import { middleware, composer } from "@core/bot";
 import * as consoles from "@layouts/consoles";
-import { Stage, BaseScene } from "telegraf";
+import { Stage, BaseScene, Markup } from "telegraf";
 import { TelegrafContext } from "@type/telegraf";
 import { used } from "@database/user";
 
@@ -41,14 +41,22 @@ confession
 // Command manager
 
 composer.command("confession", async (ctx: TelegrafContext) => {
-  if (!used.includes(ctx.from.id)) {
-    await ctx.scene.enter("confession");
-  }
+  if (ctx.chat.type === "private") {
+    if (!used.includes(ctx.from.id)) {
+      await ctx.scene.enter("confession");
+    }
 
-  if (used.includes(ctx.from.id)) {
-    await ctx.replyWithHTML(
-      `<b>You're allowed to use this command once in a day!</b>`
-    );
+    if (used.includes(ctx.from.id)) {
+      await ctx.replyWithHTML(
+        `<b>You're allowed to use this command once in a day!</b>`
+      );
+    }
+  } else {
+    await ctx.replyWithHTML("<b>Allowed only in private chat!</b>", {
+      reply_markup: Markup.inlineKeyboard([
+        Markup.urlButton(`Go Private`, `https://t.me/westmaid_bot`),
+      ]),
+    });
   }
 });
 
