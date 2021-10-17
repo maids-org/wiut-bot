@@ -1,6 +1,5 @@
-import Filter from "@thisshu/bad-words";
+import { profanity } from "@2toad/profanity";
 
-const filter = new Filter();
 const words = [
   "fuck",
   "fxck",
@@ -21,5 +20,6 @@ const words = [
   "cunt",
 ];
 
-filter.addWords(words);
-export default filter;
+profanity.addWords(words);
+
+export default profanity;

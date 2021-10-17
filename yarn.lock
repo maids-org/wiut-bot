@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@2toad/profanity@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@2toad/profanity/-/profanity-1.3.1.tgz#be45104a89ed8f2f0b622ee6d68416c42486f3f1"
+  integrity sha512-e5Ne0y/NWcRGUtrxV6BRpOzi5BTZ8hkG0dnrNwJu9NiwQvVS+4/2XGMZocNykJzaBQ80yabjJ8yxW749gg/Viw==
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
@@ -289,13 +294,6 @@
   resolved "https://registry.yarnpkg.com/@telegraf/core/-/core-1.1.0.tgz#658268cb8a9aeb2a52e8419b8ec7bb5123d02b6e"
   integrity sha512-haLTcbV+v4EP8H4PDbO9YM14Z3UmGEUyLqbwSn5lAWojzRP+EWf9ozmOBEiQCqDL0u0okcZaGt45QdW0nU/0Pg==
 
-"@thisshu/bad-words@^3.0.14":
-  version "3.0.14"
-  resolved "https://registry.yarnpkg.com/@thisshu/bad-words/-/bad-words-3.0.14.tgz#9e6052a2892ef0d3881d77c62be684b197887dfb"
-  integrity sha512-9UVsuVKpm4Y3Ido+j4FVd04MmKiCTpZFzogI7OOGDRl0LZg5G8alXml14FD5vhWa5cM6L1T6M7pzCVu2+q/mpA==
-  dependencies:
-    badwords-list "^1.0.0"
-
 "@types/cacheable-request@^6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@types/cacheable-request/-/cacheable-request-6.0.1.tgz#5d22f3dded1fd3a84c0bbeb5039a7419c2c91976"
@@ -572,11 +570,6 @@ babel-plugin-add-import-extension@^1.4.3:
   integrity sha512-NiKs80ucIlktWtQ6VGovyVprpgaDxqlo3fT2e2vIyF6k3+02YMmQt+QrBDOq/YImkK/pIXb/SKaO+FxKsfvNlA==
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
-
-badwords-list@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/badwords-list/-/badwords-list-1.0.0.tgz#5e9856dbf13482a295c3b0b304afb9d4cfc5c579"
-  integrity sha1-XphW2/E0gqKVw7CzBK+51M/FxXk=
 
 balanced-match@^1.0.0:
   version "1.0.0"
