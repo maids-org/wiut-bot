@@ -112,6 +112,7 @@ export const confession: {
   help: string;
   leave: string;
   noMessage: string;
+  noMessageOnShow: string;
   destroy: string;
 } = {
   entry:
@@ -132,5 +133,6 @@ export const confession: {
   leave:
     "<b>Successfully composed all messages. Alright, it's the end. Thanks for using me!</b>",
   noMessage: "<b>There is no message to show or compose! Exiting...</b>",
+  noMessageOnShow: "<b>There is no message to show!</b>",
   destroy: "<b>All messages has been deleted... Feel free to start again!</b>",
 };

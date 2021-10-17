@@ -12,11 +12,11 @@ export default async function (ctx: TelegrafContext): Promise<void> {
   const templating = async (): Promise<string> => {
     const cleared = await cursed(scheme[ctx.from.id].messages.join("\n"));
     return (
-      `<b>🔰 #${await encoder(ctx.from.id)}</b> \n` +
+      `<b>🔰 ~ New Message ~</b> \n` +
       `\n` +
       `${cleared} \n` +
       `\n` +
-      `<b>Sincerely, Westmaid!</b> \n`
+      `<b>Sincerely,</b> #${await encoder(ctx.from.id)} \n`
     );
   };
 
