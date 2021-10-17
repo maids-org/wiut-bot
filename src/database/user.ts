@@ -6,3 +6,5 @@ export interface Scheme {
 }
 
 export const scheme: Scheme = {};
+
+export const used: number[] = [];

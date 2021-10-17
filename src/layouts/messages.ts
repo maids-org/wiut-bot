@@ -106,3 +106,31 @@ export const panels: {
   noMessage: "<b>There is no message to show or composer! Exiting...</b>",
   destroy: "<b>All messages has been deleted... Feel free to start again!</b>",
 };
+
+export const confession: {
+  entry: string;
+  help: string;
+  leave: string;
+  noMessage: string;
+  destroy: string;
+} = {
+  entry:
+    "<b>Welcome to our confession!</b>\n\n" +
+    "Here you can send your contents and we will be processing it to send to our confession channel! (No links)\n" +
+    "In order to get started, keep in mind that you have to interact with the help those commands:\n" +
+    "\n" +
+    "/help - <code>show this message</code>\n" +
+    "/clear - <code>clear all messages</code>\n" +
+    "/show - <code>preview all your message you wanna send</code>\n" +
+    "/stop - <code>compose all your messages and send to the channel</code>",
+  help:
+    "<b>Here are the available commands:</b>" +
+    "/help - <code>show this message</code>\n" +
+    "/clear - <code>clear all messages</code>\n" +
+    "/show - <code>preview all your message you wanna send</code>\n" +
+    "/stop - <code>compose all your messages and send</code>",
+  leave:
+    "<b>Successfully composed all messages. Alright, it's the end. Thanks for using me!</b>",
+  noMessage: "<b>There is no message to show or compose! Exiting...</b>",
+  destroy: "<b>All messages has been deleted... Feel free to start again!</b>",
+};
