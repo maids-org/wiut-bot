@@ -40,7 +40,7 @@ confession
     ["photo", "video", "animation", "audio", "sticker"],
     async (ctx: TelegrafContext) => await media(ctx)
   )
-  .leave(async (ctx: TelegrafContext) => await lewft(ctx));
+  .leave(async (ctx: TelegrafContext) => await left(ctx));
 
 // Command manager
 
