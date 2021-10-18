@@ -4,6 +4,11 @@ import { join } from "path";
 import { composer, middleware, bot } from "@core/bot";
 import * as consoles from "@layouts/consoles";
 import parser from "@database/parse";
+
+// Other CRONs
+import "./confession";
+
+// Timetable CRON
 (async () => {
   const dirLocations = ["./timetable/4BIS", "./timetable/5BIS"];
   for (const dirLocation of dirLocations) {
