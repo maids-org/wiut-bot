@@ -32,7 +32,7 @@ confession
   .command("clear", async (ctx: TelegrafContext) => await clear(ctx))
   .command("stop", leave())
   .command("exit", async (ctx: TelegrafContext) => {
-    await clear(ctx);
+    await clear(ctx, false);
     leave();
   })
   .on("text", async (ctx: TelegrafContext) => await text(ctx))
@@ -40,7 +40,7 @@ confession
     ["photo", "video", "animation", "audio", "sticker"],
     async (ctx: TelegrafContext) => await media(ctx)
   )
-  .leave(async (ctx: TelegrafContext) => await left(ctx));
+  .leave(async (ctx: TelegrafContext) => await lewft(ctx));
 
 // Command manager
 

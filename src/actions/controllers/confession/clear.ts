@@ -4,7 +4,7 @@ import * as message from "@layouts/messages";
 
 export default async function (
   ctx: TelegrafContext,
-  warning: boolean = false
+  warning = true
 ): Promise<void> {
   try {
     if (scheme[ctx.from.id]) {
