@@ -30,12 +30,9 @@ confession
   .help(async (ctx: TelegrafContext) => await help(ctx))
   .command("show", async (ctx: TelegrafContext) => await show(ctx))
   .command("clear", async (ctx: TelegrafContext) => await clear(ctx))
-  .command("stop", async (ctx: TelegrafContext) => {
-    await left(ctx);
-    leave();
-  })
+  .command("stop", leave())
   .command("exit", async (ctx: TelegrafContext) => {
-    await ctx.replyWithHTML(`You have exited the confession mode!`);
+    await clear(ctx);
     leave();
   })
   .on("text", async (ctx: TelegrafContext) => await text(ctx))
@@ -43,7 +40,7 @@ confession
     ["photo", "video", "animation", "audio", "sticker"],
     async (ctx: TelegrafContext) => await media(ctx)
   )
-  .leave();
+  .leave(async (ctx: TelegrafContext) => await left(ctx));
 
 // Command manager
 
