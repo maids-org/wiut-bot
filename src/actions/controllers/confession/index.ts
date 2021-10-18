@@ -31,9 +31,6 @@ confession
   .command("show", async (ctx: TelegrafContext) => await show(ctx))
   .command("clear", async (ctx: TelegrafContext) => await clear(ctx))
   .command("stop", leave())
-  .command("exit", (ctx: TelegrafContext) => {
-    clear(ctx, false).then(() => leave());
-  })
   .on("text", async (ctx: TelegrafContext) => await text(ctx))
   .on(
     ["photo", "video", "animation", "audio", "sticker"],

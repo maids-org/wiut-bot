@@ -125,15 +125,13 @@ export const confession: {
     "/help - <code>show this message</code>\n" +
     "/clear - <code>clear all messages</code>\n" +
     "/show - <code>preview all your message you wanna send</code>\n" +
-    "/stop - <code>compose all your messages and send to the channel</code>\n" +
-    "/exit - <code>exit the confession mode</code>",
+    "/stop - <code>compose all your messages and send to the channel</code>\n",
   help:
     "<b>Here are the available commands:</b>\n" +
     "/help - <code>show this message</code>\n" +
     "/clear - <code>clear all messages</code>\n" +
     "/show - <code>preview all your message you wanna send</code>\n" +
-    "/stop - <code>compose all your messages and send</code>\n" +
-    "/exit - <code>exit the confession mode</code>",
+    "/stop - <code>compose all your messages and send</code>\n",
   leave:
     "<b>Successfully composed all messages. Alright, it's the end. Thanks for using me!</b>",
   noMessage: "<b>There is no message to show or compose! Exiting...</b>",
