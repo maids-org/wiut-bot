@@ -118,9 +118,9 @@ export const confession: {
   destroy: string;
 } = {
   entry:
-    "<b>Welcome to our confession!</b>\n\n" +
-    "Here you can send your contents and we will be processing it to send to our confession channel! (No links)\n" +
-    "In order to get started, keep in mind that you have to interact with the help those commands:\n" +
+    "<b>Start typing here like a chat!</b>\n\n" +
+    "As you send your messages, we will compose it into a single message and then send it to the channel.\n" +
+    "If you need some help, refer to these commands in order to interact with our bot:\n" +
     "\n" +
     "/help - <code>show this message</code>\n" +
     "/clear - <code>clear all messages</code>\n" +
