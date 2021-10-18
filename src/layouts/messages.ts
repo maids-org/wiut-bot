@@ -125,9 +125,10 @@ export const confession: {
     "/help - <code>show this message</code>\n" +
     "/clear - <code>clear all messages</code>\n" +
     "/show - <code>preview all your message you wanna send</code>\n" +
-    "/stop - <code>compose all your messages and send to the channel</code>",
+    "/stop - <code>compose all your messages and send to the channel</code>\n" +
+    "/exit - <code>exit the confession mode</code>",
   help:
-    "<b>Here are the available commands:</b>" +
+    "<b>Here are the available commands:</b>\n" +
     "/help - <code>show this message</code>\n" +
     "/clear - <code>clear all messages</code>\n" +
     "/show - <code>preview all your message you wanna send</code>\n" +
