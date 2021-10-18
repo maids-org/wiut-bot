@@ -22,7 +22,7 @@ export default async function (ctx: TelegrafContext): Promise<void> {
     if (ctx.message.text) {
       scheme[ctx.from.id].messages.push(ctx.message.text);
       await ctx.reply(
-        "This text message has been added to database, keep adding!",
+        "This text message has been added to database, keep adding! If you want to see a preview of your content, use /show . For more help, /help .",
         {
           reply_to_message_id: ctx.message.message_id,
         }

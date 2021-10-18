@@ -44,7 +44,9 @@ export const help = (isAdmin: boolean): string => {
     `\n` +
     `/contribute - <code>enhance me more</code>` +
     `\n` +
-    `/feedback - <code>leave a feedback to admins</code>`;
+    `/feedback - <code>leave a feedback to admins</code>` +
+    `\n` +
+    `/confession - <code>send content to the confession</code>`;
   const admin: string =
     `\n` +
     `\n` +
@@ -129,7 +131,8 @@ export const confession: {
     "/help - <code>show this message</code>\n" +
     "/clear - <code>clear all messages</code>\n" +
     "/show - <code>preview all your message you wanna send</code>\n" +
-    "/stop - <code>compose all your messages and send</code>",
+    "/stop - <code>compose all your messages and send</code>\n" +
+    "/exit - <code>exit the confession mode</code>",
   leave:
     "<b>Successfully composed all messages. Alright, it's the end. Thanks for using me!</b>",
   noMessage: "<b>There is no message to show or compose! Exiting...</b>",
