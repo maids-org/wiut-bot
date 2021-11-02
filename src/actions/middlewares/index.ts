@@ -3,7 +3,7 @@ import "./start";
 import "./links";
 import "./stats";
 import "./talk";
-import "./feedback";
+// import "./feedback";
 import "./intranet";
 import "./timetable";
 import "./contribute";
