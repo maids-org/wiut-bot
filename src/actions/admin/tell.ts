@@ -14,7 +14,7 @@ composer.hears(/\/tell (.*)/gi, async (ctx: TelegrafContext) => {
       `\n` +
       `<i>${input}</i> \n` +
       `\n` +
-      `<b>Sincerely, admins of +70 (or genemator (☞ﾟヮﾟ)☞)</b> \n`;
+      `<b>Sincerely, admins of +70 (or uwussimo (☞ﾟヮﾟ)☞)</b> \n`;
 
     for (const group of await groups()) {
       await ctx.telegram

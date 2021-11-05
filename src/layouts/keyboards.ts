@@ -18,7 +18,7 @@ export const invalid = Markup.inlineKeyboard([
 ]);
 
 export const errorAdmin = Markup.inlineKeyboard([
-  Markup.urlButton(`Contact with admin`, `https://t.me/genemator`),
+  Markup.urlButton(`Contact with admin`, `https://t.me/uwussimo`),
 ]);
 
 export const links = async (): Promise<InlineKeyboardMarkup> => {

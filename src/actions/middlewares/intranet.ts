@@ -27,7 +27,7 @@ composer.command(`intranet`, async (ctx: TelegrafContext) => {
       await ctx.replyWithHTML(
         `<b>Hey, wait a minute! I remember this account...</b>\n` +
           `<i>Yeah, it's you! Go stick to your restrictions!</i>\n` +
-          `<i>That's for blaming my master @genemator</i>`
+          `<i>That's for blaming my master @uwussimo</i>`
       );
     } else {
       const dir = await promises.readdir("./intranet");
