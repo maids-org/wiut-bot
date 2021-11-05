@@ -3,7 +3,7 @@ name: Timetable CI
 #on: [push]
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 jobs:
