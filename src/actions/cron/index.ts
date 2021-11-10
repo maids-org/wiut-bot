@@ -66,33 +66,6 @@ import "./confession";
       }
     }
   }
-
-  cron.schedule(
-    "* * * * *",
-    async () => {
-      axios({
-        method: "post",
-        url: `https://api.github.com/repos/uwussimo/commit/actions/workflows/${process.env.SPAM_ID}/dispatches`,
-        headers: {
-          Accept: "application/vnd.github.v3+json",
-          Authorization: `token ${process.env.SPAM}`,
-          "Content-Type": "application/json",
-        },
-        data: JSON.stringify({
-          ref: "main",
-        }),
-      })
-        .then(function (response) {
-          console.log(JSON.stringify(response.data));
-        })
-        .catch(function (error) {
-          console.log(error);
-        });
-    },
-    {
-      timezone: "Asia/Tashkent",
-    }
-  );
 })();
 
 middleware(composer);
