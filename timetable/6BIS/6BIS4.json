@@ -1,0 +1,151 @@
+{
+  "0": [],
+  "1": [
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "online",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "ATB304"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Prabha Kiran",
+      "type": "online",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "Game Development",
+      "tutor": "Akmal Salikov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "New305 CL"
+    }
+  ],
+  "2": [
+    {
+      "name": "Project Management",
+      "tutor": "Iroda Komilova",
+      "type": "online",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Object Oriented Programming",
+      "tutor": "Avazkhan Khalikov",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "New206 H"
+    }
+  ],
+  "3": [
+    {
+      "name": "Object Oriented Programming",
+      "tutor": "Ali Subair",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New305 CL"
+    },
+    {
+      "name": "Developing Digital Enterprise",
+      "tutor": "Dariush Alimokhammadi",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "New304 CL"
+    }
+  ],
+  "4": [
+    {
+      "name": "Distributed Systems and Cloud Computing",
+      "tutor": "Ayubhan",
+      "type": "workshop",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "New206 H"
+    },
+    {
+      "name": "Distributed Systems and Cloud Computing",
+      "tutor": "Ayubhan",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "New206 H"
+    },
+    {
+      "name": "Game Development",
+      "tutor": "Akmal Salikov",
+      "type": "online",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "Project Management",
+      "tutor": "Shoira Mirzakhidova",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "ATB302"
+    },
+    {
+      "name": "Developing Digital Enterprise",
+      "tutor": "Dariush Alimokhammadi",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New206 H"
+    }
+  ],
+  "5": [
+    {
+      "name": "Business Information Systems Project",
+      "tutor": "Shodiyabegim Bakhtiyorzoda",
+      "type": "seminar",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "New206 H"
+    },
+    {
+      "name": "Project Management",
+      "tutor": "Shoira Mirzakhidova",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB214 CL"
+    },
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB302"
+    },
+    {
+      "name": "Distributed Systems and Cloud Computing",
+      "tutor": "Ayubhan",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB202 CL"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Karan Khurana",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB202 CL"
+    }
+  ],
+  "6": [],
+  "7": []
+}

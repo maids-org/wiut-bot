@@ -1,0 +1,102 @@
+{
+  "0": [],
+  "1": [
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "online",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "ATB304"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Prabha Kiran",
+      "type": "online",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    }
+  ],
+  "2": [
+    {
+      "name": "Project Management",
+      "tutor": "Shoira Mirzakhidova",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB303"
+    },
+    {
+      "name": "Project Management",
+      "tutor": "Iroda Komilova",
+      "type": "online",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Brand Journalism and Content Strategy",
+      "tutor": "Angelo Battaglia",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB310 A"
+    },
+    {
+      "name": "Brand Journalism and Content Strategy",
+      "tutor": "Angelo Battaglia",
+      "type": "online",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB310 A"
+    }
+  ],
+  "3": [],
+  "4": [
+    {
+      "name": "Project Management",
+      "tutor": "Shoira Mirzakhidova",
+      "type": "workshop",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "ATB311"
+    },
+    {
+      "name": "New Venture Creation",
+      "tutor": "Alisher Ismailov",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "Harvard306"
+    }
+  ],
+  "5": [
+    {
+      "name": "Digital Marketing",
+      "tutor": "Anil Kumar",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
+    },
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Ahmed Waqas",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB218"
+    },
+    {
+      "name": "Brand Journalism and Content Strategy",
+      "tutor": "Sanemkhan Nurillaeva",
+      "type": "online",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    }
+  ],
+  "6": [],
+  "7": []
+}

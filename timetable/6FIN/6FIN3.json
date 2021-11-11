@@ -1,0 +1,119 @@
+{
+  "0": [],
+  "1": [
+    {
+      "name": "Management Accounting",
+      "tutor": "Feruza Yodgorova",
+      "type": "online",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB313"
+    },
+    {
+      "name": "Strategic Management Accounting and Performance Me",
+      "tutor": "Gulkhayo Nusratova",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "IB306"
+    }
+  ],
+  "2": [
+    {
+      "name": "Project Management",
+      "tutor": "Iroda Komilova",
+      "type": "online",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Fixed Income Securities",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB207"
+    },
+    {
+      "name": "Fixed Income Securities",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "LRC13 Library Multimedia"
+    }
+  ],
+  "3": [
+    {
+      "name": "Fixed Income Securities",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "New206 H"
+    },
+    {
+      "name": "Investment and Risk Management",
+      "tutor": "Hamid Waqas",
+      "type": "online",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    }
+  ],
+  "4": [
+    {
+      "name": "Investment and Risk Management",
+      "tutor": "Surrayo Shaamirova",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB212 CL"
+    },
+    {
+      "name": "Investment and Risk Management",
+      "tutor": "Surrayo Shaamirova",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB212 CL"
+    }
+  ],
+  "5": [
+    {
+      "name": "Strategic Management Accounting and Performance Me",
+      "tutor": "Gulkhayo Nusratova",
+      "type": "workshop",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Management Accounting",
+      "tutor": "Feruza Yodgorova",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB208 CL"
+    },
+    {
+      "name": "Project Management",
+      "tutor": "Shoira Mirzakhidova",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB310 A"
+    },
+    {
+      "name": "Project Management",
+      "tutor": "Shoira Mirzakhidova",
+      "type": "workshop",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "ATB207"
+    }
+  ],
+  "6": [],
+  "7": []
+}

@@ -1,0 +1,94 @@
+{
+  "0": [],
+  "1": [
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "online",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "ATB304"
+    },
+    {
+      "name": "Strategic Management Accounting and Performance Me",
+      "tutor": "Gulkhayo Nusratova",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB306"
+    },
+    {
+      "name": "Applied Corporate Finance",
+      "tutor": "Andrey Artemenkov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB202 CL"
+    },
+    {
+      "name": "Applied Corporate Finance",
+      "tutor": "Andrey Artemenkov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB202 CL"
+    }
+  ],
+  "2": [
+    {
+      "name": "New Venture Creation",
+      "tutor": "Alisher Ismailov",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB311"
+    },
+    {
+      "name": "Strategic Talent Management",
+      "tutor": "Rahman Khan",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB307"
+    }
+  ],
+  "3": [
+    {
+      "name": "Applied Corporate Finance",
+      "tutor": "Andrey Artemenkov",
+      "type": "lecture",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "IB301"
+    }
+  ],
+  "4": [],
+  "5": [
+    {
+      "name": "Strategic Management Accounting and Performance Me",
+      "tutor": "Gulkhayo Nusratova",
+      "type": "workshop",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB302"
+    },
+    {
+      "name": "Strategic Talent Management",
+      "tutor": "Rahman Khan",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
+    }
+  ],
+  "6": [],
+  "7": []
+}

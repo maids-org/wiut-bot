@@ -1,0 +1,78 @@
+{
+  "0": [],
+  "1": [],
+  "2": [
+    {
+      "name": "Marketing Management",
+      "tutor": "Dildara Gapparova",
+      "type": "online",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Sitora Inoyatova",
+      "type": "online",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB301"
+    }
+  ],
+  "3": [
+    {
+      "name": "Consumer Behaviour",
+      "tutor": "Rahat Ulluh",
+      "type": "online",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "IB309"
+    },
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Shakhnoza Asadova",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB306"
+    }
+  ],
+  "4": [
+    {
+      "name": "Marketing Management",
+      "tutor": "Dildara Gapparova",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB301"
+    },
+    {
+      "name": "Marketing Management",
+      "tutor": "Dildara Gapparova",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "ATB301"
+    }
+  ],
+  "5": [
+    {
+      "name": "Consumer Behaviour",
+      "tutor": "Nergiz Aziz",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB306"
+    },
+    {
+      "name": "Consumer Behaviour",
+      "tutor": "Nergiz Aziz",
+      "type": "workshop",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "IB306"
+    }
+  ],
+  "6": [],
+  "7": []
+}
