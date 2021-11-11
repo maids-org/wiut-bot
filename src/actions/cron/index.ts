@@ -4,7 +4,6 @@ import { join } from "path";
 import { composer, middleware, bot } from "@core/bot";
 import * as consoles from "@layouts/consoles";
 import parser from "@database/parse";
-import axios from "axios";
 
 // Other CRONs
 import "./confession";

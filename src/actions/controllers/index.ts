@@ -1,3 +1,3 @@
 import "./intranet";
 import "./panel";
-import "./confession";
+// import "./confession";
