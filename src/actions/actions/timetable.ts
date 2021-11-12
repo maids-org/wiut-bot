@@ -4,9 +4,9 @@ import date from "@database/dt";
 import * as consoles from "@layouts/consoles";
 import dataset from "@database/timetable";
 import { editLink } from "@database/db";
-import group from "@database/group";
 import groupLink from "@database/timetableLinks";
 import { TelegrafContext } from "telegraf/typings/context";
+import fetch from "node-fetch";
 
 composer.action(`timetable`, async (ctx: TelegrafContext) => {
   const database = await dataset(ctx.chat.id);
@@ -30,11 +30,12 @@ composer.action(`timetable`, async (ctx: TelegrafContext) => {
 
     return result.toUpperCase();
   };
+  const thisGroup = await fetch(
+    "https://maid-dungeon.vercel.app/groups/id/" + ctx.chat.id
+  ).then((res) => res.json());
 
   const timetable = async () => {
-    let text = `<b>⛓ Today's Timetable for ${
-      (await group(ctx.chat.id)).toString()[0]
-    }BIS${(await group(ctx.chat.id)).toString()[1]} ⛓</b>`;
+    let text = `<b>⛓ Today's Timetable for ${thisGroup.module} ⛓</b>`;
 
     for (const subject of database[currentDay]) {
       const subText =
