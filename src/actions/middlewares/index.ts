@@ -1,10 +1,10 @@
 import "./help";
 import "./start";
-import "./links";
+// import "./links";
 import "./stats";
 import "./talk";
 // import "./feedback";
 import "./register";
 import "./intranet";
-import "./timetable";
+// import "./timetable";
 import "./contribute";
