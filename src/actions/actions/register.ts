@@ -1,14 +1,10 @@
 import { composer, middleware } from "@core/bot";
 import * as consoles from "@layouts/consoles";
-// import * as message from "@layouts/messages";
-// import * as keyboard from "@layouts/keyboards";
-// import * as database from "@database/db";
 import { TelegrafContext } from "telegraf/typings/context";
 import { promises } from "fs";
 import { join } from "path";
 import fetch from "node-fetch";
 import { Markup } from "telegraf";
-import { CallbackButton, InlineKeyboardButton } from "telegraf/typings/markup";
 
 composer.action(/register_(.+)/gi, async (ctx: TelegrafContext) => {
   const subgroup = ctx.match[1];
