@@ -60,7 +60,7 @@ export class Dungeon {
    * @param anchor the rest part of the URL after domain without slash in the beginning.
    * @protected
    */
-  protected async getData(anchor: string = ""): Promise<Group | Groups> {
+  protected async getData(anchor: string = ""): Promise<Group | Groups | any> {
     const response = await fetch(this.url + anchor);
     return await response.json();
   }
@@ -73,7 +73,7 @@ export class Dungeon {
   protected async postData(
     anchor: string = "",
     object: any
-  ): Promise<Group | Groups> {
+  ): Promise<Group | Groups | any> {
     const response = await fetch(this.url + anchor, {
       method: "post",
       body: JSON.stringify(object),
@@ -132,13 +132,13 @@ export class Dungeon {
    * @param id The ID of the group chat
    * @param mod Module of the group that they have chosen
    * @param link Link to the group chat
-   * @returns Group
+   * @returns { msg: string, groups: Group[] }
    */
   async newGroup(
     id: number,
     mod: string,
     link: string
-  ): Promise<Group | Groups> {
+  ): Promise<{ msg: string; groups: Group[] }> {
     return await this.getData(`groups/new?id=${id}&module=${mod}&link=${link}`);
   }
 }
