@@ -1,5 +1,5 @@
 import fetch from "node-fetch";
-import { Group, Groups } from "@type/group";
+import { Group, Groups } from "@type/dungeon";
 
 export default class Dungeon {
   /**
