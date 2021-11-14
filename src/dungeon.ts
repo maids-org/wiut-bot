@@ -1,27 +1,7 @@
 import fetch from "node-fetch";
+import { Group, Groups } from "@type/group";
 
-interface Option {
-  limit: number;
-  cursor: number;
-  search: null | string;
-}
-
-interface Group {
-  id?: number;
-  module?: string;
-  link?: string;
-}
-
-// TODO: Add more types by object
-// interface GroupById {}
-// interface GroupByModule {}
-
-interface Groups {
-  options?: Option;
-  results: Group[];
-}
-
-export class Dungeon {
+export default class Dungeon {
   /**
    * URL of the Dungeon Server.
    * @protected
@@ -45,7 +25,6 @@ export class Dungeon {
       fetch(server).then((res) => {
         if (res.status === 200) {
           this.url = server;
-          return;
         }
       });
     }
@@ -60,7 +39,7 @@ export class Dungeon {
    * @param anchor the rest part of the URL after domain without slash in the beginning.
    * @protected
    */
-  protected async getData(anchor: string = ""): Promise<Group | Groups | any> {
+  protected async getData(anchor = ""): Promise<Group | Groups | any> {
     const response = await fetch(this.url + anchor);
     return await response.json();
   }
@@ -71,7 +50,7 @@ export class Dungeon {
    * @param object
    */
   protected async postData(
-    anchor: string = "",
+    anchor = "",
     object: any
   ): Promise<Group | Groups | any> {
     const response = await fetch(this.url + anchor, {

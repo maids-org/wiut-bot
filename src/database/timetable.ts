@@ -4,7 +4,6 @@
  * @description extract timetable for a bis group
  * @param {string} chat
  */
-import groups from "./group";
 import { promises } from "fs";
 import { join } from "path";
 import fetch from "node-fetch";
