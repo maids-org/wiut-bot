@@ -39,8 +39,9 @@ export default class Dungeon {
    * @param anchor the rest part of the URL after domain without slash in the beginning.
    * @protected
    */
-  protected getData(anchor = ""): Group | Groups | any {
-    return fetch(this.url + anchor).then((res) => res.json());
+  protected async getData(anchor = ""): Promise<Group | Groups | any> {
+    const response = await fetch(this.url + anchor);
+    return await response.json();
   }
 
   /**
@@ -48,36 +49,43 @@ export default class Dungeon {
    * @param anchor the rest part of the URL after domain without slash in the beginning.
    * @param object
    */
-  protected postData(anchor = "", object: any): Group | Groups | any {
-    return fetch(this.url + anchor, {
+  protected async postData(
+    anchor = "",
+    object: any
+  ): Promise<Group | Groups | any> {
+    const response = await fetch(this.url + anchor, {
       method: "post",
       body: JSON.stringify(object),
       headers: { "Content-Type": "application/json" },
-    }).then((res) => res.json());
+    });
+    return await response.json();
   }
 
   /**
    * Get all group data from the Dungeon.
    * @returns Group[]
    */
-  getAll(): Group[] {
-    return this.getData("groups").results;
+  async getAll(): Promise<Group[]> {
+    const response = await this.getData("groups");
+    return "results" in response ? response.results : null;
   }
 
   /**
    * Get all group ID from the Dungeon.
    * @returns Group[]
    */
-  getAllID(): Group[] {
-    return this.getData("groups/id").results;
+  async getAllID(): Promise<Group[]> {
+    const response = await this.getData("groups/id");
+    return "results" in response ? response.results : null;
   }
 
   /**
    * Fetches all available modules from the Dungeon.
    * @returns Group[]
    */
-  getAllModule(): Group[] {
-    return this.getData("groups/mod").results;
+  async getAllModule(): Promise<Group[]> {
+    const response = await this.getData("groups/mod");
+    return "results" in response ? response.results : null;
   }
 
   /**
@@ -85,8 +93,8 @@ export default class Dungeon {
    * @param id Telegram Chat ID of the group
    * @returns Group
    */
-  getByID(id: number): Group | Groups {
-    return this.getData(`groups/id/${id}`);
+  async getByID(id: number): Promise<Group | Groups> {
+    return await this.getData(`groups/id/${id}`);
   }
 
   /**
@@ -94,8 +102,8 @@ export default class Dungeon {
    * @param mod Module of the group that they have chosen
    * @returns Group
    */
-  getByMod(mod: string): Group | Groups {
-    return this.getData(`groups/mod/${mod}`);
+  async getByMod(mod: string): Promise<Group | Groups> {
+    return await this.getData(`groups/mod/${mod}`);
   }
 
   /**
@@ -105,11 +113,11 @@ export default class Dungeon {
    * @param link Link to the group chat
    * @returns { msg: string, groups: Group[] }
    */
-  newGroup(
+  async newGroup(
     id: number,
     mod: string,
     link: string
-  ): { msg: string; groups: Group[] } {
-    return this.getData(`groups/new?id=${id}&module=${mod}&link=${link}`);
+  ): Promise<{ msg: string; groups: Group[] }> {
+    return await this.getData(`groups/new?id=${id}&module=${mod}&link=${link}`);
   }
 }
