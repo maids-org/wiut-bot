@@ -61,13 +61,7 @@ namespace Database {
         this.photos = data.photos;
         this._admin = data._admin;
         this._banned = data._banned;
-      }
-      //
-      // this._id = id;
-      // this.messages = [];
-      // this.photos = [];
-      // this._admin = false;
-      // this._banned = false;
+      } else throw new Error("Invalid data type");
     }
 
     set id(id: number | string) {
@@ -149,11 +143,13 @@ namespace Database {
         this.users = [];
       }
 
-      this.users.forEach((user) => {
+      this.users.forEach((user: User) => {
         if (user.admin) {
+          this.admins = [];
           this.admins.push(user);
         }
         if (user.banned) {
+          this.banned = [];
           this.banned.push(user);
         }
       });
@@ -180,11 +176,29 @@ namespace Database {
       });
     }
 
-    health(): void {
-      console.log("file event read:", this.database.read());
-      console.log("class event read:", this.users);
-      console.log("admins", this.admins);
-      console.log("banned", this.banned);
+    deleteUser(user: User): void {
+      // Check if user exists
+      if (!this.users.find((u) => u.getId() === user.getId())) {
+        throw new Error("User does not exist");
+      }
+
+      // Delete it from the storage
+      this.users = this.users.filter((u) => u.getId() !== user.getId());
+      this.database.write({
+        users: this.users,
+      });
+    }
+
+    getUser(id: number | string): User {
+      return this.users.find((u) => u.getId() === id);
+    }
+
+    getUsers(): User[] {
+      return this.users;
+    }
+
+    getAdmins(): User[] {
+      return this.admins;
     }
   }
 }
@@ -192,6 +206,6 @@ namespace Database {
 export default Database;
 
 const users = new Database.Users();
-const sokhib = new Database.User(2342342);
+const sokhib = new Database.User(234342222);
 users.addUser(sokhib);
-users.health();
+console.log(users.getUsers());
