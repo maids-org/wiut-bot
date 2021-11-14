@@ -1,7 +1,6 @@
 import { join } from "path";
 import * as fs from "fs";
 import fetch from "node-fetch";
-import User = Database.User;
 
 namespace Database {
   export const Online = async (url: string): Promise<any> => {
@@ -43,14 +42,56 @@ namespace Database {
   }
 
   export class User {
-    protected id: number | string;
+    protected _id: number | string;
     protected messages: string[];
     protected photos: (string | Buffer)[];
+    protected _admin: boolean;
+    protected _banned: boolean;
 
-    constructor(id: number | string) {
-      this.id = id;
-      this.messages = [];
-      this.photos = [];
+    constructor(data?: number | any) {
+      if (typeof data === "number") {
+        this._id = data;
+        this.messages = [];
+        this.photos = [];
+        this._admin = false;
+        this._banned = false;
+      } else if (typeof data === "object") {
+        this._id = data._id;
+        this.messages = data.messages;
+        this.photos = data.photos;
+        this._admin = data._admin;
+        this._banned = data._banned;
+      }
+      //
+      // this._id = id;
+      // this.messages = [];
+      // this.photos = [];
+      // this._admin = false;
+      // this._banned = false;
+    }
+
+    set id(id: number | string) {
+      this._id = id;
+    }
+
+    get id(): number | string {
+      return this._id;
+    }
+
+    set admin(value: boolean) {
+      this._admin = value;
+    }
+
+    get admin(): boolean {
+      return this._admin;
+    }
+
+    set banned(value: boolean) {
+      this._banned = value;
+    }
+
+    get banned(): boolean {
+      return this._banned;
     }
 
     addMessage(message: string): void {
@@ -92,65 +133,58 @@ namespace Database {
 
   export class Users {
     protected users: User[];
-    protected admins: (string | number)[];
-    protected banned: (string | number)[];
+    protected admins: User[];
+    protected banned: User[];
     protected database: Offline;
     constructor() {
       this.database = new Offline("users", {
         users: [],
-        admins: [],
-        banned: [],
       });
 
-      if (this.database.read().users[0] !== null) {
-        this.users = this.database.read().users;
+      if (this.database.read().users.length !== 0) {
+        this.users = this.database.read().users.map((user: any) => {
+          return new User(user);
+        });
       } else {
         this.users = [];
       }
 
-      if (this.database.read().admins[0] !== null) {
-        this.admins = this.database.read().admins;
-      } else {
+      this.users.forEach((user) => {
+        if (user.admin) {
+          this.admins.push(user);
+        }
+        if (user.banned) {
+          this.banned.push(user);
+        }
+      });
+
+      if (this.admins === undefined) {
         this.admins = [];
       }
 
-      if (this.database.read().banned[0] !== null) {
-        this.banned = this.database.read().banned;
-      } else {
+      if (this.banned === undefined) {
         this.banned = [];
       }
     }
 
-    addUser(id: number | string): void {
-      this.users.push(new User(id));
-    }
+    addUser(user: User): void {
+      // Check if user already exists
+      if (this.users.find((u) => u.getId() === user.getId())) {
+        throw new Error("User already exists");
+      }
 
-    addAdmin(user: User): void {
-      this.admins.push(user.getId());
+      // Add it to the storage
+      this.users.push(user);
       this.database.write({
-        admins: this.admins,
-        banned: this.banned,
+        users: this.users,
       });
     }
 
-    addBanned(user: User): void {
-      this.banned.push(user.getId());
-      this.database.write({
-        admins: this.admins,
-        banned: this.banned,
-      });
-    }
-
-    getUsers(): User[] {
-      return this.users;
-    }
-
-    getAdmins(): (string | number)[] {
-      return this.admins;
-    }
-
-    getBanneds(): (string | number)[] {
-      return this.banned;
+    health(): void {
+      console.log("file event read:", this.database.read());
+      console.log("class event read:", this.users);
+      console.log("admins", this.admins);
+      console.log("banned", this.banned);
     }
   }
 }
@@ -159,3 +193,5 @@ export default Database;
 
 const users = new Database.Users();
 const sokhib = new Database.User(2342342);
+users.addUser(sokhib);
+users.health();
