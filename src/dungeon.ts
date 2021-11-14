@@ -21,13 +21,14 @@ export default class Dungeon {
     /**
      * Checks every server and sets active server.
      */
-    for (const server of this.servers) {
-      fetch(server).then((res) => {
-        if (res.status === 200) {
-          this.url = server;
-        }
-      });
-    }
+    // for (const server of this.servers) {
+    //   fetch(server).then((res) => {
+    //     if (res.status === 200) {
+    //       this.url = server;
+    //     }
+    //   });
+    // }
+    this.url = this.servers[0];
 
     if (this.url === null) {
       throw new Error("No active server found.");
@@ -94,7 +95,11 @@ export default class Dungeon {
    * @returns Group
    */
   async getByID(id: number): Promise<Group | Groups> {
-    return await this.getData(`groups/id/${id}`);
+    try {
+      return await this.getData(`groups/id/${id}`);
+    } catch (error) {
+      return null;
+    }
   }
 
   /**
@@ -103,7 +108,11 @@ export default class Dungeon {
    * @returns Group
    */
   async getByMod(mod: string): Promise<Group | Groups> {
-    return await this.getData(`groups/mod/${mod}`);
+    try {
+      return await this.getData(`groups/mod/${mod}`);
+    } catch (error) {
+      return null;
+    }
   }
 
   /**
