@@ -3,6 +3,10 @@ import * as fs from "fs";
 import fetch from "node-fetch";
 
 namespace Database {
+  export const Constants: { [key: string]: string } = {
+    EDIT_LINK: "https://github.com/mad-maids/maid.table",
+  };
+
   export const Online = async (url: string): Promise<any> => {
     const response = await fetch(url);
     return await response.json();
@@ -230,6 +234,45 @@ namespace Database {
 
       this.database.write({
         users: this.users,
+      });
+    }
+  }
+
+  export class Time {
+    protected time: Date;
+    protected uzbTime: Date;
+
+    constructor() {
+      this.time = new Date();
+      this.uzbTime = new Date();
+      this.uzbTime.setHours(this.time.getUTCHours() + 5);
+    }
+
+    updateTime(): void {
+      this.time = new Date();
+      this.uzbTime = new Date();
+      this.uzbTime.setHours(this.time.getUTCHours() + 5);
+    }
+
+    getTime(): Date {
+      return this.time;
+    }
+
+    getUzbTime(): Date {
+      return this.uzbTime;
+    }
+
+    getTimeString(): string {
+      return this.time.toLocaleString("en-US", {
+        hour12: false,
+        timeZone: "UTC",
+      });
+    }
+
+    getUzbTimeString(): string {
+      return this.uzbTime.toLocaleString("uz-Latn-UZ", {
+        hour12: false,
+        timeZone: "UTC",
       });
     }
   }
