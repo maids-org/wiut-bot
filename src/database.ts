@@ -200,6 +200,38 @@ namespace Database {
     getAdmins(): User[] {
       return this.admins;
     }
+
+    setAdmin(user: User, value: boolean): void {
+      if (!this.users.find((u) => u.getId() === user.getId())) {
+        throw new Error("User does not exist");
+      }
+
+      this.users.find((u) => u.getId() === user.getId()).admin = value;
+
+      value
+        ? this.admins.push(user)
+        : (this.admins = this.admins.filter((u) => u.getId() !== user.getId()));
+
+      this.database.write({
+        users: this.users,
+      });
+    }
+
+    setBanned(user: User, value: boolean): void {
+      if (!this.users.find((u) => u.getId() === user.getId())) {
+        throw new Error("User does not exist");
+      }
+
+      this.users.find((u) => u.getId() === user.getId()).banned = value;
+
+      value
+        ? this.banned.push(user)
+        : (this.banned = this.banned.filter((u) => u.getId() !== user.getId()));
+
+      this.database.write({
+        users: this.users,
+      });
+    }
   }
 }
 
@@ -207,5 +239,10 @@ export default Database;
 
 const users = new Database.Users();
 const sokhib = new Database.User(234342222);
-users.addUser(sokhib);
-console.log(users.getUsers());
+try {
+  users.addUser(sokhib);
+} catch (e) {
+  console.log(e);
+}
+users.setAdmin(sokhib, false);
+console.log(users.getAdmins());
