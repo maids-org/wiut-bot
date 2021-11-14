@@ -236,13 +236,3 @@ namespace Database {
 }
 
 export default Database;
-
-const users = new Database.Users();
-const sokhib = new Database.User(234342222);
-try {
-  users.addUser(sokhib);
-} catch (e) {
-  console.log(e);
-}
-users.setAdmin(sokhib, false);
-console.log(users.getAdmins());
