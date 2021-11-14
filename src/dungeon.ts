@@ -24,8 +24,14 @@ interface Groups {
 export class Dungeon {
   /**
    * URL of the Dungeon Server.
+   * @protected
    */
   protected url?: string | null = null;
+
+  /**
+   * List of all hosted servers.
+   * @protected
+   */
   protected servers?: string[] = [
     "https://maid-dungeon.vercel.app/",
     "https://dungeon.maid.uz/",
@@ -51,14 +57,28 @@ export class Dungeon {
 
   /**
    * Fetch RAW Data from the Dungeon.
+   * @param anchor the rest part of the URL after domain without slash in the beginning.
+   * @protected
    */
   protected async getData(anchor: string = ""): Promise<Group | Groups> {
     const response = await fetch(this.url + anchor);
     return await response.json();
   }
 
-  protected async postData(object): Promise<Group | Groups> {
-    const response = await fetch();
+  /**
+   * Sends data to the server using POST method.
+   * @param anchor the rest part of the URL after domain without slash in the beginning.
+   * @param object
+   */
+  protected async postData(
+    anchor: string = "",
+    object: any
+  ): Promise<Group | Groups> {
+    const response = await fetch(this.url + anchor, {
+      method: "post",
+      body: JSON.stringify(object),
+      headers: { "Content-Type": "application/json" },
+    });
     return await response.json();
   }
 
@@ -107,5 +127,18 @@ export class Dungeon {
     return await this.getData(`groups/mod/${mod}`);
   }
 
-  async newGroup() {}
+  /**
+   * Creates a new group in the Dungeon.
+   * @param id The ID of the group chat
+   * @param mod Module of the group that they have chosen
+   * @param link Link to the group chat
+   * @returns Group
+   */
+  async newGroup(
+    id: number,
+    mod: string,
+    link: string
+  ): Promise<Group | Groups> {
+    return await this.getData(`groups/new?id=${id}&module=${mod}&link=${link}`);
+  }
 }
