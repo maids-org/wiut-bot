@@ -1,7 +1,7 @@
 import { join } from "path";
-import { promises } from "fs";
 import * as fs from "fs";
 import fetch from "node-fetch";
+import User = Database.User;
 
 namespace Database {
   export const Online = async (url: string): Promise<any> => {
@@ -27,16 +27,16 @@ namespace Database {
       this.path = join("data", `${type}.json`);
     }
 
-    async read(): Promise<any> {
+    read(): any {
       return JSON.parse(
-        await promises.readFile(join(this.path), {
+        fs.readFileSync(join(this.path), {
           encoding: "utf8",
         })
       );
     }
 
-    async write(data: any): Promise<any> {
-      return await promises.writeFile(join(this.path), JSON.stringify(data), {
+    write(data: any): any {
+      fs.writeFileSync(join(this.path), JSON.stringify(data), {
         encoding: "utf8",
       });
     }
@@ -53,90 +53,109 @@ namespace Database {
       this.photos = [];
     }
 
-    async addMessage(message: string): Promise<void> {
+    addMessage(message: string): void {
       this.messages.push(message);
     }
 
-    async getMessage(index: number): Promise<string> {
+    getMessage(index: number): string {
       return this.messages[index];
     }
 
-    async getMessages(): Promise<string> {
+    getMessages(): string {
       return this.messages.join("\n");
     }
 
-    async resetMessages(): Promise<void> {
+    resetMessages(): void {
       this.messages = [];
     }
 
-    async addPhoto(photo: string | Buffer): Promise<void> {
+    addPhoto(photo: string | Buffer): void {
       this.photos.push(photo);
     }
 
-    async getPhoto(index: number): Promise<string | Buffer> {
+    getPhoto(index: number): string | Buffer {
       return this.photos[index];
     }
 
-    async getPhotos(): Promise<(string | Buffer)[]> {
+    getPhotos(): (string | Buffer)[] {
       return this.photos;
     }
 
-    async resetPhotos(): Promise<void> {
+    resetPhotos(): void {
       this.photos = [];
     }
 
-    async getId(): Promise<number | string> {
+    getId(): number | string {
       return this.id;
     }
   }
 
   export class Users {
-    protected admins: User[];
-    protected banned: User[];
+    protected users: User[];
+    protected admins: (string | number)[];
+    protected banned: (string | number)[];
     protected database: Offline;
     constructor() {
-      this.admins = [];
-      this.banned = [];
       this.database = new Offline("users", {
+        users: [],
         admins: [],
         banned: [],
       });
+
+      if (this.database.read().users[0] !== null) {
+        this.users = this.database.read().users;
+      } else {
+        this.users = [];
+      }
+
+      if (this.database.read().admins[0] !== null) {
+        this.admins = this.database.read().admins;
+      } else {
+        this.admins = [];
+      }
+
+      if (this.database.read().banned[0] !== null) {
+        this.banned = this.database.read().banned;
+      } else {
+        this.banned = [];
+      }
     }
 
-    async addAdmin(user: User): Promise<void> {
-      this.admins.push(new User(id));
-      await this.database.write({
-        admins: this.admins.map((user) => user.getId()),
-        banned: this.banned.map((user) => user.getId()),
+    addUser(id: number | string): void {
+      this.users.push(new User(id));
+    }
+
+    addAdmin(user: User): void {
+      this.admins.push(user.getId());
+      this.database.write({
+        admins: this.admins,
+        banned: this.banned,
       });
     }
 
-    async addBanned(id: number | string): Promise<void> {
-      this.banned.push(new User(id));
-      await this.database.write({
-        admins: this.admins.map((user) => user.getId()),
-        banned: this.banned.map((user) => user.getId()),
+    addBanned(user: User): void {
+      this.banned.push(user.getId());
+      this.database.write({
+        admins: this.admins,
+        banned: this.banned,
       });
     }
 
-    async getAdmins(): Promise<(number | string)[]> {
-      return this.admins.map((user) => user.getId());
+    getUsers(): User[] {
+      return this.users;
     }
 
-    async getBanned(): Promise<(number | string)[]> {
-      return this.banned.map((user) => user.getId());
+    getAdmins(): (string | number)[] {
+      return this.admins;
+    }
+
+    getBanneds(): (string | number)[] {
+      return this.banned;
     }
   }
 }
 
 export default Database;
 
-(async () => {
-  const users = new Database.Users();
-  await users.addAdmin(1);
-  await users.addAdmin(2);
-  await users.addBanned(3);
-  await users.addBanned(4);
-  console.log(await users.getAdmins());
-  console.log(await users.getBanned());
-})();
+const users = new Database.Users();
+const sokhib = new Database.User(2342342);
