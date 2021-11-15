@@ -115,6 +115,24 @@ export default class Dungeon {
     }
   }
 
+  async parse(group: string | number): Promise<string | number> {
+    if (typeof group === "string") {
+      const groupID = await this.getByMod(group);
+      if (groupID === null) {
+        throw new Error("Group not found.");
+      }
+      return "id" in groupID ? groupID.id : null;
+    } else if (typeof group === "number") {
+      const groupID = await this.getByID(group);
+      if (groupID === null) {
+        throw new Error("Group not found.");
+      }
+      return "id" in groupID ? groupID.id : null;
+    } else {
+      throw new Error("Invalid group type.");
+    }
+  }
+
   /**
    * Creates a new group in the Dungeon.
    * @param id The ID of the group chat

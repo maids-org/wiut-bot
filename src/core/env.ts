@@ -4,7 +4,6 @@
  * @module {process}
  */
 
-import * as dotenv from "dotenv";
 (async () => {
   await dotenv.config();
 })();
