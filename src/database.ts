@@ -1,6 +1,7 @@
 import { join } from "path";
 import * as fs from "fs";
 import fetch from "node-fetch";
+import { Timetable as TT, Day } from "@type/database";
 
 namespace Database {
   export const Constants: { [key: string]: string } = {
@@ -274,6 +275,88 @@ namespace Database {
         hour12: false,
         timeZone: "UTC",
       });
+    }
+  }
+
+  export class Timetable {
+    protected _level: number;
+    protected _module: string;
+    protected _group: number;
+    protected filePath: string;
+    protected timetable: TT;
+
+    constructor(course: string) {
+      this._level = parseInt(course.match(/([0-9]+)([A-Z]+)([0-9]+)/)[1]);
+      this._module = course.match(/([0-9]+)([A-Z]+)([0-9]+)/)[2];
+      this._group = parseInt(course.match(/([0-9]+)([A-Z]+)([0-9]+)/)[3]);
+      this.filePath = join(
+        "timetable",
+        this._level + this._module,
+        this._level + this._module + this._group + ".json"
+      );
+      this.timetable = JSON.parse(fs.readFileSync(this.filePath, "utf8"));
+    }
+
+    set level(level: number) {
+      this._level = level;
+    }
+
+    get level(): number {
+      return this._level;
+    }
+
+    set module(module: string) {
+      this._module = module;
+    }
+
+    get module(): string {
+      return this._module;
+    }
+
+    set group(group: number) {
+      this._group = group;
+    }
+
+    get group(): number {
+      return this._group;
+    }
+
+    getAllLessons(): TT {
+      return this.timetable;
+    }
+
+    getDayLessons(day: Day): TT {
+      switch (day) {
+        case 0:
+        case 7:
+        case "Sun":
+        case "Sunday":
+          return this.timetable[0];
+        case 1:
+        case "Mon":
+        case "Monday":
+          return this.timetable[1];
+        case 2:
+        case "Tue":
+        case "Tuesday":
+          return this.timetable[2];
+        case 3:
+        case "Wed":
+        case "Wednesday":
+          return this.timetable[3];
+        case 4:
+        case "Thu":
+        case "Thursday":
+          return this.timetable[4];
+        case 5:
+        case "Fri":
+        case "Friday":
+          return this.timetable[5];
+        case 6:
+        case "Sat":
+        case "Saturday":
+          return this.timetable[6];
+      }
     }
   }
 }
