@@ -1,6 +1,6 @@
 import { composer, middleware } from "../../../src/core/bot";
 import { Markup } from "telegraf";
-import * as consoles from "../../../src/layouts/consoles";
+import * as consoles from "../../../src/utils";
 import dataset from "../../../src/database/timetable";
 import { editLink } from "@database/db";
 import groupLink from "../../../src/database/timetableLinks";

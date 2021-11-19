@@ -1,6 +1,6 @@
 import { composer, middleware } from "../../../src/core/bot";
 import { Markup } from "telegraf";
-import * as consoles from "../../../src/layouts/consoles";
+import * as consoles from "../../../src/utils";
 import * as database from "@database/db";
 import { TelegrafContext } from "telegraf/typings/context";
 

@@ -5,7 +5,7 @@
  */
 
 import { middleware, composer } from "../../../../src/core/bot";
-import * as consoles from "../../../../src/layouts/consoles";
+import * as consoles from "../../../../src/utils";
 import { Stage, BaseScene, Markup } from "telegraf";
 import { TelegrafContext } from "../../../../src/types/telegraf";
 import { used } from "../../../../src/database/user";

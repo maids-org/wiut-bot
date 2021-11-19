@@ -1,5 +1,5 @@
 import { composer, middleware } from "../../../src/core/bot";
-import * as consoles from "../../../src/layouts/consoles";
+import * as consoles from "../../../src/utils";
 import * as keyboard from "../../../src/layouts/keyboards";
 import groups from "@database/groups";
 import security from "../security";

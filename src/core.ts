@@ -2,10 +2,18 @@ import chalk = require("chalk");
 import * as dotenv from "dotenv";
 import { User } from "telegram-typings";
 import { TelegrafContext } from "telegraf/typings/context";
-import { Telegraf, session } from "telegraf";
+import { Telegraf, session, Composer, Stage } from "telegraf";
+import { SceneContextMessageUpdate } from "telegraf/typings/stage";
 
 export const env = process.env;
 export const bot = new Telegraf<TelegrafContext>(env.TOKEN);
+export const composer = new Composer<TelegrafContext>();
+
+export const middleware = (
+  mod: Composer<TelegrafContext> | Stage<SceneContextMessageUpdate>
+): void => {
+  bot.use(mod.middleware());
+};
 
 export const initEnv = async () => {
   await dotenv.config();

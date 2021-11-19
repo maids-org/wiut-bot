@@ -2,7 +2,7 @@ import cron from "node-cron";
 import { promises } from "fs";
 import { join } from "path";
 import { composer, middleware, bot } from "../../../src/core/bot";
-import * as consoles from "../../../src/layouts/consoles";
+import * as consoles from "../../../src/utils";
 import parser from "../../../src/database/parse";
 
 // Other CRONs

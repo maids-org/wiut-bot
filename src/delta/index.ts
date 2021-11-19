@@ -1,1 +1,1 @@
-w;
+import "@delta/start";
