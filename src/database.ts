@@ -131,7 +131,7 @@ export class User {
   }
 }
 
-export class Users {
+export class Confession {
   protected users: User[];
   protected admins: User[];
   protected banned: User[];

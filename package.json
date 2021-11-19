@@ -54,7 +54,7 @@
     "typescript": "^4.0.5"
   },
   "_moduleAliases": {
-    "@actions": "dist/actions",
+    "@delta": "dist/delta",
     "@src": "dist",
     "@core": "dist/core",
     "@modals": "dist/modals",

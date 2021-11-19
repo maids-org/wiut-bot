@@ -15,7 +15,7 @@
     "skipLibCheck": true,
     "paths": {
       "*": ["node_modules/*"],
-      "@actions/*": ["src/actions/*"],
+      "@delta/*": ["src/delta/*"],
       "@assets/*": ["src/assets/*"],
       "@src/*": ["src/*"],
       "@type/*": ["src/types/*"],
