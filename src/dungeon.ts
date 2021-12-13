@@ -1,5 +1,5 @@
 import fetch from "node-fetch";
-import { Group, Groups } from "@type/dungeon";
+import { Group, Groups, AllModule, AllId } from "@type/dungeon";
 
 export default class Dungeon {
   /**
@@ -72,10 +72,19 @@ export default class Dungeon {
   }
 
   /**
+   * Get all group data from the Dungeon with Pagination.
+   * @returns Group[]
+   */
+  async getAllByCursor(cursor: number = 0): Promise<Group[]> {
+    const response = await this.getData(`groups?cursor=${cursor}&limit=10`);
+    return "results" in response ? response.results : null;
+  }
+
+  /**
    * Get all group ID from the Dungeon.
    * @returns Group[]
    */
-  async getAllID(): Promise<Group[]> {
+  async getAllID(): Promise<AllId[]> {
     const response = await this.getData("groups/id");
     return "results" in response ? response.results : null;
   }
@@ -84,7 +93,7 @@ export default class Dungeon {
    * Fetches all available modules from the Dungeon.
    * @returns Group[]
    */
-  async getAllModule(): Promise<Group[]> {
+  async getAllModule(): Promise<AllModule[]> {
     const response = await this.getData("groups/mod");
     return "results" in response ? response.results : null;
   }
@@ -94,7 +103,7 @@ export default class Dungeon {
    * @param id Telegram Chat ID of the group
    * @returns Group
    */
-  async getByID(id: number): Promise<Group | Groups> {
+  async getByID(id: number): Promise<Group> {
     try {
       return await this.getData(`groups/id/${id}`);
     } catch (error) {
@@ -107,7 +116,7 @@ export default class Dungeon {
    * @param mod Module of the group that they have chosen
    * @returns Group
    */
-  async getByMod(mod: string): Promise<Group | Groups> {
+  async getByMod(mod: string): Promise<Group> {
     try {
       return await this.getData(`groups/mod/${mod}`);
     } catch (error) {

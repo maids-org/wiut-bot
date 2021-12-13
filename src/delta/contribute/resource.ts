@@ -1,0 +1,7 @@
+import { Markup } from "telegraf";
+
+export const message = `<b>I'm so happy that you wanted to upgrade me, but starting from 2021th year, Mad Maids decided to contribute me on private. However, you can join our organization and be able to contribute me then!</b>`;
+
+export const keyboard = Markup.inlineKeyboard([
+  [Markup.urlButton(`Organization`, `https://github.com/mad-maids/`)],
+]);

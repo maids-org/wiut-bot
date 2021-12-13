@@ -6,4 +6,4 @@
 
 import "module-alias/register";
 import "@src/core";
-import "@src/delta/index";
+import "@src/delta";

@@ -5,7 +5,7 @@ import { Timetable as TT, Day } from "@type/database";
 import { Profanity } from "@2toad/profanity";
 
 export const Constants: { [key: string]: string } = {
-  EDIT_LINK: "https://github.com/mad-maids/maid.table",
+  EDIT_LINK: "https://github.com/mad-maids/maid.table/",
   TIMETABLE_LINK: "https://hub.maid.uz/t/",
 };
 
@@ -131,7 +131,7 @@ export class User {
   }
 }
 
-export class Confession {
+export class Users {
   protected users: User[];
   protected admins: User[];
   protected banned: User[];
@@ -264,18 +264,22 @@ export class Time {
     return this.uzbTime;
   }
 
-  getTimeString(): string {
-    return this.time.toLocaleString("en-US", {
-      hour12: false,
-      timeZone: "UTC",
-    });
+  getTimeString(isTomorrow: boolean): string {
+    switch (isTomorrow) {
+      case true:
+        return this.getTime().getDay().toString();
+      case false:
+        return (this.getTime().getDay() + 1).toString();
+    }
   }
 
-  getUzbTimeString(): string {
-    return this.uzbTime.toLocaleString("uz-Latn-UZ", {
-      hour12: false,
-      timeZone: "UTC",
-    });
+  getUzbTimeString(isTomorrow): string {
+    switch (isTomorrow) {
+      case true:
+        return this.getUzbTime().getDay().toString();
+      case false:
+        return (this.getUzbTime().getDay() + 1).toString();
+    }
   }
 }
 
@@ -326,7 +330,7 @@ export class Timetable {
     return this.timetable;
   }
 
-  getDayLessons(day: Day): TT {
+  getDayLessons(day: string | number | Day): TT | any {
     switch (day) {
       case 0:
       case 7:
@@ -362,6 +366,13 @@ export class Timetable {
 
   getTimetableLink(): string {
     return Constants.TIMETABLE_LINK + this._level + this._module;
+  }
+
+  getTimetableEditLink(): string {
+    return (
+      Constants.TIMETABLE_EDIT_LINK +
+      `blob/main/data/${this._level}${this._module}/${this._level}${this._module}${this._group}.json`
+    );
   }
 }
 

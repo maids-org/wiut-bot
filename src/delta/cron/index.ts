@@ -1,6 +1,5 @@
 import * as resource from "./resource";
 
-import "./action";
-import "./command";
+import "./timetable";
 
 export default resource;

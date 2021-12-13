@@ -4,6 +4,14 @@ export interface Option {
   search: null | string;
 }
 
+export interface AllId {
+  id: number;
+}
+
+export interface AllModule {
+  module: string;
+}
+
 export interface Group {
   id?: number;
   module?: string;
