@@ -3,8 +3,8 @@
  * @module layouts/consoles
  */
 
-import chalk = require("chalk");
 import { basename, dirname, sep } from "path";
+import chalk = require("chalk");
 
 export const errors = (error: Error): void => {
   console.log("Error occurred while running the app: " + error);
