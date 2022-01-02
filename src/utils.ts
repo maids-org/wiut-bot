@@ -3,6 +3,7 @@
  * @module layouts/consoles
  */
 
+import chalk = require("chalk");
 import { basename, dirname, sep } from "path";
 
 export const errors = (error: Error): void => {
@@ -20,5 +21,5 @@ export const wrongEnv = (): void => {
 export const module = (filename: string = __filename): void => {
   const modules =
     dirname(filename).split(sep).pop() + "/" + basename(filename, ".js");
-  console.log("The module " + modules + " has been loaded...");
+  console.log(chalk.blue("[MODULE]"), modules);
 };

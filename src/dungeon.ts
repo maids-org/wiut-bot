@@ -75,7 +75,7 @@ export default class Dungeon {
    * Get all group data from the Dungeon with Pagination.
    * @returns Group[]
    */
-  async getAllByCursor(cursor: number = 0): Promise<Group[]> {
+  async getAllByCursor(cursor = 0): Promise<Group[]> {
     const response = await this.getData(`groups?cursor=${cursor}&limit=10`);
     return "results" in response ? response.results : null;
   }
