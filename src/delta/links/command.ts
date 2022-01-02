@@ -4,10 +4,10 @@ import * as resource from "./resource";
 import { TelegrafContext } from "telegraf/typings/context";
 
 composer.command(`links`, async (ctx: TelegrafContext) => {
-    await ctx.replyWithHTML(resource.message, {
-        parse_mode: "HTML",
-        reply_markup: await resource.keyboard(),
-    });
+  await ctx.replyWithHTML(resource.message, {
+    parse_mode: "HTML",
+    reply_markup: await resource.keyboard(),
+  });
 });
 
 middleware(composer);

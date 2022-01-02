@@ -1,4 +1,4 @@
-  import { Markup } from "telegraf";
+import { Markup } from "telegraf";
 
 export const message = (subject) =>
   `<b>⚠️ Upcoming Class Notification</b> \n` +
