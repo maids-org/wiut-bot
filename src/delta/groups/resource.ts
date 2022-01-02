@@ -1,7 +1,7 @@
 import { Markup } from "telegraf";
 import { InlineKeyboardMarkup } from "telegraf/typings/telegram-types";
 
-export const message = `<b>Here are 70+ Family BIS groups & channels:</b>`;
+export const message = `<b>Here are links of groups:</b>`;
 
 export const keyboard = async (): Promise<InlineKeyboardMarkup> => {
   return Markup.inlineKeyboard([
