@@ -1,0 +1,61 @@
+{
+  "0": [],
+  "1": [],
+  "2": [
+    {
+      "name": "Contract Law",
+      "tutor": "Shukhrat Yunusov",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB101"
+    },
+    {
+      "name": "Legal Skills",
+      "tutor": "Davron Abdigapparov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB306"
+    }
+  ],
+  "3": [
+    {
+      "name": "Legal Skills",
+      "tutor": "Nilufar Abdulatova",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB306"
+    },
+    {
+      "name": "Contract Law",
+      "tutor": "Firdavs Kabilov",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Public Law",
+      "tutor": "Alisher Pulatov",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "Lyceum Library"
+    }
+  ],
+  "4": [],
+  "5": [
+    {
+      "name": "Public Law",
+      "tutor": "Mandeep Singh",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB310"
+    }
+  ],
+  "6": [],
+  "7": []
+}

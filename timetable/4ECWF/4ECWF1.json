@@ -1,0 +1,80 @@
+{
+  "0": [],
+  "1": [
+    {
+      "name": "Mathematics for Economists",
+      "tutor": "Farrukh Ataev",
+      "type": "online",
+      "start": 10.0,
+      "length": 2.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Contemporary Issues in Global Economics",
+      "tutor": "Bilol Buzrukov",
+      "type": "online",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Gulomjon Kosimjonov",
+      "type": "online",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "New206 H"
+    }
+  ],
+  "2": [
+    {
+      "name": "Mathematics for Economists",
+      "tutor": "Farrukh Ataev",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB212 CL"
+    }
+  ],
+  "3": [
+    {
+      "name": "Exploring Economics",
+      "tutor": "Shokhida Karimova",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB302"
+    }
+  ],
+  "4": [
+    {
+      "name": "Exploring Economics",
+      "tutor": "Zohid Askarov",
+      "type": "online",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB209"
+    }
+  ],
+  "5": [
+    {
+      "name": "Contemporary Issues in Global Economics",
+      "tutor": "Ahmed Junaid",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB207"
+    }
+  ],
+  "6": [
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Sardor Azam",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB209"
+    }
+  ],
+  "7": []
+}

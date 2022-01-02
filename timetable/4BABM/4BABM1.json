@@ -1,0 +1,95 @@
+{
+  "0": [],
+  "1": [
+    {
+      "name": "Financial Accounting",
+      "tutor": "Marco Bonelli",
+      "type": "online",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Alisher Ismailov",
+      "type": "online",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Global Business Environment",
+      "tutor": "Marco Bonelli",
+      "type": "online",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Gulomjon Kosimjonov",
+      "type": "online",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "New206 H"
+    }
+  ],
+  "2": [
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Nizom Kadirov",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB101"
+    }
+  ],
+  "3": [
+    {
+      "name": "Financial Accounting",
+      "tutor": "Abdulaziz Djalilov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB310"
+    },
+    {
+      "name": "Financial Accounting",
+      "tutor": "Abdulaziz Djalilov",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB209 CL"
+    }
+  ],
+  "4": [
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Farrukh Ataev",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB310"
+    }
+  ],
+  "5": [
+    {
+      "name": "Global Business Environment",
+      "tutor": "Angelo Battaglia",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "ATB303"
+    },
+    {
+      "name": "Global Business Environment",
+      "tutor": "Angelo Battaglia",
+      "type": "workshop",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "ATB218"
+    }
+  ],
+  "6": [],
+  "7": []
+}

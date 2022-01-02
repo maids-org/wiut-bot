@@ -1,0 +1,78 @@
+{
+  "0": [],
+  "1": [
+    {
+      "name": "Financial Accounting",
+      "tutor": "Marco Bonelli",
+      "type": "online",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Global Business Environment",
+      "tutor": "Marco Bonelli",
+      "type": "online",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    }
+  ],
+  "2": [
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Olmas Isakov",
+      "type": "online",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Jahongir Negmatov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB311"
+    }
+  ],
+  "3": [
+    {
+      "name": "Global Business Environment",
+      "tutor": "Marco Bonelli",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB211"
+    },
+    {
+      "name": "Global Business Environment",
+      "tutor": "Marco Bonelli",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB303"
+    }
+  ],
+  "4": [],
+  "5": [
+    {
+      "name": "Financial Accounting",
+      "tutor": "Indira Khadjieva",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB309"
+    },
+    {
+      "name": "Financial Accounting",
+      "tutor": "Indira Khadjieva",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB209 CL"
+    }
+  ],
+  "6": [],
+  "7": []
+}

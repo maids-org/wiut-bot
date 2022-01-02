@@ -1,0 +1,102 @@
+{
+  "0": [],
+  "1": [
+    {
+      "name": "Financial Accounting",
+      "tutor": "Marco Bonelli",
+      "type": "online",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Marketing Management",
+      "tutor": "Mamurjon Rahimov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB209"
+    },
+    {
+      "name": "Marketing Management",
+      "tutor": "Mamurjon Rahimov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB209"
+    }
+  ],
+  "2": [
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Sitora Inoyatova",
+      "type": "online",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Marketing Management",
+      "tutor": "Dildara Gapparova",
+      "type": "online",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Shakhnoza Asadova",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB216"
+    }
+  ],
+  "3": [
+    {
+      "name": "Consumer Behaviour",
+      "tutor": "Rahat Ulluh",
+      "type": "online",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "IB309"
+    },
+    {
+      "name": "Consumer Behaviour",
+      "tutor": "Rahat Ulluh",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB310"
+    },
+    {
+      "name": "Consumer Behaviour",
+      "tutor": "Rahat Ulluh",
+      "type": "workshop",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB302"
+    }
+  ],
+  "4": [],
+  "5": [
+    {
+      "name": "Financial Accounting",
+      "tutor": "Indira Khadjieva",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB309"
+    },
+    {
+      "name": "Financial Accounting",
+      "tutor": "Indira Khadjieva",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB209 CL"
+    }
+  ],
+  "6": [],
+  "7": []
+}

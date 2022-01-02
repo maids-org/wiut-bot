@@ -1,0 +1,95 @@
+{
+  "0": [],
+  "1": [
+    {
+      "name": "Management Accounting",
+      "tutor": "Feruza Yodgorova",
+      "type": "online",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB313"
+    },
+    {
+      "name": "Financial Econometrics and Modelling",
+      "tutor": "Rustam Suleymanov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB311"
+    }
+  ],
+  "2": [
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Sitora Inoyatova",
+      "type": "online",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Management Accounting",
+      "tutor": "Feruza Yodgorova",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB208 CL"
+    },
+    {
+      "name": "Management Accounting",
+      "tutor": "Feruza Yodgorova",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "IB208 CL"
+    }
+  ],
+  "3": [
+    {
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB313"
+    },
+    {
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB313"
+    }
+  ],
+  "4": [
+    {
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Financial Econometrics and Modelling",
+      "tutor": "Rustam Suleymanov",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "LRC13 Library Multimedia"
+    }
+  ],
+  "5": [
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Shakhnoza Asadova",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "New406"
+    }
+  ],
+  "6": [],
+  "7": []
+}

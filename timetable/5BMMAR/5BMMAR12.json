@@ -1,0 +1,94 @@
+{
+  "0": [],
+  "1": [
+    {
+      "name": "Marketing Management",
+      "tutor": "Zamira Ataniyazova",
+      "type": "seminar",
+      "start": 10.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
+    },
+    {
+      "name": "Marketing Management",
+      "tutor": "Zamira Ataniyazova",
+      "type": "workshop",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "ATB214 CL"
+    },
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Gulomjon Kosimjonov",
+      "type": "online",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "New206 H"
+    }
+  ],
+  "2": [
+    {
+      "name": "Marketing Management",
+      "tutor": "Dildara Gapparova",
+      "type": "online",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Sitora Inoyatova",
+      "type": "online",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB301"
+    }
+  ],
+  "3": [
+    {
+      "name": "Brand Journalism and Content Strategy",
+      "tutor": "Angelo Battaglia",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB316"
+    },
+    {
+      "name": "Brand Journalism and Content Strategy",
+      "tutor": "Angelo Battaglia",
+      "type": "workshop",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB316"
+    },
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Shokhida Karimova",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB314"
+    }
+  ],
+  "4": [],
+  "5": [
+    {
+      "name": "Brand Journalism and Content Strategy",
+      "tutor": "Sanemkhan Nurillaeva",
+      "type": "online",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Shakhnoza Asadova",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "New406"
+    }
+  ],
+  "6": [],
+  "7": []
+}

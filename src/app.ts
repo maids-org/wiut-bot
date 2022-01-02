@@ -5,5 +5,5 @@
  */
 
 import "module-alias/register";
-import "@src/core/index";
-import "@actions/index";
+import "@src/core";
+import "@src/delta";

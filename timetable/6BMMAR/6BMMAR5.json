@@ -1,0 +1,127 @@
+{
+  "0": [],
+  "1": [
+    {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "online",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "ATB304"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Prabha Kiran",
+      "type": "online",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Atya Zeb",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB212 CL"
+    }
+  ],
+  "2": [
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Sitora Inoyatova",
+      "type": "online",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Prabha Kiran",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB215 CL"
+    }
+  ],
+  "3": [
+    {
+      "name": "Consumer Behaviour",
+      "tutor": "Rahat Ulluh",
+      "type": "online",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "IB309"
+    },
+    {
+      "name": "Negotiations and Influence",
+      "tutor": "Timur Perkov",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB304"
+    },
+    {
+      "name": "New Venture Creation",
+      "tutor": "Alisher Ismailov",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB309"
+    }
+  ],
+  "4": [
+    {
+      "name": "Consumer Behaviour",
+      "tutor": "Anil Kumar",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB316"
+    },
+    {
+      "name": "Consumer Behaviour",
+      "tutor": "Anil Kumar",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB316"
+    },
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Anil Kumar",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB211"
+    }
+  ],
+  "5": [
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Erdogan Ekiz",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB313"
+    },
+    {
+      "name": "Negotiations and Influence",
+      "tutor": "Timur Perkov",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "Harvard306"
+    }
+  ],
+  "6": [],
+  "7": []
+}

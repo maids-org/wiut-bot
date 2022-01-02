@@ -1,0 +1,71 @@
+{
+  "0": [],
+  "1": [
+    {
+      "name": "Quantitative Methods",
+      "tutor": "Temur Makhkamov",
+      "type": "online",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB311"
+    }
+  ],
+  "2": [
+    {
+      "name": "Quantitative Methods",
+      "tutor": "Farrukh Ataev",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB303"
+    },
+    {
+      "name": "Quantitative Methods",
+      "tutor": "Farrukh Ataev",
+      "type": "workshop",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "ATB303"
+    }
+  ],
+  "3": [
+    {
+      "name": "Academic English",
+      "tutor": "Saida Radjabzade",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New502"
+    }
+  ],
+  "4": [
+    {
+      "name": "I, Citizen",
+      "tutor": "Aziz Holmatov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB303"
+    }
+  ],
+  "5": [
+    {
+      "name": "Developing Professional Identity",
+      "tutor": "Jasur Khudoyberdiev",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "New405"
+    },
+    {
+      "name": "Academic English",
+      "tutor": "Saida Radjabzade",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New502"
+    }
+  ],
+  "6": [],
+  "7": []
+}

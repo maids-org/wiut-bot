@@ -1,0 +1,78 @@
+{
+  "0": [],
+  "1": [
+    {
+      "name": "Intermediate Microeconomics",
+      "tutor": "Javlon Juraev",
+      "type": "seminar",
+      "start": 10.0,
+      "length": 2.0,
+      "location": "ATB209"
+    },
+    {
+      "name": "Management Accounting",
+      "tutor": "Feruza Yodgorova",
+      "type": "online",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB313"
+    }
+  ],
+  "2": [
+    {
+      "name": "Banking Theory and Practice",
+      "tutor": "Iroda Azizova",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB215 CL"
+    },
+    {
+      "name": "Banking Theory and Practice",
+      "tutor": "Iroda Azizova",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB307"
+    }
+  ],
+  "3": [
+    {
+      "name": "Banking Theory and Practice",
+      "tutor": "Ram Sin",
+      "type": "online",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "IB309"
+    },
+    {
+      "name": "Intermediate Microeconomics",
+      "tutor": "Muhammed Bilal",
+      "type": "online",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    }
+  ],
+  "4": [],
+  "5": [
+    {
+      "name": "Management Accounting",
+      "tutor": "Lilya Memesheva",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "New407"
+    },
+    {
+      "name": "Management Accounting",
+      "tutor": "Lilya Memesheva",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "New408 CL"
+    }
+  ],
+  "6": [],
+  "7": []
+}
