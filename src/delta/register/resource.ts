@@ -1,5 +1,8 @@
-import { Markup } from "telegraf";
-import { InlineKeyboardMarkup } from "telegraf/typings/telegram-types";
+import { Markup, Telegraf } from "telegraf";
+import {
+  InlineKeyboardMarkup,
+  ChatMember,
+} from "telegraf/typings/telegram-types";
 import { promises } from "fs";
 import { join } from "path";
 import { TelegrafContext } from "telegraf/typings/context";
@@ -20,10 +23,18 @@ export const admins = async (ctx: TelegrafContext) =>
   await ctx.telegram.getChatAdministrators(ctx.chat.id);
 
 export const isAdmin = async (ctx: TelegrafContext) => {
-  return (await ctx.telegram.getChatAdministrators(ctx.chat.id)).some(
-    async (admin) =>
-      admin.user.id === (await ctx.telegram.getMe().then((bot) => bot.id))
-  );
+  return (await admins(ctx))
+    .map((admin) => admin.user.id)
+    .includes((await ctx.telegram.getMe()).id);
+};
+
+export const canInvite = async (ctx: TelegrafContext) => {
+  if (await isAdmin(ctx)) {
+    for (const admin of await ctx.getChatAdministrators()) {
+      if (admin.user.id !== (await ctx.telegram.getMe()).id) continue;
+      return admin.can_invite_users;
+    }
+  }
 };
 
 export const message = {

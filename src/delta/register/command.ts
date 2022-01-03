@@ -19,14 +19,8 @@ composer.command("register", async (ctx: TelegrafContext) => {
     return await ctx.replyWithHTML(resource.message.commandNoAdmin);
   }
 
-  if (await resource.isAdmin(ctx)) {
-    if (
-      !(await resource.admins(ctx))
-        .map((admin) => admin.user.id === 2144804659 && admin.can_invite_users)
-        .includes(true)
-    ) {
-      return await ctx.replyWithHTML(resource.message.commandNoInvitePerm);
-    }
+  if (!(await resource.canInvite(ctx))) {
+    return await ctx.replyWithHTML(resource.message.commandNoInvitePerm);
   }
 
   if (

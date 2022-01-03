@@ -4,7 +4,7 @@ import { Group } from "@type/dungeon";
 import Dungeon from "@src/dungeon";
 
 export const message =
-  "Navigate and choose your own group from the list below.";
+  "<b>Navigate and choose your own group from the list below.</b>";
 
 export const keyboard = async (page: number): Promise<InlineKeyboardMarkup> => {
   const dungeon = new Dungeon();
@@ -21,12 +21,15 @@ export const keyboard = async (page: number): Promise<InlineKeyboardMarkup> => {
     ]),
     [
       Markup.callbackButton(
-        data.previous.length > 0 && page !== 0 ? "⬅️ Previous" : "⬅️",
-        `group_${data.previous.length > 0 ? page - 1 : page}`
+        "⬅️ Previous",
+        `group_${page - 1}`,
+        !(data.previous.length > 0 && page > 0)
       ),
+
       Markup.callbackButton(
-        data.next.length > 0 ? "Next ➡️" : "➡️",
-        `group_${data.next.length > 0 ? page + 1 : page}`
+        "Next ➡️",
+        `group_${page + 1}`,
+        !(data.next.length > 0)
       ),
     ],
   ]);

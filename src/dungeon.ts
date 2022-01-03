@@ -41,7 +41,7 @@ export default class Dungeon {
    * @protected
    */
   protected async getData(anchor = ""): Promise<Group | Groups | any> {
-    const response = await fetch(this.url + anchor);
+    const response = await fetch(encodeURI(this.url + anchor));
     return await response.json();
   }
 
@@ -54,7 +54,7 @@ export default class Dungeon {
     anchor = "",
     object: any
   ): Promise<Group | Groups | any> {
-    const response = await fetch(this.url + anchor, {
+    const response = await fetch(encodeURI(this.url + anchor), {
       method: "post",
       body: JSON.stringify(object),
       headers: { "Content-Type": "application/json" },
@@ -154,6 +154,7 @@ export default class Dungeon {
     mod: string,
     link: string
   ): Promise<{ msg: string; groups: Group[] }> {
+    console.log("New Request", link);
     return await this.getData(`groups/new?id=${id}&module=${mod}&link=${link}`);
   }
 }
