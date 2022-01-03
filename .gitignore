@@ -108,3 +108,6 @@ dist
 .DS_Store
 **/*/.DS_Store
 */DS_Store
+
+# PM2 sessions
+ecosystem.config.js
