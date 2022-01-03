@@ -6,9 +6,11 @@ import Dungeon from "@src/dungeon";
 
 composer.action(/confirm_yes_(.+)/gi, async (ctx: TelegrafContext) => {
   const dungeon = new Dungeon();
-  const link = await ctx.exportChatInviteLink();
-  console.log("Trigger", link)
-  const request = await dungeon.newGroup(ctx.chat.id, ctx.match[1], link);
+  const request = await dungeon.newGroup(
+    ctx.chat.id,
+    ctx.match[1],
+    await ctx.exportChatInviteLink()
+  );
 
   request.msg === "OK!"
     ? await ctx.editMessageText(await resource.message.accept(true), {

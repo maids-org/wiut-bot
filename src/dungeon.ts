@@ -154,7 +154,6 @@ export default class Dungeon {
     mod: string,
     link: string
   ): Promise<{ msg: string; groups: Group[] }> {
-    console.log("New Request", link);
     return await this.getData(`groups/new?id=${id}&module=${mod}&link=${link}`);
   }
 }
