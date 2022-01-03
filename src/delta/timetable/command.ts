@@ -18,7 +18,7 @@ composer.command(`timetable`, async (ctx: TelegrafContext) => {
 
   if (!(await dungeon.getAllID()).map((id) => id.id).includes(ctx.chat.id)) {
     return await ctx.replyWithHTML(
-      "This group is not registered to our database"
+      "<b>This group is not registered to our database</b> Use /register to register this group"
     );
   }
 

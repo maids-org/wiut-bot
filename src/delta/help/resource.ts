@@ -2,24 +2,28 @@ import { Markup } from "telegraf";
 
 export const message = (isAdmin: boolean): string => {
   const base: string =
-    `<b>List of available commands:</b>` +
+    `<b>List of available commands (⚠️ is undermaintanance):</b>` +
     `\n` +
     `\n` +
     `/help - <code>show this helper message</code>` +
     `\n` +
-    `/stats - <code>check stats of user</code>` +
+    `⚠️ /stats - <code>check stats of group</code>` +
     `\n` +
     `/links - <code>show url links</code>` +
     `\n` +
-    `/intranet - <code>accessing intranet</code>` +
+    `/groups - <code>show group links</code>` +
+    `\n` +
+    `/register - <code>register this group</code>` +
+    `\n` +
+    `⚠️ /intranet - <code>accessing intranet</code>` +
     `\n` +
     `/timetable - <code>today's timetable</code>` +
     `\n` +
     `/contribute - <code>enhance me more</code>` +
     `\n` +
-    `/feedback - <code>leave a feedback to admins</code>` +
+    `⚠️ /feedback - <code>leave a feedback to admins</code>` +
     `\n` +
-    `/confession - <code>send content to the confession</code>`;
+    `⚠️ /confession - <code>send content to the confession</code>`;
   const admin: string =
     `\n` +
     `\n` +
