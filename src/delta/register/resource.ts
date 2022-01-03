@@ -1,8 +1,5 @@
-import { Markup, Telegraf } from "telegraf";
-import {
-  InlineKeyboardMarkup,
-  ChatMember,
-} from "telegraf/typings/telegram-types";
+import { Markup } from "telegraf";
+import { InlineKeyboardMarkup } from "telegraf/typings/telegram-types";
 import { promises } from "fs";
 import { join } from "path";
 import { TelegrafContext } from "telegraf/typings/context";
