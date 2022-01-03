@@ -3,6 +3,7 @@ import * as fs from "fs";
 import fetch from "node-fetch";
 import { Timetable as TT, Day } from "@type/database";
 import { Profanity } from "@2toad/profanity";
+import {transcode} from "buffer";
 
 export const Constants: { [key: string]: string } = {
   EDIT_LINK: "https://github.com/mad-maids/maid.table/",
@@ -266,18 +267,18 @@ export class Time {
 
   getTimeString(isTomorrow: boolean): string {
     switch (isTomorrow) {
-      case true:
-        return this.getTime().getDay().toString();
       case false:
+        return this.getTime().getDay().toString();
+      case true:
         return (this.getTime().getDay() + 1).toString();
     }
   }
 
   getUzbTimeString(isTomorrow): string {
     switch (isTomorrow) {
-      case true:
-        return this.getUzbTime().getDay().toString();
       case false:
+        return this.getUzbTime().getDay().toString();
+      case true:
         return (this.getUzbTime().getDay() + 1).toString();
     }
   }
@@ -370,7 +371,7 @@ export class Timetable {
 
   getTimetableEditLink(): string {
     return (
-      Constants.TIMETABLE_EDIT_LINK +
+      Constants.EDIT_LINK +
       `blob/main/data/${this._level}${this._module}/${this._level}${this._module}${this._group}.json`
     );
   }

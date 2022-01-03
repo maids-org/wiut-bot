@@ -12,7 +12,7 @@ export const message = async (
     (await dungeon.getByID(ctx.chat.id)).module
   } ⛓</b>`;
 
-  for (const subject of timetable.getDayLessons(day)) {
+  for (const subject of timetable.getDayLessons(parseInt(day))) {
     const subText =
       `\n` +
       `\n` +
@@ -27,7 +27,7 @@ export const message = async (
     text += subText;
   }
 
-  if (timetable.getDayLessons(day)[0] === undefined) {
+  if (timetable.getDayLessons(parseInt(day))[0] === undefined) {
     text +=
       `\n` +
       `\n` +
@@ -65,11 +65,11 @@ export const message = async (
 
 export const keyboard = async (timetable, day, isTomorrow) =>
   Markup.inlineKeyboard([
-    !isTomorrow ? [Markup.callbackButton(`🔁 Refresh`, `timetable`)] : null,
+    !isTomorrow ? [Markup.callbackButton(`🔁 Refresh`, `timetable`)] : [],
     !isTomorrow
       ? [Markup.callbackButton(`⌚ Tomorrow`, `tomorrow_${day}`)]
-      : null,
-    isTomorrow ? [Markup.callbackButton(`◀ Back`, `timetable`)] : null,
+      : [],
+    isTomorrow ? [Markup.callbackButton(`◀ Back`, `timetable`)] : [],
     [Markup.urlButton(`🕸 Webtable`, `${timetable.getTimetableLink()}`)],
   ]);
 
