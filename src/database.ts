@@ -3,7 +3,7 @@ import * as fs from "fs";
 import fetch from "node-fetch";
 import { Timetable as TT, Day } from "@type/database";
 import { Profanity } from "@2toad/profanity";
-import {transcode} from "buffer";
+import { transcode } from "buffer";
 
 export const Constants: { [key: string]: string } = {
   EDIT_LINK: "https://github.com/mad-maids/maid.table/",
