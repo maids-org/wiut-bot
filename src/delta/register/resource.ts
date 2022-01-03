@@ -38,7 +38,7 @@ export const canInvite = async (ctx: TelegrafContext) => {
 };
 
 export const message = {
-  commandExists: `Why you bully me? This group is already registered!`,
+  commandExists: `<b>Why you bully me? This group is already registered!</b>`,
   commandNoAdmin:
     "<b>I won't register this group until I won't get administrator permission!</b>",
   commandNoInvitePerm:
@@ -47,7 +47,7 @@ export const message = {
   commandFail: async (ctx: TelegrafContext): Promise<string> =>
     `<b>We don't register ${ctx.chat.type}s</b>`,
   actionList:
-    "<b>Now, choose your group:</b>\n\n<b>If your group is missing, probably it has already been registered by someone!</b>",
+    "<b>Now, choose your group:</b>\n\n<b>If your group is missing, probably it has already been registered by someone! Find it by /groups command</b>",
 };
 
 export const keyboard = {
