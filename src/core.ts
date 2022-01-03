@@ -45,10 +45,17 @@ export const polling = async () => {
     .catch((error: Error) => console.log(chalk.red("[ERROR]"), error));
 };
 
+export const longPolling = async () => {
+  await bot
+    .startPolling()
+    .catch((error: Error) => console.log(chalk.red("[ERROR]"), error));
+};
+
 export const launch = async () => {
   await initEnv();
-  if (env.ENVIRONMENT === "heroku") await webhook();
+  if (env.ENVIRONMENT === "production") await webhook();
   else if (env.ENVIRONMENT === "local") await polling();
+  else if (env.ENVIRONMENT === "container") await longPolling();
   else await console.log(chalk.red("[ERROR]"), "Invalid environment");
 };
 
