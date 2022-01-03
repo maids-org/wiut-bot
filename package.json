@@ -10,7 +10,8 @@
     "development": "nodemon ./dist/app.js",
     "lint": "eslint ./src --ext .ts",
     "format": "yarn format:check --write",
-    "format:check": "prettier --check \"src/**/*.ts\""
+    "format:check": "prettier --check \"src/**/*.ts\"",
+    "watch-js": "forever -c 'node --inspect=0.0.0.0:9222 --nolazy' --watchDirectory dist/ ./dist/app.js"
   },
   "keywords": [
     "nyaasi",
@@ -25,6 +26,7 @@
     "axios": "^0.21.0",
     "chalk": "^4.1.2",
     "dotenv": "^8.2.0",
+    "forever": "^4.0.1",
     "is-reachable": "^5.0.0",
     "node-cron": "^2.0.3",
     "telegraf": "^3.38.0"

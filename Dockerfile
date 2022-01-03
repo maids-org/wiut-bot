@@ -1,14 +1,34 @@
-FROM node:16
-ENV NODE_ENV=production
+FROM alfg/ffmpeg:latest as ffmpeg
+FROM ejnshtein/node-tdlib:14-1.6.0-alpine-3.12.0-1.0
 
-WORKDIR /app
+WORKDIR /usr/src/app/
 
-COPY package.json ./
+ADD . .
 
-RUN npm install --global yarn
-RUN yarn install
+# set tdlib
+RUN cp /usr/local/lib/libtdjson.so ./libtdjson.so
 
-COPY . .
+# set ffmpeg deps
+RUN apk add --update \
+  ca-certificates \
+  openssl \
+  pcre \
+  lame \
+  libogg \
+  libass \
+  libvpx \
+  libvorbis \
+  libwebp \
+  libtheora \
+  opus \
+  rtmpdump \
+  x264-dev \
+  x265-dev
 
-EXPOSE 9000
-CMD [ "node", "server.js" ]
+ENV PATH=/opt/ffmpeg/bin:$PATH
+
+RUN yarn install --network-timeout 100000
+
+RUN yarn build
+
+#CMD [ "yarn", "start" ]

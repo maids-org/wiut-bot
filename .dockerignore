@@ -1,2 +1,8 @@
 .git
-node_modules
+.gitignore
+readme.md
+license
+docker-compose.yml
+docker-compose.core.yml
+.env.sample
+**/node_modules
