@@ -27,13 +27,17 @@ composer.command(`timetable`, async (ctx: TelegrafContext) => {
   const today = time.getUzbTimeString(false);
   const tomorrow = time.getUzbTimeString(true);
 
-  await ctx.replyWithHTML(
-    await resource.message(dungeon, ctx, timetable, today, false, false),
-    {
-      disable_web_page_preview: true,
-      reply_markup: await resource.keyboard(timetable, tomorrow, false),
-    }
-  );
+  try {
+    await ctx.replyWithHTML(
+      await resource.message(dungeon, ctx, timetable, today, false, false),
+      {
+        disable_web_page_preview: true,
+        reply_markup: await resource.keyboard(timetable, tomorrow, false),
+      }
+    );
+  } catch (error) {
+    consoles.errors(error);
+  }
 });
 
 middleware(composer);

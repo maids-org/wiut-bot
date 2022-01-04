@@ -7,7 +7,7 @@ import { basename, dirname, sep } from "path";
 import chalk = require("chalk");
 
 export const errors = (error: Error): void => {
-  console.log("Error occurred while running the app: " + error);
+  console.log(chalk.red("[ERROR]"), error);
 };
 
 export const launch = (environment: string): void => {

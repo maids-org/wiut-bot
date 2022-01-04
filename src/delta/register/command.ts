@@ -7,32 +7,36 @@ import Dungeon from "@src/dungeon";
 composer.command("register", async (ctx: TelegrafContext) => {
   const dungeon = new Dungeon();
 
-  if (
-    (await dungeon.getAllID())
-      .map((content) => content.id)
-      .includes(ctx.chat.id)
-  ) {
-    return await ctx.replyWithHTML(resource.message.commandExists);
-  }
+  try {
+    if (
+      (await dungeon.getAllID())
+        .map((content) => content.id)
+        .includes(ctx.chat.id)
+    ) {
+      return await ctx.replyWithHTML(resource.message.commandExists);
+    }
 
-  if (!(await resource.isAdmin(ctx))) {
-    return await ctx.replyWithHTML(resource.message.commandNoAdmin);
-  }
+    if (!(await resource.isAdmin(ctx))) {
+      return await ctx.replyWithHTML(resource.message.commandNoAdmin);
+    }
 
-  if (!(await resource.canInvite(ctx))) {
-    return await ctx.replyWithHTML(resource.message.commandNoInvitePerm);
-  }
+    if (!(await resource.canInvite(ctx))) {
+      return await ctx.replyWithHTML(resource.message.commandNoInvitePerm);
+    }
 
-  if (
-    ctx.chat.type === "group" ||
-    ctx.chat.type === "supergroup" ||
-    ctx.chat.type === "private"
-  ) {
-    await ctx.replyWithHTML(resource.message.commandSuccess, {
-      reply_markup: await resource.keyboard.command(),
-    });
-  } else {
-    await ctx.replyWithHTML(await resource.message.commandFail(ctx));
+    if (
+      ctx.chat.type === "group" ||
+      ctx.chat.type === "supergroup" ||
+      ctx.chat.type === "private"
+    ) {
+      await ctx.replyWithHTML(resource.message.commandSuccess, {
+        reply_markup: await resource.keyboard.command(),
+      });
+    } else {
+      await ctx.replyWithHTML(await resource.message.commandFail(ctx));
+    }
+  } catch (error) {
+    consoles.errors(error);
   }
 });
 
