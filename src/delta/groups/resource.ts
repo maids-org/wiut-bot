@@ -29,7 +29,7 @@ export const keyboard = async (page: number): Promise<InlineKeyboardMarkup> => {
       Markup.callbackButton(
         "Next ➡️",
         `group_${page + 1}`,
-        !(data.next.length > 0)
+        !(data.current.length === 10)
       ),
     ],
   ]);
