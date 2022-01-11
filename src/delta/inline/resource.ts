@@ -32,7 +32,7 @@ export const message = {
     `you can search for Stackoverflow topics without opening ` +
     `website or trying to Google it!` +
     `\n` +
-    `Simply, type: <code>@xeonittebot &lt;your question here&gt;</code>` +
+    `Simply, type: <code>@westmaid_bot &lt;your question here&gt;</code>` +
     `\n`,
 };
 
