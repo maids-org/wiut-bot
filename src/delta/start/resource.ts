@@ -27,3 +27,10 @@ export const message =
 export const keyboard = Markup.inlineKeyboard([
   [Markup.callbackButton("Show more information", "help")],
 ]);
+
+export const payload = `<b>Shall we continue our exploration here?</b>`;
+
+export const inline = (search: string) =>
+  Markup.inlineKeyboard([
+    [Markup.switchToCurrentChatButton(`Restore inline window`, search)],
+  ]);
