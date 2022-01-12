@@ -1,85 +1,9 @@
 {
   "0": [],
-  "1": [
-    {
-      "name": "Fixed Income Securities",
-      "tutor": "Saidgozi Saydumarov",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "ATB310 A"
-    },
-    {
-      "name": "Fixed Income Securities",
-      "tutor": "Saidgozi Saydumarov",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "LRC13 Library Multimedia"
-    }
-  ],
-  "2": [
-    {
-      "name": "Financial Reporting",
-      "tutor": "Ravshan Kakharov",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "ATB314"
-    },
-    {
-      "name": "Financial Reporting",
-      "tutor": "Ravshan Kakharov",
-      "type": "workshop",
-      "start": 15.0,
-      "length": 1.0,
-      "location": "ATB314"
-    }
-  ],
-  "3": [
-    {
-      "name": "Financial Reporting",
-      "tutor": "Ravshan Kakharov",
-      "type": "online",
-      "start": 13.0,
-      "length": 1.0,
-      "location": "Harvard306"
-    },
-    {
-      "name": "Fixed Income Securities",
-      "tutor": "Saidgozi Saydumarov",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 1.0,
-      "location": "New206 H"
-    },
-    {
-      "name": "Investment and Risk Management",
-      "tutor": "Hamid Waqas",
-      "type": "online",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "Harvard306"
-    }
-  ],
-  "4": [
-    {
-      "name": "Investment and Risk Management",
-      "tutor": "Surrayo Shaamirova",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "ATB212 CL"
-    },
-    {
-      "name": "Investment and Risk Management",
-      "tutor": "Surrayo Shaamirova",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "ATB212 CL"
-    }
-  ],
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
   "5": [],
   "6": [],
   "7": []

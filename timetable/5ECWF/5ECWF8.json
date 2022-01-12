@@ -1,103 +1,10 @@
 {
   "0": [],
-  "1": [
-    {
-      "name": "Mathematics for Economists",
-      "tutor": "Farrukh Ataev",
-      "type": "online",
-      "start": 10.0,
-      "length": 2.0,
-      "location": "Harvard306"
-    },
-    {
-      "name": "Intermediate Microeconomics",
-      "tutor": "Javlon Juraev",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "ATB304"
-    },
-    {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Gulomjon Kosimjonov",
-      "type": "online",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "New206 H"
-    }
-  ],
-  "2": [
-    {
-      "name": "Development Economics",
-      "tutor": "Rashid Javed",
-      "type": "seminar",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "IB307"
-    },
-    {
-      "name": "Mathematics for Economists",
-      "tutor": "Ulugbek Rakhimov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB214 CL"
-    }
-  ],
-  "3": [
-    {
-      "name": "Banking Theory and Practice",
-      "tutor": "Ram Sin",
-      "type": "online",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "IB309"
-    },
-    {
-      "name": "Intermediate Microeconomics",
-      "tutor": "Muhammed Bilal",
-      "type": "online",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "New303 CL"
-    },
-    {
-      "name": "Development Economics",
-      "tutor": "Rashid Javed",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB301"
-    }
-  ],
-  "4": [
-    {
-      "name": "Banking Theory and Practice",
-      "tutor": "Ram Sin",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "ATB311"
-    },
-    {
-      "name": "Banking Theory and Practice",
-      "tutor": "Ram Sin",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "ATB311"
-    }
-  ],
-  "5": [
-    {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Gayrat Suyunov",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "ATB314"
-    }
-  ],
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
   "6": [],
   "7": []
 }

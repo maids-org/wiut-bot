@@ -1,85 +1,9 @@
 {
   "0": [],
-  "1": [
-    {
-      "name": "International Sales Law",
-      "tutor": "Kholida Sabirova",
-      "type": "lecture",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "New206 H"
-    },
-    {
-      "name": "Dissertation in Law",
-      "tutor": "Tamilla Tagieva",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 1.0,
-      "location": "IB316"
-    },
-    {
-      "name": "International Investment Law",
-      "tutor": "Akbar Ismanjanov",
-      "type": "lecture",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB309"
-    }
-  ],
-  "2": [
-    {
-      "name": "Public International Law",
-      "tutor": "Dildora Karimova",
-      "type": "lecture",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB316"
-    },
-    {
-      "name": "International Economic Law",
-      "tutor": "Khasan Sayfuddinov",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB309"
-    }
-  ],
-  "3": [
-    {
-      "name": "International Sales Law",
-      "tutor": "Kholida Sabirova",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB302"
-    },
-    {
-      "name": "International Investment Law",
-      "tutor": "Timur Abdulazizov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB308"
-    }
-  ],
-  "4": [
-    {
-      "name": "International Economic Law",
-      "tutor": "Khasan Sayfuddinov",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB308"
-    },
-    {
-      "name": "Public International Law",
-      "tutor": "Dildora Karimova",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB216"
-    }
-  ],
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
   "5": [],
   "6": [],
   "7": []

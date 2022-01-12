@@ -1,78 +1,10 @@
 {
   "0": [],
-  "1": [
-    {
-      "name": "Brand Journalism and Content Strategy",
-      "tutor": "Sanemkhan Nurillaeva",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "ATB314"
-    },
-    {
-      "name": "Brand Journalism and Content Strategy",
-      "tutor": "Sanemkhan Nurillaeva",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "ATB314"
-    }
-  ],
-  "2": [
-    {
-      "name": "Marketing Management",
-      "tutor": "Dildara Gapparova",
-      "type": "online",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "Harvard306"
-    },
-    {
-      "name": "Quality and Operations Management",
-      "tutor": "Sitora Inoyatova",
-      "type": "online",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "IB301"
-    }
-  ],
-  "3": [
-    {
-      "name": "Quality and Operations Management",
-      "tutor": "Shakhnoza Asadova",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "IB302"
-    },
-    {
-      "name": "Marketing Management",
-      "tutor": "Zamira Ataniyazova",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB302"
-    },
-    {
-      "name": "Marketing Management",
-      "tutor": "Zamira Ataniyazova",
-      "type": "workshop",
-      "start": 16.0,
-      "length": 1.0,
-      "location": "ATB302"
-    }
-  ],
+  "1": [],
+  "2": [],
+  "3": [],
   "4": [],
-  "5": [
-    {
-      "name": "Brand Journalism and Content Strategy",
-      "tutor": "Sanemkhan Nurillaeva",
-      "type": "online",
-      "start": 13.0,
-      "length": 1.0,
-      "location": "Harvard306"
-    }
-  ],
+  "5": [],
   "6": [],
   "7": []
 }
