@@ -1,11 +1,9 @@
-import { composer, middleware } from "@src/core";
+import { composer, middleware, dungeon } from "@src/core";
 import * as consoles from "@src/utils";
 import * as resource from "./resource";
 import { TelegrafContext } from "telegraf/typings/context";
-import Dungeon from "@src/dungeon";
 
 composer.action(/register_(.+)/gi, async (ctx: TelegrafContext) => {
-  const dungeon = new Dungeon();
   const registrar = await dungeon.getAllModule();
   const serialize = (await resource.available(ctx.match[1])).filter(
     (group) => !registrar.map((data) => data.module).includes(group)

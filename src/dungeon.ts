@@ -3,12 +3,6 @@ import { Group, Groups, AllModule, AllId } from "@type/dungeon";
 
 export default class Dungeon {
   /**
-   * URL of the Dungeon Server.
-   * @protected
-   */
-  protected url?: string | null = null;
-
-  /**
    * List of all hosted servers.
    * @protected
    */
@@ -16,6 +10,12 @@ export default class Dungeon {
     "https://maid-dungeon.vercel.app/",
     "https://dungeon.maid.uz/",
   ];
+
+  /**
+   * URL of the Dungeon Server.
+   * @protected
+   */
+  protected url?: string | null = this.servers[0];
 
   constructor() {
     /**
@@ -28,7 +28,7 @@ export default class Dungeon {
     //     }
     //   });
     // }
-    this.url = this.servers[0];
+    // this.url = this.servers[0];
 
     if (this.url === null) {
       throw new Error("No active server found.");

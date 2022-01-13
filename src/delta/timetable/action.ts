@@ -1,12 +1,10 @@
-import { composer, middleware } from "@src/core";
+import { composer, middleware, dungeon } from "@src/core";
 import * as consoles from "@src/utils";
 import { TelegrafContext } from "telegraf/typings/context";
-import Dungeon from "@src/dungeon";
 import { Timetable, Time } from "@src/database";
 import * as resource from "./resource";
 
 composer.action(`timetable`, async (ctx: TelegrafContext) => {
-  const dungeon = new Dungeon();
   const time = new Time();
   const timetable = new Timetable((await dungeon.getByID(ctx.chat.id)).module);
   const today = time.getUzbTimeString(false);
@@ -23,7 +21,6 @@ composer.action(`timetable`, async (ctx: TelegrafContext) => {
 });
 
 composer.action(/tomorrow_(.+)/gi, async (ctx: TelegrafContext) => {
-  const dungeon = new Dungeon();
   const timetable = new Timetable((await dungeon.getByID(ctx.chat.id)).module);
   const tomorrow = parseInt(ctx.match[1]);
 

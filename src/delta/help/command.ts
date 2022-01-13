@@ -9,15 +9,19 @@ composer.help(async (ctx: TelegrafContext) => {
 
   try {
     if (database.admin) {
-      await ctx.replyWithHTML(resource.message(true), {
-        parse_mode: "HTML",
-        reply_markup: resource.keyboard,
-      }).catch(null);
+      await ctx
+        .replyWithHTML(resource.message(true), {
+          parse_mode: "HTML",
+          reply_markup: resource.keyboard,
+        })
+        .catch(null);
     } else {
-      await ctx.replyWithHTML(resource.message(false), {
-        parse_mode: "HTML",
-        reply_markup: resource.keyboard,
-      }).catch(null);
+      await ctx
+        .replyWithHTML(resource.message(false), {
+          parse_mode: "HTML",
+          reply_markup: resource.keyboard,
+        })
+        .catch(null);
     }
   } catch (error) {
     consoles.errors(error);

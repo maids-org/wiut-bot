@@ -1,14 +1,12 @@
 import { Markup } from "telegraf";
+import { dungeon } from "@src/core";
 import { InlineKeyboardMarkup } from "telegraf/typings/telegram-types";
 import { Group } from "@type/dungeon";
-import Dungeon from "@src/dungeon";
 
 export const message =
   "<b>Navigate and choose your own group from the list below.</b>";
 
 export const keyboard = async (page: number): Promise<InlineKeyboardMarkup> => {
-  const dungeon = new Dungeon();
-
   const data = {
     previous: await dungeon.getAllByCursor(page - 1),
     current: await dungeon.getAllByCursor(page),

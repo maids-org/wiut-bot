@@ -1,12 +1,9 @@
-import { composer, middleware } from "@src/core";
+import { composer, middleware, dungeon } from "@src/core";
 import * as consoles from "@src/utils";
 import * as resource from "./resource";
 import { TelegrafContext } from "telegraf/typings/context";
-import Dungeon from "@src/dungeon";
 
 composer.command("register", async (ctx: TelegrafContext) => {
-  const dungeon = new Dungeon();
-
   try {
     if (ctx.chat.type === "private" || ctx.chat.type === "channel") {
       return await ctx.replyWithHTML(resource.message.noPrivate);

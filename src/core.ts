@@ -3,9 +3,11 @@ import { User } from "telegram-typings";
 import { TelegrafContext } from "telegraf/typings/context";
 import { Telegraf, session, Composer, Stage } from "telegraf";
 import { SceneContextMessageUpdate } from "telegraf/typings/stage";
+import Dungeon from "@src/dungeon";
 import chalk = require("chalk");
 
 export const env = process.env;
+export const dungeon = new Dungeon();
 export const bot = new Telegraf<TelegrafContext>(env.TOKEN);
 export const composer = new Composer<TelegrafContext>();
 

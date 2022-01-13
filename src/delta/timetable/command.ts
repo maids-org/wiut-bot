@@ -1,7 +1,6 @@
-import { composer, middleware } from "@src/core";
+import { composer, middleware, dungeon } from "@src/core";
 import * as consoles from "@src/utils";
 import { TelegrafContext } from "telegraf/typings/context";
-import Dungeon from "@src/dungeon";
 import { Timetable, Time } from "@src/database";
 import * as resource from "./resource";
 
@@ -13,8 +12,6 @@ composer.command(`timetable`, async (ctx: TelegrafContext) => {
         `Please, run this command on your group chat, and then I can help you! Kiss 😘</b>`
     );
   }
-
-  const dungeon = new Dungeon();
 
   if (!(await dungeon.getAllID()).map((id) => id.id).includes(ctx.chat.id)) {
     return await ctx.replyWithHTML(

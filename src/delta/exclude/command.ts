@@ -7,10 +7,12 @@ composer.on("text", async (ctx: TelegrafContext) => {
   try {
     if (ctx.chat.type === "private")
       if (!ctx.message.via_bot)
-        await ctx.replyWithHTML(resource.message, {
-          parse_mode: "HTML",
-          reply_markup: resource.keyboard,
-        }).catch(null);
+        await ctx
+          .replyWithHTML(resource.message, {
+            parse_mode: "HTML",
+            reply_markup: resource.keyboard,
+          })
+          .catch(null);
   } catch (error) {
     consoles.errors(error);
   }

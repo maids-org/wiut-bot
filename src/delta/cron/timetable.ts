@@ -1,13 +1,11 @@
 import cron from "node-cron";
-import { composer, middleware, bot } from "@src/core";
+import { composer, middleware, bot, dungeon } from "@src/core";
 import * as consoles from "@src/utils";
-import Dungeon from "@src/dungeon";
 import { Timetable } from "@src/database";
 import * as resource from "./resource";
 
 // Timetable CRON
 (async () => {
-  const dungeon = new Dungeon();
   for (const group of (await dungeon.getAllModule()).map((m) => m.module)) {
     const timetable = new Timetable(group);
     for (const day of Object.keys(timetable.getAllLessons())) {

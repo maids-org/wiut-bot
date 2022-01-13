@@ -1,11 +1,9 @@
-import { composer, middleware } from "@src/core";
+import { composer, middleware, dungeon } from "@src/core";
 import { TelegrafContext } from "telegraf/typings/context";
 import * as consoles from "@src/utils";
 import * as resource from "./resource";
-import Dungeon from "@src/dungeon";
 
 composer.action(/confirm_yes_(.+)/gi, async (ctx: TelegrafContext) => {
-  const dungeon = new Dungeon();
   const request = await dungeon.newGroup(
     ctx.chat.id,
     ctx.match[1],
