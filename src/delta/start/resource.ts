@@ -1,7 +1,7 @@
 import { Markup } from "telegraf";
 
 export const message =
-  `<b>Welcome to BIS Groups 😏!</b>` +
+  `<b>Welcome to Mad Maid's Westmaid Chan 😏!</b>` +
   `\n` +
   `\n` +
   `Hi Sugar!) I'm West Maid that helps you to keep tracking upcoming lessons, guides and gives you more information about BIS ╰(*°▽°*)╯.` +

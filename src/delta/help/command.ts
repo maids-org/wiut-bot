@@ -12,12 +12,12 @@ composer.help(async (ctx: TelegrafContext) => {
       await ctx.replyWithHTML(resource.message(true), {
         parse_mode: "HTML",
         reply_markup: resource.keyboard,
-      });
+      }).catch(null);
     } else {
       await ctx.replyWithHTML(resource.message(false), {
         parse_mode: "HTML",
         reply_markup: resource.keyboard,
-      });
+      }).catch(null);
     }
   } catch (error) {
     consoles.errors(error);

@@ -8,7 +8,7 @@ composer.command(`groups`, async (ctx: TelegrafContext) => {
     await ctx.replyWithHTML(resource.message, {
       parse_mode: "HTML",
       reply_markup: await resource.keyboard(0),
-    });
+    }).catch(null);
   } catch (error) {
     consoles.errors(error);
   }

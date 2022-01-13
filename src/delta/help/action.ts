@@ -10,12 +10,12 @@ composer.action(`help`, async (ctx: TelegrafContext) => {
     await ctx.editMessageText(resource.message(true), {
       parse_mode: "HTML",
       reply_markup: resource.keyboard,
-    });
+    }).catch(null);
   else
     await ctx.editMessageText(resource.message(false), {
       parse_mode: "HTML",
       reply_markup: resource.keyboard,
-    });
+    }).catch(null);
 });
 
 middleware(composer);

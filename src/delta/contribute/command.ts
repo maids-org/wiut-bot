@@ -8,7 +8,7 @@ composer.command(`contribute`, async (ctx: TelegrafContext) => {
     await ctx.replyWithHTML(resource.message, {
       parse_mode: "HTML",
       reply_markup: resource.keyboard,
-    });
+    }).catch(null);
   } catch (error) {
     consoles.errors(error);
   }
