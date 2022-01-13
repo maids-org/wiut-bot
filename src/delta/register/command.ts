@@ -8,6 +8,10 @@ composer.command("register", async (ctx: TelegrafContext) => {
   const dungeon = new Dungeon();
 
   try {
+    if (ctx.chat.type === "private" || ctx.chat.type === "channel") {
+      return await ctx.replyWithHTML(resource.message.noPrivate);
+    }
+
     if (
       (await dungeon.getAllID())
         .map((content) => content.id)

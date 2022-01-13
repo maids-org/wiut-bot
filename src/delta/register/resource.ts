@@ -35,6 +35,7 @@ export const canInvite = async (ctx: TelegrafContext) => {
 };
 
 export const message = {
+  noPrivate: `<b>Command can't be called on private chat or channels</b>`,
   commandExists: `<b>Why you bully me? This group is already registered!</b>`,
   commandNoAdmin:
     "<b>I won't register this group until I won't get administrator permission!</b>",
