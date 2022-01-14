@@ -1,10 +1,87 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Developing Professional Identity",
+      "tutor": "Khikmatillo Urazboev",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "New405"
+    },
+    {
+      "name": "Business in the Modern World",
+      "tutor": "Unknown",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB313"
+    }
+  ],
+  "2": [
+    {
+      "name": "Understanding Finance",
+      "tutor": "Temur Makhkamov",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "Lyceum hall"
+    },
+    {
+      "name": "Business in the Modern World",
+      "tutor": "Unknown",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "Lyceum hall"
+    },
+    {
+      "name": "Academic English",
+      "tutor": "Gunjan Jain",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "New503"
+    }
+  ],
+  "3": [
+    {
+      "name": "I, Citizen",
+      "tutor": "Andrey Khojeev",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New407"
+    }
+  ],
+  "4": [
+    {
+      "name": "Understanding Finance",
+      "tutor": "Ozoda Niyazkhodjaeva",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB306"
+    },
+    {
+      "name": "Understanding Finance",
+      "tutor": "Ozoda Niyazkhodjaeva",
+      "type": "workshop",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "IB306"
+    }
+  ],
+  "5": [
+    {
+      "name": "Academic English",
+      "tutor": "Gunjan Jain",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "New404"
+    }
+  ],
   "6": [],
   "7": []
 }

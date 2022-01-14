@@ -1,10 +1,111 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Intermediate Macroeconomics",
+      "tutor": "Javlon Juraev",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB311"
+    },
+    {
+      "name": "Behavioural Economics",
+      "tutor": "Bilol Buzrukov",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "International Economics",
+      "tutor": "Akhliddin Malikov",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB218"
+    }
+  ],
+  "2": [
+    {
+      "name": "Health Economics",
+      "tutor": "Rui Dang",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB304"
+    },
+    {
+      "name": "Intermediate Macroeconomics",
+      "tutor": "Muhammed Bilal",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB314"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Behzod Alimov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB209 CL"
+    }
+  ],
+  "3": [
+    {
+      "name": "Principles and Practices of Taxation",
+      "tutor": "Otabek Fazilov",
+      "type": "lecture",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "New206 H"
+    },
+    {
+      "name": "Behavioural Economics",
+      "tutor": "Murodullo Bazarov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB311"
+    }
+  ],
+  "4": [
+    {
+      "name": "Principles and Practices of Taxation",
+      "tutor": "Ravshan Kakharov",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "Principles and Practices of Taxation",
+      "tutor": "Ravshan Kakharov",
+      "type": "workshop",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "International Economics",
+      "tutor": "Ahmed Junaid",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB307"
+    }
+  ],
+  "5": [
+    {
+      "name": "Health Economics",
+      "tutor": "Rui Dang",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "ATB312"
+    }
+  ],
   "6": [],
   "7": []
 }

@@ -1,10 +1,87 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Understanding Finance",
+      "tutor": "Temur Makhkamov",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "Lyceum hall"
+    },
+    {
+      "name": "Academic English",
+      "tutor": "Temur Saidnazarov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New207"
+    }
+  ],
+  "2": [
+    {
+      "name": "Business in the Modern World",
+      "tutor": "Unknown",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "Lyceum hall"
+    },
+    {
+      "name": "Understanding Finance",
+      "tutor": "Kamolakhon Alikulova",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB301"
+    },
+    {
+      "name": "Understanding Finance",
+      "tutor": "Kamolakhon Alikulova",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB301"
+    }
+  ],
+  "3": [
+    {
+      "name": "Developing Professional Identity",
+      "tutor": "Ijobat Juraeva",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB218"
+    }
+  ],
+  "4": [
+    {
+      "name": "Business in the Modern World",
+      "tutor": "Unknown",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "Lyceum 96"
+    },
+    {
+      "name": "Academic English",
+      "tutor": "Temur Saidnazarov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New301"
+    }
+  ],
+  "5": [
+    {
+      "name": "I, Citizen",
+      "tutor": "Alisher Kosimov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "New406"
+    }
+  ],
   "6": [],
   "7": []
 }

@@ -1,10 +1,103 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Tourism and Its Dynamics",
+      "tutor": "Erdogan Ekiz",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Financial Accounting",
+      "tutor": "Lilya Memesheva",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "IB316"
+    },
+    {
+      "name": "Corporate Finance",
+      "tutor": "Murodullo Bazarov",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "Lyceum hall"
+    }
+  ],
+  "2": [
+    {
+      "name": "Exploring Economics",
+      "tutor": "Zohid Askarov",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Exploring Economics",
+      "tutor": "Khilola Dushamova",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB209"
+    }
+  ],
+  "3": [
+    {
+      "name": "Financial Accounting",
+      "tutor": "Lilya Memesheva",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB309"
+    },
+    {
+      "name": "Financial Accounting",
+      "tutor": "Lilya Memesheva",
+      "type": "workshop",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "IB209 CL"
+    }
+  ],
+  "4": [
+    {
+      "name": "Corporate Finance",
+      "tutor": "Murodullo Bazarov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB207"
+    }
+  ],
+  "5": [
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Farrukh Ataev",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
+    },
+    {
+      "name": "Tourism and Its Dynamics",
+      "tutor": "Unknown",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB316"
+    },
+    {
+      "name": "Tourism and Its Dynamics",
+      "tutor": "Erdogan Ekiz",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB212 CL"
+    }
+  ],
   "6": [],
   "7": []
 }

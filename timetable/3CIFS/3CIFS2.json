@@ -1,10 +1,87 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Understanding Finance",
+      "tutor": "Temur Makhkamov",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "Lyceum hall"
+    },
+    {
+      "name": "Foundations of Economics",
+      "tutor": "Jamshid Normatov",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB301"
+    }
+  ],
+  "2": [
+    {
+      "name": "Academic English",
+      "tutor": "Israil Kurbanniyazov",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New407"
+    },
+    {
+      "name": "I, Citizen",
+      "tutor": "Lobar Babakhodjaeva",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "New406"
+    }
+  ],
+  "3": [
+    {
+      "name": "Understanding Finance",
+      "tutor": "Feruza Yodgorova",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB310"
+    },
+    {
+      "name": "Understanding Finance",
+      "tutor": "Feruza Yodgorova",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB310"
+    }
+  ],
+  "4": [
+    {
+      "name": "Academic English",
+      "tutor": "Israil Kurbanniyazov",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB307"
+    }
+  ],
+  "5": [
+    {
+      "name": "Foundations of Economics",
+      "tutor": "Khilola Dushamova",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB304"
+    },
+    {
+      "name": "Developing Professional Identity",
+      "tutor": "Rano Nurmanova",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New405"
+    }
+  ],
   "6": [],
   "7": []
 }

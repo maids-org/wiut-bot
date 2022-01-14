@@ -1,10 +1,71 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Alisher Ismailov",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Unknown",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB209"
+    }
+  ],
+  "2": [
+    {
+      "name": "Principles of Marketing",
+      "tutor": "Prabha Kiran",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "Lyceum Library"
+    },
+    {
+      "name": "Industrial Organisation",
+      "tutor": "Deniz Guvercin",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB311"
+    }
+  ],
+  "3": [
+    {
+      "name": "Industrial Organisation",
+      "tutor": "Deniz Guvercin",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB301"
+    }
+  ],
+  "4": [
+    {
+      "name": "Principles of Marketing",
+      "tutor": "Unknown",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB302"
+    }
+  ],
+  "5": [
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Gayrat Suyunov",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
+    }
+  ],
   "6": [],
   "7": []
 }

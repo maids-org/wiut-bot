@@ -1,9 +1,85 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
+  "1": [
+    {
+      "name": "Islamic Finance",
+      "tutor": "Surayyo Shaamirova",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "New408 CL"
+    },
+    {
+      "name": "Islamic Finance",
+      "tutor": "Surayyo Shaamirova",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "New408 CL"
+    },
+    {
+      "name": "Financial Management",
+      "tutor": "Hamid Waqas",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Islamic Finance",
+      "tutor": "Abdul Aziz Buriev",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "IB302"
+    }
+  ],
+  "2": [
+    {
+      "name": "Securities Analysis",
+      "tutor": "Sherzod Safarov",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB311"
+    }
+  ],
+  "3": [
+    {
+      "name": "Securities Analysis",
+      "tutor": "Qobiljon Yunusov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB208 CL"
+    },
+    {
+      "name": "Securities Analysis",
+      "tutor": "Qobiljon Yunusov",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB208 CL"
+    }
+  ],
+  "4": [
+    {
+      "name": "Financial Management",
+      "tutor": "Sherzod Safarov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB310 A"
+    },
+    {
+      "name": "Financial Management",
+      "tutor": "Sherzod Safarov",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB310 A"
+    }
+  ],
   "5": [],
   "6": [],
   "7": []

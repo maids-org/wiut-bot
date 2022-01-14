@@ -1,10 +1,111 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Civil Law",
+      "tutor": "Tamilla Tagieva",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Property Law",
+      "tutor": "Khusniddin Abdufattokhov",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB313"
+    },
+    {
+      "name": "Islamic Finance",
+      "tutor": "Abdul Aziz Buriev",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "IB302"
+    }
+  ],
+  "2": [
+    {
+      "name": "Property Law",
+      "tutor": "Akbar Ismanjanov",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB316"
+    }
+  ],
+  "3": [
+    {
+      "name": "EU Trade Relations",
+      "tutor": "Akbar Ismanjanov",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB309"
+    },
+    {
+      "name": "Intellectual Property Law",
+      "tutor": "Timur Abdulazizov",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB308"
+    },
+    {
+      "name": "Civil Law",
+      "tutor": "Davron Abdigapparov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB313"
+    }
+  ],
+  "4": [
+    {
+      "name": "Entertainment and Sports Law",
+      "tutor": "Firdavs Kabilov",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Intellectual Property Law",
+      "tutor": "Timur Abdulazizov",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB316"
+    }
+  ],
+  "5": [
+    {
+      "name": "EU Trade Relations",
+      "tutor": "Timur Kulumbetov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB302"
+    },
+    {
+      "name": "Entertainment and Sports Law",
+      "tutor": "Firdavs Kabilov",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB316"
+    },
+    {
+      "name": "Islamic Finance",
+      "tutor": "Surayyo Shaamirova",
+      "type": "workshop",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "New302"
+    }
+  ],
   "6": [],
   "7": []
 }

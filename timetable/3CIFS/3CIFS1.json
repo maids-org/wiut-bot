@@ -2,68 +2,84 @@
   "0": [],
   "1": [
     {
-      "name": "Quantitative Methods",
+      "name": "Understanding Finance",
       "tutor": "Temur Makhkamov",
-      "type": "online",
+      "type": "lecture",
       "start": 9.0,
       "length": 1.0,
-      "location": "IB311"
+      "location": "Lyceum hall"
+    },
+    {
+      "name": "Business in the Modern World",
+      "tutor": "Unknown",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "Lyceum hall"
     },
     {
       "name": "Academic English",
-      "tutor": "Umida Abdurakhimova",
+      "tutor": "Rozaliya Ziryanova",
       "type": "seminar",
       "start": 13.0,
       "length": 2.0,
-      "location": "New503"
+      "location": "New406"
     }
   ],
   "2": [
     {
-      "name": "Quantitative Methods",
-      "tutor": "Abdul Aziz Buriev",
+      "name": "Understanding Finance",
+      "tutor": "Feruza Yodgorova",
       "type": "seminar",
-      "start": 9.0,
+      "start": 15.0,
       "length": 2.0,
-      "location": "IB302"
+      "location": "IB310"
     },
     {
-      "name": "Quantitative Methods",
-      "tutor": "Abdul Aziz Buriev",
+      "name": "Understanding Finance",
+      "tutor": "Feruza Yodgorova",
       "type": "workshop",
-      "start": 11.0,
+      "start": 17.0,
       "length": 1.0,
-      "location": "IB302"
+      "location": "IB310"
     }
   ],
   "3": [
     {
-      "name": "Developing Professional Identity",
-      "tutor": "Kiriaki Kanakidi",
+      "name": "Business in the Modern World",
+      "tutor": "Nigora Saidmuradova",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB309"
+    },
+    {
+      "name": "I, Citizen",
+      "tutor": "Aziza Khakimova",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "New404"
+      "location": "IB306"
     }
   ],
   "4": [
     {
-      "name": "I, Citizen",
-      "tutor": "Andrey Khojeev",
+      "name": "Academic English",
+      "tutor": "Rozaliya Ziryanova",
       "type": "seminar",
-      "start": 9.0,
+      "start": 13.0,
       "length": 2.0,
-      "location": "New502"
+      "location": "New405"
     }
   ],
   "5": [
     {
-      "name": "Academic English",
-      "tutor": "Umida Abdurakhimova",
+      "name": "Developing Professional Identity",
+      "tutor": "Jasur Khudoyberdiev",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "New503"
+      "location": "New207"
     }
   ],
   "6": [],

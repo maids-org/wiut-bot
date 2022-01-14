@@ -2,70 +2,111 @@
   "0": [],
   "1": [
     {
-      "name": "Strategy in a Complex World",
-      "tutor": "Julian Pinerez",
-      "type": "online",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "ATB304"
+      "name": "Marketing Strategy",
+      "tutor": "Atya Zeb",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB312"
     },
     {
-      "name": "Digital Marketing",
-      "tutor": "Prabha Kiran",
-      "type": "online",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "New303 CL"
+      "name": "Financial Management",
+      "tutor": "Hamid Waqas",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Financial Management",
+      "tutor": "Nargiza Khuramova",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "IB316"
+    },
+    {
+      "name": "Managing Innovation and Entrepreneurship",
+      "tutor": "Ahmed Waqas",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "ATB314"
+    },
+    {
+      "name": "Financial Management",
+      "tutor": "Nargiza Khuramova",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB209 CL"
     }
   ],
   "2": [
     {
-      "name": "Project Management",
-      "tutor": "Shoira Mirzakhidova",
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Sales Management",
+      "tutor": "Anil Kumar",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB314"
+    },
+    {
+      "name": "Marketing Strategy",
+      "tutor": "Atya Zeb",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB314"
+    }
+  ],
+  "3": [
+    {
+      "name": "Managing Innovation and Entrepreneurship",
+      "tutor": "Ahmed Waqas",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "ATB303"
+      "location": "ATB209"
     },
     {
-      "name": "Project Management",
-      "tutor": "Iroda Komilova",
-      "type": "online",
-      "start": 12.0,
+      "name": "Managing Innovation and Entrepreneurship",
+      "tutor": "Ahmed Waqas",
+      "type": "workshop",
+      "start": 11.0,
       "length": 1.0,
-      "location": "Harvard306"
+      "location": "ATB209"
     },
     {
-      "name": "Brand Journalism and Content Strategy",
-      "tutor": "Angelo Battaglia",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "ATB310 A"
-    },
-    {
-      "name": "Brand Journalism and Content Strategy",
-      "tutor": "Angelo Battaglia",
-      "type": "online",
-      "start": 17.0,
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 13.0,
       "length": 1.0,
-      "location": "ATB310 A"
+      "location": "IB301"
     }
   ],
-  "3": [],
   "4": [
     {
-      "name": "Project Management",
-      "tutor": "Shoira Mirzakhidova",
-      "type": "workshop",
-      "start": 15.0,
-      "length": 1.0,
-      "location": "ATB311"
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB309"
     },
     {
-      "name": "New Venture Creation",
-      "tutor": "Alisher Ismailov",
-      "type": "lecture",
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "Harvard306"
@@ -73,28 +114,28 @@
   ],
   "5": [
     {
-      "name": "Digital Marketing",
-      "tutor": "Anil Kumar",
+      "name": "New Venture Creation",
+      "tutor": "Elnora Mirzalieva",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "ATB214 CL"
+      "location": "ATB310"
     },
     {
-      "name": "Strategy in a Complex World",
-      "tutor": "Ahmed Waqas",
+      "name": "Sales Management",
+      "tutor": "Anil Kumar",
       "type": "seminar",
       "start": 11.0,
-      "length": 2.0,
-      "location": "ATB218"
+      "length": 1.0,
+      "location": "New502"
     },
     {
-      "name": "Brand Journalism and Content Strategy",
-      "tutor": "Sanemkhan Nurillaeva",
-      "type": "online",
-      "start": 13.0,
+      "name": "Sales Management",
+      "tutor": "Anil Kumar",
+      "type": "workshop",
+      "start": 12.0,
       "length": 1.0,
-      "location": "Harvard306"
+      "location": "New502"
     }
   ],
   "6": [],

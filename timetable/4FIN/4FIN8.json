@@ -1,0 +1,95 @@
+{
+  "0": [],
+  "1": [
+    {
+      "name": "Financial Mathematics and Principles",
+      "tutor": "Rustam Suleymanov",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Introduction to Banking and Financial Markets",
+      "tutor": "Hasan AKM Kamrul",
+      "type": "lecture",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB301"
+    }
+  ],
+  "2": [
+    {
+      "name": "Introduction to Banking and Financial Markets",
+      "tutor": "Omon Ganiev",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB302"
+    },
+    {
+      "name": "Industrial Organisation",
+      "tutor": "Deniz Guvercin",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB311"
+    }
+  ],
+  "3": [
+    {
+      "name": "Alternative Dispute Resolution",
+      "tutor": "Nilufar Abdulatova",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB316"
+    },
+    {
+      "name": "Financial Mathematics and Principles",
+      "tutor": "Abdulaziz Djalilov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB309"
+    },
+    {
+      "name": "Financial Mathematics and Principles",
+      "tutor": "Abdulaziz Djalilov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB215 CL"
+    }
+  ],
+  "4": [
+    {
+      "name": "Industrial Organisation",
+      "tutor": "Deniz Guvercin",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB209"
+    }
+  ],
+  "5": [
+    {
+      "name": "Alternative Dispute Resolution",
+      "tutor": "Nilufar Abdulatova",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB307"
+    },
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Gulomjon Kosimjonov",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB208 CL"
+    }
+  ],
+  "6": [],
+  "7": []
+}

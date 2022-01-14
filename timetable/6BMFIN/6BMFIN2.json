@@ -1,10 +1,183 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "New Venture Creation",
+      "tutor": "Elnora Mirzalieva",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB314"
+    },
+    {
+      "name": "Audit and Assurance",
+      "tutor": "Ravshan Kakharov",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB306"
+    },
+    {
+      "name": "Islamic Finance",
+      "tutor": "Abdul Aziz Buriev",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "IB302"
+    },
+    {
+      "name": "Retailing Business",
+      "tutor": "Muddasar Ghani Khwaja",
+      "type": "lecture",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB311"
+    }
+  ],
+  "2": [
+    {
+      "name": "Global Financial Markets and Institutions",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Angelo Battaglia",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "ATB218"
+    },
+    {
+      "name": "Bank Risk Management",
+      "tutor": "Dildora Ibragimova",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "LRC13 Library Multimedia"
+    },
+    {
+      "name": "Bank Risk Management",
+      "tutor": "Dildora Ibragimova",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "LRC13 Library Multimedia"
+    }
+  ],
+  "3": [
+    {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Supply Chain Management and Logistics",
+      "tutor": "Ulugbek Islamov",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Global Financial Markets and Institutions",
+      "tutor": "Indira Khadjieva",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB218"
+    },
+    {
+      "name": "Global Financial Markets and Institutions",
+      "tutor": "Indira Khadjieva",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB218"
+    }
+  ],
+  "4": [
+    {
+      "name": "Bank Risk Management",
+      "tutor": "Dildora Ibragimova",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB307"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB309"
+    },
+    {
+      "name": "Retailing Business",
+      "tutor": "Unknown",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New302"
+    }
+  ],
+  "5": [
+    {
+      "name": "Supply Chain Management and Logistics",
+      "tutor": "Ulugbek Islamov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB312"
+    },
+    {
+      "name": "Supply Chain Management and Logistics",
+      "tutor": "Ulugbek Islamov",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB312"
+    },
+    {
+      "name": "Audit and Assurance",
+      "tutor": "Ravshan Kakharov",
+      "type": "workshop",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB310 A"
+    },
+    {
+      "name": "Islamic Finance",
+      "tutor": "Surayyo Shaamirova",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "New503"
+    },
+    {
+      "name": "Islamic Finance",
+      "tutor": "Surayyo Shaamirova",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "New503"
+    }
+  ],
   "6": [],
   "7": []
 }

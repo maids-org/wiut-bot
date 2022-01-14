@@ -1,10 +1,87 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Visual Programming",
+      "tutor": "Unknown",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "New408 CL"
+    },
+    {
+      "name": "I, Citizen",
+      "tutor": "Sean Canavan",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New301"
+    }
+  ],
+  "2": [
+    {
+      "name": "Visual Programming",
+      "tutor": "Shirin Primkulova",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "New206 H"
+    },
+    {
+      "name": "Foundations of Economics",
+      "tutor": "Jamshid Normatov",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB301"
+    }
+  ],
+  "3": [
+    {
+      "name": "Developing Professional Identity",
+      "tutor": "Ijobat Juraeva",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB218"
+    },
+    {
+      "name": "Academic English",
+      "tutor": "Temur Saidnazarov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "Lyceum 96"
+    }
+  ],
+  "4": [
+    {
+      "name": "Foundations of Economics",
+      "tutor": "Javlon Juraev",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB310"
+    },
+    {
+      "name": "Visual Programming",
+      "tutor": "Shirin Primkulova",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "New206 H"
+    }
+  ],
+  "5": [
+    {
+      "name": "Academic English",
+      "tutor": "Temur Saidnazarov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB310 A"
+    }
+  ],
   "6": [],
   "7": []
 }

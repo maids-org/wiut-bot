@@ -1,10 +1,70 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
+  "1": [
+    {
+      "name": "Corporate Finance",
+      "tutor": "Murodullo Bazarov",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "Lyceum hall"
+    },
+    {
+      "name": "Introduction to Banking and Financial Markets",
+      "tutor": "Hasan AKM Kamrul",
+      "type": "lecture",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB301"
+    }
+  ],
+  "2": [
+    {
+      "name": "Exploring Economics",
+      "tutor": "Zohid Askarov",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Exploring Economics",
+      "tutor": "Shokhida Karimova",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB303"
+    }
+  ],
+  "3": [
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Unknown",
+      "type": "workshop",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB212 CL"
+    }
+  ],
   "4": [],
-  "5": [],
+  "5": [
+    {
+      "name": "Introduction to Banking and Financial Markets",
+      "tutor": "Iroda Azizova",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB307"
+    },
+    {
+      "name": "Corporate Finance",
+      "tutor": "Jahongir Negmatov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB309"
+    }
+  ],
   "6": [],
   "7": []
 }

@@ -1,10 +1,79 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Financial Management",
+      "tutor": "Hamid Waqas",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Human Resource Management",
+      "tutor": "Olesya Smagina",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB216"
+    },
+    {
+      "name": "Retailing Business",
+      "tutor": "Muddasar Ghani Khwaja",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB311"
+    }
+  ],
+  "2": [
+    {
+      "name": "Human Resource Management",
+      "tutor": "Shakhnoza Asadova",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB216"
+    }
+  ],
+  "3": [
+    {
+      "name": "Financial Management",
+      "tutor": "Akhrorjon Yakubjonov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB302"
+    },
+    {
+      "name": "Financial Management",
+      "tutor": "Akhrorjon Yakubjonov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB302"
+    }
+  ],
+  "4": [
+    {
+      "name": "Human Resource Management",
+      "tutor": "Shakhnoza Asadova",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB301"
+    }
+  ],
+  "5": [
+    {
+      "name": "Retailing Business",
+      "tutor": "Unknown",
+      "type": "workshop",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB310"
+    }
+  ],
   "6": [],
   "7": []
 }

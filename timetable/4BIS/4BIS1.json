@@ -1,9 +1,77 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
+  "1": [
+    {
+      "name": "Fundametals of Programming",
+      "tutor": "Vasiliy Kuznetsov",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "New206 H"
+    },
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Alisher Ismailov",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Mathematics for Computing",
+      "tutor": "Ikrom Rikhsiboev",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB309"
+    },
+    {
+      "name": "Web Technology",
+      "tutor": "Bunyod Khoshimkhujaev",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New408 CL"
+    }
+  ],
+  "2": [
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Farhod Karimov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB101"
+    }
+  ],
+  "3": [
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Unknown",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
+    },
+    {
+      "name": "Mathematics for Computing",
+      "tutor": "Ikrom Rikhsiboev",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB215 CL"
+    }
+  ],
+  "4": [
+    {
+      "name": "Fundametals of Programming",
+      "tutor": "Vasiliy Kuznetsov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    }
+  ],
   "5": [],
   "6": [],
   "7": []

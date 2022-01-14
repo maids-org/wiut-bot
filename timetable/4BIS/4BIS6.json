@@ -1,10 +1,111 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Fundametals of Programming",
+      "tutor": "Vasiliy Kuznetsov",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "New206 H"
+    },
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Alisher Ismailov",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Farrukh Ataev",
+      "type": "workshop",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
+    }
+  ],
+  "2": [
+    {
+      "name": "Fundametals of Programming",
+      "tutor": "Vasiliy Kuznetsov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "Industrial Organisation",
+      "tutor": "Deniz Guvercin",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Industrial Organisation",
+      "tutor": "Deniz Guvercin",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New407"
+    }
+  ],
+  "3": [
+    {
+      "name": "Web Technology",
+      "tutor": "Bunyod Khoshimkhujaev",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New408 CL"
+    },
+    {
+      "name": "English for Academic Success (EAS)",
+      "tutor": "Jasur Khudoyberdiev",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "Lyceum Library"
+    }
+  ],
+  "4": [
+    {
+      "name": "Graphic design",
+      "tutor": "Olga Yugay",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "New304 CL"
+    },
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Unknown",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB303"
+    }
+  ],
+  "5": [
+    {
+      "name": "Graphic design",
+      "tutor": "Said Abduvaliev",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "New206 H"
+    },
+    {
+      "name": "English for Academic Success (EAS)",
+      "tutor": "Jasur Khudoyberdiev",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB218"
+    }
+  ],
   "6": [],
   "7": []
 }

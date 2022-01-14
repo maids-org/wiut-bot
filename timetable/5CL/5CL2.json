@@ -1,10 +1,119 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Economics of Financial Crises",
+      "tutor": "Akhliddin Malikov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB211"
+    },
+    {
+      "name": "Intellectual Property Law",
+      "tutor": "Timur Abdulazizov",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB308"
+    },
+    {
+      "name": "Islamic Finance",
+      "tutor": "Abdul Aziz Buriev",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "IB302"
+    },
+    {
+      "name": "Retailing Business",
+      "tutor": "Muddasar Ghani Khwaja",
+      "type": "lecture",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB311"
+    }
+  ],
+  "2": [
+    {
+      "name": "Property Law",
+      "tutor": "Akbar Ismanjanov",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB316"
+    },
+    {
+      "name": "Property Law",
+      "tutor": "Khusniddin Abdufattokhov",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB308"
+    }
+  ],
+  "3": [
+    {
+      "name": "Economics of Financial Crises",
+      "tutor": "Akhliddin Malikov",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Banking Law",
+      "tutor": "Tamilla Tagieva",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB316"
+    }
+  ],
+  "4": [
+    {
+      "name": "Intellectual Property Law",
+      "tutor": "Timur Abdulazizov",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB316"
+    }
+  ],
+  "5": [
+    {
+      "name": "Banking Law",
+      "tutor": "Tamilla Tagieva",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB308"
+    },
+    {
+      "name": "Islamic Finance",
+      "tutor": "Surayyo Shaamirova",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New302"
+    },
+    {
+      "name": "Islamic Finance",
+      "tutor": "Surayyo Shaamirova",
+      "type": "workshop",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "New302"
+    },
+    {
+      "name": "Retailing Business",
+      "tutor": "Unknown",
+      "type": "workshop",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB309"
+    }
+  ],
   "6": [],
   "7": []
 }

@@ -1,10 +1,79 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Civil Law",
+      "tutor": "Tamilla Tagieva",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB301"
+    }
+  ],
+  "2": [
+    {
+      "name": "Tort Law",
+      "tutor": "Mandeep Singh",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "New206 H"
+    },
+    {
+      "name": "Criminal Law",
+      "tutor": "Khasan Sayfuddinov",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB309"
+    }
+  ],
+  "3": [
+    {
+      "name": "Tort Law",
+      "tutor": "Mandeep Singh",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB216"
+    },
+    {
+      "name": "English for Academic Success (EAS)",
+      "tutor": "Jasur Khudoyberdiev",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "Lyceum Library"
+    }
+  ],
+  "4": [
+    {
+      "name": "Criminal Law",
+      "tutor": "Khasan Sayfuddinov",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB307"
+    },
+    {
+      "name": "Civil Law",
+      "tutor": "Davron Abdigapparov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB307"
+    }
+  ],
+  "5": [
+    {
+      "name": "English for Academic Success (EAS)",
+      "tutor": "Jasur Khudoyberdiev",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB218"
+    }
+  ],
   "6": [],
   "7": []
 }
