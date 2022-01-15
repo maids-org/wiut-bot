@@ -53,18 +53,18 @@
     },
     {
       "name": "Audit and Assurance",
-      "tutor": "Jamshid Nasreddinov",
+      "tutor": "Ravshan Kakharov",
       "type": "seminar",
       "start": 14.0,
-      "length": 2.0,
+      "length": 1.0,
       "location": "IB301"
     },
     {
       "name": "Principles and Practices of Taxation",
       "tutor": "Otabek Fazilov",
       "type": "seminar",
-      "start": 16.0,
-      "length": 1.0,
+      "start": 15.0,
+      "length": 2.0,
       "location": "ATB211"
     },
     {
@@ -98,16 +98,8 @@
       "tutor": "Mamurjon Rahimov",
       "type": "seminar",
       "start": 14.0,
-      "length": 1.0,
+      "length": 2.0,
       "location": "ATB301"
-    },
-    {
-      "name": "Principles and Practices of Taxation",
-      "tutor": "Otabek Fazilov",
-      "type": "lecture",
-      "start": 15.0,
-      "length": 1.0,
-      "location": "New206 H"
     },
     {
       "name": "Sales Management",
@@ -136,6 +128,14 @@
       "location": "Harvard306"
     },
     {
+      "name": "Audit and Assurance",
+      "tutor": "Ravshan Kakharov",
+      "type": "workshop",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "Lyceum Library"
+    },
+    {
       "name": "Dissertation",
       "tutor": "Rahman Khan",
       "type": "seminar",
@@ -154,16 +154,8 @@
       "location": "IB302"
     },
     {
-      "name": "Audit and Assurance",
-      "tutor": "Jamshid Nasreddinov",
-      "type": "workshop",
-      "start": 13.0,
-      "length": 1.0,
-      "location": "IB215 CL"
-    },
-    {
       "name": "Global Financial Markets and Institutions",
-      "tutor": "Sarvarbek Ahmedov",
+      "tutor": "Unknown",
       "type": "seminar",
       "start": 15.0,
       "length": 2.0,
@@ -171,7 +163,7 @@
     },
     {
       "name": "Global Financial Markets and Institutions",
-      "tutor": "Sarvarbek Ahmedov",
+      "tutor": "Unknown",
       "type": "workshop",
       "start": 17.0,
       "length": 1.0,

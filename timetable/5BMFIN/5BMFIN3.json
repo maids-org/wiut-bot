@@ -81,7 +81,7 @@
   "4": [
     {
       "name": "Financial Management",
-      "tutor": "Jamshid Jalilov",
+      "tutor": "Hamid Waqas",
       "type": "seminar",
       "start": 12.0,
       "length": 2.0,
@@ -89,7 +89,7 @@
     },
     {
       "name": "Financial Management",
-      "tutor": "Jamshid Jalilov",
+      "tutor": "Hamid Waqas",
       "type": "workshop",
       "start": 14.0,
       "length": 1.0,

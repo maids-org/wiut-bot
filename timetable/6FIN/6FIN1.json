@@ -95,7 +95,7 @@
     },
     {
       "name": "Principles and Practices of Taxation",
-      "tutor": "Otabek Fazilov",
+      "tutor": "Jamshid Jalilov",
       "type": "lecture",
       "start": 15.0,
       "length": 1.0,
@@ -105,7 +105,7 @@
   "4": [
     {
       "name": "Principles and Practices of Taxation",
-      "tutor": "Ravshan Kakharov",
+      "tutor": "Otabek Fazilov",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
@@ -113,7 +113,7 @@
     },
     {
       "name": "Principles and Practices of Taxation",
-      "tutor": "Ravshan Kakharov",
+      "tutor": "Otabek Fazilov",
       "type": "workshop",
       "start": 13.0,
       "length": 1.0,
@@ -141,7 +141,7 @@
       "name": "Audit and Assurance",
       "tutor": "Ravshan Kakharov",
       "type": "workshop",
-      "start": 9.0,
+      "start": 10.0,
       "length": 2.0,
       "location": "Harvard306"
     }

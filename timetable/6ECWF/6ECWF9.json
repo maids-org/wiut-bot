@@ -27,6 +27,14 @@
       "start": 14.0,
       "length": 2.0,
       "location": "IB311"
+    },
+    {
+      "name": "Behavioural Economics",
+      "tutor": "Rui Dang",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "Harvard306"
     }
   ],
   "4": [
@@ -37,14 +45,6 @@
       "start": 13.0,
       "length": 2.0,
       "location": "IB215 CL"
-    },
-    {
-      "name": "Behavioural Economics",
-      "tutor": "Rui Dang",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB302"
     }
   ],
   "5": [

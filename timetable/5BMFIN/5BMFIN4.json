@@ -63,19 +63,19 @@
   "3": [
     {
       "name": "Financial Management",
-      "tutor": "Jamshid Jalilov",
+      "tutor": "Indira Khadjieva",
       "type": "seminar",
-      "start": 9.0,
+      "start": 13.0,
       "length": 2.0,
-      "location": "ATB301"
+      "location": "Lyceum Library"
     },
     {
       "name": "Financial Management",
-      "tutor": "Jamshid Jalilov",
+      "tutor": "Indira Khadjieva",
       "type": "workshop",
-      "start": 11.0,
+      "start": 15.0,
       "length": 1.0,
-      "location": "ATB301"
+      "location": "Lyceum Library"
     }
   ],
   "4": [

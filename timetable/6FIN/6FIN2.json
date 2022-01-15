@@ -42,14 +42,6 @@
       "start": 11.0,
       "length": 1.0,
       "location": "IB311"
-    },
-    {
-      "name": "Audit and Assurance",
-      "tutor": "Ravshan Kakharov",
-      "type": "workshop",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "New408 CL"
     }
   ],
   "3": [
@@ -136,6 +128,14 @@
       "start": 15.0,
       "length": 1.0,
       "location": "LRC13 Library Multimedia"
+    },
+    {
+      "name": "Audit and Assurance",
+      "tutor": "Ravshan Kakharov",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New408 CL"
     }
   ],
   "6": [],

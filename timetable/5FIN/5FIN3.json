@@ -62,25 +62,25 @@
       "location": "ATB214 CL"
     }
   ],
-  "4": [
+  "4": [],
+  "5": [
     {
       "name": "Securities Analysis",
       "tutor": "Qobiljon Yunusov",
       "type": "seminar",
-      "start": 9.0,
+      "start": 15.0,
       "length": 2.0,
-      "location": "IB209 CL"
+      "location": "IB202 CL"
     },
     {
       "name": "Securities Analysis",
       "tutor": "Qobiljon Yunusov",
       "type": "workshop",
-      "start": 11.0,
+      "start": 17.0,
       "length": 1.0,
-      "location": "IB209 CL"
+      "location": "IB202 CL"
     }
   ],
-  "5": [],
   "6": [],
   "7": []
 }

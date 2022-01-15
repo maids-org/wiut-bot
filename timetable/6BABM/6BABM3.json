@@ -84,14 +84,6 @@
       "start": 14.0,
       "length": 1.0,
       "location": "IB301"
-    },
-    {
-      "name": "Audit and Assurance",
-      "tutor": "Ravshan Kakharov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB311"
     }
   ],
   "4": [
@@ -118,6 +110,14 @@
       "start": 14.0,
       "length": 1.0,
       "location": "ATB304"
+    },
+    {
+      "name": "Audit and Assurance",
+      "tutor": "Ravshan Kakharov",
+      "type": "workshop",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "Lyceum Library"
     },
     {
       "name": "Internet Law",
