@@ -8,9 +8,9 @@ export const message =
 
 export const keyboard = async (page: number): Promise<InlineKeyboardMarkup> => {
   const data = {
-    previous: await dungeon.getAllByCursor(page - 1),
+    previous: await dungeon.getAllByCursor(page - 10),
     current: await dungeon.getAllByCursor(page),
-    next: await dungeon.getAllByCursor(page + 1),
+    next: await dungeon.getAllByCursor(page + 10),
   };
 
   return Markup.inlineKeyboard([
@@ -20,13 +20,13 @@ export const keyboard = async (page: number): Promise<InlineKeyboardMarkup> => {
     [
       Markup.callbackButton(
         "⬅️ Previous",
-        `group_${page - 1}`,
+        `group_${page - 10}`,
         !(data.previous.length > 0 && page > 0)
       ),
 
       Markup.callbackButton(
         "Next ➡️",
-        `group_${page + 1}`,
+        `group_${page + 10}`,
         !(data.current.length === 10)
       ),
     ],
