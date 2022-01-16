@@ -20,13 +20,13 @@ export const keyboard = async (page: number): Promise<InlineKeyboardMarkup> => {
     [
       Markup.callbackButton(
         "⬅️ Previous",
-        `group_${page - 10}`,
+        `groups_${page - 10}`,
         !(data.previous.length > 0 && page > 0)
       ),
 
       Markup.callbackButton(
         "Next ➡️",
-        `group_${page + 10}`,
+        `groups_${page + 10}`,
         !(data.current.length === 10)
       ),
     ],
