@@ -11,7 +11,7 @@
     },
     {
       "name": "Tourism and Its Dynamics",
-      "tutor": "Erdogan Ekiz",
+      "tutor": "Angelo Battaglia",
       "type": "lecture",
       "start": 11.0,
       "length": 1.0,
@@ -37,7 +37,7 @@
     },
     {
       "name": "Principles of Marketing",
-      "tutor": "Unknown",
+      "tutor": "Begzod Nishanov",
       "type": "seminar",
       "start": 13.0,
       "length": 2.0,
@@ -55,7 +55,7 @@
     },
     {
       "name": "Tourism and Its Dynamics",
-      "tutor": "Erdogan Ekiz",
+      "tutor": "Unknown",
       "type": "seminar",
       "start": 16.0,
       "length": 2.0,
@@ -66,7 +66,7 @@
   "5": [
     {
       "name": "Tourism and Its Dynamics",
-      "tutor": "Erdogan Ekiz",
+      "tutor": "Angelo Battaglia",
       "type": "workshop",
       "start": 17.0,
       "length": 1.0,

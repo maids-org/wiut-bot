@@ -102,16 +102,16 @@
       "location": "ATB301"
     },
     {
-      "name": "Sales Management",
-      "tutor": "ATB301(26)",
-      "type": "seminar",
+      "name": "Service Marketing",
+      "tutor": "Mamurjon Rahimov",
+      "type": "workshop",
       "start": 16.0,
       "length": 1.0,
-      "location": "IB215 CL"
+      "location": "ATB301"
     },
     {
       "name": "Sales Management",
-      "tutor": "Unknown",
+      "tutor": "Anil Kumar",
       "type": "workshop",
       "start": 17.0,
       "length": 1.0,

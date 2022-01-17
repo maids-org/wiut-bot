@@ -99,19 +99,19 @@
     },
     {
       "name": "Sales Management",
-      "tutor": "Unknown",
+      "tutor": "Anil Kumar",
       "type": "seminar",
       "start": 16.0,
       "length": 1.0,
-      "location": "New302"
+      "location": "IB307"
     },
     {
       "name": "Sales Management",
-      "tutor": "Unknown",
+      "tutor": "Anil Kumar",
       "type": "workshop",
       "start": 17.0,
       "length": 1.0,
-      "location": "New302"
+      "location": "IB307"
     }
   ],
   "6": [],

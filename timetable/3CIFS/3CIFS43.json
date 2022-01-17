@@ -2,20 +2,12 @@
   "0": [],
   "1": [
     {
-      "name": "Business in the Modern World",
-      "tutor": "Unknown",
+      "name": "Academic English",
+      "tutor": "Alim Asanov",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
       "location": "ATB218"
-    },
-    {
-      "name": "Academic English",
-      "tutor": "Alim Asanov",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "New503"
     }
   ],
   "2": [
@@ -29,7 +21,7 @@
     },
     {
       "name": "Business in the Modern World",
-      "tutor": "Unknown",
+      "tutor": "Sanemkhan Nurillaeva",
       "type": "lecture",
       "start": 10.0,
       "length": 1.0,
@@ -44,7 +36,16 @@
       "location": "Lyceum 93"
     }
   ],
-  "3": [],
+  "3": [
+    {
+      "name": "Academic English",
+      "tutor": "Alim Asanov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "Lyceum 93"
+    }
+  ],
   "4": [
     {
       "name": "Understanding Finance",
@@ -71,6 +72,14 @@
       "start": 11.0,
       "length": 2.0,
       "location": "ATB301"
+    },
+    {
+      "name": "Business in the Modern World",
+      "tutor": "Sitora Shaydullayeva",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB307"
     }
   ],
   "6": [],

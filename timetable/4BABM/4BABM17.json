@@ -11,7 +11,7 @@
     },
     {
       "name": "Tourism and Its Dynamics",
-      "tutor": "Erdogan Ekiz",
+      "tutor": "Angelo Battaglia",
       "type": "lecture",
       "start": 11.0,
       "length": 1.0,
@@ -19,7 +19,7 @@
     },
     {
       "name": "Introduction to Management and Organisational Behaviour",
-      "tutor": "Unknown",
+      "tutor": "Isabel Christina Velasco Zamora",
       "type": "seminar",
       "start": 16.0,
       "length": 2.0,
@@ -47,26 +47,27 @@
   "3": [
     {
       "name": "Tourism and Its Dynamics",
-      "tutor": "Erdogan Ekiz",
+      "tutor": "Unknown",
       "type": "seminar",
       "start": 13.0,
       "length": 2.0,
       "location": "IB316"
     }
   ],
-  "4": [],
-  "5": [
+  "4": [
     {
       "name": "Principles of Marketing",
-      "tutor": "Unknown",
+      "tutor": "Iroda Komilova",
       "type": "seminar",
-      "start": 13.0,
+      "start": 16.0,
       "length": 2.0,
-      "location": "ATB301"
-    },
+      "location": "ATB302"
+    }
+  ],
+  "5": [
     {
       "name": "Tourism and Its Dynamics",
-      "tutor": "Erdogan Ekiz",
+      "tutor": "Angelo Battaglia",
       "type": "workshop",
       "start": 17.0,
       "length": 1.0,

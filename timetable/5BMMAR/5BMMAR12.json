@@ -11,7 +11,7 @@
     },
     {
       "name": "Marketing Communications",
-      "tutor": "Dilmurod Khodiev",
+      "tutor": "Rahat Ullah",
       "type": "lecture",
       "start": 15.0,
       "length": 1.0,
@@ -19,31 +19,14 @@
     },
     {
       "name": "Retailing Business",
-      "tutor": "Muddasar Ghani Khwaja",
+      "tutor": "Alisher Ismailov",
       "type": "lecture",
       "start": 16.0,
       "length": 2.0,
       "location": "IB311"
     }
   ],
-  "2": [
-    {
-      "name": "Marketing Communications",
-      "tutor": "Unknown",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "ATB304"
-    },
-    {
-      "name": "Marketing Communications",
-      "tutor": "Unknown",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "ATB304"
-    }
-  ],
+  "2": [],
   "3": [
     {
       "name": "Financial Management",
@@ -64,15 +47,32 @@
   ],
   "4": [
     {
-      "name": "Retailing Business",
-      "tutor": "Muddasar Ghani Khwaja",
-      "type": "workshop",
-      "start": 16.0,
+      "name": "Marketing Communications",
+      "tutor": "Rahat Ullah",
+      "type": "seminar",
+      "start": 12.0,
       "length": 2.0,
-      "location": "New405"
+      "location": "IB313"
+    },
+    {
+      "name": "Marketing Communications",
+      "tutor": "Rahat Ullah",
+      "type": "workshop",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "IB313"
     }
   ],
-  "5": [],
+  "5": [
+    {
+      "name": "Retailing Business",
+      "tutor": "Gulnaz Bektemirova",
+      "type": "workshop",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB310 A"
+    }
+  ],
   "6": [],
   "7": []
 }

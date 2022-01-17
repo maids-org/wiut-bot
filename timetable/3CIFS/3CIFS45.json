@@ -3,7 +3,7 @@
   "1": [
     {
       "name": "Academic English",
-      "tutor": "Alim Asanov",
+      "tutor": "Umida Abdurakhimova",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
@@ -37,6 +37,14 @@
     }
   ],
   "3": [
+    {
+      "name": "Academic English",
+      "tutor": "Umida Abdurakhimova",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB304"
+    },
     {
       "name": "I, Citizen",
       "tutor": "Sherzod Khaydarov",

@@ -11,7 +11,7 @@
     },
     {
       "name": "Tourism and Its Dynamics",
-      "tutor": "Erdogan Ekiz",
+      "tutor": "Angelo Battaglia",
       "type": "lecture",
       "start": 11.0,
       "length": 1.0,
@@ -39,7 +39,7 @@
   "3": [
     {
       "name": "Principles of Marketing",
-      "tutor": "Rahat Ullah",
+      "tutor": "Begzod Nishanov",
       "type": "seminar",
       "start": 16.0,
       "length": 2.0,
@@ -47,14 +47,6 @@
     }
   ],
   "4": [
-    {
-      "name": "Introduction to Management and Organisational Behaviour",
-      "tutor": "Gulnaz Bektemirova",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "ATB209"
-    },
     {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Unknown",
@@ -66,8 +58,16 @@
   ],
   "5": [
     {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Umber Kazi",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB101"
+    },
+    {
       "name": "Tourism and Its Dynamics",
-      "tutor": "Erdogan Ekiz",
+      "tutor": "Angelo Battaglia",
       "type": "workshop",
       "start": 17.0,
       "length": 1.0,

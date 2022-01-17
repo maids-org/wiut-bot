@@ -21,7 +21,7 @@
   "2": [
     {
       "name": "Business in the Modern World",
-      "tutor": "Unknown",
+      "tutor": "Sanemkhan Nurillaeva",
       "type": "lecture",
       "start": 10.0,
       "length": 1.0,
@@ -49,11 +49,11 @@
   "4": [
     {
       "name": "Business in the Modern World",
-      "tutor": "Iroda Komilova",
+      "tutor": "Sitora Shaydullayeva",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "IB306"
+      "location": "Lyceum 96"
     }
   ],
   "5": [
