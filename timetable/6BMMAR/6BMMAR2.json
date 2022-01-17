@@ -37,7 +37,7 @@
     },
     {
       "name": "Sales Management",
-      "tutor": "Unknown",
+      "tutor": "Anil Kumar",
       "type": "seminar",
       "start": 13.0,
       "length": 1.0,
@@ -45,7 +45,7 @@
     },
     {
       "name": "Sales Management",
-      "tutor": "Unknown",
+      "tutor": "Anil Kumar",
       "type": "workshop",
       "start": 14.0,
       "length": 1.0,

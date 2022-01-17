@@ -11,7 +11,7 @@
     },
     {
       "name": "Marketing Communications",
-      "tutor": "Dilmurod Khodiev",
+      "tutor": "Rahat Ullah",
       "type": "lecture",
       "start": 15.0,
       "length": 1.0,
@@ -19,7 +19,7 @@
     },
     {
       "name": "Retailing Business",
-      "tutor": "Muddasar Ghani Khwaja",
+      "tutor": "Alisher Ismailov",
       "type": "lecture",
       "start": 16.0,
       "length": 2.0,
@@ -29,7 +29,7 @@
   "2": [
     {
       "name": "Marketing Communications",
-      "tutor": "Unknown",
+      "tutor": "Rahat Ullah",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
@@ -37,7 +37,7 @@
     },
     {
       "name": "Marketing Communications",
-      "tutor": "Unknown",
+      "tutor": "Rahat Ullah",
       "type": "workshop",
       "start": 11.0,
       "length": 1.0,
@@ -74,7 +74,7 @@
   "5": [
     {
       "name": "Retailing Business",
-      "tutor": "Unknown",
+      "tutor": "Karan Khurana",
       "type": "workshop",
       "start": 16.0,
       "length": 2.0,

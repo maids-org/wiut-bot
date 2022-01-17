@@ -14,16 +14,24 @@
       "tutor": "Nargiza Khuramova",
       "type": "seminar",
       "start": 15.0,
-      "length": 1.0,
+      "length": 2.0,
       "location": "IB316"
     },
     {
       "name": "Retailing Business",
-      "tutor": "Muddasar Ghani Khwaja",
+      "tutor": "Alisher Ismailov",
       "type": "lecture",
       "start": 16.0,
       "length": 2.0,
       "location": "IB311"
+    },
+    {
+      "name": "Financial Management",
+      "tutor": "Nargiza Khuramova",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB209 CL"
     }
   ],
   "2": [
@@ -65,7 +73,7 @@
     },
     {
       "name": "Retailing Business",
-      "tutor": "Unknown",
+      "tutor": "Karan Khurana",
       "type": "workshop",
       "start": 16.0,
       "length": 2.0,

@@ -78,12 +78,28 @@
       "location": "ATB207"
     },
     {
+      "name": "Sales Management",
+      "tutor": "Anil Kumar",
+      "type": "workshop",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "ATB302"
+    },
+    {
       "name": "Supply Chain Management and Logistics",
       "tutor": "Ulugbek Islamov",
       "type": "lecture",
       "start": 14.0,
       "length": 1.0,
       "location": "IB301"
+    },
+    {
+      "name": "Sales Management",
+      "tutor": "Anil Kumar",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "IB215 CL"
     }
   ],
   "4": [
@@ -144,14 +160,6 @@
       "start": 11.0,
       "length": 1.0,
       "location": "ATB312"
-    },
-    {
-      "name": "Sales Management",
-      "tutor": "Unknown",
-      "type": "workshop",
-      "start": 14.0,
-      "length": 1.0,
-      "location": "ATB212 CL"
     },
     {
       "name": "Global Financial Markets and Institutions",

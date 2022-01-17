@@ -3,7 +3,7 @@
   "1": [
     {
       "name": "Tourism and Its Dynamics",
-      "tutor": "Erdogan Ekiz",
+      "tutor": "Angelo Battaglia",
       "type": "lecture",
       "start": 11.0,
       "length": 1.0,
@@ -35,7 +35,7 @@
     },
     {
       "name": "Retailing Business",
-      "tutor": "Muddasar Ghani Khwaja",
+      "tutor": "Alisher Ismailov",
       "type": "lecture",
       "start": 17.0,
       "length": 1.0,
@@ -95,7 +95,7 @@
     },
     {
       "name": "Principles of Marketing",
-      "tutor": "Rahat Ullah",
+      "tutor": "Begzod Nishanov",
       "type": "seminar",
       "start": 16.0,
       "length": 2.0,
@@ -129,7 +129,7 @@
     },
     {
       "name": "Tourism and Its Dynamics",
-      "tutor": "Erdogan Ekiz",
+      "tutor": "Unknown",
       "type": "seminar",
       "start": 16.0,
       "length": 2.0,
@@ -163,7 +163,7 @@
     },
     {
       "name": "Retailing Business",
-      "tutor": "Unknown",
+      "tutor": "Karan Khurana",
       "type": "workshop",
       "start": 14.0,
       "length": 2.0,
@@ -171,7 +171,7 @@
     },
     {
       "name": "Tourism and Its Dynamics",
-      "tutor": "Erdogan Ekiz",
+      "tutor": "Angelo Battaglia",
       "type": "workshop",
       "start": 17.0,
       "length": 1.0,

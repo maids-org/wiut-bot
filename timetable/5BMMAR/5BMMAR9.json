@@ -3,7 +3,7 @@
   "1": [
     {
       "name": "Marketing Communications",
-      "tutor": "Unknown",
+      "tutor": "Zaolobiddin Zoxitov",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
@@ -11,7 +11,7 @@
     },
     {
       "name": "Marketing Communications",
-      "tutor": "Unknown",
+      "tutor": "Zaolobiddin Zoxitov",
       "type": "workshop",
       "start": 11.0,
       "length": 1.0,
@@ -27,7 +27,7 @@
     },
     {
       "name": "Marketing Communications",
-      "tutor": "Dilmurod Khodiev",
+      "tutor": "Rahat Ullah",
       "type": "lecture",
       "start": 15.0,
       "length": 1.0,
