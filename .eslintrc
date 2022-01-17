@@ -14,7 +14,7 @@
     "sourceType": "module"
   },
   "rules": {
-    "camelcase": "warn",
+    "camelcase": "off",
     "@typescript-eslint/no-unused-vars": "warn",
     "no-prototype-builtins": "off",
     "@typescript-eslint/no-var-requires": "warn",

@@ -1,65 +1,15 @@
-import fetch from "node-fetch";
-import { Group, Groups, AllModule, AllId } from "@type/dungeon";
+import { createClient, SupabaseClient } from "@supabase/supabase-js";
+import { Group, OnlyId, OnlyModule } from "@type/dungeon";
 
 export default class Dungeon {
   /**
-   * List of all hosted servers.
+   * Main client sdk.
    * @protected
    */
-  protected servers?: string[] = [
-    "https://maid-dungeon.vercel.app/",
-    "https://dungeon.maid.uz/",
-  ];
+  protected client?: SupabaseClient;
 
-  /**
-   * URL of the Dungeon Server.
-   * @protected
-   */
-  protected url?: string | null = this.servers[0];
-
-  constructor() {
-    /**
-     * Checks every server and sets active server.
-     */
-    // for (const server of this.servers) {
-    //   fetch(server).then((res) => {
-    //     if (res.status === 200) {
-    //       this.url = server;
-    //     }
-    //   });
-    // }
-    // this.url = this.servers[0];
-
-    if (this.url === null) {
-      throw new Error("No active server found.");
-    }
-  }
-
-  /**
-   * Fetch RAW Data from the Dungeon.
-   * @param anchor the rest part of the URL after domain without slash in the beginning.
-   * @protected
-   */
-  protected async getData(anchor = ""): Promise<Group | Groups | any> {
-    const response = await fetch(encodeURI(this.url + anchor));
-    return await response.json();
-  }
-
-  /**
-   * Sends data to the server using POST method.
-   * @param anchor the rest part of the URL after domain without slash in the beginning.
-   * @param object
-   */
-  protected async postData(
-    anchor = "",
-    object: any
-  ): Promise<Group | Groups | any> {
-    const response = await fetch(encodeURI(this.url + anchor), {
-      method: "post",
-      body: JSON.stringify(object),
-      headers: { "Content-Type": "application/json" },
-    });
-    return await response.json();
+  constructor(URL: string, KEY: string) {
+    this.client = createClient(URL, KEY);
   }
 
   /**
@@ -67,35 +17,68 @@ export default class Dungeon {
    * @returns Group[]
    */
   async getAll(): Promise<Group[]> {
-    const response = await this.getData("groups");
-    return "results" in response ? response.results : null;
+    const { data: Groups, error } = await this.client
+      .from("Groups")
+      .select("*")
+      .order("module")
+      .range(0, 100);
+
+    if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
+
+    return Groups;
   }
 
   /**
    * Get all group data from the Dungeon with Pagination.
    * @returns Group[]
    */
-  async getAllByCursor(cursor = 0): Promise<Group[]> {
-    const response = await this.getData(`groups?cursor=${cursor}&limit=10`);
-    return "results" in response ? response.results : null;
+  async getAllByCursor(limit?: number, cursor?: number): Promise<Group[]> {
+    const config = {
+      limit: Number(limit) > 0 && Number(limit) <= 100 ? Number(limit) : 100,
+      cursor: Number(cursor) > 0 ? Number(cursor) : 0,
+    };
+
+    const { data: Groups, error } = await this.client
+      .from("Groups")
+      .select("*")
+      .order("module")
+      .range(config.cursor, config.cursor + config.limit - 1);
+
+    if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
+
+    return Groups;
   }
 
   /**
    * Get all group ID from the Dungeon.
    * @returns Group[]
    */
-  async getAllID(): Promise<AllId[]> {
-    const response = await this.getData("groups/id");
-    return "results" in response ? response.results : null;
+  async getAllID(): Promise<OnlyId[]> {
+    const { data: Groups, error } = await this.client
+      .from("Groups")
+      .select("id")
+      .order("id")
+      .range(0, 100);
+
+    if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
+
+    return Groups;
   }
 
   /**
    * Fetches all available modules from the Dungeon.
    * @returns Group[]
    */
-  async getAllModule(): Promise<AllModule[]> {
-    const response = await this.getData("groups/mod");
-    return "results" in response ? response.results : null;
+  async getAllModule(): Promise<OnlyModule[]> {
+    const { data: Groups, error } = await this.client
+      .from("Groups")
+      .select("module")
+      .order("module")
+      .range(0, 100);
+
+    if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
+
+    return Groups;
   }
 
   /**
@@ -104,56 +87,46 @@ export default class Dungeon {
    * @returns Group
    */
   async getByID(id: number): Promise<Group> {
-    try {
-      return await this.getData(`groups/id/${id}`);
-    } catch (error) {
-      return null;
-    }
+    const { data: Groups, error } = await this.client
+      .from("Groups")
+      .select("*")
+      .eq("id", id);
+
+    if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
+
+    return Groups[0];
   }
 
   /**
    * Fetches a group by Module from the Dungeon.
-   * @param mod Module of the group that they have chosen
+   * @param module Module of the group that they have chosen
    * @returns Group
    */
-  async getByMod(mod: string): Promise<Group> {
-    try {
-      return await this.getData(`groups/mod/${mod}`);
-    } catch (error) {
-      return null;
-    }
-  }
+  async getByMod(module: string): Promise<Group> {
+    const { data: Groups, error } = await this.client
+      .from("Groups")
+      .select("*")
+      .eq("module", module);
 
-  async parse(group: string | number): Promise<string | number> {
-    if (typeof group === "string") {
-      const groupID = await this.getByMod(group);
-      if (groupID === null) {
-        throw new Error("Group not found.");
-      }
-      return "id" in groupID ? groupID.id : null;
-    } else if (typeof group === "number") {
-      const groupID = await this.getByID(group);
-      if (groupID === null) {
-        throw new Error("Group not found.");
-      }
-      return "id" in groupID ? groupID.id : null;
-    } else {
-      throw new Error("Invalid group type.");
-    }
+    if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
+
+    return Groups[0];
   }
 
   /**
    * Creates a new group in the Dungeon.
    * @param id The ID of the group chat
-   * @param mod Module of the group that they have chosen
+   * @param module Module of the group that they have chosen
    * @param link Link to the group chat
-   * @returns { msg: string, groups: Group[] }
+   * @returns Group
    */
-  async newGroup(
-    id: number,
-    mod: string,
-    link: string
-  ): Promise<{ msg: string; groups: Group[] }> {
-    return await this.getData(`groups/new?id=${id}&module=${mod}&link=${link}`);
+  async newGroup(id: number, module: string, link: string): Promise<any> {
+    const { data: Group, error } = await this.client
+      .from("Groups")
+      .insert([{ id, module, link }]);
+
+    if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
+
+    return Group;
   }
 }

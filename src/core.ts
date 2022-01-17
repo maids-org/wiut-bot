@@ -7,7 +7,7 @@ import Dungeon from "@src/dungeon";
 import chalk = require("chalk");
 
 export const env = process.env;
-export const dungeon = new Dungeon();
+export const dungeon = new Dungeon(process.env.SUP_URL, process.env.SUP_KEY);
 export const bot = new Telegraf<TelegrafContext>(env.TOKEN);
 export const composer = new Composer<TelegrafContext>();
 
