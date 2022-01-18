@@ -18,6 +18,9 @@
     "telegram",
     "bot"
   ],
+  "engines": {
+    "node": "16.x"
+  },
   "repository": "https://github.com/mad-maids/maid.ts",
   "author": "Mad Maids (https://maid.uz)",
   "license": "CC0-1.0",
