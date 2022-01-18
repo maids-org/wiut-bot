@@ -4,19 +4,20 @@ import * as consoles from "@src/utils";
 import * as resource from "./resource";
 
 composer.action(/confirm_yes_(.+)/gi, async (ctx: TelegrafContext) => {
-  const request = await dungeon.newGroup(
-    ctx.chat.id,
-    ctx.match[1],
-    await ctx.exportChatInviteLink()
-  );
-
-  request.msg === "OK!"
-    ? await ctx.editMessageText(await resource.message.accept(true), {
-        parse_mode: "HTML",
-      })
-    : await ctx.editMessageText(await resource.message.accept(false), {
-        parse_mode: "HTML",
-      });
+  try {
+    const request = await dungeon.newGroup(
+      ctx.chat.id,
+      ctx.match[1],
+      await ctx.exportChatInviteLink()
+    );
+    await ctx.editMessageText(await resource.message.accept(true), {
+      parse_mode: "HTML",
+    });
+  } catch (e) {
+    await ctx.editMessageText(await resource.message.accept(false), {
+      parse_mode: "HTML",
+    });
+  }
 });
 
 middleware(composer);

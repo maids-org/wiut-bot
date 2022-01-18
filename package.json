@@ -1,6 +1,6 @@
 {
   "name": "maid.ts",
-  "version": "2.2.3",
+  "version": "2.2.7",
   "description": "WIUT BIS group manager & handler",
   "main": "app.js",
   "scripts": {

@@ -5,6 +5,7 @@ export default class Dungeon {
   /**
    * Main client sdk.
    * @protected
+   * @type SupabaseClient
    */
   protected client?: SupabaseClient;
 
@@ -14,7 +15,7 @@ export default class Dungeon {
 
   /**
    * Get all group data from the Dungeon.
-   * @returns Group[]
+   * @returns Promise<Group[]>
    */
   async getAll(): Promise<Group[]> {
     const { data: Groups, error } = await this.client
@@ -30,7 +31,7 @@ export default class Dungeon {
 
   /**
    * Get all group data from the Dungeon with Pagination.
-   * @returns Group[]
+   * @returns Promise<Group[]>
    */
   async getAllByCursor(limit?: number, cursor?: number): Promise<Group[]> {
     const config = {
@@ -51,7 +52,7 @@ export default class Dungeon {
 
   /**
    * Get all group ID from the Dungeon.
-   * @returns Group[]
+   * @returns Promise<OnlyId[]>
    */
   async getAllID(): Promise<OnlyId[]> {
     const { data: Groups, error } = await this.client
@@ -67,7 +68,7 @@ export default class Dungeon {
 
   /**
    * Fetches all available modules from the Dungeon.
-   * @returns Group[]
+   * @returns Promise<OnlyModule[]>
    */
   async getAllModule(): Promise<OnlyModule[]> {
     const { data: Groups, error } = await this.client
@@ -84,7 +85,7 @@ export default class Dungeon {
   /**
    * Fetches a group by ID from the Dungeon.
    * @param id Telegram Chat ID of the group
-   * @returns Group
+   * @returns Promise<Group>
    */
   async getByID(id: number): Promise<Group> {
     const { data: Groups, error } = await this.client
@@ -100,7 +101,7 @@ export default class Dungeon {
   /**
    * Fetches a group by Module from the Dungeon.
    * @param module Module of the group that they have chosen
-   * @returns Group
+   * @returns Promise<Group>
    */
   async getByMod(module: string): Promise<Group> {
     const { data: Groups, error } = await this.client
@@ -118,12 +119,45 @@ export default class Dungeon {
    * @param id The ID of the group chat
    * @param module Module of the group that they have chosen
    * @param link Link to the group chat
-   * @returns Group
+   * @returns Promise<Group[]>
    */
-  async newGroup(id: number, module: string, link: string): Promise<any> {
+  async newGroup(id: number, module: string, link: string): Promise<Group[]> {
     const { data: Group, error } = await this.client
       .from("Groups")
       .insert([{ id, module, link }]);
+
+    if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
+
+    return Group;
+  }
+
+  /**
+   * Deletes group chat from .
+   * @param id The ID of the group chat
+   * @returns Promise<Group[]>
+   */
+  async removeGroup(id: number): Promise<Group[]> {
+    const { data: Group, error } = await this.client
+      .from("Groups")
+      .delete()
+      .match({ id: id });
+
+    if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
+
+    return Group;
+  }
+
+  /**
+   * Revoke link of a group .
+   * @param id The ID of the group chat
+   * @param link New link for the group chat
+   * @returns Promise<Group[]>
+   */
+  async updateLink(id: number, link: string): Promise<Group[]> {
+    const { data: Group, error } = await this.client
+      .from("Groups")
+      .update({ link: link })
+      .match({ id: id });
 
     if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
 
