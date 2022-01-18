@@ -8,7 +8,6 @@
     "build": "tsc",
     "watch": "tsc -w",
     "development": "nodemon ./dist/app.js",
-    "digital": "NODE_ENV=production tsc",
     "lint": "eslint ./src --ext .ts",
     "format": "yarn format:check --write",
     "format:check": "prettier --check \"src/**/*.ts\"",
@@ -20,7 +19,7 @@
     "bot"
   ],
   "engines": {
-    "node": "16.x"
+    "node": ">=16.x"
   },
   "repository": "https://github.com/mad-maids/maid.ts",
   "author": "Mad Maids (https://maid.uz)",
