@@ -16,6 +16,14 @@
       "start": 11.0,
       "length": 2.0,
       "location": "IB301"
+    },
+    {
+      "name": "I, Citizen",
+      "tutor": "Lobar Babakhodjaeva",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "New503"
     }
   ],
   "2": [
@@ -54,14 +62,6 @@
       "start": 9.0,
       "length": 2.0,
       "location": "ATB211"
-    },
-    {
-      "name": "I, Citizen",
-      "tutor": "Lobar Babakhodjaeva",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "New407"
     }
   ],
   "5": [

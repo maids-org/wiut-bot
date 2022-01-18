@@ -24,6 +24,14 @@
       "start": 13.0,
       "length": 2.0,
       "location": "New404"
+    },
+    {
+      "name": "I, Citizen",
+      "tutor": "Elena Volkova",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB209"
     }
   ],
   "2": [
@@ -72,16 +80,7 @@
       "location": "IB310"
     }
   ],
-  "5": [
-    {
-      "name": "I, Citizen",
-      "tutor": "Elena Volkova",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "New407"
-    }
-  ],
+  "5": [],
   "6": [],
   "7": []
 }

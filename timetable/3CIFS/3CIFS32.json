@@ -54,17 +54,17 @@
       "start": 12.0,
       "length": 2.0,
       "location": "IB309"
+    },
+    {
+      "name": "Foundations of Economics",
+      "tutor": "Gayrat Suyunov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "New405"
     }
   ],
   "5": [
-    {
-      "name": "Foundations of Economics",
-      "tutor": "Khilola Dushamova",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB207"
-    },
     {
       "name": "Academic English",
       "tutor": "Temur Saidnazarov",

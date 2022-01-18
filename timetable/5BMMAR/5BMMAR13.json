@@ -75,7 +75,7 @@
       "type": "seminar",
       "start": 16.0,
       "length": 2.0,
-      "location": "Lyceum Library"
+      "location": "New502"
     }
   ],
   "4": [
@@ -97,9 +97,9 @@
     },
     {
       "name": "Introduction to Statistics and Data Science",
-      "tutor": "Unknown",
+      "tutor": "Shokhida Karimova",
       "type": "workshop",
-      "start": 15.0,
+      "start": 14.0,
       "length": 2.0,
       "location": "ATB214 CL"
     }
@@ -127,7 +127,7 @@
       "type": "seminar",
       "start": 16.0,
       "length": 2.0,
-      "location": "ATB218"
+      "location": "New302"
     }
   ],
   "6": [],

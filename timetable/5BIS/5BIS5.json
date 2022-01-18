@@ -18,14 +18,6 @@
       "location": "IB316"
     },
     {
-      "name": "Retailing Business",
-      "tutor": "Alisher Ismailov",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB311"
-    },
-    {
       "name": "Financial Management",
       "tutor": "Nargiza Khuramova",
       "type": "workshop",
@@ -37,11 +29,11 @@
   "2": [
     {
       "name": "Information Systems Management",
-      "tutor": "Dariush Alimokhammadi",
+      "tutor": "Sevara Siradjeva",
       "type": "seminar",
-      "start": 16.0,
+      "start": 9.0,
       "length": 2.0,
-      "location": "New303 CL"
+      "location": "New305 CL"
     }
   ],
   "3": [

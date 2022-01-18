@@ -16,17 +16,17 @@
       "start": 10.0,
       "length": 1.0,
       "location": "Lyceum hall"
-    },
+    }
+  ],
+  "2": [
     {
       "name": "Academic English",
       "tutor": "Rozaliya Ziryanova",
       "type": "seminar",
-      "start": 13.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "New406"
-    }
-  ],
-  "2": [
+      "location": "ATB218"
+    },
     {
       "name": "Understanding Finance",
       "tutor": "Feruza Yodgorova",

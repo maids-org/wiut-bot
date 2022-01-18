@@ -5,17 +5,9 @@
       "name": "Academic English",
       "tutor": "Liliya Makovskaya",
       "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "New405"
-    },
-    {
-      "name": "Foundations of Economics",
-      "tutor": "Gulomjon Kosimjonov",
-      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "ATB309"
+      "location": "New405"
     }
   ],
   "2": [
@@ -41,9 +33,17 @@
       "name": "Academic English",
       "tutor": "Liliya Makovskaya",
       "type": "seminar",
-      "start": 9.0,
+      "start": 11.0,
       "length": 2.0,
       "location": "New405"
+    },
+    {
+      "name": "Foundations of Economics",
+      "tutor": "Gulomjon Kosimjonov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "Lyceum 91"
     }
   ],
   "4": [

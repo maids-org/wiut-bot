@@ -24,17 +24,17 @@
       "start": 12.0,
       "length": 1.0,
       "location": "IB316"
+    },
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Shokhida Karimova",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB309"
     }
   ],
   "2": [
-    {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Unknown",
-      "type": "workshop",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "ATB212 CL"
-    },
     {
       "name": "Web Technology",
       "tutor": "Bunyod Khoshimkhujaev",

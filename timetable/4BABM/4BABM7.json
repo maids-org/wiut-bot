@@ -54,17 +54,16 @@
       "location": "IB101"
     }
   ],
-  "4": [
+  "4": [],
+  "5": [
     {
       "name": "Introduction to Statistics and Data Science",
-      "tutor": "Unknown",
+      "tutor": "Khilola Dushamova",
       "type": "workshop",
       "start": 13.0,
       "length": 2.0,
-      "location": "ATB214 CL"
-    }
-  ],
-  "5": [
+      "location": "New407"
+    },
     {
       "name": "Tourism and Its Dynamics",
       "tutor": "Angelo Battaglia",
