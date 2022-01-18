@@ -13,6 +13,10 @@ export const message = (isAdmin: boolean): string => {
     `\n` +
     `/groups - <code>show group links</code>` +
     `\n` +
+    `/unregister - <code>remove this group from our database</code>` +
+    `\n` +
+    `/revoke - <code>reset this group's link</code>` +
+    `\n` +
     `/register - <code>register this group</code>` +
     `\n` +
     `⚠️ /intranet - <code>accessing intranet</code>` +
