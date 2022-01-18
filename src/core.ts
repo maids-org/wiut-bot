@@ -36,7 +36,10 @@ export const webhook = async () => {
     })
     .then(async () => {
       await console.log(chalk.blue("[LAUNCH]"), env.ENVIRONMENT);
-      await console.log(chalk.blue("[HOST:PORT]"), `${env.HOST}:${env.PORT}`);
+      await console.log(
+        chalk.blue("[HOST:PORT]"),
+        `${env.HOST}:${env.PORT}/bot`
+      );
     })
     .catch(async (error: Error) => console.log(chalk.red("[ERROR]"), error));
 };
@@ -49,6 +52,7 @@ export const polling = async () => {
 };
 
 export const longPolling = async () => {
+  await bot.telegram.deleteWebhook();
   await bot
     .startPolling()
     .catch((error: Error) => console.log(chalk.red("[ERROR]"), error));
