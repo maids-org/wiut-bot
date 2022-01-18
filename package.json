@@ -8,6 +8,7 @@
     "build": "tsc",
     "watch": "tsc -w",
     "development": "nodemon ./dist/app.js",
+    "digital": "npm install --only=dev && tsc",
     "lint": "eslint ./src --ext .ts",
     "format": "yarn format:check --write",
     "format:check": "prettier --check \"src/**/*.ts\"",
