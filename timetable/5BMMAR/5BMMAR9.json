@@ -44,6 +44,14 @@
   ],
   "2": [
     {
+      "name": "Banking Law",
+      "tutor": "Tamilla Tagieva",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "Harvard306"
+    },
+    {
       "name": "Professional and Research Skills for Finance",
       "tutor": "Ram Sin",
       "type": "seminar",
@@ -82,12 +90,12 @@
   ],
   "5": [
     {
-      "name": "Banking Law",
-      "tutor": "Tamilla Tagieva",
-      "type": "seminar",
+      "name": "Professional and Research Skills for Finance",
+      "tutor": "Ram Sin",
+      "type": "workshop",
       "start": 9.0,
       "length": 2.0,
-      "location": "IB308"
+      "location": "IB316"
     },
     {
       "name": "Managing Innovation and Entrepreneurship",

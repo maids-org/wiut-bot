@@ -8,14 +8,6 @@
       "start": 9.0,
       "length": 2.0,
       "location": "ATB304"
-    },
-    {
-      "name": "Academic English",
-      "tutor": "Liliya Makovskaya",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "New405"
     }
   ],
   "2": [
@@ -41,7 +33,7 @@
       "name": "Academic English",
       "tutor": "Liliya Makovskaya",
       "type": "seminar",
-      "start": 11.0,
+      "start": 9.0,
       "length": 2.0,
       "location": "New405"
     },

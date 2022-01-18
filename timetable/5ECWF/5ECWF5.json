@@ -62,17 +62,18 @@
       "start": 11.0,
       "length": 1.0,
       "location": "IB216"
-    },
+    }
+  ],
+  "5": [
     {
       "name": "Introduction to Statistics and Data Science",
-      "tutor": "Unknown",
+      "tutor": "Khilola Dushamova",
       "type": "workshop",
       "start": 13.0,
       "length": 2.0,
-      "location": "ATB214 CL"
+      "location": "New407"
     }
   ],
-  "5": [],
   "6": [
     {
       "name": "Econometrics",

@@ -11,7 +11,7 @@
     },
     {
       "name": "Introduction to Statistics and Data Science",
-      "tutor": "Unknown",
+      "tutor": "Khilola Dushamova",
       "type": "workshop",
       "start": 13.0,
       "length": 2.0,
@@ -51,7 +51,7 @@
       "type": "seminar",
       "start": 16.0,
       "length": 2.0,
-      "location": "Lyceum Library"
+      "location": "New502"
     }
   ],
   "4": [],
@@ -66,7 +66,7 @@
     },
     {
       "name": "Introduction to Management and Organisational Behaviour",
-      "tutor": "Isabel Christina Velasco Zamora",
+      "tutor": "Umber Kazi",
       "type": "seminar",
       "start": 13.0,
       "length": 2.0,
@@ -78,7 +78,7 @@
       "type": "seminar",
       "start": 16.0,
       "length": 2.0,
-      "location": "ATB218"
+      "location": "New302"
     }
   ],
   "6": [],

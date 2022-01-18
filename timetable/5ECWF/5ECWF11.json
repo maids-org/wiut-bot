@@ -28,6 +28,14 @@
   ],
   "2": [
     {
+      "name": "Operational Management of Insurance Business",
+      "tutor": "Hasan AKM Kamrul",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB209"
+    },
+    {
       "name": "Intermediate Macroeconomics",
       "tutor": "Muhammed Bilal",
       "type": "lecture",
@@ -55,6 +63,14 @@
     }
   ],
   "4": [
+    {
+      "name": "Operational Management of Insurance Business",
+      "tutor": "Hasan AKM Kamrul",
+      "type": "workshop",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB306"
+    },
     {
       "name": "Econometrics",
       "tutor": "Gayrat Suyunov",

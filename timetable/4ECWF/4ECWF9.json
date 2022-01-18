@@ -28,6 +28,14 @@
       "location": "Harvard306"
     },
     {
+      "name": "Introduction to Insurance Business",
+      "tutor": "Hasan AKM Kamrul",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB316"
+    },
+    {
       "name": "Exploring Economics",
       "tutor": "Shokhida Karimova",
       "type": "seminar",
@@ -39,14 +47,23 @@
   "3": [
     {
       "name": "Introduction to Statistics and Data Science",
-      "tutor": "Unknown",
+      "tutor": "Khilola Dushamova",
       "type": "workshop",
       "start": 14.0,
       "length": 2.0,
       "location": "ATB212 CL"
     }
   ],
-  "4": [],
+  "4": [
+    {
+      "name": "Introduction to Insurance Business",
+      "tutor": "Hasan AKM Kamrul",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB306"
+    }
+  ],
   "5": [
     {
       "name": "Introduction to Banking and Financial Markets",

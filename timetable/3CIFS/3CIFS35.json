@@ -42,17 +42,17 @@
       "start": 13.0,
       "length": 2.0,
       "location": "New207"
-    }
-  ],
-  "3": [
+    },
     {
       "name": "Business in the Modern World",
       "tutor": "Nadezhda Kim",
       "type": "seminar",
-      "start": 9.0,
+      "start": 16.0,
       "length": 2.0,
-      "location": "Lyceum 96"
-    },
+      "location": "Lyceum 91"
+    }
+  ],
+  "3": [
     {
       "name": "Developing Professional Identity",
       "tutor": "Ra'no Rozikova",

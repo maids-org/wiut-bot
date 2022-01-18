@@ -8,14 +8,6 @@
       "start": 11.0,
       "length": 2.0,
       "location": "New207"
-    },
-    {
-      "name": "Business in the Modern World",
-      "tutor": "Unknown",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "IB313"
     }
   ],
   "2": [
@@ -34,6 +26,14 @@
       "start": 11.0,
       "length": 1.0,
       "location": "New206 H"
+    },
+    {
+      "name": "Business in the Modern World",
+      "tutor": "Timur Perkov",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB216"
     }
   ],
   "3": [
