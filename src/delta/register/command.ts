@@ -38,6 +38,10 @@ composer.command("register", async (ctx: TelegrafContext) => {
 });
 
 composer.command("unregister", async (ctx: TelegrafContext) => {
+  if (ctx.chat.type === "private" || ctx.chat.type === "channel") {
+    return await ctx.replyWithHTML(resource.message.noPrivate);
+  }
+
   await ctx.replyWithHTML(`<b>Deleting this group from our database...</b>`);
 
   // Check is requester admin or not
@@ -72,6 +76,10 @@ composer.command("unregister", async (ctx: TelegrafContext) => {
 });
 
 composer.command("revoke", async (ctx: TelegrafContext) => {
+  if (ctx.chat.type === "private" || ctx.chat.type === "channel") {
+    return await ctx.replyWithHTML(resource.message.noPrivate);
+  }
+
   await ctx.replyWithHTML(`<b>Updating the link of this group ...</b>`);
 
   // Check is requester admin or not
