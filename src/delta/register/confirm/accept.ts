@@ -5,7 +5,7 @@ import * as resource from "./resource";
 
 composer.action(/confirm_yes_(.+)/gi, async (ctx: TelegrafContext) => {
   try {
-    const request = await dungeon.newGroup(
+    await dungeon.newGroup(
       ctx.chat.id,
       ctx.match[1],
       await ctx.exportChatInviteLink()
