@@ -36,6 +36,7 @@ export const webhook = async () => {
     })
     .then(async () => {
       await console.log(chalk.blue("[LAUNCH]"), env.ENVIRONMENT);
+      await console.log(chalk.blue("[HOST:PORT]"), `${env.HOST}:${env.PORT}`);
     })
     .catch(async (error: Error) => console.log(chalk.red("[ERROR]"), error));
 };
