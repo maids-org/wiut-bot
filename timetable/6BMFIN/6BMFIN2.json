@@ -63,17 +63,17 @@
       "name": "Bank Risk Management",
       "tutor": "Dildora Ibragimova",
       "type": "seminar",
-      "start": 15.0,
+      "start": 16.0,
       "length": 2.0,
-      "location": "LRC13 Library Multimedia"
+      "location": "New303 CL"
     },
     {
       "name": "Bank Risk Management",
       "tutor": "Dildora Ibragimova",
       "type": "workshop",
-      "start": 17.0,
+      "start": 18.0,
       "length": 1.0,
-      "location": "LRC13 Library Multimedia"
+      "location": "New303 CL"
     }
   ],
   "3": [

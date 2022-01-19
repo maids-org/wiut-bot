@@ -42,6 +42,22 @@
       "start": 11.0,
       "length": 1.0,
       "location": "IB311"
+    },
+    {
+      "name": "Bank Risk Management",
+      "tutor": "Dildora Ibragimova",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "Bank Risk Management",
+      "tutor": "Dildora Ibragimova",
+      "type": "workshop",
+      "start": 18.0,
+      "length": 1.0,
+      "location": "New303 CL"
     }
   ],
   "3": [
@@ -113,22 +129,6 @@
     }
   ],
   "5": [
-    {
-      "name": "Bank Risk Management",
-      "tutor": "Dildora Ibragimova",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "LRC13 Library Multimedia"
-    },
-    {
-      "name": "Bank Risk Management",
-      "tutor": "Dildora Ibragimova",
-      "type": "workshop",
-      "start": 15.0,
-      "length": 1.0,
-      "location": "LRC13 Library Multimedia"
-    },
     {
       "name": "Audit and Assurance",
       "tutor": "Ravshan Kakharov",

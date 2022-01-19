@@ -25,7 +25,7 @@
       "type": "lecture",
       "start": 10.0,
       "length": 1.0,
-      "location": "Lyceum hall"
+      "location": "IB208 CL"
     },
     {
       "name": "Visual Programming",
@@ -37,7 +37,7 @@
     },
     {
       "name": "Visual Programming",
-      "tutor": "Unknown",
+      "tutor": "Akmal Salikhov",
       "type": "seminar",
       "start": 16.0,
       "length": 2.0,

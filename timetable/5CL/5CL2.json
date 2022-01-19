@@ -44,14 +44,6 @@
       "location": "IB316"
     },
     {
-      "name": "Property Law",
-      "tutor": "Khusniddin Abdufattokhov",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "IB308"
-    },
-    {
       "name": "Banking Law",
       "tutor": "Tamilla Tagieva",
       "type": "seminar",
@@ -86,6 +78,14 @@
       "start": 11.0,
       "length": 2.0,
       "location": "IB316"
+    },
+    {
+      "name": "Property Law",
+      "tutor": "Timur Kulumbetov",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "LRC13 Library Multimedia"
     }
   ],
   "5": [

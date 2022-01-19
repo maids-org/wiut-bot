@@ -17,7 +17,7 @@
       "type": "lecture",
       "start": 10.0,
       "length": 1.0,
-      "location": "Lyceum hall"
+      "location": "IB208 CL"
     },
     {
       "name": "Foundations of Economics",
@@ -26,6 +26,14 @@
       "start": 12.0,
       "length": 2.0,
       "location": "IB301"
+    },
+    {
+      "name": "Foundations of Economics",
+      "tutor": "Olmas Isakov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "Lyceum 96"
     }
   ],
   "3": [
@@ -57,14 +65,6 @@
     }
   ],
   "5": [
-    {
-      "name": "Foundations of Economics",
-      "tutor": "Olmas Isakov",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "ATB309"
-    },
     {
       "name": "I, Citizen",
       "tutor": "Sherzod Khaydarov",
