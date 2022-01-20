@@ -16,14 +16,6 @@
       "start": 13.0,
       "length": 1.0,
       "location": "New206 H"
-    },
-    {
-      "name": "Academic English",
-      "tutor": "Gunjan Jain",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New407"
     }
   ],
   "2": [
@@ -81,6 +73,14 @@
     }
   ],
   "5": [
+    {
+      "name": "Academic English",
+      "tutor": "Gunjan Jain",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB309"
+    },
     {
       "name": "Developing Professional Identity",
       "tutor": "Feruza Askarova",

@@ -62,15 +62,14 @@
       "location": "ATB311"
     }
   ],
-  "4": [],
-  "5": [
+  "4": [
     {
       "name": "Service Marketing",
       "tutor": "Mamurjon Rahimov",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "IB301"
+      "location": "ATB301"
     },
     {
       "name": "Service Marketing",
@@ -78,8 +77,10 @@
       "type": "workshop",
       "start": 13.0,
       "length": 1.0,
-      "location": "IB301"
-    },
+      "location": "ATB303"
+    }
+  ],
+  "5": [
     {
       "name": "Global Financial Markets and Institutions",
       "tutor": "Unknown",
