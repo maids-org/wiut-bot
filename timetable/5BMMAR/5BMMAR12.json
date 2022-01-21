@@ -11,7 +11,7 @@
     },
     {
       "name": "Marketing Communications",
-      "tutor": "Rahat Ullah",
+      "tutor": "Dilmurod Khodiev",
       "type": "lecture",
       "start": 15.0,
       "length": 1.0,
@@ -30,7 +30,7 @@
   "3": [
     {
       "name": "Financial Management",
-      "tutor": "Saidgozi Saydumarov",
+      "tutor": "Ravshan Kakharov",
       "type": "seminar",
       "start": 15.0,
       "length": 2.0,
@@ -38,7 +38,7 @@
     },
     {
       "name": "Financial Management",
-      "tutor": "Saidgozi Saydumarov",
+      "tutor": "Ravshan Kakharov",
       "type": "workshop",
       "start": 17.0,
       "length": 1.0,

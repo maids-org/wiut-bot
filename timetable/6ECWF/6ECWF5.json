@@ -119,7 +119,7 @@
       "type": "seminar",
       "start": 15.0,
       "length": 2.0,
-      "location": "IB302"
+      "location": "IB316"
     },
     {
       "name": "Global Financial Markets and Institutions",
@@ -127,7 +127,7 @@
       "type": "workshop",
       "start": 17.0,
       "length": 1.0,
-      "location": "IB302"
+      "location": "IB316"
     }
   ],
   "6": [

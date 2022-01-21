@@ -62,7 +62,16 @@
       "location": "LRC13 Library Multimedia"
     }
   ],
-  "4": [],
+  "4": [
+    {
+      "name": "Intermediate Macroeconomics",
+      "tutor": "Muhammed Bilal",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB307"
+    }
+  ],
   "5": [
     {
       "name": "Professional and Research Skills for Finance",
@@ -71,14 +80,6 @@
       "start": 13.0,
       "length": 2.0,
       "location": "IB208 CL"
-    },
-    {
-      "name": "Intermediate Macroeconomics",
-      "tutor": "Javlon Juraev",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "ATB311"
     }
   ],
   "6": [

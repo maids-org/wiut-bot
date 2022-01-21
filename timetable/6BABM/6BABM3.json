@@ -166,16 +166,16 @@
       "tutor": "Saidgozi Saydumarov",
       "type": "seminar",
       "start": 15.0,
-      "length": 2.0,
-      "location": "IB302"
+      "length": 1.0,
+      "location": "IB316"
     },
     {
-      "name": "Global Financial Markets and Institutions",
-      "tutor": "Saidgozi Saydumarov",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "IB302"
+      "name": "New Venture Creation",
+      "tutor": "Alisher Ismailov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB314"
     }
   ],
   "6": [],

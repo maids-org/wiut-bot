@@ -11,7 +11,7 @@
     },
     {
       "name": "Marketing Communications",
-      "tutor": "Rahat Ullah",
+      "tutor": "Dilmurod Khodiev",
       "type": "lecture",
       "start": 15.0,
       "length": 1.0,
@@ -58,19 +58,19 @@
   "5": [
     {
       "name": "Marketing Communications",
-      "tutor": "Dilmurod Khodiev",
+      "tutor": "Rahat Ullah",
       "type": "seminar",
-      "start": 15.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "ATB307"
+      "location": "IB301"
     },
     {
       "name": "Marketing Communications",
-      "tutor": "Dilmurod Khodiev",
+      "tutor": "Rahat Ullah",
       "type": "workshop",
-      "start": 17.0,
+      "start": 13.0,
       "length": 1.0,
-      "location": "ATB307"
+      "location": "IB301"
     }
   ],
   "6": [],

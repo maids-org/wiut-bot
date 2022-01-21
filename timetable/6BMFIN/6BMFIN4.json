@@ -53,7 +53,7 @@
     },
     {
       "name": "Audit and Assurance",
-      "tutor": "Ravshan Kakharov",
+      "tutor": "Jamshid Nasreddinov",
       "type": "seminar",
       "start": 14.0,
       "length": 1.0,
@@ -155,19 +155,19 @@
     },
     {
       "name": "Global Financial Markets and Institutions",
-      "tutor": "Unknown",
+      "tutor": "Saidgozi Saydumarov",
       "type": "seminar",
       "start": 15.0,
       "length": 2.0,
-      "location": "ATB310"
+      "location": "IB316"
     },
     {
       "name": "Global Financial Markets and Institutions",
-      "tutor": "Unknown",
+      "tutor": "Saidgozi Saydumarov",
       "type": "workshop",
       "start": 17.0,
       "length": 1.0,
-      "location": "ATB310"
+      "location": "IB316"
     }
   ],
   "6": [],

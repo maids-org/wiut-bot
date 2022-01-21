@@ -48,20 +48,20 @@
   ],
   "4": [
     {
-      "name": "Foundations of Economics",
-      "tutor": "Javlon Juraev",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "ATB310"
-    },
-    {
       "name": "Developing Professional Identity",
       "tutor": "Aziz Holmatov",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "New406"
+    },
+    {
+      "name": "Foundations of Economics",
+      "tutor": "Javlon Juraev",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "Lyceum 91"
     }
   ],
   "5": [

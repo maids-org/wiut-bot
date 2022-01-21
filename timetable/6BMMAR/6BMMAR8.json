@@ -37,7 +37,7 @@
     },
     {
       "name": "Financial Management",
-      "tutor": "Saidgozi Saydumarov",
+      "tutor": "Ravshan Kakharov",
       "type": "seminar",
       "start": 15.0,
       "length": 2.0,
@@ -45,7 +45,7 @@
     },
     {
       "name": "Financial Management",
-      "tutor": "Saidgozi Saydumarov",
+      "tutor": "Ravshan Kakharov",
       "type": "workshop",
       "start": 17.0,
       "length": 1.0,
@@ -103,7 +103,7 @@
       "type": "seminar",
       "start": 15.0,
       "length": 2.0,
-      "location": "IB316"
+      "location": "IB302"
     },
     {
       "name": "Service Marketing",
@@ -111,7 +111,7 @@
       "type": "workshop",
       "start": 17.0,
       "length": 1.0,
-      "location": "IB316"
+      "location": "IB302"
     }
   ],
   "6": [],

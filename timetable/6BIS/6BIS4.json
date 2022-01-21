@@ -2,22 +2,6 @@
   "0": [],
   "1": [
     {
-      "name": "Islamic Finance",
-      "tutor": "Surayyo Shaamirova",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "New408 CL"
-    },
-    {
-      "name": "Islamic Finance",
-      "tutor": "Surayyo Shaamirova",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "New408 CL"
-    },
-    {
       "name": "Computer Generated Imagery and Its Implementation",
       "tutor": "Bekzod Fayozov",
       "type": "seminar",
