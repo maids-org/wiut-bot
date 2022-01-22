@@ -51,19 +51,19 @@
   "6": [
     {
       "name": "Econometrics",
-      "tutor": "Obid Khakimov",
-      "type": "lecture",
+      "tutor": "Sardor Azam",
+      "type": "workshop",
       "start": 9.0,
       "length": 2.0,
-      "location": "Harvard306"
+      "location": "ATB212 CL"
     },
     {
       "name": "Econometrics",
-      "tutor": "Sardor Azam",
-      "type": "workshop",
+      "tutor": "Obid Khakimov",
+      "type": "lecture",
       "start": 11.0,
       "length": 2.0,
-      "location": "ATB212 CL"
+      "location": "Harvard306"
     }
   ],
   "7": []

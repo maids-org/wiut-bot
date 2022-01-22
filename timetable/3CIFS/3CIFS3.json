@@ -16,14 +16,6 @@
       "start": 11.0,
       "length": 2.0,
       "location": "IB301"
-    },
-    {
-      "name": "Developing Professional Identity",
-      "tutor": "Rano Nurmanova",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New206 H"
     }
   ],
   "2": [
@@ -34,6 +26,14 @@
       "start": 9.0,
       "length": 2.0,
       "location": "ATB314"
+    },
+    {
+      "name": "Developing Professional Identity",
+      "tutor": "Rano Nurmanova",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB301"
     }
   ],
   "3": [

@@ -48,6 +48,14 @@
   ],
   "4": [
     {
+      "name": "Introduction to Banking and Financial Markets",
+      "tutor": "Omon Ganiev",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB310"
+    },
+    {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Zarrukh Rakhimov",
       "type": "workshop",
@@ -64,14 +72,6 @@
       "start": 12.0,
       "length": 2.0,
       "location": "IB209 CL"
-    },
-    {
-      "name": "Introduction to Banking and Financial Markets",
-      "tutor": "Zamon Khaldarov",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB313"
     }
   ],
   "6": [],
