@@ -22,16 +22,8 @@
       "tutor": "Nargiza Khuramova",
       "type": "seminar",
       "start": 15.0,
-      "length": 1.0,
+      "length": 2.0,
       "location": "IB316"
-    },
-    {
-      "name": "Managing Innovation and Entrepreneurship",
-      "tutor": "Ahmed Waqas",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 1.0,
-      "location": "ATB314"
     },
     {
       "name": "Financial Management",
