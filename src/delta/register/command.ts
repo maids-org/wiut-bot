@@ -37,43 +37,43 @@ composer.command("register", async (ctx: TelegrafContext) => {
   }
 });
 
-composer.command("unregister", async (ctx: TelegrafContext) => {
-  if (ctx.chat.type === "private" || ctx.chat.type === "channel") {
-    return await ctx.replyWithHTML(resource.message.noPrivate);
-  }
-
-  await ctx.replyWithHTML(`<b>Deleting this group from our database...</b>`);
-
-  // Check is requester admin or not
-  const admins = (await ctx.getChatAdministrators()).map(
-    (user) => user.user.id
-  );
-  if (!admins.includes(ctx.message.from.id)) {
-    return await ctx.replyWithHTML(
-      `<b>Hold on bud, you're not admin to do this action!`
-    );
-  }
-
-  // Check if the group is registered in database
-  if (
-    !(await dungeon.getAllID())
-      .map((content) => content.id)
-      .includes(ctx.chat.id)
-  ) {
-    return await ctx.replyWithHTML(`<b>It's not even registered bud!</b>`);
-  }
-
-  try {
-    await dungeon.removeGroup(ctx.chat.id);
-    await ctx.replyWithHTML(
-      `<b>So sad seeing you unregistering! Hope you will register me again...</b>`
-    );
-  } catch (e) {
-    await ctx.replyWithHTML(
-      `<b>I can't delete this group for some reason!</b>`
-    );
-  }
-});
+// composer.command("unregister", async (ctx: TelegrafContext) => {
+//   if (ctx.chat.type === "private" || ctx.chat.type === "channel") {
+//     return await ctx.replyWithHTML(resource.message.noPrivate);
+//   }
+//
+//   await ctx.replyWithHTML(`<b>Deleting this group from our database...</b>`);
+//
+//   // Check is requester admin or not
+//   const admins = (await ctx.getChatAdministrators()).map(
+//     (user) => user.user.id
+//   );
+//   if (!admins.includes(ctx.message.from.id)) {
+//     return await ctx.replyWithHTML(
+//       `<b>Hold on bud, you're not admin to do this action!`
+//     );
+//   }
+//
+//   // Check if the group is registered in database
+//   if (
+//     !(await dungeon.getAllID())
+//       .map((content) => content.id)
+//       .includes(ctx.chat.id)
+//   ) {
+//     return await ctx.replyWithHTML(`<b>It's not even registered bud!</b>`);
+//   }
+//
+//   try {
+//     await dungeon.removeGroup(ctx.chat.id);
+//     await ctx.replyWithHTML(
+//       `<b>So sad seeing you unregistering! Hope you will register me again...</b>`
+//     );
+//   } catch (e) {
+//     await ctx.replyWithHTML(
+//       `<b>I can't delete this group for some reason!</b>`
+//     );
+//   }
+// });
 
 composer.command("revoke", async (ctx: TelegrafContext) => {
   if (ctx.chat.type === "private" || ctx.chat.type === "channel") {
