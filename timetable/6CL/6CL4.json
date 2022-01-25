@@ -28,6 +28,14 @@
       "location": "ATB314"
     },
     {
+      "name": "Law of Finance",
+      "tutor": "Shukhrat Yunusov",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "Lyceum Library"
+    },
+    {
       "name": "Principles and Practices of Taxation",
       "tutor": "Otabek Fazilov",
       "type": "seminar",
@@ -81,7 +89,7 @@
   "4": [
     {
       "name": "EU Trade Relations",
-      "tutor": "Timur Kulumbetov",
+      "tutor": "Akbar Ismanjanov",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
@@ -136,14 +144,6 @@
       "start": 15.0,
       "length": 1.0,
       "location": "IB216"
-    },
-    {
-      "name": "Law of Finance",
-      "tutor": "Shukhrat Yunusov",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "Harvard306"
     }
   ],
   "6": [],

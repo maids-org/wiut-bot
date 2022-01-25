@@ -20,6 +20,14 @@
   ],
   "2": [
     {
+      "name": "Law of Finance",
+      "tutor": "Shukhrat Yunusov",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "Lyceum Library"
+    },
+    {
       "name": "International Commercial Arbitration",
       "tutor": "Feruza Bobokulova",
       "type": "lecture",
@@ -72,14 +80,6 @@
       "start": 15.0,
       "length": 1.0,
       "location": "IB216"
-    },
-    {
-      "name": "Law of Finance",
-      "tutor": "Shukhrat Yunusov",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "Harvard306"
     }
   ],
   "6": [],
