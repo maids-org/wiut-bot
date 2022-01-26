@@ -60,11 +60,19 @@
       "location": "New303 CL"
     },
     {
+      "name": "Business Intelligence Systems",
+      "tutor": "Dilshod Ibragimov",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "New206 H"
+    },
+    {
       "name": "Internet Law",
       "tutor": "Timur Kulumbetov",
       "type": "lecture",
-      "start": 16.0,
-      "length": 2.0,
+      "start": 17.0,
+      "length": 1.0,
       "location": "IB316"
     }
   ],

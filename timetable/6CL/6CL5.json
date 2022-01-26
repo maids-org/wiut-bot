@@ -44,12 +44,20 @@
       "location": "IB308"
     },
     {
-      "name": "Internet Law",
-      "tutor": "Timur Kulumbetov",
-      "type": "lecture",
+      "name": "Principles and Practices of Taxation",
+      "tutor": "Otabek Fazilov",
+      "type": "seminar",
       "start": 16.0,
-      "length": 2.0,
-      "location": "IB316"
+      "length": 1.0,
+      "location": "ATB211"
+    },
+    {
+      "name": "Principles and Practices of Taxation",
+      "tutor": "Otabek Fazilov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB211"
     }
   ],
   "3": [

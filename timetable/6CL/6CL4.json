@@ -144,6 +144,14 @@
       "start": 15.0,
       "length": 1.0,
       "location": "IB216"
+    },
+    {
+      "name": "Internet Law",
+      "tutor": "Timur Kulumbetov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB216"
     }
   ],
   "6": [],
