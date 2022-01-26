@@ -4,6 +4,7 @@ import "@delta/cron";
 import "@delta/links";
 import "@delta/groups";
 import "@delta/inline";
+import "@delta/feedback";
 import "@delta/register";
 import "@delta/timetable";
 import "@delta/contribute";

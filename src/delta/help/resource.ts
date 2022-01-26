@@ -25,9 +25,8 @@ export const message = (isAdmin: boolean): string => {
     `\n` +
     `/contribute - <code>enhance me more</code>` +
     `\n` +
-    `⚠️ /feedback - <code>leave a feedback to admins</code>` +
-    `\n` +
-    `⚠️ /confession - <code>send content to the confession</code>`;
+    `/feedback - <code>leave a feedback to admins</code>`;
+
   const admin: string =
     `\n` +
     `\n` +
