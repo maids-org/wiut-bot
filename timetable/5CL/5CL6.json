@@ -10,6 +10,14 @@
       "location": "IB307"
     },
     {
+      "name": "Entertainment and Sports Law",
+      "tutor": "Firdavs Kabilov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB307"
+    },
+    {
       "name": "Retailing Business",
       "tutor": "Alisher Ismailov",
       "type": "lecture",
@@ -57,14 +65,6 @@
     }
   ],
   "5": [
-    {
-      "name": "Entertainment and Sports Law",
-      "tutor": "Firdavs Kabilov",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "IB316"
-    },
     {
       "name": "Retailing Business",
       "tutor": "Karan Khurana",

@@ -18,6 +18,14 @@
       "location": "IB313"
     },
     {
+      "name": "Entertainment and Sports Law",
+      "tutor": "Firdavs Kabilov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB307"
+    },
+    {
       "name": "Islamic Finance",
       "tutor": "Abdul Aziz Buriev",
       "type": "lecture",
@@ -90,12 +98,12 @@
       "location": "IB302"
     },
     {
-      "name": "Entertainment and Sports Law",
-      "tutor": "Firdavs Kabilov",
+      "name": "Islamic Finance",
+      "tutor": "Surayyo Shaamirova",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "IB316"
+      "location": "New302"
     },
     {
       "name": "Islamic Finance",
