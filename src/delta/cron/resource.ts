@@ -1,7 +1,7 @@
 import { Markup } from "telegraf";
 
-export const message = (subject) =>
-  `<b>⚠️ Upcoming Class Notification</b> \n` +
+export const message = (subject, group) =>
+  `<b>⚠️ Upcoming Class Notification for ${group}</b> \n` +
   `\n` +
   `<b>10 minutes left</b> for <code>${subject.name} ${subject.type}</code> class. ` +
   `Please, get ready as soon as possible!` +

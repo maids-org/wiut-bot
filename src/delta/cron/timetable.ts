@@ -4,6 +4,10 @@ import * as consoles from "@src/utils";
 import { Timetable } from "@src/database";
 import * as resource from "./resource";
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 // Timetable CRON
 (async () => {
   for (const group of (await dungeon.getAllModule()).map((m) => m.module)) {
@@ -16,7 +20,7 @@ import * as resource from "./resource";
             await bot.telegram
               .sendMessage(
                 (await dungeon.getByMod(group)).id,
-                resource.message(subject),
+                resource.message(subject, group),
                 {
                   reply_markup: resource.keyboard(timetable.getTimetableLink()),
                   parse_mode: "HTML",

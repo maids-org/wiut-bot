@@ -7,13 +7,13 @@ export const message = (isAdmin: boolean): string => {
     `\n` +
     `/help - <code>show this helper message</code>` +
     `\n` +
-    `⚠️ /stats - <code>check stats of group</code>` +
+    `/stats - <code>check stats of group</code>` +
     `\n` +
     `/links - <code>show url links</code>` +
     `\n` +
     `/groups - <code>show group links</code>` +
-    `\n` +
-    `/unregister - <code>remove this group from our database</code>` +
+    // `\n` +
+    // `/unregister - <code>remove this group from our database</code>` +
     `\n` +
     `/revoke - <code>reset this group's link</code>` +
     `\n` +
