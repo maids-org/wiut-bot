@@ -53,18 +53,18 @@
     {
       "name": "Econometrics",
       "tutor": "Obid Khakimov",
-      "type": "workshop",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "ATB214 CL"
-    },
-    {
-      "name": "Econometrics",
-      "tutor": "Obid Khakimov",
       "type": "lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "Harvard306"
+    },
+    {
+      "name": "Econometrics",
+      "tutor": "Obid Khakimov",
+      "type": "workshop",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
     }
   ],
   "7": []

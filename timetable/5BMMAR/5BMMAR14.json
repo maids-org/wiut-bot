@@ -130,6 +130,14 @@
       "location": "IB313"
     },
     {
+      "name": "Information Systems Management",
+      "tutor": "Dariush Alimokhammadi",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "New206 H"
+    },
+    {
       "name": "Tourism and Its Dynamics",
       "tutor": "Angelo Battaglia",
       "type": "workshop",
