@@ -8,14 +8,6 @@
       "start": 9.0,
       "length": 2.0,
       "location": "New503"
-    },
-    {
-      "name": "Fundamentals of Commercial Law",
-      "tutor": "Dildora Karimova",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "IB216"
     }
   ],
   "2": [
@@ -55,6 +47,14 @@
     }
   ],
   "4": [
+    {
+      "name": "Fundamentals of Commercial Law",
+      "tutor": "Dildora Karimova",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New407"
+    },
     {
       "name": "Developing Professional Identity",
       "tutor": "Ra'no Rozikova",

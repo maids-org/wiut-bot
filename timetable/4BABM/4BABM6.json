@@ -8,14 +8,6 @@
       "start": 10.0,
       "length": 1.0,
       "location": "IB301"
-    },
-    {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Khilola Dushamova",
-      "type": "workshop",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "IB209 CL"
     }
   ],
   "2": [
@@ -54,7 +46,16 @@
       "location": "New502"
     }
   ],
-  "4": [],
+  "4": [
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Khilola Dushamova",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB208 CL"
+    }
+  ],
   "5": [
     {
       "name": "Alternative Dispute Resolution",
