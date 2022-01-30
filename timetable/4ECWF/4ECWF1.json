@@ -26,14 +26,6 @@
       "start": 10.0,
       "length": 1.0,
       "location": "Harvard306"
-    },
-    {
-      "name": "Corporate Finance",
-      "tutor": "Murodullo Bazarov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New207"
     }
   ],
   "3": [
@@ -74,6 +66,15 @@
       "location": "ATB214 CL"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Corporate Finance",
+      "tutor": "Murodullo Bazarov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New207"
+    }
+  ],
   "7": []
 }

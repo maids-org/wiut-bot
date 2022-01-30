@@ -34,16 +34,7 @@
       "location": "IB309"
     }
   ],
-  "2": [
-    {
-      "name": "Web Technology",
-      "tutor": "Bunyod Khoshimkhujaev",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New304 CL"
-    }
-  ],
+  "2": [],
   "3": [
     {
       "name": "Fundametals of Programming",
@@ -98,6 +89,15 @@
       "location": "IB209 CL"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Web Technology",
+      "tutor": "Bunyod Khoshimkhujaev",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New304 CL"
+    }
+  ],
   "7": []
 }

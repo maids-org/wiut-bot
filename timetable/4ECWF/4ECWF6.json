@@ -26,14 +26,6 @@
       "start": 10.0,
       "length": 1.0,
       "location": "Harvard306"
-    },
-    {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Khilola Dushamova",
-      "type": "workshop",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB214 CL"
     }
   ],
   "3": [
@@ -74,6 +66,15 @@
       "location": "ATB303"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Khilola Dushamova",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
+    }
+  ],
   "7": []
 }

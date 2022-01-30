@@ -26,14 +26,6 @@
       "start": 11.0,
       "length": 2.0,
       "location": "New301"
-    },
-    {
-      "name": "Business in the Modern World",
-      "tutor": "Nigora Saidmuradova",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB303"
     }
   ],
   "3": [
@@ -82,6 +74,15 @@
       "location": "New407"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Business in the Modern World",
+      "tutor": "Nigora Saidmuradova",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB303"
+    }
+  ],
   "7": []
 }

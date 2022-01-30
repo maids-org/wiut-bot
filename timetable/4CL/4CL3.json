@@ -10,16 +10,7 @@
       "location": "Harvard306"
     }
   ],
-  "2": [
-    {
-      "name": "Tort Law",
-      "tutor": "Mandeep Singh",
-      "type": "lecture",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "New206 H"
-    }
-  ],
+  "2": [],
   "3": [
     {
       "name": "Alternative Dispute Resolution",
@@ -58,6 +49,15 @@
       "location": "IB302"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Tort Law",
+      "tutor": "Mandeep Singh",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "New206 H"
+    }
+  ],
   "7": []
 }

@@ -26,16 +26,7 @@
       "location": "New302"
     }
   ],
-  "2": [
-    {
-      "name": "I, Citizen",
-      "tutor": "Alisher Kosimov",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "New301"
-    }
-  ],
+  "2": [],
   "3": [
     {
       "name": "Academic English",
@@ -82,6 +73,15 @@
       "location": "New405"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "I, Citizen",
+      "tutor": "Alisher Kosimov",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "New301"
+    }
+  ],
   "7": []
 }

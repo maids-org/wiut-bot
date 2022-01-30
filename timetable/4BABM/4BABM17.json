@@ -34,14 +34,6 @@
       "start": 9.0,
       "length": 2.0,
       "location": "Lyceum Library"
-    },
-    {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Gayrat Suyunov",
-      "type": "workshop",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB202 CL"
     }
   ],
   "3": [
@@ -74,6 +66,15 @@
       "location": "ATB212 CL"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Gayrat Suyunov",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB202 CL"
+    }
+  ],
   "7": []
 }

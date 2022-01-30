@@ -34,14 +34,6 @@
       "start": 9.0,
       "length": 2.0,
       "location": "Lyceum Library"
-    },
-    {
-      "name": "Tourism and Its Dynamics",
-      "tutor": "Timur Perkov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB304"
     }
   ],
   "3": [
@@ -73,6 +65,15 @@
       "location": "ATB212 CL"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Tourism and Its Dynamics",
+      "tutor": "Timur Perkov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB304"
+    }
+  ],
   "7": []
 }

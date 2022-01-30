@@ -34,14 +34,6 @@
       "start": 10.0,
       "length": 1.0,
       "location": "Harvard306"
-    },
-    {
-      "name": "Exploring Economics",
-      "tutor": "Khilola Dushamova",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB209"
     }
   ],
   "3": [
@@ -98,6 +90,15 @@
       "location": "ATB212 CL"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Exploring Economics",
+      "tutor": "Khilola Dushamova",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB209"
+    }
+  ],
   "7": []
 }

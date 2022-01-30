@@ -42,22 +42,6 @@
       "start": 10.0,
       "length": 1.0,
       "location": "IB311"
-    },
-    {
-      "name": "Audit and Assurance",
-      "tutor": "Jamshid Nasreddinov",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB301"
-    },
-    {
-      "name": "Strategy in a Complex World",
-      "tutor": "Anil Kumar",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New302"
     }
   ],
   "3": [
@@ -162,6 +146,23 @@
       "location": "ATB301"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Audit and Assurance",
+      "tutor": "Jamshid Nasreddinov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Anil Kumar",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New302"
+    }
+  ],
   "7": []
 }

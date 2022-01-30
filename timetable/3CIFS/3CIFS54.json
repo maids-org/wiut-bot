@@ -34,14 +34,6 @@
       "start": 10.0,
       "length": 1.0,
       "location": "IB208 CL"
-    },
-    {
-      "name": "Business in the Modern World",
-      "tutor": "Sitora Shaydullayeva",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New404"
     }
   ],
   "3": [
@@ -82,6 +74,15 @@
       "location": "Lyceum 93"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Business in the Modern World",
+      "tutor": "Sitora Shaydullayeva",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New404"
+    }
+  ],
   "7": []
 }

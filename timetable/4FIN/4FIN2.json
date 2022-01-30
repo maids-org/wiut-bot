@@ -42,14 +42,6 @@
       "start": 11.0,
       "length": 1.0,
       "location": "IB215 CL"
-    },
-    {
-      "name": "Introduction to Banking and Financial Markets",
-      "tutor": "Iroda Azizova",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "IB209 CL"
     }
   ],
   "3": [
@@ -73,6 +65,15 @@
     }
   ],
   "5": [],
-  "6": [],
+  "6": [
+    {
+      "name": "Introduction to Banking and Financial Markets",
+      "tutor": "Iroda Azizova",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB209 CL"
+    }
+  ],
   "7": []
 }

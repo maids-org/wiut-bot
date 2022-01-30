@@ -34,22 +34,6 @@
       "start": 11.0,
       "length": 1.0,
       "location": "IB311"
-    },
-    {
-      "name": "Financial Management",
-      "tutor": "Nargiza Khuramova",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "ATB302"
-    },
-    {
-      "name": "Financial Management",
-      "tutor": "Nargiza Khuramova",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "ATB302"
     }
   ],
   "3": [
@@ -98,6 +82,23 @@
       "location": "IB215 CL"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Financial Management",
+      "tutor": "Nargiza Khuramova",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB302"
+    },
+    {
+      "name": "Financial Management",
+      "tutor": "Nargiza Khuramova",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB302"
+    }
+  ],
   "7": []
 }

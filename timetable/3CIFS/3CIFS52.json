@@ -34,14 +34,6 @@
       "start": 11.0,
       "length": 1.0,
       "location": "New206 H"
-    },
-    {
-      "name": "Visual Programming",
-      "tutor": "Akmal Salikhov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New305 CL"
     }
   ],
   "3": [
@@ -82,6 +74,15 @@
       "location": "ATB307"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Visual Programming",
+      "tutor": "Akmal Salikhov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New305 CL"
+    }
+  ],
   "7": []
 }

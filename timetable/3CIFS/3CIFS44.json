@@ -34,14 +34,6 @@
       "start": 10.0,
       "length": 1.0,
       "location": "IB208 CL"
-    },
-    {
-      "name": "Business in the Modern World",
-      "tutor": "Shoira Mirzakhidova",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB307"
     }
   ],
   "3": [
@@ -82,6 +74,15 @@
       "location": "New503"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Business in the Modern World",
+      "tutor": "Shoira Mirzakhidova",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB307"
+    }
+  ],
   "7": []
 }

@@ -18,24 +18,7 @@
       "location": "IB306"
     }
   ],
-  "2": [
-    {
-      "name": "Law of Finance",
-      "tutor": "Shukhrat Yunusov",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "Lyceum Library"
-    },
-    {
-      "name": "International Commercial Arbitration",
-      "tutor": "Feruza Bobokulova",
-      "type": "lecture",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB308"
-    }
-  ],
+  "2": [],
   "3": [
     {
       "name": "Banking Law",
@@ -82,6 +65,23 @@
       "location": "IB216"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Law of Finance",
+      "tutor": "Shukhrat Yunusov",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "Lyceum Library"
+    },
+    {
+      "name": "International Commercial Arbitration",
+      "tutor": "Feruza Bobokulova",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB308"
+    }
+  ],
   "7": []
 }

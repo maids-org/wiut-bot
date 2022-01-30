@@ -26,24 +26,7 @@
       "location": "New305 CL"
     }
   ],
-  "2": [
-    {
-      "name": "Web Applications Development",
-      "tutor": "Ali Subair",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "New303 CL"
-    },
-    {
-      "name": "Business Intelligence Systems",
-      "tutor": "Dilshod Ibragimov",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 1.0,
-      "location": "New206 H"
-    }
-  ],
+  "2": [],
   "3": [
     {
       "name": "Human Resource Management",
@@ -90,6 +73,23 @@
       "location": "New206 H"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Web Applications Development",
+      "tutor": "Ali Subair",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "Business Intelligence Systems",
+      "tutor": "Dilshod Ibragimov",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "New206 H"
+    }
+  ],
   "7": []
 }

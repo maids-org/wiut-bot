@@ -26,22 +26,6 @@
       "start": 9.0,
       "length": 1.0,
       "location": "Harvard306"
-    },
-    {
-      "name": "Behavioural Economics",
-      "tutor": "Bilol Buzrukov",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB311"
-    },
-    {
-      "name": "International Economics",
-      "tutor": "Ahmed Junaid",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB207"
     }
   ],
   "3": [
@@ -73,6 +57,23 @@
     }
   ],
   "5": [],
-  "6": [],
+  "6": [
+    {
+      "name": "Behavioural Economics",
+      "tutor": "Bilol Buzrukov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB311"
+    },
+    {
+      "name": "International Economics",
+      "tutor": "Ahmed Junaid",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB207"
+    }
+  ],
   "7": []
 }

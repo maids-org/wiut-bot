@@ -26,14 +26,6 @@
       "start": 9.0,
       "length": 2.0,
       "location": "IB302"
-    },
-    {
-      "name": "Industrial Organisation",
-      "tutor": "Deniz Guvercin",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "IB311"
     }
   ],
   "3": [
@@ -90,6 +82,15 @@
       "location": "IB208 CL"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Industrial Organisation",
+      "tutor": "Deniz Guvercin",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB311"
+    }
+  ],
   "7": []
 }

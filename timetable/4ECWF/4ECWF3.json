@@ -34,14 +34,6 @@
       "start": 10.0,
       "length": 1.0,
       "location": "Harvard306"
-    },
-    {
-      "name": "Introduction to Insurance Business",
-      "tutor": "Hasan AKM Kamrul",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New406"
     }
   ],
   "3": [
@@ -82,6 +74,15 @@
       "location": "ATB302"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Introduction to Insurance Business",
+      "tutor": "Hasan AKM Kamrul",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New406"
+    }
+  ],
   "7": []
 }

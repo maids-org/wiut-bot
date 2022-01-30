@@ -26,24 +26,7 @@
       "location": "IB301"
     }
   ],
-  "2": [
-    {
-      "name": "Financial Mathematics and Principles",
-      "tutor": "Rustam Suleymanov",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "New405"
-    },
-    {
-      "name": "Financial Mathematics and Principles",
-      "tutor": "Rustam Suleymanov",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "New408 CL"
-    }
-  ],
+  "2": [],
   "3": [
     {
       "name": "Tourism and Its Dynamics",
@@ -98,6 +81,23 @@
       "location": "ATB212 CL"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Financial Mathematics and Principles",
+      "tutor": "Rustam Suleymanov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "New405"
+    },
+    {
+      "name": "Financial Mathematics and Principles",
+      "tutor": "Rustam Suleymanov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "New408 CL"
+    }
+  ],
   "7": []
 }

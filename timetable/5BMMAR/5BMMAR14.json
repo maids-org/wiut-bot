@@ -50,14 +50,6 @@
       "start": 9.0,
       "length": 2.0,
       "location": "Lyceum Library"
-    },
-    {
-      "name": "Employment Law",
-      "tutor": "Malika Mukimova",
-      "type": "lecture",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "IB309"
     }
   ],
   "3": [
@@ -146,6 +138,15 @@
       "location": "ATB212 CL"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Employment Law",
+      "tutor": "Malika Mukimova",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB309"
+    }
+  ],
   "7": []
 }

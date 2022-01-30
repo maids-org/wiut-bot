@@ -34,14 +34,6 @@
       "start": 11.0,
       "length": 2.0,
       "location": "ATB212 CL"
-    },
-    {
-      "name": "Introduction to Banking and Financial Markets",
-      "tutor": "Omon Ganiev",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "IB302"
     }
   ],
   "3": [
@@ -90,6 +82,15 @@
       "location": "New305 CL"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Introduction to Banking and Financial Markets",
+      "tutor": "Omon Ganiev",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB302"
+    }
+  ],
   "7": []
 }

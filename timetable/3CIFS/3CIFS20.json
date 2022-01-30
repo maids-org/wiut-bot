@@ -26,14 +26,6 @@
       "start": 11.0,
       "length": 2.0,
       "location": "New405"
-    },
-    {
-      "name": "I, Citizen",
-      "tutor": "Rituparna Mukerjee",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB310"
     }
   ],
   "3": [
@@ -82,6 +74,15 @@
       "location": "ATB311"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "I, Citizen",
+      "tutor": "Rituparna Mukerjee",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB310"
+    }
+  ],
   "7": []
 }

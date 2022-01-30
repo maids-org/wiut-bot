@@ -26,14 +26,6 @@
       "start": 10.0,
       "length": 1.0,
       "location": "IB208 CL"
-    },
-    {
-      "name": "I, Citizen",
-      "tutor": "Sherzod Khaydarov",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "New302"
     }
   ],
   "3": [
@@ -82,6 +74,15 @@
       "location": "New207"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "I, Citizen",
+      "tutor": "Sherzod Khaydarov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "New302"
+    }
+  ],
   "7": []
 }

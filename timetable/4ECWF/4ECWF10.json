@@ -34,22 +34,6 @@
       "start": 10.0,
       "length": 1.0,
       "location": "Harvard306"
-    },
-    {
-      "name": "Financial Accounting",
-      "tutor": "Lilya Memesheva",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "IB306"
-    },
-    {
-      "name": "Financial Accounting",
-      "tutor": "Lilya Memesheva",
-      "type": "workshop",
-      "start": 15.0,
-      "length": 1.0,
-      "location": "IB209 CL"
     }
   ],
   "3": [],
@@ -73,6 +57,23 @@
       "location": "ATB303"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Financial Accounting",
+      "tutor": "Lilya Memesheva",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB306"
+    },
+    {
+      "name": "Financial Accounting",
+      "tutor": "Lilya Memesheva",
+      "type": "workshop",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "IB209 CL"
+    }
+  ],
   "7": []
 }

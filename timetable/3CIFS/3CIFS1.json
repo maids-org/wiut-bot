@@ -26,22 +26,6 @@
       "start": 11.0,
       "length": 2.0,
       "location": "ATB218"
-    },
-    {
-      "name": "Understanding Finance",
-      "tutor": "Feruza Yodgorova",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "IB310"
-    },
-    {
-      "name": "Understanding Finance",
-      "tutor": "Feruza Yodgorova",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "IB310"
     }
   ],
   "3": [
@@ -82,6 +66,23 @@
       "location": "New207"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Understanding Finance",
+      "tutor": "Feruza Yodgorova",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB310"
+    },
+    {
+      "name": "Understanding Finance",
+      "tutor": "Feruza Yodgorova",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB310"
+    }
+  ],
   "7": []
 }

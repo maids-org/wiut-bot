@@ -18,24 +18,7 @@
       "location": "New206 H"
     }
   ],
-  "2": [
-    {
-      "name": "Foundations of Economics",
-      "tutor": "Jamshid Normatov",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "IB301"
-    },
-    {
-      "name": "I, Citizen",
-      "tutor": "Alisher Kosimov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New502"
-    }
-  ],
+  "2": [],
   "3": [
     {
       "name": "Academic English",
@@ -74,6 +57,23 @@
       "location": "ATB310 A"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Foundations of Economics",
+      "tutor": "Jamshid Normatov",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB301"
+    },
+    {
+      "name": "I, Citizen",
+      "tutor": "Alisher Kosimov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New502"
+    }
+  ],
   "7": []
 }

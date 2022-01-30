@@ -34,14 +34,6 @@
       "start": 9.0,
       "length": 2.0,
       "location": "Lyceum Library"
-    },
-    {
-      "name": "Principles of Marketing",
-      "tutor": "Begzod Nishanov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB310"
     }
   ],
   "3": [
@@ -73,6 +65,15 @@
       "location": "ATB212 CL"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Principles of Marketing",
+      "tutor": "Begzod Nishanov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB310"
+    }
+  ],
   "7": []
 }

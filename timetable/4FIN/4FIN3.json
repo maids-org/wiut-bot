@@ -18,24 +18,7 @@
       "location": "IB301"
     }
   ],
-  "2": [
-    {
-      "name": "Industrial Organisation",
-      "tutor": "Deniz Guvercin",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "IB311"
-    },
-    {
-      "name": "Industrial Organisation",
-      "tutor": "Deniz Guvercin",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New407"
-    }
-  ],
+  "2": [],
   "3": [
     {
       "name": "Introduction to Statistics and Data Science",
@@ -90,6 +73,23 @@
       "location": "New302"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Industrial Organisation",
+      "tutor": "Deniz Guvercin",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Industrial Organisation",
+      "tutor": "Deniz Guvercin",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New407"
+    }
+  ],
   "7": []
 }

@@ -50,30 +50,6 @@
       "start": 10.0,
       "length": 1.0,
       "location": "IB311"
-    },
-    {
-      "name": "Strategy in a Complex World",
-      "tutor": "Angelo Battaglia",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "ATB218"
-    },
-    {
-      "name": "Bank Risk Management",
-      "tutor": "Dildora Ibragimova",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New303 CL"
-    },
-    {
-      "name": "Bank Risk Management",
-      "tutor": "Dildora Ibragimova",
-      "type": "workshop",
-      "start": 18.0,
-      "length": 1.0,
-      "location": "New303 CL"
     }
   ],
   "3": [
@@ -178,6 +154,31 @@
       "location": "New503"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Angelo Battaglia",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "ATB218"
+    },
+    {
+      "name": "Bank Risk Management",
+      "tutor": "Dildora Ibragimova",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "Bank Risk Management",
+      "tutor": "Dildora Ibragimova",
+      "type": "workshop",
+      "start": 18.0,
+      "length": 1.0,
+      "location": "New303 CL"
+    }
+  ],
   "7": []
 }

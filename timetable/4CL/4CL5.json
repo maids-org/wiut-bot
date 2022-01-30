@@ -18,24 +18,7 @@
       "location": "IB301"
     }
   ],
-  "2": [
-    {
-      "name": "Tort Law",
-      "tutor": "Mandeep Singh",
-      "type": "lecture",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "New206 H"
-    },
-    {
-      "name": "Mooting and Advocacy",
-      "tutor": "Yokubjon Isakov",
-      "type": "lecture",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "IB309"
-    }
-  ],
+  "2": [],
   "3": [
     {
       "name": "Civil Law",
@@ -98,6 +81,23 @@
       "location": "ATB212 CL"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Tort Law",
+      "tutor": "Mandeep Singh",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "New206 H"
+    },
+    {
+      "name": "Mooting and Advocacy",
+      "tutor": "Yokubjon Isakov",
+      "type": "lecture",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB309"
+    }
+  ],
   "7": []
 }

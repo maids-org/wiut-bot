@@ -18,24 +18,7 @@
       "location": "IB301"
     }
   ],
-  "2": [
-    {
-      "name": "Introduction to Banking and Financial Markets",
-      "tutor": "Omon Ganiev",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "IB302"
-    },
-    {
-      "name": "Introduction to Insurance Business",
-      "tutor": "Hasan AKM Kamrul",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New406"
-    }
-  ],
+  "2": [],
   "3": [
     {
       "name": "Introduction to Insurance Business",
@@ -74,6 +57,23 @@
       "location": "IB208 CL"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Introduction to Banking and Financial Markets",
+      "tutor": "Omon Ganiev",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB302"
+    },
+    {
+      "name": "Introduction to Insurance Business",
+      "tutor": "Hasan AKM Kamrul",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New406"
+    }
+  ],
   "7": []
 }

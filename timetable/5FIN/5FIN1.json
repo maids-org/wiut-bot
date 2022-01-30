@@ -26,22 +26,6 @@
       "start": 11.0,
       "length": 1.0,
       "location": "IB311"
-    },
-    {
-      "name": "Islamic Finance",
-      "tutor": "Surayyo Shaamirova",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB215 CL"
-    },
-    {
-      "name": "Islamic Finance",
-      "tutor": "Surayyo Shaamirova",
-      "type": "workshop",
-      "start": 16.0,
-      "length": 1.0,
-      "location": "IB215 CL"
     }
   ],
   "3": [
@@ -81,6 +65,23 @@
     }
   ],
   "5": [],
-  "6": [],
+  "6": [
+    {
+      "name": "Islamic Finance",
+      "tutor": "Surayyo Shaamirova",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB215 CL"
+    },
+    {
+      "name": "Islamic Finance",
+      "tutor": "Surayyo Shaamirova",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "IB215 CL"
+    }
+  ],
   "7": []
 }

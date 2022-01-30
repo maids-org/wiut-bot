@@ -34,22 +34,6 @@
       "start": 12.0,
       "length": 2.0,
       "location": "ATB310"
-    },
-    {
-      "name": "Understanding Finance",
-      "tutor": "Mokhirakhon Abdullaeva",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "ATB312"
-    },
-    {
-      "name": "Understanding Finance",
-      "tutor": "Mokhirakhon Abdullaeva",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "ATB312"
     }
   ],
   "3": [
@@ -82,6 +66,23 @@
       "location": "Lyceum 96"
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "name": "Understanding Finance",
+      "tutor": "Mokhirakhon Abdullaeva",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB312"
+    },
+    {
+      "name": "Understanding Finance",
+      "tutor": "Mokhirakhon Abdullaeva",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB312"
+    }
+  ],
   "7": []
 }
