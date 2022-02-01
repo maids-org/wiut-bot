@@ -26,7 +26,32 @@
       "location": "New405"
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "name": "Business in the Modern World",
+      "tutor": "Nadezhda Kim",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB303"
+    },
+    {
+      "name": "Understanding Finance",
+      "tutor": "Temur Makhkamov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB313"
+    },
+    {
+      "name": "Understanding Finance",
+      "tutor": "Temur Makhkamov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB313"
+    }
+  ],
   "3": [
     {
       "name": "Academic English",
@@ -57,31 +82,6 @@
       "location": "New503"
     }
   ],
-  "6": [
-    {
-      "name": "Business in the Modern World",
-      "tutor": "Nadezhda Kim",
-      "type": "seminar",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "ATB303"
-    },
-    {
-      "name": "Understanding Finance",
-      "tutor": "Temur Makhkamov",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "IB313"
-    },
-    {
-      "name": "Understanding Finance",
-      "tutor": "Temur Makhkamov",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "IB313"
-    }
-  ],
+  "6": [],
   "7": []
 }

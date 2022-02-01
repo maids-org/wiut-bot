@@ -18,7 +18,16 @@
       "location": "ATB207"
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "name": "Intermediate Macroeconomics",
+      "tutor": "Muhammed Bilal",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB314"
+    }
+  ],
   "3": [
     {
       "name": "Public Finance",

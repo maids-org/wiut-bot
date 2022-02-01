@@ -34,6 +34,14 @@
       "start": 9.0,
       "length": 2.0,
       "location": "ATB214 CL"
+    },
+    {
+      "name": "Intermediate Macroeconomics",
+      "tutor": "Muhammed Bilal",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB314"
     }
   ],
   "3": [
@@ -82,14 +90,6 @@
       "start": 11.0,
       "length": 2.0,
       "location": "Harvard306"
-    },
-    {
-      "name": "Intermediate Macroeconomics",
-      "tutor": "Muhammed Bilal",
-      "type": "lecture",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB314"
     }
   ],
   "7": []

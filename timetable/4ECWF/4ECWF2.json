@@ -26,6 +26,14 @@
       "start": 10.0,
       "length": 1.0,
       "location": "Harvard306"
+    },
+    {
+      "name": "Industrial Organisation",
+      "tutor": "Deniz Guvercin",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB311"
     }
   ],
   "3": [
@@ -58,15 +66,6 @@
       "location": "ATB218"
     }
   ],
-  "6": [
-    {
-      "name": "Industrial Organisation",
-      "tutor": "Deniz Guvercin",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "IB311"
-    }
-  ],
+  "6": [],
   "7": []
 }

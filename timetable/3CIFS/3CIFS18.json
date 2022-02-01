@@ -26,6 +26,14 @@
       "start": 11.0,
       "length": 2.0,
       "location": "New404"
+    },
+    {
+      "name": "Developing Professional Identity",
+      "tutor": "Kiriaki Kanakidi",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "New407"
     }
   ],
   "3": [
@@ -66,15 +74,6 @@
       "location": "New404"
     }
   ],
-  "6": [
-    {
-      "name": "Developing Professional Identity",
-      "tutor": "Kiriaki Kanakidi",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "New407"
-    }
-  ],
+  "6": [],
   "7": []
 }

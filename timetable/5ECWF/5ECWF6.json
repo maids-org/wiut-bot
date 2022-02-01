@@ -18,7 +18,16 @@
       "location": "IB208 CL"
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "name": "Intermediate Macroeconomics",
+      "tutor": "Muhammed Bilal",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB314"
+    }
+  ],
   "3": [
     {
       "name": "Economics of Financial Crises",
@@ -73,14 +82,6 @@
       "start": 11.0,
       "length": 2.0,
       "location": "Harvard306"
-    },
-    {
-      "name": "Intermediate Macroeconomics",
-      "tutor": "Muhammed Bilal",
-      "type": "lecture",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB314"
     }
   ],
   "7": []

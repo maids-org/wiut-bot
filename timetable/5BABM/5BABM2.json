@@ -42,6 +42,22 @@
       "start": 11.0,
       "length": 2.0,
       "location": "ATB214 CL"
+    },
+    {
+      "name": "Financial Management",
+      "tutor": "Akhrorjon Yakubjonov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB302"
+    },
+    {
+      "name": "Financial Management",
+      "tutor": "Akhrorjon Yakubjonov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB302"
     }
   ],
   "3": [
@@ -90,23 +106,6 @@
       "location": "ATB207"
     }
   ],
-  "6": [
-    {
-      "name": "Financial Management",
-      "tutor": "Akhrorjon Yakubjonov",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "IB302"
-    },
-    {
-      "name": "Financial Management",
-      "tutor": "Akhrorjon Yakubjonov",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "IB302"
-    }
-  ],
+  "6": [],
   "7": []
 }

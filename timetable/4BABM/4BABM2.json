@@ -26,6 +26,14 @@
       "start": 9.0,
       "length": 2.0,
       "location": "Lyceum Library"
+    },
+    {
+      "name": "Industrial Organisation",
+      "tutor": "Deniz Guvercin",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB311"
     }
   ],
   "3": [
@@ -57,15 +65,6 @@
     }
   ],
   "5": [],
-  "6": [
-    {
-      "name": "Industrial Organisation",
-      "tutor": "Deniz Guvercin",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "IB311"
-    }
-  ],
+  "6": [],
   "7": []
 }

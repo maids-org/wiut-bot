@@ -26,7 +26,24 @@
       "location": "ATB314"
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "name": "Financial Management",
+      "tutor": "Indira Khadjieva",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "ATB310 A"
+    },
+    {
+      "name": "Financial Management",
+      "tutor": "Indira Khadjieva",
+      "type": "workshop",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "ATB310 A"
+    }
+  ],
   "3": [
     {
       "name": "Managing Innovation and Entrepreneurship",
@@ -64,23 +81,6 @@
     }
   ],
   "5": [],
-  "6": [
-    {
-      "name": "Financial Management",
-      "tutor": "Indira Khadjieva",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "ATB310 A"
-    },
-    {
-      "name": "Financial Management",
-      "tutor": "Indira Khadjieva",
-      "type": "workshop",
-      "start": 15.0,
-      "length": 1.0,
-      "location": "ATB310 A"
-    }
-  ],
+  "6": [],
   "7": []
 }

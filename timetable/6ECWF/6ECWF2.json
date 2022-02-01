@@ -26,7 +26,32 @@
       "location": "ATB218"
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "name": "Health Economics",
+      "tutor": "Rui Dang",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB304"
+    },
+    {
+      "name": "Intermediate Macroeconomics",
+      "tutor": "Muhammed Bilal",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB314"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Behzod Alimov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB209 CL"
+    }
+  ],
   "3": [
     {
       "name": "Principles and Practices of Taxation",
@@ -81,31 +106,6 @@
       "location": "IB209 CL"
     }
   ],
-  "6": [
-    {
-      "name": "Health Economics",
-      "tutor": "Rui Dang",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "ATB304"
-    },
-    {
-      "name": "Intermediate Macroeconomics",
-      "tutor": "Muhammed Bilal",
-      "type": "lecture",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB314"
-    },
-    {
-      "name": "Dissertation",
-      "tutor": "Behzod Alimov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB209 CL"
-    }
-  ],
+  "6": [],
   "7": []
 }

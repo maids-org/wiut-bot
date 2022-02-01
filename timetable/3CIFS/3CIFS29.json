@@ -26,6 +26,14 @@
       "start": 11.0,
       "length": 1.0,
       "location": "New206 H"
+    },
+    {
+      "name": "Foundations of Economics",
+      "tutor": "Jamshid Normatov",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB301"
     }
   ],
   "3": [
@@ -74,15 +82,6 @@
       "location": "ATB310 A"
     }
   ],
-  "6": [
-    {
-      "name": "Foundations of Economics",
-      "tutor": "Jamshid Normatov",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "IB301"
-    }
-  ],
+  "6": [],
   "7": []
 }

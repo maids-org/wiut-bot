@@ -34,6 +34,22 @@
       "start": 11.0,
       "length": 1.0,
       "location": "IB311"
+    },
+    {
+      "name": "Managing Innovation and Entrepreneurship",
+      "tutor": "Ahmed Waqas",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB218"
+    },
+    {
+      "name": "Managing Innovation and Entrepreneurship",
+      "tutor": "Ahmed Waqas",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB218"
     }
   ],
   "3": [
@@ -82,23 +98,6 @@
       "location": "IB202 CL"
     }
   ],
-  "6": [
-    {
-      "name": "Managing Innovation and Entrepreneurship",
-      "tutor": "Ahmed Waqas",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "ATB218"
-    },
-    {
-      "name": "Managing Innovation and Entrepreneurship",
-      "tutor": "Ahmed Waqas",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "ATB218"
-    }
-  ],
+  "6": [],
   "7": []
 }

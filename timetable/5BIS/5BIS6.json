@@ -58,6 +58,22 @@
       "start": 11.0,
       "length": 2.0,
       "location": "New408 CL"
+    },
+    {
+      "name": "Information Systems Management",
+      "tutor": "Dariush Alimokhammadi",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "New304 CL"
+    },
+    {
+      "name": "Business Intelligence Systems",
+      "tutor": "Dilshod Ibragimov",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "New206 H"
     }
   ],
   "3": [
@@ -146,23 +162,6 @@
       "location": "ATB212 CL"
     }
   ],
-  "6": [
-    {
-      "name": "Information Systems Management",
-      "tutor": "Dariush Alimokhammadi",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "New304 CL"
-    },
-    {
-      "name": "Business Intelligence Systems",
-      "tutor": "Dilshod Ibragimov",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 1.0,
-      "location": "New206 H"
-    }
-  ],
+  "6": [],
   "7": []
 }

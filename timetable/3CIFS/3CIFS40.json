@@ -34,6 +34,14 @@
       "start": 11.0,
       "length": 1.0,
       "location": "New206 H"
+    },
+    {
+      "name": "Developing Professional Identity",
+      "tutor": "Sayyora Nurmatova",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "Lyceum 93"
     }
   ],
   "3": [
@@ -82,15 +90,6 @@
       "location": "IB307"
     }
   ],
-  "6": [
-    {
-      "name": "Developing Professional Identity",
-      "tutor": "Sayyora Nurmatova",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "Lyceum 93"
-    }
-  ],
+  "6": [],
   "7": []
 }

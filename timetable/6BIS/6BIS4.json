@@ -50,6 +50,30 @@
       "start": 11.0,
       "length": 1.0,
       "location": "ATB314"
+    },
+    {
+      "name": "Web Applications Development",
+      "tutor": "Ali Subair",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "Business Intelligence Systems",
+      "tutor": "Dilshod Ibragimov",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "New206 H"
+    },
+    {
+      "name": "Internet Law",
+      "tutor": "Timur Kulumbetov",
+      "type": "lecture",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB316"
     }
   ],
   "3": [
@@ -122,31 +146,6 @@
       "location": "IB307"
     }
   ],
-  "6": [
-    {
-      "name": "Web Applications Development",
-      "tutor": "Ali Subair",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "New303 CL"
-    },
-    {
-      "name": "Business Intelligence Systems",
-      "tutor": "Dilshod Ibragimov",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 1.0,
-      "location": "New206 H"
-    },
-    {
-      "name": "Internet Law",
-      "tutor": "Timur Kulumbetov",
-      "type": "lecture",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "IB316"
-    }
-  ],
+  "6": [],
   "7": []
 }

@@ -18,7 +18,24 @@
       "location": "ATB218"
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "name": "Dissertation",
+      "tutor": "Behzod Alimov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB202 CL"
+    },
+    {
+      "name": "Behavioural Economics",
+      "tutor": "Bilol Buzrukov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB311"
+    }
+  ],
   "3": [
     {
       "name": "Applied Policy Analysis",
@@ -48,23 +65,6 @@
     }
   ],
   "5": [],
-  "6": [
-    {
-      "name": "Dissertation",
-      "tutor": "Behzod Alimov",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB202 CL"
-    },
-    {
-      "name": "Behavioural Economics",
-      "tutor": "Bilol Buzrukov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB311"
-    }
-  ],
+  "6": [],
   "7": []
 }

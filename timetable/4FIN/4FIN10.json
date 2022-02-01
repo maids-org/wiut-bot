@@ -18,7 +18,24 @@
       "location": "IB301"
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "name": "Introduction to Insurance Business",
+      "tutor": "Hasan AKM Kamrul",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB316"
+    },
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Gulomjon Kosimjonov",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB208 CL"
+    }
+  ],
   "3": [],
   "4": [
     {
@@ -56,23 +73,6 @@
       "location": "IB209 CL"
     }
   ],
-  "6": [
-    {
-      "name": "Introduction to Insurance Business",
-      "tutor": "Hasan AKM Kamrul",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "IB316"
-    },
-    {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Gulomjon Kosimjonov",
-      "type": "workshop",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB208 CL"
-    }
-  ],
+  "6": [],
   "7": []
 }

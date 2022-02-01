@@ -50,6 +50,22 @@
       "start": 11.0,
       "length": 1.0,
       "location": "IB311"
+    },
+    {
+      "name": "Securities Analysis",
+      "tutor": "Sherzod Safarov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB212 CL"
+    },
+    {
+      "name": "Securities Analysis",
+      "tutor": "Sherzod Safarov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB212 CL"
     }
   ],
   "3": [
@@ -121,23 +137,6 @@
       "location": "New206 H"
     }
   ],
-  "6": [
-    {
-      "name": "Securities Analysis",
-      "tutor": "Sherzod Safarov",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "LRC13 Library Multimedia"
-    },
-    {
-      "name": "Securities Analysis",
-      "tutor": "Sherzod Safarov",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "LRC13 Library Multimedia"
-    }
-  ],
+  "6": [],
   "7": []
 }

@@ -18,6 +18,14 @@
       "start": 11.0,
       "length": 2.0,
       "location": "IB316"
+    },
+    {
+      "name": "Employment Law",
+      "tutor": "Malika Mukimova",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB309"
     }
   ],
   "3": [
@@ -66,15 +74,6 @@
       "location": "IB313"
     }
   ],
-  "6": [
-    {
-      "name": "Employment Law",
-      "tutor": "Malika Mukimova",
-      "type": "lecture",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "IB309"
-    }
-  ],
+  "6": [],
   "7": []
 }

@@ -34,7 +34,32 @@
       "location": "ATB218"
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "name": "Intermediate Macroeconomics",
+      "tutor": "Muhammed Bilal",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB314"
+    },
+    {
+      "name": "Bank Risk Management",
+      "tutor": "Dildora Ibragimova",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "Bank Risk Management",
+      "tutor": "Dildora Ibragimova",
+      "type": "workshop",
+      "start": 18.0,
+      "length": 1.0,
+      "location": "New303 CL"
+    }
+  ],
   "3": [
     {
       "name": "Behavioural Economics",
@@ -64,31 +89,6 @@
     }
   ],
   "5": [],
-  "6": [
-    {
-      "name": "Intermediate Macroeconomics",
-      "tutor": "Muhammed Bilal",
-      "type": "lecture",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB314"
-    },
-    {
-      "name": "Bank Risk Management",
-      "tutor": "Dildora Ibragimova",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New303 CL"
-    },
-    {
-      "name": "Bank Risk Management",
-      "tutor": "Dildora Ibragimova",
-      "type": "workshop",
-      "start": 18.0,
-      "length": 1.0,
-      "location": "New303 CL"
-    }
-  ],
+  "6": [],
   "7": []
 }

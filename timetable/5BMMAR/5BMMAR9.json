@@ -42,7 +42,24 @@
       "location": "ATB314"
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "name": "Banking Law",
+      "tutor": "Tamilla Tagieva",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Professional and Research Skills for Finance",
+      "tutor": "Ram Sin",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "Harvard306"
+    }
+  ],
   "3": [
     {
       "name": "Banking Law",
@@ -97,23 +114,6 @@
       "location": "ATB302"
     }
   ],
-  "6": [
-    {
-      "name": "Banking Law",
-      "tutor": "Tamilla Tagieva",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "Harvard306"
-    },
-    {
-      "name": "Professional and Research Skills for Finance",
-      "tutor": "Ram Sin",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "Harvard306"
-    }
-  ],
+  "6": [],
   "7": []
 }

@@ -26,7 +26,24 @@
       "location": "New302"
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "name": "Understanding Finance",
+      "tutor": "Yusufjon Pulatov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB306"
+    },
+    {
+      "name": "Understanding Finance",
+      "tutor": "Yusufjon Pulatov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB306"
+    }
+  ],
   "3": [
     {
       "name": "Academic English",
@@ -65,23 +82,6 @@
       "location": "Lyceum 96"
     }
   ],
-  "6": [
-    {
-      "name": "Understanding Finance",
-      "tutor": "Yusufjon Pulatov",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "IB306"
-    },
-    {
-      "name": "Understanding Finance",
-      "tutor": "Yusufjon Pulatov",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "IB306"
-    }
-  ],
+  "6": [],
   "7": []
 }

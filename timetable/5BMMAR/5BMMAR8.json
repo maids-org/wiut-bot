@@ -26,7 +26,16 @@
       "location": "IB311"
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "name": "Retailing Business",
+      "tutor": "Karan Khurana",
+      "type": "workshop",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB208 CL"
+    }
+  ],
   "3": [
     {
       "name": "Financial Management",
@@ -64,15 +73,6 @@
       "location": "IB301"
     }
   ],
-  "6": [
-    {
-      "name": "Retailing Business",
-      "tutor": "Karan Khurana",
-      "type": "workshop",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "IB208 CL"
-    }
-  ],
+  "6": [],
   "7": []
 }

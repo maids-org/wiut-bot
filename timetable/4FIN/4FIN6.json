@@ -18,7 +18,24 @@
       "location": "IB301"
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "name": "Financial Mathematics and Principles",
+      "tutor": "Abdulaziz Djalilov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB216"
+    },
+    {
+      "name": "Financial Mathematics and Principles",
+      "tutor": "Abdulaziz Djalilov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB215 CL"
+    }
+  ],
   "3": [
     {
       "name": "Introduction to Insurance Business",
@@ -57,23 +74,6 @@
       "location": "IB209 CL"
     }
   ],
-  "6": [
-    {
-      "name": "Financial Mathematics and Principles",
-      "tutor": "Abdulaziz Djalilov",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "IB216"
-    },
-    {
-      "name": "Financial Mathematics and Principles",
-      "tutor": "Abdulaziz Djalilov",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "IB215 CL"
-    }
-  ],
+  "6": [],
   "7": []
 }

@@ -34,6 +34,14 @@
       "start": 11.0,
       "length": 1.0,
       "location": "ATB314"
+    },
+    {
+      "name": "Web Applications Development",
+      "tutor": "Ali Subair",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "New303 CL"
     }
   ],
   "3": [
@@ -106,15 +114,6 @@
       "location": "IB307"
     }
   ],
-  "6": [
-    {
-      "name": "Web Applications Development",
-      "tutor": "Ali Subair",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "New303 CL"
-    }
-  ],
+  "6": [],
   "7": []
 }

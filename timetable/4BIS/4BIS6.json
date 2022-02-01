@@ -34,6 +34,22 @@
       "start": 9.0,
       "length": 2.0,
       "location": "New303 CL"
+    },
+    {
+      "name": "Industrial Organisation",
+      "tutor": "Deniz Guvercin",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Industrial Organisation",
+      "tutor": "Deniz Guvercin",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New407"
     }
   ],
   "3": [
@@ -90,23 +106,6 @@
       "location": "New302"
     }
   ],
-  "6": [
-    {
-      "name": "Industrial Organisation",
-      "tutor": "Deniz Guvercin",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "IB311"
-    },
-    {
-      "name": "Industrial Organisation",
-      "tutor": "Deniz Guvercin",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New407"
-    }
-  ],
+  "6": [],
   "7": []
 }

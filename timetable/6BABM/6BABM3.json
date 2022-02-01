@@ -50,6 +50,22 @@
       "start": 11.0,
       "length": 1.0,
       "location": "ATB314"
+    },
+    {
+      "name": "Marketing Strategy",
+      "tutor": "Atya Zeb",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB314"
+    },
+    {
+      "name": "Marketing Strategy",
+      "tutor": "Atya Zeb",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New301"
     }
   ],
   "3": [
@@ -162,23 +178,6 @@
       "location": "ATB314"
     }
   ],
-  "6": [
-    {
-      "name": "Marketing Strategy",
-      "tutor": "Atya Zeb",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "ATB314"
-    },
-    {
-      "name": "Marketing Strategy",
-      "tutor": "Atya Zeb",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New301"
-    }
-  ],
+  "6": [],
   "7": []
 }

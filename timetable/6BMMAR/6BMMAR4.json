@@ -50,6 +50,22 @@
       "start": 11.0,
       "length": 1.0,
       "location": "ATB314"
+    },
+    {
+      "name": "Financial Management",
+      "tutor": "Ravshan Kakharov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB307"
+    },
+    {
+      "name": "Financial Management",
+      "tutor": "Ravshan Kakharov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB307"
     }
   ],
   "3": [
@@ -114,23 +130,6 @@
       "location": "Harvard306"
     }
   ],
-  "6": [
-    {
-      "name": "Financial Management",
-      "tutor": "Ravshan Kakharov",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "IB307"
-    },
-    {
-      "name": "Financial Management",
-      "tutor": "Ravshan Kakharov",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "IB307"
-    }
-  ],
+  "6": [],
   "7": []
 }

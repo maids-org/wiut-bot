@@ -10,38 +10,7 @@
       "location": "Harvard306"
     }
   ],
-  "2": [],
-  "3": [
-    {
-      "name": "Civil Law",
-      "tutor": "Davron Abdigapparov",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB313"
-    }
-  ],
-  "4": [
-    {
-      "name": "Tort Law",
-      "tutor": "Khusniddin Abdufattokhov",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "IB308"
-    }
-  ],
-  "5": [
-    {
-      "name": "Mooting and Advocacy",
-      "tutor": "Yokubjon Isakov",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "IB308"
-    }
-  ],
-  "6": [
+  "2": [
     {
       "name": "Tort Law",
       "tutor": "Mandeep Singh",
@@ -59,5 +28,36 @@
       "location": "IB309"
     }
   ],
+  "3": [
+    {
+      "name": "Civil Law",
+      "tutor": "Davron Abdigapparov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB313"
+    }
+  ],
+  "4": [
+    {
+      "name": "Tort Law",
+      "tutor": "Mandeep Singh",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB308"
+    }
+  ],
+  "5": [
+    {
+      "name": "Mooting and Advocacy",
+      "tutor": "Yokubjon Isakov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB308"
+    }
+  ],
+  "6": [],
   "7": []
 }

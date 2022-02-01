@@ -50,6 +50,30 @@
       "start": 11.0,
       "length": 1.0,
       "location": "ATB314"
+    },
+    {
+      "name": "Audit and Assurance",
+      "tutor": "Jamshid Nasreddinov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Principles and Practices of Taxation",
+      "tutor": "Otabek Fazilov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB211"
+    },
+    {
+      "name": "Principles and Practices of Taxation",
+      "tutor": "Otabek Fazilov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB211"
     }
   ],
   "3": [
@@ -146,31 +170,6 @@
       "location": "IB316"
     }
   ],
-  "6": [
-    {
-      "name": "Audit and Assurance",
-      "tutor": "Jamshid Nasreddinov",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 1.0,
-      "location": "IB301"
-    },
-    {
-      "name": "Principles and Practices of Taxation",
-      "tutor": "Otabek Fazilov",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "ATB211"
-    },
-    {
-      "name": "Principles and Practices of Taxation",
-      "tutor": "Otabek Fazilov",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "ATB211"
-    }
-  ],
+  "6": [],
   "7": []
 }

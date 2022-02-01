@@ -26,6 +26,30 @@
       "start": 11.0,
       "length": 1.0,
       "location": "ATB314"
+    },
+    {
+      "name": "Law of Finance",
+      "tutor": "Shukhrat Yunusov",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "Lyceum Library"
+    },
+    {
+      "name": "Principles and Practices of Taxation",
+      "tutor": "Otabek Fazilov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB211"
+    },
+    {
+      "name": "Principles and Practices of Taxation",
+      "tutor": "Otabek Fazilov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB211"
     }
   ],
   "3": [
@@ -130,31 +154,6 @@
       "location": "IB216"
     }
   ],
-  "6": [
-    {
-      "name": "Law of Finance",
-      "tutor": "Shukhrat Yunusov",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "Lyceum Library"
-    },
-    {
-      "name": "Principles and Practices of Taxation",
-      "tutor": "Otabek Fazilov",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "ATB211"
-    },
-    {
-      "name": "Principles and Practices of Taxation",
-      "tutor": "Otabek Fazilov",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "ATB211"
-    }
-  ],
+  "6": [],
   "7": []
 }

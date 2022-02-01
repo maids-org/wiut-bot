@@ -26,7 +26,16 @@
       "location": "ATB218"
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "name": "Behavioural Economics",
+      "tutor": "Naqeeb Ur Rehman",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB309"
+    }
+  ],
   "3": [
     {
       "name": "Applied Policy Analysis",
@@ -56,15 +65,6 @@
       "location": "ATB212 CL"
     }
   ],
-  "6": [
-    {
-      "name": "Behavioural Economics",
-      "tutor": "Naqeeb Ur Rehman",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB309"
-    }
-  ],
+  "6": [],
   "7": []
 }

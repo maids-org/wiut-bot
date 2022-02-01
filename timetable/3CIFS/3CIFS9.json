@@ -26,6 +26,14 @@
       "start": 11.0,
       "length": 2.0,
       "location": "New406"
+    },
+    {
+      "name": "I, Citizen",
+      "tutor": "Sean Canavan",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "New405"
     }
   ],
   "3": [
@@ -82,15 +90,6 @@
       "location": "New502"
     }
   ],
-  "6": [
-    {
-      "name": "I, Citizen",
-      "tutor": "Sean Canavan",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "New405"
-    }
-  ],
+  "6": [],
   "7": []
 }

@@ -26,6 +26,22 @@
       "start": 10.0,
       "length": 1.0,
       "location": "IB208 CL"
+    },
+    {
+      "name": "Understanding Finance",
+      "tutor": "Kamolakhon Alikulova",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB301"
+    },
+    {
+      "name": "Understanding Finance",
+      "tutor": "Kamolakhon Alikulova",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB301"
     }
   ],
   "3": [
@@ -66,23 +82,6 @@
       "location": "New406"
     }
   ],
-  "6": [
-    {
-      "name": "Understanding Finance",
-      "tutor": "Kamolakhon Alikulova",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "ATB301"
-    },
-    {
-      "name": "Understanding Finance",
-      "tutor": "Kamolakhon Alikulova",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "ATB301"
-    }
-  ],
+  "6": [],
   "7": []
 }

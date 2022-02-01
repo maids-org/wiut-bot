@@ -34,6 +34,14 @@
       "start": 10.0,
       "length": 1.0,
       "location": "IB311"
+    },
+    {
+      "name": "Marketing Strategy",
+      "tutor": "Atya Zeb",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB314"
     }
   ],
   "3": [
@@ -98,15 +106,6 @@
       "location": "ATB211"
     }
   ],
-  "6": [
-    {
-      "name": "Marketing Strategy",
-      "tutor": "Atya Zeb",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "ATB314"
-    }
-  ],
+  "6": [],
   "7": []
 }

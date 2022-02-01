@@ -42,6 +42,14 @@
       "start": 11.0,
       "length": 2.0,
       "location": "IB202 CL"
+    },
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Rashid Javed",
+      "type": "workshop",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
     }
   ],
   "3": [
@@ -65,15 +73,6 @@
       "location": "New303 CL"
     }
   ],
-  "6": [
-    {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Rashid Javed",
-      "type": "workshop",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "New408 CL"
-    }
-  ],
+  "6": [],
   "7": []
 }

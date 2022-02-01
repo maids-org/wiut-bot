@@ -18,6 +18,22 @@
       "start": 10.0,
       "length": 1.0,
       "location": "IB208 CL"
+    },
+    {
+      "name": "Foundations of Economics",
+      "tutor": "Jamshid Normatov",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Foundations of Economics",
+      "tutor": "Olmas Isakov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "Lyceum 96"
     }
   ],
   "3": [
@@ -58,23 +74,6 @@
       "location": "New406"
     }
   ],
-  "6": [
-    {
-      "name": "Foundations of Economics",
-      "tutor": "Jamshid Normatov",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "IB301"
-    },
-    {
-      "name": "Foundations of Economics",
-      "tutor": "Olmas Isakov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "Lyceum 96"
-    }
-  ],
+  "6": [],
   "7": []
 }

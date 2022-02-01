@@ -26,6 +26,14 @@
       "start": 10.0,
       "length": 1.0,
       "location": "Harvard306"
+    },
+    {
+      "name": "Exploring Economics",
+      "tutor": "Shokhida Karimova",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "ATB302"
     }
   ],
   "3": [
@@ -81,15 +89,6 @@
       "location": "New302"
     }
   ],
-  "6": [
-    {
-      "name": "Exploring Economics",
-      "tutor": "Shokhida Karimova",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "ATB302"
-    }
-  ],
+  "6": [],
   "7": []
 }
