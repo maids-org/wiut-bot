@@ -1,10 +1,79 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Employment Law",
+      "tutor": "Malika Mukimova",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB307"
+    },
+    {
+      "name": "Entertainment and Sports Law",
+      "tutor": "Firdavs Kabilov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB307"
+    },
+    {
+      "name": "Retailing Business",
+      "tutor": "Alisher Ismailov",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB311"
+    }
+  ],
+  "2": [
+    {
+      "name": "Property Law",
+      "tutor": "Akbar Ismanjanov",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB316"
+    },
+    {
+      "name": "Employment Law",
+      "tutor": "Malika Mukimova",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "IB309"
+    }
+  ],
+  "3": [
+    {
+      "name": "Property Law",
+      "tutor": "Timur Kulumbetov",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB311"
+    }
+  ],
+  "4": [
+    {
+      "name": "Entertainment and Sports Law",
+      "tutor": "Firdavs Kabilov",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB301"
+    }
+  ],
+  "5": [
+    {
+      "name": "Retailing Business",
+      "tutor": "Karan Khurana",
+      "type": "workshop",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB309"
+    }
+  ],
   "6": [],
   "7": []
 }

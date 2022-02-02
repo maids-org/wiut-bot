@@ -1,10 +1,79 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Alisher Ismailov",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Tourism and Its Dynamics",
+      "tutor": "Angelo Battaglia",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Tourism and Its Dynamics",
+      "tutor": "Timur Perkov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB311"
+    }
+  ],
+  "2": [
+    {
+      "name": "Principles of Marketing",
+      "tutor": "Prabha Kiran",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "Lyceum Library"
+    }
+  ],
+  "3": [
+    {
+      "name": "Principles of Marketing",
+      "tutor": "Sitora Shaydullayeva",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB307"
+    }
+  ],
+  "4": [
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Shokhida Karimova",
+      "type": "workshop",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
+    }
+  ],
+  "5": [
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Umber Kazi",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB101"
+    },
+    {
+      "name": "Tourism and Its Dynamics",
+      "tutor": "Angelo Battaglia",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB212 CL"
+    }
+  ],
   "6": [],
   "7": []
 }

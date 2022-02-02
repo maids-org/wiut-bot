@@ -1,10 +1,143 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Applied Corporate Finance",
+      "tutor": "Andrey Artemenkov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB309"
+    },
+    {
+      "name": "Applied Corporate Finance",
+      "tutor": "Andrey Artemenkov",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB214 CL"
+    },
+    {
+      "name": "Audit and Assurance",
+      "tutor": "Ravshan Kakharov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB302"
+    }
+  ],
+  "2": [
+    {
+      "name": "Global Financial Markets and Institutions",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Sales Management",
+      "tutor": "Anil Kumar",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB314"
+    },
+    {
+      "name": "Bank Risk Management",
+      "tutor": "Dildora Ibragimova",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "Bank Risk Management",
+      "tutor": "Dildora Ibragimova",
+      "type": "workshop",
+      "start": 18.0,
+      "length": 1.0,
+      "location": "New303 CL"
+    }
+  ],
+  "3": [
+    {
+      "name": "Securities Analysis",
+      "tutor": "Qobiljon Yunusov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB208 CL"
+    },
+    {
+      "name": "Securities Analysis",
+      "tutor": "Qobiljon Yunusov",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB208 CL"
+    },
+    {
+      "name": "Applied Corporate Finance",
+      "tutor": "Andrey Artemenkov",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Sales Management",
+      "tutor": "Anil Kumar",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "IB215 CL"
+    },
+    {
+      "name": "Sales Management",
+      "tutor": "Anil Kumar",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB216"
+    }
+  ],
+  "4": [
+    {
+      "name": "Global Financial Markets and Institutions",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB309"
+    },
+    {
+      "name": "Global Financial Markets and Institutions",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB309"
+    },
+    {
+      "name": "Bank Risk Management",
+      "tutor": "Dildora Ibragimova",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB307"
+    }
+  ],
+  "5": [
+    {
+      "name": "Audit and Assurance",
+      "tutor": "Ravshan Kakharov",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New408 CL"
+    }
+  ],
   "6": [],
   "7": []
 }

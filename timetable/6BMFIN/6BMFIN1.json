@@ -1,10 +1,167 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Principles and Practices of Taxation",
+      "tutor": "Otabek Fazilov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB303"
+    },
+    {
+      "name": "Principles and Practices of Taxation",
+      "tutor": "Otabek Fazilov",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB303"
+    },
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Angelo Battaglia",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "ATB309"
+    }
+  ],
+  "2": [
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Sales Management",
+      "tutor": "Anil Kumar",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB314"
+    },
+    {
+      "name": "Marketing Strategy",
+      "tutor": "Atya Zeb",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB314"
+    },
+    {
+      "name": "Marketing Strategy",
+      "tutor": "Atya Zeb",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New301"
+    },
+    {
+      "name": "Bank Risk Management",
+      "tutor": "Dildora Ibragimova",
+      "type": "workshop",
+      "start": 18.0,
+      "length": 1.0,
+      "location": "New303 CL"
+    }
+  ],
+  "3": [
+    {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Supply Chain Management and Logistics",
+      "tutor": "Ulugbek Islamov",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Principles and Practices of Taxation",
+      "tutor": "Jamshid Jalilov",
+      "type": "lecture",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "New206 H"
+    },
+    {
+      "name": "Audit and Assurance",
+      "tutor": "Jamshid Nasreddinov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB311"
+    }
+  ],
+  "4": [
+    {
+      "name": "Bank Risk Management",
+      "tutor": "Dildora Ibragimova",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB307"
+    },
+    {
+      "name": "Audit and Assurance",
+      "tutor": "Ravshan Kakharov",
+      "type": "workshop",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "Lyceum Library"
+    }
+  ],
+  "5": [
+    {
+      "name": "Supply Chain Management and Logistics",
+      "tutor": "Ulugbek Islamov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB312"
+    },
+    {
+      "name": "Supply Chain Management and Logistics",
+      "tutor": "Ulugbek Islamov",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB312"
+    },
+    {
+      "name": "Sales Management",
+      "tutor": "Anil Kumar",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Sales Management",
+      "tutor": "Anil Kumar",
+      "type": "workshop",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Atya Zeb",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB207"
+    }
+  ],
   "6": [],
   "7": []
 }

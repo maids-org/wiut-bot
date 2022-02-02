@@ -1,10 +1,175 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Service Marketing",
+      "tutor": "Mamurjon Rahimov",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Managing Brands",
+      "tutor": "Zamira Ataniyazova",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB314"
+    },
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Anil Kumar",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB301"
+    }
+  ],
+  "2": [
+    {
+      "name": "Global Financial Markets and Institutions",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Sales Management",
+      "tutor": "Anil Kumar",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB314"
+    },
+    {
+      "name": "Audit and Assurance",
+      "tutor": "Jamshid Nasreddinov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Principles and Practices of Taxation",
+      "tutor": "Otabek Fazilov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB211"
+    },
+    {
+      "name": "Principles and Practices of Taxation",
+      "tutor": "Otabek Fazilov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB211"
+    }
+  ],
+  "3": [
+    {
+      "name": "Managing Brands",
+      "tutor": "Zamira Ataniyazova",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB207"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Service Marketing",
+      "tutor": "Mamurjon Rahimov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB301"
+    },
+    {
+      "name": "Service Marketing",
+      "tutor": "Mamurjon Rahimov",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "ATB301"
+    },
+    {
+      "name": "Sales Management",
+      "tutor": "Anil Kumar",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB216"
+    }
+  ],
+  "4": [
+    {
+      "name": "Corporate Crime",
+      "tutor": "Dildora Karimova",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Audit and Assurance",
+      "tutor": "Ravshan Kakharov",
+      "type": "workshop",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "Lyceum Library"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Rahman Khan",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB309"
+    }
+  ],
+  "5": [
+    {
+      "name": "Corporate Crime",
+      "tutor": "Dildora Karimova",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB302"
+    },
+    {
+      "name": "Global Financial Markets and Institutions",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB316"
+    },
+    {
+      "name": "Global Financial Markets and Institutions",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB316"
+    }
+  ],
   "6": [],
   "7": []
 }

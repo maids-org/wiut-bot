@@ -1,9 +1,69 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
+  "1": [
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Alisher Ismailov",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Principles of Marketing",
+      "tutor": "Begzod Nishanov",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB310"
+    },
+    {
+      "name": "Introduction to Banking and Financial Markets",
+      "tutor": "Iroda Azizova, Omon Ganiev",
+      "type": "lecture",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB301"
+    }
+  ],
+  "2": [
+    {
+      "name": "Principles of Marketing",
+      "tutor": "Prabha Kiran",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "Lyceum Library"
+    }
+  ],
+  "3": [
+    {
+      "name": "Introduction to Banking and Financial Markets",
+      "tutor": "Abdulaziz Djalilov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB301"
+    },
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Olmas Isakov",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB215 CL"
+    }
+  ],
+  "4": [
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Farhod Karimov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB101"
+    }
+  ],
   "5": [],
   "6": [],
   "7": []

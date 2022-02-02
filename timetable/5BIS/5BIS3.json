@@ -1,10 +1,55 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Database Systems Development",
+      "tutor": "Dmitriy Pochitaev",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    }
+  ],
+  "2": [
+    {
+      "name": "Web Applications Development",
+      "tutor": "Ali Subair",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New304 CL"
+    }
+  ],
+  "3": [
+    {
+      "name": "Information Systems Management",
+      "tutor": "Sevara Siradjeva",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "LRC13 Library Multimedia"
+    }
+  ],
+  "4": [
+    {
+      "name": "Web Applications Development",
+      "tutor": "Ali Subair",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "New206 H"
+    }
+  ],
+  "5": [
+    {
+      "name": "Information Systems Management",
+      "tutor": "Dariush Alimokhammadi",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New206 H"
+    }
+  ],
   "6": [],
   "7": []
 }

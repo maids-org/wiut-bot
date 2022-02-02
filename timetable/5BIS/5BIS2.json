@@ -1,10 +1,95 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
+  "1": [
+    {
+      "name": "Human Resource Management",
+      "tutor": "Olesya Smagina",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB216"
+    },
+    {
+      "name": "Information Systems Management",
+      "tutor": "Dariush Alimokhammadi",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "Database Systems Development",
+      "tutor": "Dmitriy Pochitaev",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New305 CL"
+    }
+  ],
+  "2": [
+    {
+      "name": "Web Applications Development",
+      "tutor": "Ali Subair",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "Business Intelligence Systems",
+      "tutor": "Dilshod Ibragimov",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "New206 H"
+    }
+  ],
+  "3": [
+    {
+      "name": "Human Resource Management",
+      "tutor": "Sitora Inoyatova",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB216"
+    }
+  ],
+  "4": [
+    {
+      "name": "Web Applications Development",
+      "tutor": "Ali Subair",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "New206 H"
+    },
+    {
+      "name": "Human Resource Management",
+      "tutor": "Shakhnoza Asadova",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB209 CL"
+    }
+  ],
+  "5": [
+    {
+      "name": "Business Intelligence Systems",
+      "tutor": "Dilshod Ibragimov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "New304 CL"
+    },
+    {
+      "name": "Information Systems Management",
+      "tutor": "Dariush Alimokhammadi",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New206 H"
+    }
+  ],
   "6": [],
   "7": []
 }

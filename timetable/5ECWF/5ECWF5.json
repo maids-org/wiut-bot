@@ -1,10 +1,96 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
-  "6": [],
+  "1": [
+    {
+      "name": "Intermediate Macroeconomics",
+      "tutor": "Javlon Juraev",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB311"
+    },
+    {
+      "name": "Islamic Finance",
+      "tutor": "Abdul Aziz Buriev",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "IB302"
+    }
+  ],
+  "2": [
+    {
+      "name": "Industrial Organisation",
+      "tutor": "Deniz Guvercin",
+      "type": "lecture",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Intermediate Macroeconomics",
+      "tutor": "Muhammed Bilal",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB314"
+    }
+  ],
+  "3": [
+    {
+      "name": "Industrial Organisation",
+      "tutor": "Deniz Guvercin",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB301"
+    }
+  ],
+  "4": [
+    {
+      "name": "Islamic Finance",
+      "tutor": "Abdul Aziz Buriev",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB216"
+    },
+    {
+      "name": "Islamic Finance",
+      "tutor": "Abdul Aziz Buriev",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB216"
+    }
+  ],
+  "5": [
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Khilola Dushamova",
+      "type": "workshop",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "New407"
+    }
+  ],
+  "6": [
+    {
+      "name": "Econometrics",
+      "tutor": "Obid Khakimov",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Econometrics",
+      "tutor": "Sardor Azam",
+      "type": "workshop",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB212 CL"
+    }
+  ],
   "7": []
 }

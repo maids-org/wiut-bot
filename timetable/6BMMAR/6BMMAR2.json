@@ -1,9 +1,101 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
+  "1": [
+    {
+      "name": "Service Marketing",
+      "tutor": "Mamurjon Rahimov",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "ATB302"
+    }
+  ],
+  "2": [
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Sales Management",
+      "tutor": "Anil Kumar",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB314"
+    },
+    {
+      "name": "Sales Management",
+      "tutor": "Anil Kumar",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "ATB211"
+    },
+    {
+      "name": "Sales Management",
+      "tutor": "Anil Kumar",
+      "type": "workshop",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "ATB211"
+    }
+  ],
+  "3": [
+    {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Service Marketing",
+      "tutor": "Mamurjon Rahimov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB301"
+    },
+    {
+      "name": "Service Marketing",
+      "tutor": "Mamurjon Rahimov",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "ATB301"
+    }
+  ],
+  "4": [
+    {
+      "name": "New Venture Creation",
+      "tutor": "Elnora Mirzalieva",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB302"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB309"
+    }
+  ],
   "5": [],
   "6": [],
   "7": []

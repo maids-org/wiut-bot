@@ -1,8 +1,75 @@
 {
   "0": [],
-  "1": [],
-  "2": [],
-  "3": [],
+  "1": [
+    {
+      "name": "Marketing Communications",
+      "tutor": "Dilmurod Khodiev",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB312"
+    },
+    {
+      "name": "Marketing Communications",
+      "tutor": "Dilmurod Khodiev",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB312"
+    },
+    {
+      "name": "Financial Management",
+      "tutor": "Hamid Waqas",
+      "type": "lecture",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Marketing Communications",
+      "tutor": "Dilmurod Khodiev",
+      "type": "lecture",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "IB311"
+    }
+  ],
+  "2": [
+    {
+      "name": "Professional Practice Learning from Work",
+      "tutor": "Jobir Mallaboev",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB101"
+    },
+    {
+      "name": "Professional Practice Learning from Work",
+      "tutor": "Jobir Mallaboev",
+      "type": "workshop",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "IB101"
+    }
+  ],
+  "3": [
+    {
+      "name": "Financial Management",
+      "tutor": "Hamid Waqas",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB303"
+    },
+    {
+      "name": "Financial Management",
+      "tutor": "Hamid Waqas",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB303"
+    }
+  ],
   "4": [],
   "5": [],
   "6": [],
