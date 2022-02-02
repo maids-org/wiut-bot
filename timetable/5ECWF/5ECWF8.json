@@ -1,71 +1,10 @@
 {
   "0": [],
-  "1": [
-    {
-      "name": "Public Finance",
-      "tutor": "Naqeeb Ur Rehman",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB209"
-    },
-    {
-      "name": "Intermediate Macroeconomics",
-      "tutor": "Javlon Juraev",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB207"
-    }
-  ],
-  "2": [
-    {
-      "name": "Intermediate Macroeconomics",
-      "tutor": "Muhammed Bilal",
-      "type": "lecture",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB314"
-    }
-  ],
-  "3": [
-    {
-      "name": "Public Finance",
-      "tutor": "Naqeeb Ur Rehman",
-      "type": "lecture",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "Harvard306"
-    }
-  ],
+  "1": [],
+  "2": [],
+  "3": [],
   "4": [],
-  "5": [
-    {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Gulomjon Kosimjonov",
-      "type": "workshop",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB215 CL"
-    }
-  ],
-  "6": [
-    {
-      "name": "Econometrics",
-      "tutor": "Obid Khakimov",
-      "type": "lecture",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "Harvard306"
-    },
-    {
-      "name": "Econometrics",
-      "tutor": "Obid Khakimov",
-      "type": "workshop",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "ATB214 CL"
-    }
-  ],
+  "5": [],
+  "6": [],
   "7": []
 }

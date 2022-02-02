@@ -1,87 +1,10 @@
 {
   "0": [],
-  "1": [
-    {
-      "name": "Exploring Economics",
-      "tutor": "Zohid Askarov",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "New301"
-    },
-    {
-      "name": "Corporate Finance",
-      "tutor": "Murodullo Bazarov",
-      "type": "lecture",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "Lyceum hall"
-    },
-    {
-      "name": "Introduction to Banking and Financial Markets",
-      "tutor": "Iroda Azizova, Omon Ganiev",
-      "type": "lecture",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "IB301"
-    }
-  ],
-  "2": [
-    {
-      "name": "Exploring Economics",
-      "tutor": "Zohid Askarov",
-      "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "Harvard306"
-    },
-    {
-      "name": "Introduction to Insurance Business",
-      "tutor": "Hasan AKM Kamrul",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New406"
-    }
-  ],
-  "3": [
-    {
-      "name": "Corporate Finance",
-      "tutor": "Jahongir Negmatov",
-      "type": "seminar",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "ATB314"
-    },
-    {
-      "name": "Introduction to Insurance Business",
-      "tutor": "Ram Sin",
-      "type": "workshop",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "LRC13 Library Multimedia"
-    }
-  ],
-  "4": [
-    {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Farrukh Ataev",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "ATB214 CL"
-    }
-  ],
-  "5": [
-    {
-      "name": "Introduction to Banking and Financial Markets",
-      "tutor": "Iroda Azizova",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "ATB302"
-    }
-  ],
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
   "6": [],
   "7": []
 }

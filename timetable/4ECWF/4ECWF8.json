@@ -1,94 +1,10 @@
 {
   "0": [],
-  "1": [
-    {
-      "name": "Financial Accounting",
-      "tutor": "Lilya Memesheva",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 1.0,
-      "location": "IB316"
-    },
-    {
-      "name": "Corporate Finance",
-      "tutor": "Murodullo Bazarov",
-      "type": "lecture",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "Lyceum hall"
-    }
-  ],
-  "2": [
-    {
-      "name": "Exploring Economics",
-      "tutor": "Zohid Askarov",
-      "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "Harvard306"
-    },
-    {
-      "name": "Exploring Economics",
-      "tutor": "Shokhida Karimova",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "ATB302"
-    }
-  ],
-  "3": [
-    {
-      "name": "Corporate Finance",
-      "tutor": "Murodullo Bazarov",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "ATB310"
-    },
-    {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Shokhida Karimova",
-      "type": "workshop",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "ATB212 CL"
-    },
-    {
-      "name": "English for Academic Success (EAS)",
-      "tutor": "Jasur Khudoyberdiev",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New502"
-    }
-  ],
+  "1": [],
+  "2": [],
+  "3": [],
   "4": [],
-  "5": [
-    {
-      "name": "Financial Accounting",
-      "tutor": "Lilya Memesheva",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "IB306"
-    },
-    {
-      "name": "Financial Accounting",
-      "tutor": "Lilya Memesheva",
-      "type": "workshop",
-      "start": 15.0,
-      "length": 1.0,
-      "location": "IB209 CL"
-    },
-    {
-      "name": "English for Academic Success (EAS)",
-      "tutor": "Jasur Khudoyberdiev",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New302"
-    }
-  ],
+  "5": [],
   "6": [],
   "7": []
 }

@@ -1,96 +1,10 @@
 {
   "0": [],
-  "1": [
-    {
-      "name": "Financial Management",
-      "tutor": "Sherzod Safarov",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "ATB310 A"
-    },
-    {
-      "name": "Financial Management",
-      "tutor": "Sherzod Safarov",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "ATB310 A"
-    },
-    {
-      "name": "Financial Management",
-      "tutor": "Hamid Waqas",
-      "type": "lecture",
-      "start": 14.0,
-      "length": 1.0,
-      "location": "IB311"
-    }
-  ],
-  "2": [
-    {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Farrukh Ataev",
-      "type": "workshop",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "ATB214 CL"
-    },
-    {
-      "name": "Intermediate Macroeconomics",
-      "tutor": "Muhammed Bilal",
-      "type": "lecture",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB314"
-    }
-  ],
-  "3": [
-    {
-      "name": "Econometrics",
-      "tutor": "Ziyodullo Parpiev",
-      "type": "workshop",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "IB209 CL"
-    },
-    {
-      "name": "Professional and Research Skills for Finance",
-      "tutor": "Ram Sin",
-      "type": "seminar",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "LRC13 Library Multimedia"
-    }
-  ],
-  "4": [
-    {
-      "name": "Intermediate Macroeconomics",
-      "tutor": "Muhammed Bilal",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB307"
-    }
-  ],
-  "5": [
-    {
-      "name": "Professional and Research Skills for Finance",
-      "tutor": "Ram Sin",
-      "type": "workshop",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "IB208 CL"
-    }
-  ],
-  "6": [
-    {
-      "name": "Econometrics",
-      "tutor": "Obid Khakimov",
-      "type": "lecture",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "Harvard306"
-    }
-  ],
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
   "7": []
 }

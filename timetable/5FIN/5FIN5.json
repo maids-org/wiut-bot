@@ -1,102 +1,10 @@
 {
   "0": [],
-  "1": [
-    {
-      "name": "Financial Mathematics and Principles",
-      "tutor": "Rustam Suleymanov",
-      "type": "lecture",
-      "start": 13.0,
-      "length": 1.0,
-      "location": "Harvard306"
-    },
-    {
-      "name": "Financial Management",
-      "tutor": "Hamid Waqas",
-      "type": "lecture",
-      "start": 14.0,
-      "length": 1.0,
-      "location": "IB311"
-    },
-    {
-      "name": "Financial Management",
-      "tutor": "Nargiza Khuramova",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "IB316"
-    },
-    {
-      "name": "Financial Management",
-      "tutor": "Nargiza Khuramova",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "IB209 CL"
-    }
-  ],
-  "2": [
-    {
-      "name": "Securities Analysis",
-      "tutor": "Sherzod Safarov",
-      "type": "lecture",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "IB311"
-    }
-  ],
-  "3": [
-    {
-      "name": "Securities Analysis",
-      "tutor": "Sherzod Safarov",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "ATB212 CL"
-    },
-    {
-      "name": "Securities Analysis",
-      "tutor": "Sherzod Safarov",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "ATB212 CL"
-    },
-    {
-      "name": "Professional and Research Skills for Finance",
-      "tutor": "Ram Sin",
-      "type": "seminar",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "LRC13 Library Multimedia"
-    },
-    {
-      "name": "Financial Mathematics and Principles",
-      "tutor": "Abdulaziz Djalilov",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "IB309"
-    },
-    {
-      "name": "Financial Mathematics and Principles",
-      "tutor": "Abdulaziz Djalilov",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "IB215 CL"
-    }
-  ],
+  "1": [],
+  "2": [],
+  "3": [],
   "4": [],
-  "5": [
-    {
-      "name": "Professional and Research Skills for Finance",
-      "tutor": "Ram Sin",
-      "type": "workshop",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "IB208 CL"
-    }
-  ],
+  "5": [],
   "6": [],
   "7": []
 }

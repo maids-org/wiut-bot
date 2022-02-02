@@ -1,78 +1,10 @@
 {
   "0": [],
-  "1": [
-    {
-      "name": "Managing Innovation and Entrepreneurship",
-      "tutor": "Ahmed Waqas",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 1.0,
-      "location": "ATB314"
-    }
-  ],
+  "1": [],
   "2": [],
-  "3": [
-    {
-      "name": "Information Systems Management",
-      "tutor": "Dariush Alimokhammadi",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "New303 CL"
-    },
-    {
-      "name": "Web Applications Development",
-      "tutor": "Ali Subair",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "New305 CL"
-    }
-  ],
-  "4": [
-    {
-      "name": "Web Applications Development",
-      "tutor": "Ali Subair",
-      "type": "lecture",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "New206 H"
-    },
-    {
-      "name": "Information Systems Management",
-      "tutor": "Dariush Alimokhammadi",
-      "type": "lecture",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "New206 H"
-    }
-  ],
-  "5": [
-    {
-      "name": "Database Systems Development",
-      "tutor": "Dmitriy Pochitaev",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "New303 CL"
-    },
-    {
-      "name": "Managing Innovation and Entrepreneurship",
-      "tutor": "Ahmed Waqas",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "ATB211"
-    },
-    {
-      "name": "Managing Innovation and Entrepreneurship",
-      "tutor": "Ahmed Waqas",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "ATB211"
-    }
-  ],
+  "3": [],
+  "4": [],
+  "5": [],
   "6": [],
   "7": []
 }
