@@ -18,18 +18,17 @@
       "start": 11.0,
       "length": 2.0,
       "location": "New304 CL"
-    }
-  ],
-  "3": [
+    },
     {
       "name": "Information Systems Management",
       "tutor": "Sevara Siradjeva",
       "type": "seminar",
-      "start": 9.0,
+      "start": 13.0,
       "length": 2.0,
-      "location": "LRC13 Library Multimedia"
+      "location": "New305 CL"
     }
   ],
+  "3": [],
   "4": [
     {
       "name": "Web Applications Development",
