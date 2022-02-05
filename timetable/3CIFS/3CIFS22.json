@@ -47,7 +47,7 @@
     },
     {
       "name": "Understanding Finance",
-      "tutor": "Temur Makhkamov",
+      "tutor": "Mokhirakhon Abdullaeva",
       "type": "seminar",
       "start": 15.0,
       "length": 2.0,
@@ -55,7 +55,7 @@
     },
     {
       "name": "Understanding Finance",
-      "tutor": "Temur Makhkamov",
+      "tutor": "Mokhirakhon Abdullaeva",
       "type": "workshop",
       "start": 17.0,
       "length": 1.0,
@@ -75,7 +75,7 @@
   "5": [
     {
       "name": "I, Citizen",
-      "tutor": "Rituparna Mukerjee",
+      "tutor": "Andrey Khojeev",
       "type": "seminar",
       "start": 15.0,
       "length": 2.0,
