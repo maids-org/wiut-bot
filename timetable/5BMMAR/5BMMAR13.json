@@ -44,6 +44,14 @@
       "location": "Lyceum Library"
     },
     {
+      "name": "English for Academic Success (EAS)",
+      "tutor": "Jasur Khudoyberdiev",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
       "name": "Financial Management",
       "tutor": "Gulkhayo Nusratova",
       "type": "seminar",
@@ -120,14 +128,6 @@
       "start": 15.0,
       "length": 1.0,
       "location": "ATB309"
-    },
-    {
-      "name": "English for Academic Success (EAS)",
-      "tutor": "Jasur Khudoyberdiev",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New302"
     }
   ],
   "6": [],

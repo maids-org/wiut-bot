@@ -20,6 +20,14 @@
       "location": "Lyceum Library"
     },
     {
+      "name": "English for Academic Success (EAS)",
+      "tutor": "Jasur Khudoyberdiev",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
       "name": "Principles of Marketing",
       "tutor": "Sanemkhan Nurillaeva",
       "type": "seminar",
@@ -72,14 +80,6 @@
       "start": 13.0,
       "length": 2.0,
       "location": "ATB301"
-    },
-    {
-      "name": "English for Academic Success (EAS)",
-      "tutor": "Jasur Khudoyberdiev",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New302"
     }
   ],
   "6": [],

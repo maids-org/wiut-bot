@@ -36,11 +36,19 @@
       "location": "New303 CL"
     },
     {
+      "name": "English for Academic Success (EAS)",
+      "tutor": "Jasur Khudoyberdiev",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
       "name": "Industrial Organisation",
       "tutor": "Deniz Guvercin",
       "type": "lecture",
-      "start": 12.0,
-      "length": 2.0,
+      "start": 13.0,
+      "length": 1.0,
       "location": "IB311"
     },
     {
@@ -96,14 +104,6 @@
       "start": 9.0,
       "length": 2.0,
       "location": "New206 H"
-    },
-    {
-      "name": "English for Academic Success (EAS)",
-      "tutor": "Jasur Khudoyberdiev",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New302"
     }
   ],
   "6": [],

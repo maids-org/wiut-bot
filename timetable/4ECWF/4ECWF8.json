@@ -28,6 +28,14 @@
       "location": "Harvard306"
     },
     {
+      "name": "English for Academic Success (EAS)",
+      "tutor": "Jasur Khudoyberdiev",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
       "name": "Exploring Economics",
       "tutor": "Shokhida Karimova",
       "type": "seminar",
@@ -79,14 +87,6 @@
       "start": 15.0,
       "length": 1.0,
       "location": "IB209 CL"
-    },
-    {
-      "name": "English for Academic Success (EAS)",
-      "tutor": "Jasur Khudoyberdiev",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New302"
     }
   ],
   "6": [],

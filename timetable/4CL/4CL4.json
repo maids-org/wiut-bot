@@ -20,12 +20,12 @@
       "location": "New206 H"
     },
     {
-      "name": "Criminal Law",
-      "tutor": "Khasan Sayfuddinov",
-      "type": "lecture",
+      "name": "English for Academic Success (EAS)",
+      "tutor": "Jasur Khudoyberdiev",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "IB309"
+      "location": "New303 CL"
     }
   ],
   "3": [
@@ -64,16 +64,7 @@
       "location": "IB307"
     }
   ],
-  "5": [
-    {
-      "name": "English for Academic Success (EAS)",
-      "tutor": "Jasur Khudoyberdiev",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New302"
-    }
-  ],
+  "5": [],
   "6": [],
   "7": []
 }

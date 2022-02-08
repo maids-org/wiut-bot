@@ -64,6 +64,14 @@
       "location": "New408 CL"
     },
     {
+      "name": "Academic English",
+      "tutor": "Gunjan Jain",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "Blue room"
+    },
+    {
       "name": "Visual Programming",
       "tutor": "Shirin Primkulova",
       "type": "workshop",
@@ -72,16 +80,7 @@
       "location": "New206 H"
     }
   ],
-  "5": [
-    {
-      "name": "Academic English",
-      "tutor": "Gunjan Jain",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New404"
-    }
-  ],
+  "5": [],
   "6": [],
   "7": []
 }

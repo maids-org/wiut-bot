@@ -5,17 +5,17 @@
       "name": "Applied Corporate Finance",
       "tutor": "Andrey Artemenkov",
       "type": "seminar",
-      "start": 9.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "ATB309"
+      "location": "ATB212 CL"
     },
     {
       "name": "Applied Corporate Finance",
       "tutor": "Andrey Artemenkov",
       "type": "workshop",
-      "start": 11.0,
+      "start": 13.0,
       "length": 1.0,
-      "location": "ATB214 CL"
+      "location": "ATB212 CL"
     },
     {
       "name": "Audit and Assurance",
