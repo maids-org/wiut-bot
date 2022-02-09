@@ -64,6 +64,14 @@
   ],
   "4": [
     {
+      "name": "International Economics",
+      "tutor": "Ahmed Junaid",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "ATB310"
+    },
+    {
       "name": "Applied Corporate Finance",
       "tutor": "Andrey Artemenkov",
       "type": "seminar",
@@ -80,16 +88,7 @@
       "location": "IB215 CL"
     }
   ],
-  "5": [
-    {
-      "name": "International Economics",
-      "tutor": "Gulnoza Kuldosheva",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New207"
-    }
-  ],
+  "5": [],
   "6": [],
   "7": []
 }

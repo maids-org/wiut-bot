@@ -2,14 +2,6 @@
   "0": [],
   "1": [
     {
-      "name": "Foundations of Economics",
-      "tutor": "Gulnoza Kuldosheva",
-      "type": "seminar",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "ATB307"
-    },
-    {
       "name": "Academic English",
       "tutor": "Temur Saidnazarov",
       "type": "seminar",
@@ -44,6 +36,14 @@
       "start": 12.0,
       "length": 2.0,
       "location": "Lyceum 91"
+    },
+    {
+      "name": "Foundations of Economics",
+      "tutor": "Khilola Dushamova",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New405"
     }
   ],
   "4": [

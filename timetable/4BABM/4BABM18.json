@@ -52,18 +52,18 @@
       "start": 12.0,
       "length": 2.0,
       "location": "ATB209"
-    },
-    {
-      "name": "Tourism and Its Dynamics",
-      "tutor": "Timur Perkov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New405"
     }
   ],
   "4": [],
   "5": [
+    {
+      "name": "Tourism and Its Dynamics",
+      "tutor": "Timur Perkov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB303"
+    },
     {
       "name": "Tourism and Its Dynamics",
       "tutor": "Angelo Battaglia",

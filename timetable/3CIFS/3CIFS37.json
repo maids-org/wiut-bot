@@ -20,20 +20,20 @@
   ],
   "2": [
     {
+      "name": "Developing Professional Identity",
+      "tutor": "Feruza Askarova",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB301"
+    },
+    {
       "name": "Foundations of Economics",
       "tutor": "Jamshid Normatov",
       "type": "lecture",
       "start": 12.0,
       "length": 2.0,
       "location": "IB301"
-    },
-    {
-      "name": "Developing Professional Identity",
-      "tutor": "Feruza Askarova",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB209"
     }
   ],
   "3": [
