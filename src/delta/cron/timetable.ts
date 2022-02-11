@@ -4,10 +4,6 @@ import * as consoles from "@src/utils";
 import { Timetable } from "@src/database";
 import * as resource from "./resource";
 
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
 // Timetable CRON
 (async () => {
   for (const group of (await dungeon.getAllModule()).map((m) => m.module)) {

@@ -11,3 +11,7 @@ export interface Group {
   module?: string;
   link?: string;
 }
+
+export interface Admin {
+  id: number;
+}

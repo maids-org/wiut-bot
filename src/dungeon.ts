@@ -1,5 +1,5 @@
 import { createClient, SupabaseClient } from "@supabase/supabase-js";
-import { Group, OnlyId, OnlyModule } from "@type/dungeon";
+import { Admin, Group, OnlyId, OnlyModule } from "@type/dungeon";
 
 export default class Dungeon {
   /**
@@ -162,5 +162,52 @@ export default class Dungeon {
     if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
 
     return Group;
+  }
+
+  /**
+   * Get all admins telegram IDs from the Dungeon.
+   * @returns Promise<OnlyId[]>
+   */
+  async getAllAdmins(): Promise<OnlyId[]> {
+    const { data: Groups, error } = await this.client
+      .from("Admins")
+      .select("id")
+      .order("id")
+      .range(0, 100);
+
+    if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
+
+    return Groups;
+  }
+
+  /**
+   * Register a new admin in to the Dungeon.
+   * @param id The ID of the group chat
+   * @returns Promise<Admin[]>
+   */
+  async newAdmin(id: number): Promise<Admin[]> {
+    const { data: Admin, error } = await this.client
+      .from("Admins")
+      .insert([{ id }]);
+
+    if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
+
+    return Admin;
+  }
+
+  /**
+   * Deletes group chat from .
+   * @param id The ID of the group chat
+   * @returns Promise<Admin[]>
+   */
+  async removeAdmin(id: number): Promise<Admin[]> {
+    const { data: Admin, error } = await this.client
+      .from("Admins")
+      .delete()
+      .match({ id: id });
+
+    if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
+
+    return Admin;
   }
 }
