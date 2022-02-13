@@ -40,6 +40,8 @@ composer.command("send", async (ctx: TelegrafContext) => {
       console.log(e.message);
     }
   }
+
+  return await ctx.replyWithHTML(`Done...`);
 });
 
 middleware(composer);

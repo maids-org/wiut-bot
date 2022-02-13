@@ -2,6 +2,7 @@ import "@delta/start";
 import "@delta/help";
 import "@delta/cron";
 import "@delta/send";
+import "@delta/admins";
 import "@delta/stats";
 import "@delta/links";
 import "@delta/groups";
