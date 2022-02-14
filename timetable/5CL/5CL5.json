@@ -80,6 +80,14 @@
       "location": "IB301"
     },
     {
+      "name": "Civil Law",
+      "tutor": "Davron Abdigapparov",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB216"
+    },
+    {
       "name": "Human Resource Management",
       "tutor": "Olesya Smagina",
       "type": "seminar",

@@ -29,8 +29,8 @@
       "name": "Business Intelligence Systems",
       "tutor": "Dilshod Ibragimov",
       "type": "seminar",
-      "start": 17.0,
-      "length": 1.0,
+      "start": 16.0,
+      "length": 2.0,
       "location": "New304 CL"
     }
   ],
@@ -60,6 +60,14 @@
       "location": "New303 CL"
     },
     {
+      "name": "Islamic Finance",
+      "tutor": "Surayyo Shaamirova",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB215 CL"
+    },
+    {
       "name": "Business Intelligence Systems",
       "tutor": "Dilshod Ibragimov",
       "type": "lecture",
@@ -68,11 +76,19 @@
       "location": "New206 H"
     },
     {
+      "name": "Islamic Finance",
+      "tutor": "Surayyo Shaamirova",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "IB215 CL"
+    },
+    {
       "name": "Internet Law",
       "tutor": "Timur Kulumbetov",
       "type": "lecture",
-      "start": 17.0,
-      "length": 1.0,
+      "start": 16.0,
+      "length": 2.0,
       "location": "IB316"
     }
   ],

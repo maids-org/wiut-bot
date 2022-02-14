@@ -7,7 +7,7 @@
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "ATB310"
+      "location": "ATB310B"
     },
     {
       "name": "Marketing Communications",
@@ -15,7 +15,7 @@
       "type": "workshop",
       "start": 11.0,
       "length": 1.0,
-      "location": "ATB310"
+      "location": "ATB310B"
     },
     {
       "name": "Financial Management",

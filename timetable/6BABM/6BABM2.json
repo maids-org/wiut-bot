@@ -103,6 +103,14 @@
       "start": 16.0,
       "length": 2.0,
       "location": "ATB207"
+    },
+    {
+      "name": "New Venture Creation",
+      "tutor": "Alisher Ismailov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB314"
     }
   ],
   "6": [

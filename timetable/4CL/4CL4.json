@@ -26,6 +26,14 @@
       "start": 11.0,
       "length": 2.0,
       "location": "New303 CL"
+    },
+    {
+      "name": "Criminal Law",
+      "tutor": "Khasan Sayfuddinov",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB309"
     }
   ],
   "3": [

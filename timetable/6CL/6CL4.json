@@ -44,6 +44,14 @@
       "location": "ATB211"
     },
     {
+      "name": "Internet Law",
+      "tutor": "Timur Kulumbetov",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB316"
+    },
+    {
       "name": "Principles and Practices of Taxation",
       "tutor": "Otabek Fazilov",
       "type": "workshop",
@@ -64,7 +72,7 @@
     {
       "name": "Intellectual Property Law",
       "tutor": "Timur Abdulazizov",
-      "type": "lecture",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "IB308"
@@ -151,7 +159,7 @@
       "type": "seminar",
       "start": 16.0,
       "length": 2.0,
-      "location": "IB216"
+      "location": "void"
     }
   ],
   "6": [],

@@ -27,7 +27,7 @@
       "type": "seminar",
       "start": 13.0,
       "length": 2.0,
-      "location": "ATB310"
+      "location": "ATB310B"
     },
     {
       "name": "Financial Management",
@@ -35,7 +35,7 @@
       "type": "workshop",
       "start": 15.0,
       "length": 1.0,
-      "location": "ATB310"
+      "location": "ATB310B"
     }
   ],
   "4": [],

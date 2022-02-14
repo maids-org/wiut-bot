@@ -108,7 +108,7 @@
       "tutor": "Natalia Solveig Mikhaylov",
       "type": "seminar",
       "start": 12.0,
-      "length": 1.0,
+      "length": 2.0,
       "location": "ATB304"
     },
     {
@@ -120,12 +120,36 @@
       "location": "ATB307"
     },
     {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "ATB309"
+    },
+    {
+      "name": "Leading Across Boundaries",
+      "tutor": "Natalia Solveig Mikhaylov",
+      "type": "workshop",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "ATB304"
+    },
+    {
       "name": "Marketing Management",
       "tutor": "Dildara Gapparova",
       "type": "workshop",
       "start": 15.0,
       "length": 1.0,
       "location": "ATB307"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "ATB309"
     },
     {
       "name": "Retailing Business",

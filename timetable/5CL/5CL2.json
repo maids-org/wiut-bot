@@ -12,7 +12,7 @@
     {
       "name": "Intellectual Property Law",
       "tutor": "Timur Abdulazizov",
-      "type": "lecture",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "IB308"
@@ -29,8 +29,8 @@
       "name": "Retailing Business",
       "tutor": "Alisher Ismailov",
       "type": "lecture",
-      "start": 17.0,
-      "length": 1.0,
+      "start": 16.0,
+      "length": 2.0,
       "location": "IB311"
     }
   ],

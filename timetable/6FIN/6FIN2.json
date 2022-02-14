@@ -44,6 +44,14 @@
       "location": "ATB314"
     },
     {
+      "name": "Securities Analysis",
+      "tutor": "Sherzod Safarov",
+      "type": "lecture",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
       "name": "Bank Risk Management",
       "tutor": "Dildora Ibragimova",
       "type": "seminar",

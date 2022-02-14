@@ -66,6 +66,14 @@
       "start": 16.0,
       "length": 2.0,
       "location": "New301"
+    },
+    {
+      "name": "Internet Law",
+      "tutor": "Timur Kulumbetov",
+      "type": "lecture",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB316"
     }
   ],
   "3": [
@@ -108,7 +116,7 @@
       "tutor": "Natalia Solveig Mikhaylov",
       "type": "lecture",
       "start": 11.0,
-      "length": 1.0,
+      "length": 2.0,
       "location": "ATB304"
     },
     {
@@ -120,19 +128,11 @@
       "location": "ATB304"
     },
     {
-      "name": "Leading Across Boundaries",
-      "tutor": "Natalia Solveig Mikhaylov",
-      "type": "workshop",
-      "start": 14.0,
-      "length": 1.0,
-      "location": "ATB304"
-    },
-    {
       "name": "Audit and Assurance",
       "tutor": "Ravshan Kakharov",
       "type": "workshop",
-      "start": 15.0,
-      "length": 1.0,
+      "start": 14.0,
+      "length": 2.0,
       "location": "Lyceum Library"
     },
     {
@@ -166,7 +166,7 @@
       "tutor": "Saidgozi Saydumarov",
       "type": "seminar",
       "start": 15.0,
-      "length": 1.0,
+      "length": 2.0,
       "location": "IB316"
     },
     {
@@ -176,6 +176,14 @@
       "start": 16.0,
       "length": 2.0,
       "location": "ATB314"
+    },
+    {
+      "name": "Global Financial Markets and Institutions",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB316"
     }
   ],
   "6": [],

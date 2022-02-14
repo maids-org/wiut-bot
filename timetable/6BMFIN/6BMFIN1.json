@@ -62,6 +62,14 @@
     {
       "name": "Bank Risk Management",
       "tutor": "Dildora Ibragimova",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "Bank Risk Management",
+      "tutor": "Dildora Ibragimova",
       "type": "workshop",
       "start": 18.0,
       "length": 1.0,
@@ -160,6 +168,14 @@
       "start": 16.0,
       "length": 2.0,
       "location": "ATB207"
+    },
+    {
+      "name": "New Venture Creation",
+      "tutor": "Alisher Ismailov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB314"
     }
   ],
   "6": [],
