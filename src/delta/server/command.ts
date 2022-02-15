@@ -12,7 +12,10 @@ composer.command(`server`, async (ctx: TelegrafContext) => {
   }
 
   return await ctx.replyWithHTML(
-    resource.message(false, (await dungeon.getAllID()).length)
+    resource.message(false, (await dungeon.getAllID()).length),
+    {
+      reply_markup: resource.keyboard,
+    }
   );
 });
 
