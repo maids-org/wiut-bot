@@ -5,6 +5,7 @@ import "@delta/send";
 import "@delta/admins";
 import "@delta/stats";
 import "@delta/links";
+import "@delta/server";
 import "@delta/groups";
 import "@delta/inline";
 import "@delta/feedback";
