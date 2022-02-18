@@ -56,20 +56,20 @@
   ],
   "4": [
     {
+      "name": "Academic English",
+      "tutor": "Temur Saidnazarov",
+      "type": "seminar",
+      "start": 10.0,
+      "length": 2.0,
+      "location": "LRC13 Library Multimedia"
+    },
+    {
       "name": "Business in the Modern World",
       "tutor": "Nadezhda Kim",
       "type": "seminar",
       "start": 13.0,
       "length": 2.0,
       "location": "Lyceum 96"
-    },
-    {
-      "name": "Academic English",
-      "tutor": "Temur Saidnazarov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New301"
     }
   ],
   "5": [
