@@ -68,6 +68,14 @@
       "start": 11.0,
       "length": 2.0,
       "location": "IB316"
+    },
+    {
+      "name": "Property Law",
+      "tutor": "Timur Kulumbetov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB208 CL"
     }
   ],
   "4": [
@@ -78,14 +86,6 @@
       "start": 11.0,
       "length": 2.0,
       "location": "IB316"
-    },
-    {
-      "name": "Property Law",
-      "tutor": "Timur Kulumbetov",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "LRC13 Library Multimedia"
     }
   ],
   "5": [
