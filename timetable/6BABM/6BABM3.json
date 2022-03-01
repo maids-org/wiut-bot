@@ -60,6 +60,14 @@
       "location": "ATB314"
     },
     {
+      "name": "Internet Law",
+      "tutor": "Timur Kulumbetov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB301"
+    },
+    {
       "name": "Marketing Strategy",
       "tutor": "Atya Zeb",
       "type": "seminar",
@@ -134,14 +142,6 @@
       "start": 14.0,
       "length": 2.0,
       "location": "Lyceum Library"
-    },
-    {
-      "name": "Internet Law",
-      "tutor": "Timur Kulumbetov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB306"
     }
   ],
   "5": [

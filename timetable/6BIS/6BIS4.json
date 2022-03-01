@@ -52,11 +52,19 @@
       "location": "ATB314"
     },
     {
+      "name": "Internet Law",
+      "tutor": "Timur Kulumbetov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 1.0,
+      "location": "ATB301"
+    },
+    {
       "name": "Web Applications Development",
       "tutor": "Ali Subair",
       "type": "seminar",
       "start": 14.0,
-      "length": 2.0,
+      "length": 1.0,
       "location": "New303 CL"
     },
     {
@@ -64,7 +72,31 @@
       "tutor": "Surayyo Shaamirova",
       "type": "seminar",
       "start": 14.0,
-      "length": 2.0,
+      "length": 1.0,
+      "location": "IB215 CL"
+    },
+    {
+      "name": "Internet Law",
+      "tutor": "Timur Kulumbetov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "ATB301"
+    },
+    {
+      "name": "Web Applications Development",
+      "tutor": "Ali Subair",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "New303 CL"
+    },
+    {
+      "name": "Islamic Finance",
+      "tutor": "Surayyo Shaamirova",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 1.0,
       "location": "IB215 CL"
     },
     {
@@ -126,14 +158,6 @@
       "start": 14.0,
       "length": 2.0,
       "location": "IB209 CL"
-    },
-    {
-      "name": "Internet Law",
-      "tutor": "Timur Kulumbetov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB306"
     }
   ],
   "5": [
