@@ -26,14 +26,6 @@
       "start": 10.0,
       "length": 1.0,
       "location": "Harvard306"
-    },
-    {
-      "name": "Corporate Finance",
-      "tutor": "Ulugbek Rakhimov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB314"
     }
   ],
   "3": [
@@ -72,6 +64,14 @@
       "start": 11.0,
       "length": 1.0,
       "location": "IB209 CL"
+    },
+    {
+      "name": "Corporate Finance",
+      "tutor": "Rustam Suleymanov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "Harvard306"
     }
   ],
   "6": [],
