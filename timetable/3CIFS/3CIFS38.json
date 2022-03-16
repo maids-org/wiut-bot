@@ -71,7 +71,7 @@
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "IB311"
+      "location": "Lyceum 96"
     },
     {
       "name": "Understanding Finance",
@@ -79,7 +79,7 @@
       "type": "workshop",
       "start": 11.0,
       "length": 1.0,
-      "location": "IB311"
+      "location": "Lyceum 96"
     }
   ],
   "6": [],
