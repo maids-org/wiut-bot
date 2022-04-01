@@ -1,6 +1,6 @@
 import * as dotenv from "dotenv";
 import { User } from "telegram-typings";
-import { TelegrafContext } from "@type/telegraf";
+import { TelegrafContext } from "telegraf/typings/context";
 import { Telegraf, session, Composer, Stage } from "telegraf";
 import { SceneContextMessageUpdate } from "telegraf/typings/stage";
 import Dungeon from "@src/dungeon";
