@@ -1,6 +1,6 @@
 import * as dotenv from "dotenv";
 import { User } from "telegram-typings";
-import { TelegrafContext } from "telegraf/typings/context";
+import { TelegrafContext } from "@type/telegraf";
 import { Telegraf, session, Composer, Stage } from "telegraf";
 import { SceneContextMessageUpdate } from "telegraf/typings/stage";
 import Dungeon from "@src/dungeon";
@@ -10,6 +10,33 @@ export const env = process.env;
 export const dungeon = new Dungeon(process.env.SUP_URL, process.env.SUP_KEY);
 export const bot = new Telegraf<TelegrafContext>(env.TOKEN);
 export const composer = new Composer<TelegrafContext>();
+
+const arabic = /[\u0600-\u06FF\u0750-\u077F]/;
+
+bot.use(async (ctx, next) => {
+  try {
+    if (ctx.message.message_id) {
+      if (arabic.test(ctx.message.text)) {
+        await ctx.deleteMessage();
+        await ctx.replyWithHTML(
+          `Guys, c'mon. Don't type in arabic. Instead, use plain English!`
+        );
+      }
+
+      // if (ctx.chat.type === "group" || ctx.chat.type === "supergroup") {
+      //   const sender = await ctx.getChatMember(ctx.from.id);
+      //   if (sender.status !== "administrator" && sender.status !== "creator") {
+      //     if (ctx.message.forward_from) {
+      //       await ctx.deleteMessage();
+      //     }
+      //   }
+      // }
+    }
+  } catch (_) {
+    await console.log("Can't delete");
+  }
+  await next();
+});
 
 export const middleware = (
   mod: Composer<TelegrafContext> | Stage<SceneContextMessageUpdate>
