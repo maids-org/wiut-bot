@@ -38,7 +38,7 @@ const votingMessage =
   `<b>Azamat Kun</b> — Sport Events` +
   `\n` +
   `\n` +
-  `<b>Any kind of support is appreciated and remembered!</b>`;
+  `<b>Any kind of support is appreciated and remembered. Mad Maids & BIS support Team UNITE!</b>`;
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
