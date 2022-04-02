@@ -94,7 +94,7 @@ composer.command("voting", async (ctx: TelegrafContext) => {
     );
   }
 
-  let groups = 50;
+  let groups = chats.length;
   sendVoting = true;
 
   for (const chat of chats) {
@@ -121,7 +121,7 @@ composer.command("voting", async (ctx: TelegrafContext) => {
     }
   }
 
-  return await ctx.replyWithHTML(`Done. Sent to ${groups} groups...`);
+  return await ctx.replyWithHTML(`Done. Sent to ${groups} groups out of ${chats.length}...`);
 });
 
 middleware(composer);
