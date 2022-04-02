@@ -60,6 +60,8 @@ composer.command("send", async (ctx: TelegrafContext) => {
     return await ctx.replyWithHTML(resource.message.noReply);
   }
 
+  let groups = chats.length;
+
   for (const chat of chats) {
     try {
       await ctx.telegram
@@ -73,11 +75,12 @@ composer.command("send", async (ctx: TelegrafContext) => {
         });
       await sleep(1000);
     } catch (e) {
+      groups -= 1;
       console.log(e.message);
     }
   }
 
-  return await ctx.replyWithHTML(`Done...`);
+  return await ctx.replyWithHTML(`Done. Sent to ${groups} groups out of ${chats.length}...`);
 });
 
 composer.command("voting", async (ctx: TelegrafContext) => {
