@@ -76,7 +76,7 @@ composer.command("send", async (ctx: TelegrafContext) => {
       await sleep(1000);
     } catch (e) {
       groups -= 1;
-      console.log(e.message);
+      console.log(e.message, ctx.chat.id);
     }
   }
 
