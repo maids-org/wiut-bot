@@ -34,14 +34,6 @@
       "start": 9.0,
       "length": 2.0,
       "location": "ATB304"
-    },
-    {
-      "name": "Introduction to Management and Organisational Behaviour",
-      "tutor": "Abdurasul Absalomov",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "ATB310 A"
     }
   ],
   "3": [
@@ -52,12 +44,20 @@
       "start": 9.0,
       "length": 1.0,
       "location": "ATB209"
+    },
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Abdurasul Absalomov",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB212 CL"
     }
   ],
   "4": [
     {
       "name": "Financial Accounting",
-      "tutor": "Gulhayo Nusratova",
+      "tutor": "Ozoda Niyakhodjaeva",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,

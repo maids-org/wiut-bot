@@ -26,6 +26,14 @@
       "start": 9.0,
       "length": 2.0,
       "location": "SHB301"
+    },
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Abdurasul Absalomov",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB310 A"
     }
   ],
   "3": [
@@ -54,16 +62,7 @@
       "location": "ATB303"
     }
   ],
-  "4": [
-    {
-      "name": "Introduction to Management and Organisational Behaviour",
-      "tutor": "Abdurasul Absalomov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB309"
-    }
-  ],
+  "4": [],
   "5": [
     {
       "name": "Introduction to Statistics and Data Science",

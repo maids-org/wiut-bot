@@ -28,17 +28,17 @@
   ],
   "2": [
     {
-      "name": "Online",
+      "name": "Managing Brands",
       "tutor": "Zamira Ataniyazova",
-      "type": "lecture",
+      "type": "online lecture",
       "start": 9.0,
       "length": 2.0,
       "location": "SHB502"
     },
     {
-      "name": "Online / Marketing Analytics",
+      "name": "Marketing Analytics",
       "tutor": "Anil Kumar",
-      "type": "lecture",
+      "type": "online lecture",
       "start": 16.0,
       "length": 2.0,
       "location": "IB311"
