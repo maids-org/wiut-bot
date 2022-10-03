@@ -2,77 +2,61 @@
   "0": [],
   "1": [
     {
-      "name": "Civil Law",
-      "tutor": "Tamilla Tagieva",
-      "type": "lecture",
-      "start": 13.0,
+      "name": "Tort Law",
+      "tutor": "Malika Mukimova",
+      "type": "seminar",
+      "start": 9.0,
       "length": 2.0,
-      "location": "IB301"
+      "location": "SHB206 H"
+    },
+    {
+      "name": "Legal Skills",
+      "tutor": "Davron Abdigapparov",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "SHB503"
     }
   ],
   "2": [
     {
-      "name": "Tort Law",
-      "tutor": "Mandeep Singh",
-      "type": "lecture",
+      "name": "Public Law",
+      "tutor": "Anora Turakhudjaeva",
+      "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "New206 H"
+      "location": "IB310"
     },
     {
-      "name": "English for Academic Success (EAS)",
-      "tutor": "Jasur Khudoyberdiev",
+      "name": "Legal Skills",
+      "tutor": "Anna Snezhkova",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "New303 CL"
-    },
-    {
-      "name": "Criminal Law",
-      "tutor": "Khasan Sayfuddinov",
-      "type": "lecture",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "IB309"
+      "location": "IB308"
     }
   ],
   "3": [
     {
       "name": "Tort Law",
-      "tutor": "Mandeep Singh",
+      "tutor": "Malika Mukimova",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "IB216"
-    },
-    {
-      "name": "English for Academic Success (EAS)",
-      "tutor": "Jasur Khudoyberdiev",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New502"
+      "location": "IB309"
     }
   ],
-  "4": [
+  "4": [],
+  "5": [
     {
-      "name": "Criminal Law",
-      "tutor": "Khasan Sayfuddinov",
-      "type": "seminar",
-      "start": 11.0,
+      "name": "Public Law",
+      "tutor": "Alisher Pulatov",
+      "type": "lecture",
+      "start": 9.0,
       "length": 2.0,
-      "location": "IB307"
-    },
-    {
-      "name": "Civil Law",
-      "tutor": "Davron Abdigapparov",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB307"
+      "location": "IB301"
     }
   ],
-  "5": [],
   "6": [],
   "7": []
 }

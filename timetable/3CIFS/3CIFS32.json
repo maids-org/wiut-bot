@@ -2,76 +2,60 @@
   "0": [],
   "1": [
     {
-      "name": "Developing Professional Identity",
-      "tutor": "Ijobat Juraeva",
+      "name": "Developing Professional  Identity",
+      "tutor": "Jasur Khudoyberdiev",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "ATB302"
+      "location": "SHB405"
     },
     {
-      "name": "Fundamentals of Commercial Law",
-      "tutor": "Kholida Sabirova",
-      "type": "lecture",
-      "start": 14.0,
+      "name": "Academic English",
+      "tutor": "Dildora Tashpulatova",
+      "type": "seminar",
+      "start": 11.0,
       "length": 2.0,
-      "location": "New206 H"
+      "location": "SHB502"
     }
   ],
   "2": [
     {
-      "name": "I, Citizen",
-      "tutor": "Alisher Kosimov",
-      "type": "seminar",
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "type": "online lecture",
       "start": 9.0,
       "length": 2.0,
-      "location": "IB307"
-    },
-    {
-      "name": "Foundations of Economics",
-      "tutor": "Jamshid Normatov",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "IB301"
+      "location": "IB311"
     }
   ],
   "3": [
     {
-      "name": "Academic English",
-      "tutor": "Temur Saidnazarov",
+      "name": "I, Citizen",
+      "tutor": "Aziza Khakimova",
       "type": "seminar",
-      "start": 10.0,
+      "start": 15.0,
       "length": 2.0,
-      "location": "Lyceum 96"
+      "location": "IB310"
     }
   ],
   "4": [
     {
-      "name": "Fundamentals of Commercial Law",
-      "tutor": "Musojon Rizaev",
+      "name": "Academic English",
+      "tutor": "Dildora Tashpulatova",
       "type": "seminar",
-      "start": 12.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "IB309"
-    },
-    {
-      "name": "Foundations of Economics",
-      "tutor": "Gayrat Suyunov",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "New405"
+      "location": "SHB503"
     }
   ],
   "5": [
     {
-      "name": "Academic English",
-      "tutor": "Temur Saidnazarov",
+      "name": "Quantitative Methods",
+      "tutor": "Shahzod Tulkinov",
       "type": "seminar",
-      "start": 12.0,
+      "start": 15.0,
       "length": 2.0,
-      "location": "New206 H"
+      "location": "SHB502"
     }
   ],
   "6": [],

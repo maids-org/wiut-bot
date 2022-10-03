@@ -2,76 +2,60 @@
   "0": [],
   "1": [
     {
-      "name": "Business in the Modern World",
-      "tutor": "Sanemkhan Nurillaeva",
-      "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "IB208 CL"
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "type": "online lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB311"
     },
     {
-      "name": "Foundations of Economics",
-      "tutor": "Jamshid Normatov",
-      "type": "lecture",
-      "start": 11.0,
+      "name": "I, Citizen",
+      "tutor": "Sherzod Khaydarov",
+      "type": "seminar",
+      "start": 14.0,
       "length": 2.0,
-      "location": "IB301"
+      "location": "SHB301"
     }
   ],
   "2": [
     {
       "name": "Academic English",
-      "tutor": "Erkin Mukhammedov",
+      "tutor": "Iroda Saidazimova",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "New207"
-    },
-    {
-      "name": "Foundations of Economics",
-      "tutor": "Gayrat Suyunov",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "IB306"
+      "location": "SHB302"
     }
   ],
   "3": [
     {
-      "name": "Developing Professional Identity",
-      "tutor": "Rano Nurmanova",
+      "name": "Developing Professional  Identity",
+      "tutor": "Rano Rozikova",
       "type": "seminar",
-      "start": 9.0,
+      "start": 15.0,
       "length": 2.0,
-      "location": "New502"
-    },
-    {
-      "name": "Business in the Modern World",
-      "tutor": "Sanemkhan Nurillaeva",
-      "type": "seminar",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "ATB310 A"
+      "location": "SHB207"
     }
   ],
   "4": [
     {
-      "name": "Academic English",
-      "tutor": "Erkin Mukhammedov",
+      "name": "Quantitative Methods",
+      "tutor": "Kamolakhon Alikulova",
       "type": "seminar",
-      "start": 9.0,
+      "start": 14.0,
       "length": 2.0,
-      "location": "New207"
+      "location": "IB209 CL"
     }
   ],
   "5": [
     {
-      "name": "I, Citizen",
-      "tutor": "Shahzaib Ahmed Khan",
+      "name": "Academic English",
+      "tutor": "Iroda Saidazimova",
       "type": "seminar",
-      "start": 9.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "ATB218"
+      "location": "SHB406"
     }
   ],
   "6": [],

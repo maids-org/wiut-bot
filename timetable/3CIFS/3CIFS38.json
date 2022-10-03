@@ -3,83 +3,59 @@
   "1": [
     {
       "name": "Academic English",
-      "tutor": "Nargiza Tadjiyeva",
+      "tutor": "Saida Radjabzade",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "New406"
-    },
-    {
-      "name": "Developing Professional Identity",
-      "tutor": "Ra'no Rozikova",
-      "type": "seminar",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "IB101"
+      "location": "SHB302"
     }
   ],
   "2": [
     {
-      "name": "Understanding Finance",
-      "tutor": "Temur Makhkamov",
-      "type": "lecture",
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "type": "online lecture",
       "start": 9.0,
-      "length": 1.0,
-      "location": "IB208 CL"
-    },
-    {
-      "name": "Business in the Modern World",
-      "tutor": "Sanemkhan Nurillaeva",
-      "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "IB208 CL"
-    },
-    {
-      "name": "Business in the Modern World",
-      "tutor": "Sitora Shaydullayeva",
-      "type": "seminar",
-      "start": 13.0,
       "length": 2.0,
-      "location": "IB307"
+      "location": "IB311"
+    },
+    {
+      "name": "Developing Professional  Identity",
+      "tutor": "Gunjan Jain",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "SHB406"
     }
   ],
   "3": [
     {
       "name": "Academic English",
-      "tutor": "Nargiza Tadjiyeva",
+      "tutor": "Saida Radjabzade",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "New406"
+      "location": "ATB218"
     }
   ],
   "4": [
     {
       "name": "I, Citizen",
-      "tutor": "Sherzod Khaydarov",
+      "tutor": "Alisher Kosimov",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "New302"
+      "location": "SHB407"
     }
   ],
   "5": [
     {
-      "name": "Understanding Finance",
-      "tutor": "Shavkat Imomov",
+      "name": "Quantitative Methods",
+      "tutor": "Ibrohim Aliev",
       "type": "seminar",
-      "start": 9.0,
+      "start": 13.0,
       "length": 2.0,
-      "location": "Lyceum 96"
-    },
-    {
-      "name": "Understanding Finance",
-      "tutor": "Shavkat Imomov",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "Lyceum 96"
+      "location": "ATB310 A"
     }
   ],
   "6": [],

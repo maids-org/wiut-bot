@@ -2,84 +2,60 @@
   "0": [],
   "1": [
     {
-      "name": "Understanding Finance",
-      "tutor": "Temur Makhkamov",
-      "type": "lecture",
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "type": "online lecture",
       "start": 9.0,
-      "length": 1.0,
-      "location": "IB208 CL"
+      "length": 2.0,
+      "location": "IB311"
     },
     {
-      "name": "Foundations of Economics",
-      "tutor": "Jamshid Normatov",
-      "type": "lecture",
+      "name": "I, Citizen",
+      "tutor": "Aziz Holmatov",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "SHB503"
+    }
+  ],
+  "2": [
+    {
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "IB301"
     }
   ],
-  "2": [
+  "3": [
     {
       "name": "Academic English",
-      "tutor": "Guljahon Uzakova",
+      "tutor": "Feruza Akhmedova",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "ATB314"
-    },
-    {
-      "name": "Developing Professional Identity",
-      "tutor": "Rano Nurmanova",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "ATB301"
-    }
-  ],
-  "3": [
-    {
-      "name": "Understanding Finance",
-      "tutor": "Feruza Yodgorova",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "IB310"
-    },
-    {
-      "name": "Understanding Finance",
-      "tutor": "Feruza Yodgorova",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "IB310"
+      "location": "SHB404"
     }
   ],
   "4": [
     {
-      "name": "I, Citizen",
-      "tutor": "Aziza Khakimova",
+      "name": "Developing Professional  Identity",
+      "tutor": "Gunjan Jain",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "IB302"
+      "location": "SHB406"
     }
   ],
   "5": [
     {
       "name": "Academic English",
-      "tutor": "Guljahon Uzakova",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "New301"
-    },
-    {
-      "name": "Foundations of Economics",
-      "tutor": "Khilola Dushamova",
+      "tutor": "Feruza Akhmedova",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "ATB304"
+      "location": "SHB404"
     }
   ],
   "6": [],

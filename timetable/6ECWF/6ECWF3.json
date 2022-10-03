@@ -2,69 +2,86 @@
   "0": [],
   "1": [
     {
-      "name": "Behavioural Economics",
-      "tutor": "Bilol Buzrukov",
-      "type": "lecture",
-      "start": 14.0,
+      "name": "Strategic Management Accounting and Performance Me",
+      "tutor": "Otabek Fazilov",
+      "type": "seminar",
+      "start": 11.0,
       "length": 2.0,
+      "location": "ATB207"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Behzod Alimov",
+      "type": "online lecture",
+      "start": 16.0,
+      "length": 1.0,
       "location": "Harvard306"
     },
     {
-      "name": "International Economics",
-      "tutor": "Akhliddin Malikov",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB218"
+      "name": "Investment and Risk Management",
+      "tutor": "Hamid Waqas",
+      "type": "online lecture",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB311"
     }
   ],
   "2": [
     {
-      "name": "Dissertation",
-      "tutor": "Behzod Alimov",
+      "name": "Investment and Risk Management",
+      "tutor": "Hamid Waqas",
       "type": "seminar",
       "start": 14.0,
       "length": 2.0,
-      "location": "IB202 CL"
+      "location": "ATB304"
     },
     {
-      "name": "Behavioural Economics",
-      "tutor": "Bilol Buzrukov",
-      "type": "seminar",
+      "name": "Investment and Risk Management",
+      "tutor": "Hamid Waqas",
+      "type": "workshop",
       "start": 16.0,
-      "length": 2.0,
-      "location": "ATB311"
+      "length": 1.0,
+      "location": "ATB212 CL"
     }
   ],
   "3": [
     {
-      "name": "Applied Policy Analysis",
-      "tutor": "Rashid Javed",
-      "type": "lecture",
-      "start": 14.0,
+      "name": "Labour Economics",
+      "tutor": "Deniz Guvercin",
+      "type": "online lecture",
+      "start": 16.0,
       "length": 2.0,
-      "location": "IB311"
+      "location": "ATB314"
     }
   ],
   "4": [
     {
-      "name": "International Economics",
-      "tutor": "Shokhida Karimova",
+      "name": "Dissertation",
+      "tutor": "Muhammed Bilal",
       "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB316"
+    }
+  ],
+  "5": [
+    {
+      "name": "Strategic Management Accounting and Performance Me",
+      "tutor": "Otabek Fazilov",
+      "type": "workshop",
       "start": 9.0,
       "length": 2.0,
-      "location": "Harvard306"
+      "location": "IB209 CL"
     },
     {
-      "name": "Applied Policy Analysis",
-      "tutor": "Rashid Javed",
+      "name": "Labour Economics",
+      "tutor": "Deniz Guvercin",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "ATB212 CL"
+      "location": "IB307"
     }
   ],
-  "5": [],
   "6": [],
   "7": []
 }

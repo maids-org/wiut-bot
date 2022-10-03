@@ -2,69 +2,118 @@
   "0": [],
   "1": [
     {
-      "name": "Public Finance",
-      "tutor": "Naqeeb Ur Rehman",
-      "type": "seminar",
-      "start": 14.0,
+      "name": "Mathematics for Economists",
+      "tutor": "Farrukh Ataev",
+      "type": "online lecture",
+      "start": 11.0,
       "length": 2.0,
-      "location": "ATB209"
+      "location": "IB301"
     },
     {
-      "name": "Intermediate Macroeconomics",
-      "tutor": "Javlon Juraev",
-      "type": "seminar",
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Introduction to Political Economy",
+      "tutor": "Akhliddin Malikov",
+      "type": "lecture",
       "start": 16.0,
       "length": 2.0,
-      "location": "ATB207"
+      "location": "ATB310 A"
     }
   ],
   "2": [
     {
-      "name": "Intermediate Macroeconomics",
-      "tutor": "Muhammed Bilal",
-      "type": "lecture",
-      "start": 14.0,
+      "name": "Introduction to Political Economy",
+      "tutor": "Akhliddin Malikov",
+      "type": "seminar",
+      "start": 13.0,
       "length": 2.0,
-      "location": "ATB314"
+      "location": "ATB301"
+    },
+    {
+      "name": "Econometrics",
+      "tutor": "Murodullo Bazarov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB209 CL"
     }
   ],
   "3": [
     {
-      "name": "Public Finance",
-      "tutor": "Naqeeb Ur Rehman",
-      "type": "lecture",
-      "start": 11.0,
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Olmas Isakov",
+      "type": "online lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "ATB209"
+    },
+    {
+      "name": "Intermediate Microeconomics",
+      "tutor": "Muhammed Bilal",
+      "type": "online lecture",
+      "start": 10.0,
       "length": 2.0,
-      "location": "Harvard306"
+      "location": "IB311"
     }
   ],
-  "4": [],
-  "5": [
+  "4": [
     {
       "name": "Introduction to Statistics and Data Science",
-      "tutor": "Gulomjon Kosimjonov",
-      "type": "workshop",
-      "start": 16.0,
+      "tutor": "Ahmed Junaid",
+      "type": "seminar",
+      "start": 13.0,
       "length": 2.0,
-      "location": "IB215 CL"
+      "location": "SHB405"
+    },
+    {
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB314"
+    },
+    {
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB314"
+    }
+  ],
+  "5": [
+    {
+      "name": "Mathematics for Economists",
+      "tutor": "Ulugbek Rakhimov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB218"
+    },
+    {
+      "name": "Intermediate Microeconomics",
+      "tutor": "Muhammed Bilal",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB302"
     }
   ],
   "6": [
     {
       "name": "Econometrics",
       "tutor": "Obid Khakimov",
-      "type": "lecture",
+      "type": "online lecture",
       "start": 11.0,
       "length": 2.0,
-      "location": "Harvard306"
-    },
-    {
-      "name": "Econometrics",
-      "tutor": "Obid Khakimov",
-      "type": "workshop",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "ATB214 CL"
+      "location": "IB216"
     }
   ],
   "7": []

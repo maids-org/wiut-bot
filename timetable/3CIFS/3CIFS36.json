@@ -2,76 +2,60 @@
   "0": [],
   "1": [
     {
-      "name": "Academic English",
-      "tutor": "Dildora Tashpulatova",
+      "name": "I, Citizen",
+      "tutor": "Ijobat Juraeva",
       "type": "seminar",
-      "start": 11.0,
+      "start": 9.0,
       "length": 2.0,
-      "location": "New404"
+      "location": "SHB301"
     }
   ],
   "2": [
     {
-      "name": "Business in the Modern World",
-      "tutor": "Sanemkhan Nurillaeva",
-      "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "IB208 CL"
-    },
-    {
-      "name": "Fundamentals of Commercial Law",
-      "tutor": "Kholida Sabirova",
-      "type": "lecture",
-      "start": 11.0,
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "type": "online lecture",
+      "start": 9.0,
       "length": 2.0,
-      "location": "Harvard306"
+      "location": "IB311"
     }
   ],
   "3": [
     {
-      "name": "Developing Professional Identity",
-      "tutor": "Ra'no Rozikova",
+      "name": "Developing Professional  Identity",
+      "tutor": "Gunjan Jain",
       "type": "seminar",
-      "start": 14.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "ATB307"
+      "location": "ATB310B"
     },
     {
-      "name": "I, Citizen",
-      "tutor": "Alisher Kosimov",
+      "name": "Academic English",
+      "tutor": "Umida Abdurakhimova",
       "type": "seminar",
-      "start": 16.0,
+      "start": 13.0,
       "length": 2.0,
-      "location": "New406"
+      "location": "SHB407"
     }
   ],
   "4": [
     {
-      "name": "Fundamentals of Commercial Law",
-      "tutor": "Musojon Rizaev",
+      "name": "Quantitative Methods",
+      "tutor": "Temur Makhkamov",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "Lyceum 93"
-    },
-    {
-      "name": "Academic English",
-      "tutor": "Dildora Tashpulatova",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "New404"
+      "location": "IB313"
     }
   ],
   "5": [
     {
-      "name": "Business in the Modern World",
-      "tutor": "Nadezhda Kim",
+      "name": "Academic English",
+      "tutor": "Umida Abdurakhimova",
       "type": "seminar",
-      "start": 13.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "ATB209"
+      "location": "ATB301"
     }
   ],
   "6": [],

@@ -2,100 +2,92 @@
   "0": [],
   "1": [
     {
-      "name": "Service Marketing",
-      "tutor": "Mamurjon Rahimov",
-      "type": "lecture",
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "online lecture",
       "start": 10.0,
       "length": 1.0,
+      "location": "ATB303"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Prabha Kiran",
+      "type": "online lecture",
+      "start": 11.0,
+      "length": 2.0,
       "location": "IB311"
     },
     {
-      "name": "New Venture Creation",
-      "tutor": "Elnora Mirzalieva",
-      "type": "seminar",
+      "name": "Online / Project Management",
+      "tutor": "Iroda Komilova",
+      "type": "lecture",
       "start": 13.0,
-      "length": 2.0,
-      "location": "ATB304"
-    },
-    {
-      "name": "Marketing Strategy",
-      "tutor": "Atya Zeb",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB304"
+      "length": 1.0,
+      "location": "IB311"
     }
   ],
   "2": [
     {
-      "name": "Global Financial Markets and Institutions",
-      "tutor": "Saidgozi Saydumarov",
-      "type": "lecture",
-      "start": 9.0,
-      "length": 1.0,
-      "location": "Harvard306"
-    },
-    {
       "name": "Strategy in a Complex World",
-      "tutor": "Julian Pinerez",
-      "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "IB311"
+      "tutor": "Zamira Ataniyazova",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "SHB502"
     },
     {
-      "name": "Marketing Strategy",
-      "tutor": "Atya Zeb",
-      "type": "lecture",
-      "start": 12.0,
+      "name": "Digital Marketing",
+      "tutor": "Dilmurod Khodiev",
+      "type": "seminar",
+      "start": 16.0,
       "length": 2.0,
-      "location": "ATB314"
+      "location": "SHB305 CL"
     }
   ],
   "3": [
     {
-      "name": "Strategy in a Complex World",
-      "tutor": "Rahman Khan",
+      "name": "New Venture Creation",
+      "tutor": "Isabel Christina Velasco",
       "type": "seminar",
-      "start": 12.0,
+      "start": 14.0,
       "length": 2.0,
-      "location": "ATB311"
+      "location": "ATB302"
     }
   ],
   "4": [
     {
-      "name": "Service Marketing",
-      "tutor": "Mamurjon Rahimov",
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
       "type": "seminar",
-      "start": 11.0,
+      "start": 15.0,
       "length": 2.0,
-      "location": "ATB301"
+      "location": "ATB211"
     },
     {
-      "name": "Service Marketing",
-      "tutor": "Mamurjon Rahimov",
-      "type": "workshop",
-      "start": 13.0,
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 17.0,
       "length": 1.0,
-      "location": "ATB303"
+      "location": "Harvard306"
     }
   ],
   "5": [
     {
-      "name": "Global Financial Markets and Institutions",
-      "tutor": "Saidgozi Saydumarov",
+      "name": "Project Management",
+      "tutor": "Shoira Mirzakhidova",
       "type": "seminar",
       "start": 15.0,
       "length": 2.0,
-      "location": "IB316"
+      "location": "ATB214 CL"
     },
     {
-      "name": "Global Financial Markets and Institutions",
-      "tutor": "Saidgozi Saydumarov",
+      "name": "Project Management",
+      "tutor": "Shoira Mirzakhidova",
       "type": "workshop",
       "start": 17.0,
       "length": 1.0,
-      "location": "IB316"
+      "location": "ATB214 CL"
     }
   ],
   "6": [],

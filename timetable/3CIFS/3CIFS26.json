@@ -2,84 +2,60 @@
   "0": [],
   "1": [
     {
-      "name": "Business in the Modern World",
-      "tutor": "Sanemkhan Nurillaeva",
-      "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "IB208 CL"
-    },
-    {
-      "name": "Visual Programming",
-      "tutor": "Shirin Primkulova",
-      "type": "lecture",
-      "start": 13.0,
-      "length": 1.0,
-      "location": "New206 H"
+      "name": "Quantitative Methods",
+      "tutor": "Shahzod Tulkinov",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB310B"
     }
   ],
   "2": [
     {
-      "name": "Academic English",
-      "tutor": "Feruza Akhmedova",
-      "type": "seminar",
-      "start": 11.0,
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "type": "online lecture",
+      "start": 9.0,
       "length": 2.0,
-      "location": "New301"
-    },
-    {
-      "name": "Business in the Modern World",
-      "tutor": "Nigora Saidmuradova",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB303"
+      "location": "IB311"
     }
   ],
   "3": [
     {
-      "name": "Visual Programming",
-      "tutor": "Ito Wasito",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "New303 CL"
-    },
-    {
       "name": "Academic English",
-      "tutor": "Feruza Akhmedova",
+      "tutor": "Iroda Saidazimova",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "New301"
+      "location": "SHB503"
     }
   ],
   "4": [
     {
-      "name": "I, Citizen",
-      "tutor": "Alisher Kosimov",
+      "name": "Developing Professional  Identity",
+      "tutor": "Khurshida Islamova",
       "type": "seminar",
-      "start": 9.0,
+      "start": 14.0,
       "length": 2.0,
-      "location": "ATB311"
-    },
-    {
-      "name": "Visual Programming",
-      "tutor": "Shirin Primkulova",
-      "type": "workshop",
-      "start": 16.0,
-      "length": 1.0,
-      "location": "New206 H"
+      "location": "ATB307"
     }
   ],
   "5": [
     {
-      "name": "Developing Professional Identity",
+      "name": "Academic English",
+      "tutor": "Iroda Saidazimova",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "SHB406"
+    },
+    {
+      "name": "I, Citizen",
       "tutor": "Ijobat Juraeva",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "New407"
+      "location": "SHB302"
     }
   ],
   "6": [],

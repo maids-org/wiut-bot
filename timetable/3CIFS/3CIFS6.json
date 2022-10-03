@@ -2,83 +2,60 @@
   "0": [],
   "1": [
     {
-      "name": "Understanding Finance",
-      "tutor": "Temur Makhkamov",
-      "type": "lecture",
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "type": "online lecture",
       "start": 9.0,
-      "length": 1.0,
-      "location": "IB208 CL"
+      "length": 2.0,
+      "location": "IB311"
     },
     {
-      "name": "Business in the Modern World",
-      "tutor": "Sanemkhan Nurillaeva",
-      "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "IB208 CL"
-    },
-    {
-      "name": "Academic English",
-      "tutor": "Aisulu Kinjemuratova",
+      "name": "Developing Professional  Identity",
+      "tutor": "Rano Rozikova",
       "type": "seminar",
       "start": 13.0,
       "length": 2.0,
-      "location": "New404"
-    },
-    {
-      "name": "I, Citizen",
-      "tutor": "Elena Volkova",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New406"
+      "location": "SHB405"
     }
   ],
-  "2": [],
-  "3": [
+  "2": [
     {
-      "name": "Business in the Modern World",
-      "tutor": "Nigora Saidmuradova",
+      "name": "Academic English",
+      "tutor": "Erkin Mukhammedov",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "ATB309"
-    },
+      "location": "SHB207"
+    }
+  ],
+  "3": [
     {
-      "name": "Academic English",
-      "tutor": "Aisulu Kinjemuratova",
+      "name": "Quantitative Methods",
+      "tutor": "Shahzod Tulkinov",
       "type": "seminar",
-      "start": 13.0,
+      "start": 16.0,
       "length": 2.0,
-      "location": "New404"
+      "location": "ATB312"
     }
   ],
   "4": [
     {
-      "name": "Understanding Finance",
-      "tutor": "Feruza Yodgorova",
+      "name": "Academic English",
+      "tutor": "Erkin Mukhammedov",
       "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "IB310"
-    },
-    {
-      "name": "Understanding Finance",
-      "tutor": "Feruza Yodgorova",
-      "type": "workshop",
       "start": 11.0,
-      "length": 1.0,
-      "location": "IB310"
+      "length": 2.0,
+      "location": "SHB207"
     }
   ],
   "5": [
     {
-      "name": "Developing Professional Identity",
-      "tutor": "Rano Nurmanova",
+      "name": "I, Citizen",
+      "tutor": "Nigina Rustamova",
       "type": "seminar",
-      "start": 14.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "New407"
+      "location": "IB101"
     }
   ],
   "6": [],

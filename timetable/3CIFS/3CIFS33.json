@@ -3,83 +3,58 @@
   "1": [
     {
       "name": "Academic English",
-      "tutor": "Dildora Tashpulatova",
+      "tutor": "Umida Abdurakhimova",
       "type": "seminar",
-      "start": 9.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "New404"
+      "location": "SHB407"
     },
     {
-      "name": "Business in the Modern World",
-      "tutor": "Nadezhda Kim",
+      "name": "Quantitative Methods",
+      "tutor": "Madina Usmonova",
       "type": "seminar",
-      "start": 12.0,
+      "start": 13.0,
       "length": 2.0,
-      "location": "ATB209"
+      "location": "IB302"
     }
   ],
   "2": [
     {
-      "name": "Business in the Modern World",
-      "tutor": "Sanemkhan Nurillaeva",
-      "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "IB208 CL"
-    },
-    {
-      "name": "Visual Programming",
-      "tutor": "Shirin Primkulova",
-      "type": "lecture",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "New206 H"
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "type": "online lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB311"
     }
   ],
   "3": [
     {
       "name": "Academic English",
-      "tutor": "Dildora Tashpulatova",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "New404"
-    },
-    {
-      "name": "Developing Professional Identity",
-      "tutor": "Kiriaki Kanakidi",
+      "tutor": "Umida Abdurakhimova",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "New502"
+      "location": "SHB407"
     }
   ],
-  "4": [
-    {
-      "name": "Visual Programming",
-      "tutor": "Akmal Salikhov",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "New305 CL"
-    },
-    {
-      "name": "Visual Programming",
-      "tutor": "Shirin Primkulova",
-      "type": "workshop",
-      "start": 16.0,
-      "length": 1.0,
-      "location": "New206 H"
-    }
-  ],
+  "4": [],
   "5": [
     {
+      "name": "Developing Professional  Identity",
+      "tutor": "Khurshida Islamova",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB302"
+    },
+    {
       "name": "I, Citizen",
-      "tutor": "Alisher Kosimov",
+      "tutor": "Sherzod Khaydarov",
       "type": "seminar",
       "start": 16.0,
       "length": 2.0,
-      "location": "New406"
+      "location": "SHB503"
     }
   ],
   "6": [],

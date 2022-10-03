@@ -2,76 +2,76 @@
   "0": [],
   "1": [
     {
-      "name": "Financial Accounting",
-      "tutor": "Lilya Memesheva",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 1.0,
-      "location": "IB316"
+      "name": "Contemporary Issues in Global Economics",
+      "tutor": "Bilol Buzrukov",
+      "type": "online lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB309"
     },
     {
-      "name": "Corporate Finance",
-      "tutor": "Murodullo Bazarov",
-      "type": "lecture",
-      "start": 13.0,
+      "name": "Mathematics for Economists",
+      "tutor": "Farrukh Ataev",
+      "type": "online lecture",
+      "start": 11.0,
       "length": 2.0,
-      "location": "Lyceum hall"
+      "location": "IB301"
     }
   ],
   "2": [
     {
-      "name": "Exploring Economics",
-      "tutor": "Zohid Askarov",
-      "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "Harvard306"
+      "name": "Mathematics for Economists",
+      "tutor": "Ikrom Rikhsiboev",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB306"
     }
   ],
   "3": [
     {
       "name": "Introduction to Statistics and Data Science",
-      "tutor": "Gayrat Suyunov",
-      "type": "workshop",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB214 CL"
+      "tutor": "Olmas Isakov",
+      "type": "online lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "ATB209"
+    },
+    {
+      "name": "Exploring Economics",
+      "tutor": "Zohid Askarov",
+      "type": "online lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "ATB209"
     }
   ],
   "4": [
     {
-      "name": "Exploring Economics",
-      "tutor": "Khilola Dushamova",
+      "name": "Contemporary Issues in Global Economics",
+      "tutor": "Naqeeb Ur Rehman",
       "type": "seminar",
-      "start": 14.0,
+      "start": 13.0,
       "length": 2.0,
-      "location": "ATB303"
+      "location": "IB306"
     }
   ],
   "5": [
     {
-      "name": "Financial Accounting",
-      "tutor": "Lilya Memesheva",
+      "name": "Exploring Economics",
+      "tutor": "Khilola Dushamova",
       "type": "seminar",
-      "start": 9.0,
+      "start": 13.0,
       "length": 2.0,
-      "location": "IB306"
+      "location": "ATB304"
     },
     {
-      "name": "Financial Accounting",
-      "tutor": "Lilya Memesheva",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "IB209 CL"
-    },
-    {
-      "name": "Corporate Finance",
-      "tutor": "Rustam Suleymanov",
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Gayrat Suyunov",
       "type": "seminar",
-      "start": 15.0,
+      "start": 16.0,
       "length": 2.0,
-      "location": "Harvard306"
+      "location": "ATB309"
     }
   ],
   "6": [],

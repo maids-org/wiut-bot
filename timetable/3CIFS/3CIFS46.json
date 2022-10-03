@@ -2,84 +2,60 @@
   "0": [],
   "1": [
     {
-      "name": "Academic English",
-      "tutor": "Saida Radjabzade",
-      "type": "seminar",
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "type": "online lecture",
       "start": 9.0,
       "length": 2.0,
-      "location": "New207"
+      "location": "IB311"
     },
     {
-      "name": "Developing Professional Identity",
-      "tutor": "Ijobat Juraeva",
+      "name": "Quantitative Methods",
+      "tutor": "Shahzod Tulkinov",
       "type": "seminar",
-      "start": 11.0,
+      "start": 14.0,
       "length": 2.0,
-      "location": "ATB302"
+      "location": "IB216"
     }
   ],
   "2": [
     {
-      "name": "Understanding Finance",
-      "tutor": "Temur Makhkamov",
-      "type": "lecture",
+      "name": "Academic English",
+      "tutor": "Guljahon Uzakova",
+      "type": "seminar",
       "start": 9.0,
-      "length": 1.0,
-      "location": "IB208 CL"
-    },
-    {
-      "name": "Foundations of Economics",
-      "tutor": "Jamshid Normatov",
-      "type": "lecture",
-      "start": 12.0,
       "length": 2.0,
-      "location": "IB301"
+      "location": "SHB404"
     }
   ],
   "3": [
     {
-      "name": "Understanding Finance",
-      "tutor": "Mokhirakhon Abdullaeva",
+      "name": "I, Citizen",
+      "tutor": "Alisher Kosimov",
       "type": "seminar",
-      "start": 9.0,
+      "start": 16.0,
       "length": 2.0,
-      "location": "ATB314"
-    },
-    {
-      "name": "Understanding Finance",
-      "tutor": "Mokhirakhon Abdullaeva",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "ATB314"
+      "location": "SHB406"
     }
   ],
   "4": [
     {
-      "name": "I, Citizen",
-      "tutor": "Shahnaza Turgunova",
+      "name": "Academic English",
+      "tutor": "Guljahon Uzakova",
       "type": "seminar",
-      "start": 11.0,
+      "start": 14.0,
       "length": 2.0,
-      "location": "Harvard306"
+      "location": "ATB310B"
     }
   ],
   "5": [
     {
-      "name": "Academic English",
-      "tutor": "Saida Radjabzade",
+      "name": "Developing Professional  Identity",
+      "tutor": "Guljahon Uzakova",
       "type": "seminar",
-      "start": 9.0,
+      "start": 13.0,
       "length": 2.0,
-      "location": "ATB311"
-    },
-    {
-      "name": "Foundations of Economics",
-      "tutor": "Gayrat Suyunov",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "IB316"
+      "location": "SHB407"
     }
   ],
   "6": [],

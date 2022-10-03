@@ -2,124 +2,108 @@
   "0": [],
   "1": [
     {
-      "name": "Service Marketing",
-      "tutor": "Mamurjon Rahimov",
-      "type": "lecture",
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "online lecture",
       "start": 10.0,
       "length": 1.0,
-      "location": "IB311"
+      "location": "ATB303"
     },
     {
-      "name": "Supply Chain Management and Logistics",
-      "tutor": "Ulugbek Islamov",
-      "type": "seminar",
+      "name": "Online / Project Management",
+      "tutor": "Iroda Komilova",
+      "type": "lecture",
       "start": 13.0,
-      "length": 2.0,
-      "location": "ATB207"
-    },
-    {
-      "name": "Supply Chain Management and Logistics",
-      "tutor": "Ulugbek Islamov",
-      "type": "workshop",
-      "start": 15.0,
       "length": 1.0,
-      "location": "ATB207"
-    },
-    {
-      "name": "Strategy in a Complex World",
-      "tutor": "Angelo Battaglia",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB302"
+      "location": "IB311"
     }
   ],
   "2": [
     {
-      "name": "Strategy in a Complex World",
-      "tutor": "Julian Pinerez",
-      "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "IB311"
+      "name": "Negotiations and Influence",
+      "tutor": "Natalie Solveig Mikhaylov",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB304"
     },
     {
-      "name": "Sales Management",
-      "tutor": "Anil Kumar",
-      "type": "lecture",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "ATB314"
+      "name": "Dissertation",
+      "tutor": "Julio Cesar Zuluago",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB207"
+    },
+    {
+      "name": "Cross Cultural Management",
+      "tutor": "Natalie Solveig Mikhaylov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB304"
     }
   ],
   "3": [
     {
-      "name": "Dissertation",
-      "tutor": "Julian Pinerez",
-      "type": "lecture",
-      "start": 13.0,
-      "length": 1.0,
-      "location": "IB301"
+      "name": "New Venture Creation",
+      "tutor": "Sarvar Djalalov",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB211"
     },
     {
-      "name": "Supply Chain Management and Logistics",
-      "tutor": "Ulugbek Islamov",
-      "type": "lecture",
+      "name": "Strategy in a Complex World",
+      "tutor": "Timur Perkov",
+      "type": "seminar",
       "start": 14.0,
-      "length": 1.0,
-      "location": "IB301"
+      "length": 2.0,
+      "location": "ATB207"
     }
   ],
   "4": [
     {
-      "name": "Dissertation",
-      "tutor": "Julian Pinerez",
-      "type": "seminar",
+      "name": "Cross Cultural Management",
+      "tutor": "Natalie Solveig Mikhaylov",
+      "type": "workshop",
       "start": 14.0,
       "length": 2.0,
-      "location": "ATB309"
+      "location": "ATB312"
     },
     {
-      "name": "Sales Management",
-      "tutor": "Anil Kumar",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 1.0,
-      "location": "ATB214 CL"
-    },
-    {
-      "name": "Sales Management",
-      "tutor": "Anil Kumar",
-      "type": "workshop",
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
       "start": 17.0,
       "length": 1.0,
-      "location": "ATB214 CL"
+      "location": "Harvard306"
     }
   ],
   "5": [
     {
-      "name": "New Venture Creation",
-      "tutor": "Elnora Mirzalieva",
+      "name": "Project Management",
+      "tutor": "Iroda Komilova",
       "type": "seminar",
-      "start": 11.0,
+      "start": 13.0,
       "length": 2.0,
-      "location": "ATB310B"
+      "location": "IB202 CL"
     },
     {
-      "name": "Service Marketing",
-      "tutor": "Mamurjon Rahimov",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "IB302"
-    },
-    {
-      "name": "Service Marketing",
-      "tutor": "Mamurjon Rahimov",
+      "name": "Project Management",
+      "tutor": "Iroda Komilova",
       "type": "workshop",
-      "start": 17.0,
+      "start": 15.0,
       "length": 1.0,
-      "location": "IB302"
+      "location": "IB202 CL"
+    },
+    {
+      "name": "Negotiations and Influence",
+      "tutor": "Natalie Solveig Mikhaylov",
+      "type": "workshop",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB307"
     }
   ],
   "6": [],

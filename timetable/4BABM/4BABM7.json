@@ -2,75 +2,76 @@
   "0": [],
   "1": [
     {
-      "name": "Introduction to Management and Organisational Behaviour",
-      "tutor": "Alisher Ismailov",
-      "type": "lecture",
+      "name": "Financial Accounting",
+      "tutor": "Lilya Memesheva",
+      "type": "online lecture",
       "start": 10.0,
-      "length": 1.0,
-      "location": "IB301"
+      "length": 2.0,
+      "location": "IB313"
     },
     {
-      "name": "Tourism and Its Dynamics",
-      "tutor": "Angelo Battaglia",
-      "type": "lecture",
-      "start": 11.0,
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Alisher Ismailov",
+      "type": "online lecture",
+      "start": 14.0,
       "length": 1.0,
       "location": "IB311"
     },
     {
-      "name": "Principles of Marketing",
-      "tutor": "Sanemkhan Nurillaeva",
-      "type": "seminar",
-      "start": 14.0,
+      "name": "Global  Business Environment",
+      "tutor": "Dilshoda Rakhmonova",
+      "type": "online lecture",
+      "start": 15.0,
       "length": 2.0,
-      "location": "ATB303"
+      "location": "ATB301"
     }
   ],
   "2": [
     {
-      "name": "Principles of Marketing",
-      "tutor": "Prabha Kiran",
-      "type": "lecture",
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Gulomjon Kosimjonov",
+      "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "Lyceum Library"
+      "location": "ATB304"
     },
     {
-      "name": "Tourism and Its Dynamics",
-      "tutor": "Timur Perkov",
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Abdurasul Absalomov",
       "type": "seminar",
-      "start": 16.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "ATB304"
+      "location": "ATB310 A"
     }
   ],
   "3": [
     {
-      "name": "Introduction to Management and Organisational Behaviour",
-      "tutor": "Farhod Karimov",
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Olmas Isakov",
+      "type": "online lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "ATB209"
+    }
+  ],
+  "4": [
+    {
+      "name": "Financial Accounting",
+      "tutor": "Gulhayo Nusratova",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "IB101"
+      "location": "ATB307"
     }
   ],
-  "4": [],
   "5": [
     {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Khilola Dushamova",
-      "type": "workshop",
-      "start": 13.0,
+      "name": "Global  Business Environment",
+      "tutor": "Nadejda Kim",
+      "type": "seminar",
+      "start": 15.0,
       "length": 2.0,
-      "location": "ATB212 CL"
-    },
-    {
-      "name": "Tourism and Its Dynamics",
-      "tutor": "Angelo Battaglia",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "ATB212 CL"
+      "location": "SHB301"
     }
   ],
   "6": [],

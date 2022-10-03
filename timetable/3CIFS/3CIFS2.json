@@ -2,84 +2,60 @@
   "0": [],
   "1": [
     {
-      "name": "Understanding Finance",
-      "tutor": "Temur Makhkamov",
-      "type": "lecture",
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "type": "online lecture",
       "start": 9.0,
-      "length": 1.0,
-      "location": "IB208 CL"
+      "length": 2.0,
+      "location": "IB311"
     },
     {
-      "name": "Foundations of Economics",
-      "tutor": "Jamshid Normatov",
-      "type": "lecture",
-      "start": 11.0,
+      "name": "Academic English",
+      "tutor": "Aisulu Kinjemuratova",
+      "type": "seminar",
+      "start": 15.0,
       "length": 2.0,
-      "location": "IB301"
+      "location": "SHB502"
     }
   ],
   "2": [
     {
-      "name": "Academic English",
-      "tutor": "Israil Kurbanniyazov",
+      "name": "Quantitative Methods",
+      "tutor": "Nilufar Rashitova",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "New407"
-    },
-    {
-      "name": "I, Citizen",
-      "tutor": "Lobar Babakhodjaeva",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "New406"
+      "location": "SHB406"
     }
   ],
   "3": [
     {
-      "name": "Understanding Finance",
-      "tutor": "Feruza Yodgorova",
+      "name": "Academic English",
+      "tutor": "Aisulu Kinjemuratova",
       "type": "seminar",
-      "start": 9.0,
+      "start": 15.0,
       "length": 2.0,
-      "location": "IB310"
-    },
-    {
-      "name": "Understanding Finance",
-      "tutor": "Feruza Yodgorova",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "IB310"
+      "location": "SHB502"
     }
   ],
   "4": [
     {
-      "name": "Academic English",
-      "tutor": "Israil Kurbanniyazov",
+      "name": "Developing Professional  Identity",
+      "tutor": "Kiriaki Kanakidi",
       "type": "seminar",
-      "start": 11.0,
+      "start": 14.0,
       "length": 2.0,
-      "location": "ATB307"
+      "location": "SHB404"
     }
   ],
   "5": [
     {
-      "name": "Foundations of Economics",
-      "tutor": "Gayrat Suyunov",
+      "name": "I, Citizen",
+      "tutor": "Alisher Kosimov",
       "type": "seminar",
-      "start": 9.0,
+      "start": 15.0,
       "length": 2.0,
-      "location": "ATB304"
-    },
-    {
-      "name": "Developing Professional Identity",
-      "tutor": "Rano Nurmanova",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "New405"
+      "location": "SHB406"
     }
   ],
   "6": [],

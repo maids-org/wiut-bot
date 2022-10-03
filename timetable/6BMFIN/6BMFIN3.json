@@ -2,188 +2,188 @@
   "0": [],
   "1": [
     {
-      "name": "Service Marketing",
-      "tutor": "Mamurjon Rahimov",
-      "type": "lecture",
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "online lecture",
       "start": 10.0,
+      "length": 1.0,
+      "location": "ATB303"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Prabha Kiran",
+      "type": "online lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Online / Project Management",
+      "tutor": "Iroda Komilova",
+      "type": "lecture",
+      "start": 13.0,
       "length": 1.0,
       "location": "IB311"
     },
     {
-      "name": "Marketing Management",
-      "tutor": "Dildara Gapparova",
-      "type": "lecture",
-      "start": 11.0,
+      "name": "Management Accounting",
+      "tutor": "Abdulaziz Djalilov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB306"
+    },
+    {
+      "name": "Management Accounting",
+      "tutor": "Abdulaziz Djalilov",
+      "type": "workshop",
+      "start": 16.0,
       "length": 1.0,
-      "location": "Lyceum Library"
+      "location": "IB208 CL"
+    }
+  ],
+  "2": [
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Sitora Inoyatova",
+      "type": "online lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB310"
+    },
+    {
+      "name": "Project Management",
+      "tutor": "Ulugbek Islamov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "ATB214 CL"
+    },
+    {
+      "name": "Online",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "lecture",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Nasiba Mukhtorova",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB215 CL"
+    },
+    {
+      "name": "Project Management",
+      "tutor": "Ulugbek Islamov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "ATB214 CL"
+    },
+    {
+      "name": "Project Management",
+      "tutor": "Ulugbek Islamov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB214 CL"
+    }
+  ],
+  "3": [
+    {
+      "name": "Management Accounting",
+      "tutor": "Feruza Yodgorova",
+      "type": "online lecture",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Applied Corporate Finance",
+      "tutor": "Murtaza Niazi",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Ahmed Waqas",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB209"
+    }
+  ],
+  "4": [
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Shakhnoza Asadova",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB101"
     },
     {
       "name": "New Venture Creation",
       "tutor": "Alisher Ismailov",
       "type": "seminar",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "ATB303"
-    },
-    {
-      "name": "Retailing Business",
-      "tutor": "Alisher Ismailov",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB311"
-    }
-  ],
-  "2": [
-    {
-      "name": "Strategy in a Complex World",
-      "tutor": "Julian Pinerez",
-      "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "IB311"
-    },
-    {
-      "name": "Audit and Assurance",
-      "tutor": "Jamshid Nasreddinov",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB301"
-    },
-    {
-      "name": "Strategy in a Complex World",
-      "tutor": "Anil Kumar",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New302"
-    }
-  ],
-  "3": [
-    {
-      "name": "Service Marketing",
-      "tutor": "Mamurjon Rahimov",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "ATB302"
-    },
-    {
-      "name": "Service Marketing",
-      "tutor": "Mamurjon Rahimov",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "ATB302"
-    },
-    {
-      "name": "Dissertation",
-      "tutor": "Julian Pinerez",
-      "type": "lecture",
-      "start": 13.0,
-      "length": 1.0,
-      "location": "IB301"
-    },
-    {
-      "name": "Principles and Practices of Taxation",
-      "tutor": "Jamshid Jalilov",
-      "type": "lecture",
-      "start": 15.0,
-      "length": 1.0,
-      "location": "New206 H"
-    }
-  ],
-  "4": [
-    {
-      "name": "Leading Across Boundaries",
-      "tutor": "Natalia Solveig Mikhaylov",
-      "type": "lecture",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "ATB304"
-    },
-    {
-      "name": "Leading Across Boundaries",
-      "tutor": "Natalia Solveig Mikhaylov",
-      "type": "seminar",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "ATB304"
-    },
-    {
-      "name": "Marketing Management",
-      "tutor": "Dildara Gapparova",
-      "type": "seminar",
       "start": 13.0,
       "length": 2.0,
-      "location": "ATB307"
-    },
-    {
-      "name": "Dissertation",
-      "tutor": "Julian Pinerez",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 1.0,
-      "location": "ATB309"
-    },
-    {
-      "name": "Leading Across Boundaries",
-      "tutor": "Natalia Solveig Mikhaylov",
-      "type": "workshop",
-      "start": 14.0,
-      "length": 1.0,
-      "location": "ATB304"
-    },
-    {
-      "name": "Marketing Management",
-      "tutor": "Dildara Gapparova",
-      "type": "workshop",
-      "start": 15.0,
-      "length": 1.0,
-      "location": "ATB307"
+      "location": "ATB314"
     },
     {
       "name": "Dissertation",
       "tutor": "Julian Pinerez",
       "type": "seminar",
       "start": 15.0,
-      "length": 1.0,
-      "location": "ATB309"
-    },
-    {
-      "name": "Retailing Business",
-      "tutor": "Karan Khurana",
-      "type": "workshop",
-      "start": 16.0,
       "length": 2.0,
-      "location": "New302"
+      "location": "ATB211"
+    },
+    {
+      "name": "Fixed Income Securities",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB216"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Fixed Income Securities",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB216"
     }
   ],
   "5": [
     {
-      "name": "Audit and Assurance",
-      "tutor": "Ravshan Kakharov",
-      "type": "workshop",
-      "start": 10.0,
-      "length": 2.0,
-      "location": "Harvard306"
-    },
-    {
-      "name": "Principles and Practices of Taxation",
-      "tutor": "Jamshid Jalilov",
+      "name": "Applied Corporate Finance",
+      "tutor": "Murtaza Niazi",
       "type": "seminar",
       "start": 15.0,
       "length": 2.0,
-      "location": "ATB301"
+      "location": "ATB212 CL"
     },
     {
-      "name": "Principles and Practices of Taxation",
-      "tutor": "Jamshid Jalilov",
+      "name": "Applied Corporate Finance",
+      "tutor": "Murtaza Niazi",
       "type": "workshop",
       "start": 17.0,
       "length": 1.0,
-      "location": "ATB301"
+      "location": "ATB212 CL"
     }
   ],
   "6": [],

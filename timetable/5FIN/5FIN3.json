@@ -2,102 +2,77 @@
   "0": [],
   "1": [
     {
-      "name": "Financial Management",
-      "tutor": "Hamid Waqas",
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
       "type": "lecture",
-      "start": 14.0,
+      "start": 13.0,
       "length": 1.0,
-      "location": "IB311"
+      "location": "IB301"
     },
     {
-      "name": "Managing Innovation and Entrepreneurship",
-      "tutor": "Ahmed Waqas",
-      "type": "lecture",
+      "name": "Management Accounting",
+      "tutor": "Abdulaziz Djalilov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB306"
+    },
+    {
+      "name": "Management Accounting",
+      "tutor": "Abdulaziz Djalilov",
+      "type": "workshop",
       "start": 16.0,
       "length": 1.0,
-      "location": "ATB314"
+      "location": "IB208 CL"
     }
   ],
   "2": [
     {
-      "name": "Operational Management of Insurance Business",
-      "tutor": "Hasan AKM Kamrul",
+      "name": "Financial Econometrics and Modelling",
+      "tutor": "Rustam Suleymanov",
       "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "ATB209"
-    },
-    {
-      "name": "Securities Analysis",
-      "tutor": "Sherzod Safarov",
-      "type": "lecture",
       "start": 11.0,
-      "length": 1.0,
-      "location": "IB311"
-    },
-    {
-      "name": "Managing Innovation and Entrepreneurship",
-      "tutor": "Ahmed Waqas",
-      "type": "seminar",
-      "start": 15.0,
       "length": 2.0,
-      "location": "ATB218"
-    },
-    {
-      "name": "Managing Innovation and Entrepreneurship",
-      "tutor": "Ahmed Waqas",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "ATB218"
+      "location": "IB101"
     }
   ],
   "3": [
     {
-      "name": "Financial Management",
-      "tutor": "Nargiza Khuramova",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "ATB310B"
+      "name": "Management Accounting",
+      "tutor": "Feruza Yodgorova",
+      "type": "online lecture",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "IB311"
     },
     {
-      "name": "Financial Management",
-      "tutor": "Nargiza Khuramova",
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "SHB301"
+    },
+    {
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
       "type": "workshop",
-      "start": 13.0,
+      "start": 17.0,
       "length": 1.0,
-      "location": "ATB214 CL"
+      "location": "SHB301"
     }
   ],
   "4": [
     {
-      "name": "Operational Management of Insurance Business",
-      "tutor": "Hasan AKM Kamrul",
+      "name": "Financial Econometrics and Modelling",
+      "tutor": "Rustam Suleymanov",
       "type": "workshop",
-      "start": 9.0,
+      "start": 14.0,
       "length": 2.0,
-      "location": "IB306"
-    }
-  ],
-  "5": [
-    {
-      "name": "Securities Analysis",
-      "tutor": "Qobiljon Yunusov",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "IB202 CL"
-    },
-    {
-      "name": "Securities Analysis",
-      "tutor": "Qobiljon Yunusov",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
       "location": "IB202 CL"
     }
   ],
+  "5": [],
   "6": [],
   "7": []
 }

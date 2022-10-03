@@ -2,150 +2,77 @@
   "0": [],
   "1": [
     {
-      "name": "Applied Corporate Finance",
-      "tutor": "Andrey Artemenkov",
+      "name": "Strategic Management Accounting and Performance Me",
+      "tutor": "Otabek Fazilov",
       "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "ATB212 CL"
-    },
-    {
-      "name": "Applied Corporate Finance",
-      "tutor": "Andrey Artemenkov",
-      "type": "workshop",
       "start": 13.0,
-      "length": 1.0,
-      "location": "ATB212 CL"
+      "length": 2.0,
+      "location": "ATB301"
     },
     {
-      "name": "Audit and Assurance",
-      "tutor": "Ravshan Kakharov",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB302"
+      "name": "Investment and Risk Management",
+      "tutor": "Hamid Waqas",
+      "type": "online lecture",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB311"
     }
   ],
   "2": [
     {
-      "name": "Global Financial Markets and Institutions",
+      "name": "Strategic Management Accounting and Performance Me",
+      "tutor": "Otabek Fazilov",
+      "type": "workshop",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
+    },
+    {
+      "name": "Online",
       "tutor": "Saidgozi Saydumarov",
       "type": "lecture",
-      "start": 9.0,
+      "start": 15.0,
       "length": 1.0,
-      "location": "Harvard306"
-    },
-    {
-      "name": "Sales Management",
-      "tutor": "Anil Kumar",
-      "type": "lecture",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "ATB314"
-    },
-    {
-      "name": "Securities Analysis",
-      "tutor": "Sherzod Safarov",
-      "type": "lecture",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "IB311"
-    },
-    {
-      "name": "Bank Risk Management",
-      "tutor": "Dildora Ibragimova",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New303 CL"
-    },
-    {
-      "name": "Bank Risk Management",
-      "tutor": "Dildora Ibragimova",
-      "type": "workshop",
-      "start": 18.0,
-      "length": 1.0,
-      "location": "New303 CL"
+      "location": "IB301"
     }
   ],
   "3": [
     {
-      "name": "Securities Analysis",
-      "tutor": "Qobiljon Yunusov",
+      "name": "Investment and Risk Management",
+      "tutor": "Ajay Jain",
       "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "IB208 CL"
-    },
-    {
-      "name": "Securities Analysis",
-      "tutor": "Qobiljon Yunusov",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "IB208 CL"
-    },
-    {
-      "name": "Applied Corporate Finance",
-      "tutor": "Andrey Artemenkov",
-      "type": "lecture",
       "start": 14.0,
-      "length": 1.0,
-      "location": "Harvard306"
+      "length": 2.0,
+      "location": "ATB307"
     },
     {
-      "name": "Sales Management",
-      "tutor": "Anil Kumar",
-      "type": "seminar",
+      "name": "Investment and Risk Management",
+      "tutor": "Ajay Jain",
+      "type": "workshop",
       "start": 16.0,
       "length": 1.0,
-      "location": "IB215 CL"
+      "location": "ATB212 CL"
+    }
+  ],
+  "4": [
+    {
+      "name": "Fixed Income Securities",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB216"
     },
     {
-      "name": "Sales Management",
-      "tutor": "Anil Kumar",
+      "name": "Fixed Income Securities",
+      "tutor": "Saidgozi Saydumarov",
       "type": "workshop",
       "start": 17.0,
       "length": 1.0,
       "location": "IB216"
     }
   ],
-  "4": [
-    {
-      "name": "Global Financial Markets and Institutions",
-      "tutor": "Saidgozi Saydumarov",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "IB309"
-    },
-    {
-      "name": "Global Financial Markets and Institutions",
-      "tutor": "Saidgozi Saydumarov",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "IB309"
-    },
-    {
-      "name": "Bank Risk Management",
-      "tutor": "Dildora Ibragimova",
-      "type": "lecture",
-      "start": 13.0,
-      "length": 1.0,
-      "location": "IB307"
-    }
-  ],
-  "5": [
-    {
-      "name": "Audit and Assurance",
-      "tutor": "Ravshan Kakharov",
-      "type": "workshop",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New408 CL"
-    }
-  ],
+  "5": [],
   "6": [],
   "7": []
 }
