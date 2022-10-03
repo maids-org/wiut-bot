@@ -80,7 +80,9 @@ composer.command("send", async (ctx: TelegrafContext) => {
     }
   }
 
-  return await ctx.replyWithHTML(`Done. Sent to ${groups} groups out of ${chats.length}...`);
+  return await ctx.replyWithHTML(
+    `Done. Sent to ${groups} groups out of ${chats.length}...`
+  );
 });
 
 composer.command("voting", async (ctx: TelegrafContext) => {
@@ -124,7 +126,9 @@ composer.command("voting", async (ctx: TelegrafContext) => {
     }
   }
 
-  return await ctx.replyWithHTML(`Done. Sent to ${groups} groups out of ${chats.length}...`);
+  return await ctx.replyWithHTML(
+    `Done. Sent to ${groups} groups out of ${chats.length}...`
+  );
 });
 
 middleware(composer);
