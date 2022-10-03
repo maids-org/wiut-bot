@@ -19,8 +19,6 @@ export const message = (isAdmin: boolean): string => {
     `\n` +
     `/register - <code>register this group</code>` +
     `\n` +
-    `⚠️ /intranet - <code>accessing intranet</code>` +
-    `\n` +
     `/timetable - <code>today's timetable</code>` +
     `\n` +
     `/contribute - <code>enhance me more</code>` +
