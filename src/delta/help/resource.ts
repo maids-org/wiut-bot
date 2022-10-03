@@ -50,5 +50,5 @@ export const message = (isAdmin: boolean): string => {
 };
 
 export const keyboard = Markup.inlineKeyboard([
-  [Markup.urlButton("Announcement's Channel", "https://t.me/SeventyPlus")],
+  [Markup.urlButton("Announcement's Channel", "https://t.me/madmaids")],
 ]);
