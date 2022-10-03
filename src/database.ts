@@ -5,7 +5,7 @@ import { Timetable as TT, Day } from "@type/database";
 import { Profanity } from "@2toad/profanity";
 
 export const Constants: { [key: string]: string } = {
-  EDIT_LINK: "https://github.com/mad-maids/maid.table/",
+  EDIT_LINK: "https://github.com/mad-maids/maid.felix/",
   TIMETABLE_LINK: "https://hub.maid.uz/t/",
 };
 
