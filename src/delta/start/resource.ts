@@ -4,9 +4,6 @@ export const message =
   `<b>Welcome to Mad Maid's Northmaid Chan 😏!</b>` +
   `\n` +
   `\n` +
-  `Hi Sugar!) I'm North Maid that helps you to keep tracking upcoming lessons, guides and gives you more information about BIS ╰(*°▽°*)╯.` +
-  `\n` +
-  `\n` +
   `With my help, you can do:` +
   `\n` +
   `\n` +
