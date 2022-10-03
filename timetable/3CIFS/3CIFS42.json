@@ -3,83 +3,59 @@
   "1": [
     {
       "name": "Academic English",
-      "tutor": "Saida Radjabzade",
+      "tutor": "Saida Akbarova",
       "type": "seminar",
-      "start": 11.0,
+      "start": 9.0,
       "length": 2.0,
-      "location": "New207"
+      "location": "SHB503"
     }
   ],
   "2": [
     {
-      "name": "Business in the Modern World",
-      "tutor": "Sanemkhan Nurillaeva",
-      "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "IB208 CL"
-    },
-    {
-      "name": "Visual Programming",
-      "tutor": "Shirin Primkulova",
-      "type": "lecture",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "New206 H"
-    },
-    {
-      "name": "Business in the Modern World",
-      "tutor": "Timur Perkov",
-      "type": "seminar",
-      "start": 13.0,
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "type": "online lecture",
+      "start": 9.0,
       "length": 2.0,
-      "location": "IB216"
+      "location": "IB311"
+    },
+    {
+      "name": "I, Citizen",
+      "tutor": "Kamola Muradkasimova",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "SHB407"
     }
   ],
   "3": [
     {
       "name": "Academic English",
-      "tutor": "Saida Radjabzade",
+      "tutor": "Saida Akbarova",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "New207"
-    },
-    {
-      "name": "Visual Programming",
-      "tutor": "Olga Yugay",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "New304 CL"
+      "location": "SHB503"
     }
   ],
   "4": [
     {
-      "name": "Developing Professional Identity",
-      "tutor": "Feruza Askarova",
+      "name": "Developing Professional  Identity",
+      "tutor": "Nargiza Tadjiyeva",
       "type": "seminar",
-      "start": 9.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "ATB304"
-    },
-    {
-      "name": "Visual Programming",
-      "tutor": "Shirin Primkulova",
-      "type": "workshop",
-      "start": 16.0,
-      "length": 1.0,
-      "location": "New206 H"
+      "location": "SHB302"
     }
   ],
   "5": [
     {
-      "name": "I, Citizen",
-      "tutor": "Shahnaza Turgunova",
+      "name": "Quantitative Methods",
+      "tutor": "Kamolakhon Alikulova",
       "type": "seminar",
-      "start": 9.0,
+      "start": 13.0,
       "length": 2.0,
-      "location": "ATB301"
+      "location": "IB316"
     }
   ],
   "6": [],

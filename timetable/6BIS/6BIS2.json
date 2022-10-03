@@ -2,116 +2,76 @@
   "0": [],
   "1": [
     {
-      "name": "Strategy in a Complex World",
-      "tutor": "Ahmed Waqas",
-      "type": "seminar",
+      "name": "Digital Marketing",
+      "tutor": "Prabha Kiran",
+      "type": "online lecture",
       "start": 11.0,
       "length": 2.0,
-      "location": "ATB304"
+      "location": "IB311"
     },
     {
-      "name": "Information Systems Management",
-      "tutor": "Dariush Alimokhammadi",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "New303 CL"
-    },
-    {
-      "name": "Business Intelligence Systems",
-      "tutor": "Dilshod Ibragimov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New304 CL"
+      "name": "Online / Project Management",
+      "tutor": "Iroda Komilova",
+      "type": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB311"
     }
   ],
   "2": [
     {
-      "name": "Strategy in a Complex World",
-      "tutor": "Julian Pinerez",
-      "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "IB311"
-    },
-    {
-      "name": "Web Applications Development",
-      "tutor": "Ali Subair",
+      "name": "Digital Marketing",
+      "tutor": "Nasiba Mukhtorova",
       "type": "seminar",
-      "start": 14.0,
+      "start": 13.0,
       "length": 2.0,
-      "location": "New303 CL"
-    },
-    {
-      "name": "Business Intelligence Systems",
-      "tutor": "Dilshod Ibragimov",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 1.0,
-      "location": "New206 H"
+      "location": "IB208 CL"
     }
   ],
   "3": [
     {
-      "name": "Software Quality, Performance and Testing",
-      "tutor": "Avazkhan Khalikov",
-      "type": "lecture",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "New206 H"
-    },
-    {
-      "name": "Business Information Systems Project",
-      "tutor": "Shodiyabegim Bakhtiyorzoda",
+      "name": "Project Management",
+      "tutor": "Iroda Komilova",
       "type": "seminar",
       "start": 13.0,
+      "length": 2.0,
+      "location": "IB202 CL"
+    },
+    {
+      "name": "Project Management",
+      "tutor": "Iroda Komilova",
+      "type": "workshop",
+      "start": 15.0,
       "length": 1.0,
-      "location": "New206 H"
+      "location": "IB202 CL"
     }
   ],
   "4": [
     {
-      "name": "Web Applications Development",
-      "tutor": "Ali Subair",
-      "type": "lecture",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "New206 H"
-    },
-    {
-      "name": "Software Quality, Performance and Testing",
-      "tutor": "Avazkhan Khalikov",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "New408 CL"
-    },
-    {
-      "name": "Concurrent Programming",
-      "tutor": "Ayoobkhan Mohamed Uvaze Ahamed",
+      "name": "Business Information Systems Project",
+      "tutor": "Shodiyabegim Bakhtiyorzoda",
       "type": "seminar",
       "start": 14.0,
+      "length": 1.0,
+      "location": "SHB206 H"
+    },
+    {
+      "name": "Developing Digital Enterprise",
+      "tutor": "Jakhongir Karimov",
+      "type": "online lecture",
+      "start": 15.0,
       "length": 2.0,
-      "location": "New303 CL"
+      "location": "SHB206 H"
     }
   ],
   "5": [
     {
-      "name": "Concurrent Programming",
-      "tutor": "Ayoobkhan Mohamed Uvaze Ahamed",
-      "type": "lecture",
-      "start": 14.0,
+      "name": "Developing Digital Enterprise",
+      "tutor": "Jakhongir Karimov",
+      "type": "seminar",
+      "start": 11.0,
       "length": 2.0,
-      "location": "New408 CL"
-    },
-    {
-      "name": "Information Systems Management",
-      "tutor": "Dariush Alimokhammadi",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "New206 H"
+      "location": "SHB408 CL"
     }
   ],
   "6": [],

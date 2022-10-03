@@ -2,76 +2,60 @@
   "0": [],
   "1": [
     {
-      "name": "Business in the Modern World",
-      "tutor": "Sanemkhan Nurillaeva",
-      "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "IB208 CL"
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "type": "online lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB311"
     },
     {
-      "name": "Foundations of Economics",
-      "tutor": "Jamshid Normatov",
-      "type": "lecture",
-      "start": 11.0,
+      "name": "I, Citizen",
+      "tutor": "Sherzod Khaydarov",
+      "type": "seminar",
+      "start": 16.0,
       "length": 2.0,
-      "location": "IB301"
+      "location": "SHB301"
     }
   ],
   "2": [
     {
       "name": "Academic English",
-      "tutor": "Dildora Tashpulatova",
+      "tutor": "Guljahon Uzakova",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "New404"
-    },
-    {
-      "name": "Developing Professional Identity",
-      "tutor": "Kiriaki Kanakidi",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "New407"
+      "location": "SHB404"
     }
   ],
   "3": [
     {
-      "name": "Foundations of Economics",
-      "tutor": "Javlon Juraev",
+      "name": "Quantitative Methods",
+      "tutor": "Temur Makhkamov",
       "type": "seminar",
-      "start": 14.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "ATB310 A"
-    },
-    {
-      "name": "I, Citizen",
-      "tutor": "Shahzaib Ahmed Khan",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB209"
+      "location": "IB313"
     }
   ],
   "4": [
     {
-      "name": "Business in the Modern World",
-      "tutor": "Shoira Mirzakhidova",
+      "name": "Academic English",
+      "tutor": "Guljahon Uzakova",
       "type": "seminar",
-      "start": 14.0,
+      "start": 12.0,
       "length": 2.0,
-      "location": "ATB207"
+      "location": "ATB301"
     }
   ],
   "5": [
     {
-      "name": "Academic English",
-      "tutor": "Dildora Tashpulatova",
+      "name": "Developing Professional  Identity",
+      "tutor": "Holida Begmatova",
       "type": "seminar",
-      "start": 9.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "New404"
+      "location": "SHB301"
     }
   ],
   "6": [],

@@ -2,86 +2,69 @@
   "0": [],
   "1": [
     {
-      "name": "Financial Management",
-      "tutor": "Hamid Waqas",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 1.0,
-      "location": "IB311"
-    },
-    {
-      "name": "Human Resource Management",
-      "tutor": "Olesya Smagina",
-      "type": "lecture",
-      "start": 13.0,
-      "length": 1.0,
-      "location": "IB216"
+      "name": "Cross Cultural Management",
+      "tutor": "Natalie Solveig Mikhaylov",
+      "type": "seminar",
+      "start": 10.0,
+      "length": 2.0,
+      "location": "ATB302"
     }
   ],
   "2": [
     {
-      "name": "Financial Management",
-      "tutor": "Indira Khadjieva",
-      "type": "seminar",
-      "start": 9.0,
+      "name": "Quality and Operations Management",
+      "tutor": "Sitora Inoyatova",
+      "type": "online lecture",
+      "start": 11.0,
       "length": 2.0,
-      "location": "IB313"
+      "location": "IB310"
     },
     {
-      "name": "Financial Management",
-      "tutor": "Indira Khadjieva",
-      "type": "workshop",
-      "start": 11.0,
+      "name": "Marketing Management",
+      "tutor": "Dildara Gapparova",
+      "type": "online lecture",
+      "start": 13.0,
       "length": 1.0,
-      "location": "IB313"
+      "location": "Harvard306"
     }
   ],
   "3": [
     {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Farrukh Ataev",
-      "type": "workshop",
-      "start": 12.0,
+      "name": "Marketing Management",
+      "tutor": "Makhsuma Abdullaeva",
+      "type": "seminar",
+      "start": 13.0,
       "length": 2.0,
-      "location": "IB208 CL"
+      "location": "ATB218"
     },
     {
-      "name": "Human Resource Management",
-      "tutor": "Shakhnoza Asadova",
-      "type": "seminar",
+      "name": "Marketing Management",
+      "tutor": "Makhsuma Abdullaeva",
+      "type": "workshop",
       "start": 15.0,
-      "length": 2.0,
-      "location": "IB216"
+      "length": 1.0,
+      "location": "ATB218"
     }
   ],
   "4": [
     {
-      "name": "Human Resource Management",
-      "tutor": "Shakhnoza Asadova",
+      "name": "Cross Cultural Management",
+      "tutor": "Natalie Solveig Mikhaylov",
       "type": "workshop",
       "start": 11.0,
-      "length": 1.0,
-      "location": "IB301"
+      "length": 2.0,
+      "location": "ATB304"
+    },
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Shakhnoza Asadova",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB307"
     }
   ],
   "5": [],
-  "6": [
-    {
-      "name": "Professional Practice Learning from Work",
-      "tutor": "Komiljon Karimov",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 1.0,
-      "location": "IB216"
-    },
-    {
-      "name": "Professional Practice Learning from Work",
-      "tutor": "Komiljon Karimov",
-      "type": "workshop",
-      "start": 14.0,
-      "length": 1.0,
-      "location": "IB216"
-    }
-  ],
+  "6": [],
   "7": []
 }

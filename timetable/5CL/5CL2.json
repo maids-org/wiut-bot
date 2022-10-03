@@ -2,116 +2,60 @@
   "0": [],
   "1": [
     {
-      "name": "Economics of Financial Crises",
-      "tutor": "Akhliddin Malikov",
-      "type": "seminar",
+      "name": "Legal Profession and Legal Service",
+      "tutor": "Alexey Gudkov",
+      "type": "lecture",
       "start": 9.0,
       "length": 2.0,
-      "location": "ATB211"
+      "location": "IB301"
     },
     {
-      "name": "Intellectual Property Law",
-      "tutor": "Timur Abdulazizov",
-      "type": "seminar",
+      "name": "International Sales Law",
+      "tutor": "Kholida Sabirova",
+      "type": "lecture",
       "start": 11.0,
       "length": 2.0,
-      "location": "IB308"
-    },
-    {
-      "name": "Islamic Finance",
-      "tutor": "Abdul Aziz Buriev",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 1.0,
-      "location": "IB306"
-    },
-    {
-      "name": "Retailing Business",
-      "tutor": "Alisher Ismailov",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB311"
+      "location": "Harvard306"
     }
   ],
   "2": [
     {
-      "name": "Property Law",
-      "tutor": "Akbar Ismanjanov",
-      "type": "lecture",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "IB316"
-    },
-    {
-      "name": "Banking Law",
+      "name": "Legal Profession and Legal Service",
       "tutor": "Tamilla Tagieva",
       "type": "seminar",
-      "start": 14.0,
+      "start": 16.0,
       "length": 2.0,
-      "location": "Harvard306"
+      "location": "IB308"
     }
   ],
   "3": [
     {
-      "name": "Economics of Financial Crises",
-      "tutor": "Akhliddin Malikov",
-      "type": "lecture",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "Harvard306"
-    },
-    {
-      "name": "Banking Law",
-      "tutor": "Tamilla Tagieva",
-      "type": "lecture",
+      "name": "Company Law",
+      "tutor": "Musojon Rizaev",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "IB316"
-    },
-    {
-      "name": "Property Law",
-      "tutor": "Timur Kulumbetov",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB208 CL"
+      "location": "IB308"
     }
   ],
   "4": [
     {
-      "name": "Intellectual Property Law",
-      "tutor": "Timur Abdulazizov",
+      "name": "Company Law",
+      "tutor": "Feruza Bobokulova",
       "type": "lecture",
-      "start": 11.0,
+      "start": 16.0,
       "length": 2.0,
-      "location": "IB316"
+      "location": "IB301"
     }
   ],
   "5": [
     {
-      "name": "Islamic Finance",
-      "tutor": "Surayyo Shaamirova",
+      "name": "International Sales Law",
+      "tutor": "Musojon Rizaev",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "New302"
-    },
-    {
-      "name": "Islamic Finance",
-      "tutor": "Surayyo Shaamirova",
-      "type": "workshop",
-      "start": 13.0,
-      "length": 1.0,
-      "location": "New302"
-    },
-    {
-      "name": "Retailing Business",
-      "tutor": "Karan Khurana",
-      "type": "workshop",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB309"
+      "location": "IB308"
     }
   ],
   "6": [],

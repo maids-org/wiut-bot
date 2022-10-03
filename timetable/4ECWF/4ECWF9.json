@@ -2,18 +2,18 @@
   "0": [],
   "1": [
     {
-      "name": "Corporate Finance",
-      "tutor": "Murodullo Bazarov",
-      "type": "lecture",
-      "start": 13.0,
+      "name": "Contemporary Issues in Global Economics",
+      "tutor": "Bilol Buzrukov",
+      "type": "online lecture",
+      "start": 9.0,
       "length": 2.0,
-      "location": "Lyceum hall"
+      "location": "ATB309"
     },
     {
-      "name": "Introduction to Banking and Financial Markets",
-      "tutor": "Iroda Azizova, Omon Ganiev",
-      "type": "lecture",
-      "start": 15.0,
+      "name": "Mathematics for Economists",
+      "tutor": "Farrukh Ataev",
+      "type": "online lecture",
+      "start": 11.0,
       "length": 2.0,
       "location": "IB301"
     }
@@ -21,25 +21,9 @@
   "2": [
     {
       "name": "Exploring Economics",
-      "tutor": "Zohid Askarov",
-      "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "Harvard306"
-    },
-    {
-      "name": "Introduction to Insurance Business",
-      "tutor": "Hasan AKM Kamrul",
+      "tutor": "Nodira Komilova",
       "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "IB316"
-    },
-    {
-      "name": "Exploring Economics",
-      "tutor": "Shokhida Karimova",
-      "type": "seminar",
-      "start": 16.0,
+      "start": 12.0,
       "length": 2.0,
       "location": "ATB303"
     }
@@ -47,39 +31,47 @@
   "3": [
     {
       "name": "Introduction to Statistics and Data Science",
-      "tutor": "Khilola Dushamova",
-      "type": "workshop",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB212 CL"
+      "tutor": "Olmas Isakov",
+      "type": "online lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "ATB209"
+    },
+    {
+      "name": "Exploring Economics",
+      "tutor": "Zohid Askarov",
+      "type": "online lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "ATB209"
     }
   ],
   "4": [
     {
-      "name": "Introduction to Insurance Business",
-      "tutor": "Hasan AKM Kamrul",
-      "type": "workshop",
+      "name": "Mathematics for Economists",
+      "tutor": "Farrukh Ataev",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "IB306"
+      "location": "ATB302"
     }
   ],
   "5": [
     {
-      "name": "Introduction to Banking and Financial Markets",
-      "tutor": "Iroda Azizova",
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Gulomjon Kosimjonov",
       "type": "seminar",
-      "start": 12.0,
+      "start": 9.0,
       "length": 2.0,
-      "location": "ATB312"
+      "location": "IB311"
     },
     {
-      "name": "Corporate Finance",
-      "tutor": "Jahongir Negmatov",
+      "name": "Contemporary Issues in Global Economics",
+      "tutor": "Oybek Yuldashev",
       "type": "seminar",
-      "start": 16.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "ATB309"
+      "location": "IB316"
     }
   ],
   "6": [],

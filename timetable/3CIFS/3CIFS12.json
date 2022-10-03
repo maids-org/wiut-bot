@@ -2,76 +2,60 @@
   "0": [],
   "1": [
     {
-      "name": "Foundations of Economics",
-      "tutor": "Jamshid Normatov",
-      "type": "lecture",
-      "start": 11.0,
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "type": "online lecture",
+      "start": 9.0,
       "length": 2.0,
-      "location": "IB301"
+      "location": "IB311"
     },
     {
-      "name": "Fundamentals of Commercial Law",
-      "tutor": "Kholida Sabirova",
-      "type": "lecture",
-      "start": 14.0,
+      "name": "Academic English",
+      "tutor": "Holida Begmatova",
+      "type": "seminar",
+      "start": 16.0,
       "length": 2.0,
-      "location": "New206 H"
+      "location": "SHB302"
     }
   ],
   "2": [
     {
-      "name": "Academic English",
-      "tutor": "Iroda Saidazimova",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "New502"
-    },
-    {
-      "name": "Foundations of Economics",
-      "tutor": "Javlon Juraev",
+      "name": "I, Citizen",
+      "tutor": "Nigina Rustamova",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "ATB302"
+      "location": "IB302"
     }
   ],
   "3": [
     {
-      "name": "Developing Professional Identity",
-      "tutor": "Gunjan Jain",
+      "name": "Academic English",
+      "tutor": "Holida Begmatova",
       "type": "seminar",
-      "start": 15.0,
+      "start": 16.0,
       "length": 2.0,
-      "location": "New407"
+      "location": "SHB302"
     }
   ],
   "4": [
     {
-      "name": "Academic English",
-      "tutor": "Iroda Saidazimova",
+      "name": "Quantitative Methods",
+      "tutor": "Temur Makhkamov",
       "type": "seminar",
-      "start": 9.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "New502"
+      "location": "IB313"
     }
   ],
   "5": [
     {
-      "name": "I, Citizen",
-      "tutor": "Ijobat Juraeva",
+      "name": "Developing Professional  Identity",
+      "tutor": "Dildora Tashpulatova",
       "type": "seminar",
-      "start": 14.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "New302"
-    },
-    {
-      "name": "Fundamentals of Commercial Law",
-      "tutor": "Musojon Rizaev",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB313"
+      "location": "SHB503"
     }
   ],
   "6": [],

@@ -2,140 +2,84 @@
   "0": [],
   "1": [
     {
-      "name": "Marketing Strategy",
-      "tutor": "Atya Zeb",
-      "type": "seminar",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "ATB312"
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "type": "online lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "ATB303"
     },
     {
-      "name": "Financial Management",
-      "tutor": "Hamid Waqas",
-      "type": "lecture",
-      "start": 14.0,
-      "length": 1.0,
+      "name": "Digital Marketing",
+      "tutor": "Prabha Kiran",
+      "type": "online lecture",
+      "start": 11.0,
+      "length": 2.0,
       "location": "IB311"
     },
     {
-      "name": "Financial Management",
-      "tutor": "Nargiza Khuramova",
+      "name": "Marketing Analytics",
+      "tutor": "Anil Kumar",
       "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "IB316"
-    },
-    {
-      "name": "Managing Innovation and Entrepreneurship",
-      "tutor": "Ahmed Waqas",
-      "type": "lecture",
       "start": 16.0,
-      "length": 1.0,
-      "location": "ATB314"
-    },
-    {
-      "name": "Financial Management",
-      "tutor": "Nargiza Khuramova",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "IB209 CL"
+      "length": 2.0,
+      "location": "ATB214 CL"
     }
   ],
   "2": [
     {
-      "name": "Strategy in a Complex World",
-      "tutor": "Julian Pinerez",
+      "name": "Online",
+      "tutor": "Zamira Ataniyazova",
       "type": "lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "IB311"
+      "start": 9.0,
+      "length": 2.0,
+      "location": "SHB502"
     },
     {
-      "name": "Sales Management",
+      "name": "Online / Marketing Analytics",
       "tutor": "Anil Kumar",
       "type": "lecture",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "ATB314"
-    },
-    {
-      "name": "Marketing Strategy",
-      "tutor": "Atya Zeb",
-      "type": "lecture",
-      "start": 12.0,
+      "start": 16.0,
       "length": 2.0,
-      "location": "ATB314"
+      "location": "IB311"
     }
   ],
   "3": [
     {
-      "name": "Managing Innovation and Entrepreneurship",
+      "name": "New Venture Creation",
+      "tutor": "Alisher Ismailov",
+      "type": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB311"
+    },
+    {
+      "name": "Strategy in a Complex World",
       "tutor": "Ahmed Waqas",
       "type": "seminar",
-      "start": 9.0,
+      "start": 16.0,
       "length": 2.0,
       "location": "ATB209"
-    },
-    {
-      "name": "Managing Innovation and Entrepreneurship",
-      "tutor": "Ahmed Waqas",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "ATB209"
-    },
-    {
-      "name": "Dissertation",
-      "tutor": "Julian Pinerez",
-      "type": "lecture",
-      "start": 13.0,
-      "length": 1.0,
-      "location": "IB301"
     }
   ],
   "4": [
     {
-      "name": "Dissertation",
-      "tutor": "Julian Pinerez",
+      "name": "Managing Brands",
+      "tutor": "Zamira Ataniyazova",
       "type": "seminar",
-      "start": 14.0,
+      "start": 9.0,
       "length": 2.0,
-      "location": "ATB309"
-    },
-    {
-      "name": "Strategy in a Complex World",
-      "tutor": "Julian Pinerez",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "Harvard306"
+      "location": "ATB207"
     }
   ],
   "5": [
     {
-      "name": "New Venture Creation",
-      "tutor": "Elnora Mirzalieva",
+      "name": "Digital Marketing",
+      "tutor": "Prabha Kiran",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "ATB310B"
-    },
-    {
-      "name": "Sales Management",
-      "tutor": "Anil Kumar",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "New502"
-    },
-    {
-      "name": "Sales Management",
-      "tutor": "Anil Kumar",
-      "type": "workshop",
-      "start": 12.0,
-      "length": 1.0,
-      "location": "New502"
+      "location": "ATB212 CL"
     }
   ],
   "6": [],

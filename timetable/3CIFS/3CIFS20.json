@@ -2,84 +2,60 @@
   "0": [],
   "1": [
     {
-      "name": "Understanding Finance",
-      "tutor": "Temur Makhkamov",
-      "type": "lecture",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "IB208 CL"
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "type": "online lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB311"
     },
     {
-      "name": "Fundamentals of Commercial Law",
-      "tutor": "Kholida Sabirova",
-      "type": "lecture",
+      "name": "Academic English",
+      "tutor": "Holida Begmatova",
+      "type": "seminar",
       "start": 14.0,
       "length": 2.0,
-      "location": "New206 H"
+      "location": "SHB302"
     }
   ],
   "2": [
     {
-      "name": "Developing Professional Identity",
-      "tutor": "Kiriaki Kanakidi",
+      "name": "Quantitative Methods",
+      "tutor": "Shahzod Nomozov",
       "type": "seminar",
-      "start": 11.0,
+      "start": 9.0,
       "length": 2.0,
-      "location": "New405"
-    },
-    {
-      "name": "I, Citizen",
-      "tutor": "Shodiya Inakhodjaeva",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB310B"
+      "location": "ATB303"
     }
   ],
   "3": [
     {
       "name": "Academic English",
-      "tutor": "Saida Radjabzade",
+      "tutor": "Holida Begmatova",
       "type": "seminar",
-      "start": 11.0,
+      "start": 14.0,
       "length": 2.0,
-      "location": "New207"
+      "location": "SHB302"
     }
   ],
   "4": [
     {
-      "name": "Understanding Finance",
-      "tutor": "Mokhirakhon Abdullaeva",
+      "name": "Developing Professional  Identity",
+      "tutor": "Rano Rozikova",
       "type": "seminar",
-      "start": 9.0,
+      "start": 14.0,
       "length": 2.0,
-      "location": "ATB312"
-    },
-    {
-      "name": "Understanding Finance",
-      "tutor": "Mokhirakhon Abdullaeva",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "ATB312"
+      "location": "ATB309"
     }
   ],
   "5": [
     {
-      "name": "Fundamentals of Commercial Law",
-      "tutor": "Musojon Rizaev",
+      "name": "I, Citizen",
+      "tutor": "Ijobat Juraeva",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "IB101"
-    },
-    {
-      "name": "Academic English",
-      "tutor": "Saida Radjabzade",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "ATB311"
+      "location": "SHB302"
     }
   ],
   "6": [],

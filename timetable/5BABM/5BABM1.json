@@ -1,79 +1,69 @@
 {
   "0": [],
-  "1": [
-    {
-      "name": "Financial Management",
-      "tutor": "Hamid Waqas",
-      "type": "lecture",
-      "start": 12.0,
-      "length": 1.0,
-      "location": "IB311"
-    },
-    {
-      "name": "Human Resource Management",
-      "tutor": "Olesya Smagina",
-      "type": "lecture",
-      "start": 13.0,
-      "length": 1.0,
-      "location": "IB216"
-    },
-    {
-      "name": "Retailing Business",
-      "tutor": "Alisher Ismailov",
-      "type": "lecture",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB311"
-    }
-  ],
+  "1": [],
   "2": [
     {
-      "name": "Human Resource Management",
-      "tutor": "Shakhnoza Asadova",
-      "type": "seminar",
+      "name": "Quality and Operations Management",
+      "tutor": "Sitora Inoyatova",
+      "type": "online lecture",
       "start": 11.0,
       "length": 2.0,
-      "location": "IB216"
+      "location": "IB310"
+    },
+    {
+      "name": "Marketing Management",
+      "tutor": "Dildara Gapparova",
+      "type": "online lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Cross Cultural Management",
+      "tutor": "Natalie Solveig Mikhaylov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB304"
     }
   ],
   "3": [
     {
-      "name": "Financial Management",
-      "tutor": "Akhrorjon Yakubjonov",
+      "name": "Marketing Management",
+      "tutor": "Makhsuma Abdullaeva",
       "type": "seminar",
-      "start": 15.0,
+      "start": 9.0,
       "length": 2.0,
-      "location": "IB302"
+      "location": "ATB211"
     },
     {
-      "name": "Financial Management",
-      "tutor": "Akhrorjon Yakubjonov",
+      "name": "Marketing Management",
+      "tutor": "Makhsuma Abdullaeva",
       "type": "workshop",
-      "start": 17.0,
+      "start": 11.0,
       "length": 1.0,
-      "location": "IB302"
+      "location": "ATB211"
     }
   ],
   "4": [
     {
-      "name": "Human Resource Management",
+      "name": "Quality and Operations Management",
       "tutor": "Shakhnoza Asadova",
-      "type": "workshop",
+      "type": "seminar",
       "start": 11.0,
-      "length": 1.0,
-      "location": "IB301"
-    }
-  ],
-  "5": [
-    {
-      "name": "Retailing Business",
-      "tutor": "Karan Khurana",
-      "type": "workshop",
-      "start": 12.0,
       "length": 2.0,
-      "location": "IB310"
+      "location": "IB101"
+    },
+    {
+      "name": "Cross Cultural Management",
+      "tutor": "Natalie Solveig Mikhaylov",
+      "type": "workshop",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB312"
     }
   ],
+  "5": [],
   "6": [],
   "7": []
 }

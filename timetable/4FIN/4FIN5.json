@@ -2,76 +2,59 @@
   "0": [],
   "1": [
     {
-      "name": "Financial Mathematics and Principles",
-      "tutor": "Rustam Suleymanov",
-      "type": "lecture",
+      "name": "Financial Accounting",
+      "tutor": "Lilya Memesheva",
+      "type": "online lecture",
       "start": 13.0,
-      "length": 1.0,
-      "location": "Harvard306"
+      "length": 2.0,
+      "location": "IB309"
     },
     {
-      "name": "Introduction to Banking and Financial Markets",
-      "tutor": "Iroda Azizova, Omon Ganiev",
-      "type": "lecture",
+      "name": "Global  Business Environment",
+      "tutor": "Dilshoda Rakhmonova",
+      "type": "online lecture",
       "start": 15.0,
       "length": 2.0,
+      "location": "ATB301"
+    },
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Gulomjon Kosimjonov",
+      "type": "online lecture",
+      "start": 17.0,
+      "length": 1.0,
       "location": "IB301"
     }
   ],
   "2": [
     {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Farrukh Ataev",
-      "type": "workshop",
-      "start": 9.0,
+      "name": "Global  Business Environment",
+      "tutor": "Timur Perkov",
+      "type": "seminar",
+      "start": 11.0,
       "length": 2.0,
-      "location": "ATB214 CL"
+      "location": "ATB314"
     }
   ],
   "3": [
     {
-      "name": "Financial Mathematics and Principles",
-      "tutor": "Rustam Suleymanov",
+      "name": "Financial Accounting",
+      "tutor": "Yusufjon Pulatov",
       "type": "seminar",
-      "start": 15.0,
+      "start": 12.0,
       "length": 2.0,
-      "location": "ATB304"
-    },
-    {
-      "name": "Financial Mathematics and Principles",
-      "tutor": "Rustam Suleymanov",
-      "type": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "ATB212 CL"
+      "location": "IB316"
     }
   ],
-  "4": [
-    {
-      "name": "Introduction to Banking and Financial Markets",
-      "tutor": "Omon Ganiev",
-      "type": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB311"
-    },
-    {
-      "name": "Introduction to Insurance Business",
-      "tutor": "Hasan AKM Kamrul",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB216"
-    }
-  ],
+  "4": [],
   "5": [
     {
-      "name": "Introduction to Insurance Business",
-      "tutor": "Hasan AKM Kamrul",
-      "type": "workshop",
-      "start": 16.0,
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Farrukh Ataev",
+      "type": "seminar",
+      "start": 11.0,
       "length": 2.0,
-      "location": "ATB302"
+      "location": "ATB309"
     }
   ],
   "6": [],

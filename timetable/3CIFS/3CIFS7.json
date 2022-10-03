@@ -2,84 +2,60 @@
   "0": [],
   "1": [
     {
-      "name": "Fundamentals of Commercial Law",
-      "tutor": "Kholida Sabirova",
-      "type": "lecture",
-      "start": 11.0,
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "type": "online lecture",
+      "start": 9.0,
       "length": 2.0,
-      "location": "Harvard306"
+      "location": "IB311"
     },
     {
-      "name": "Visual Programming",
-      "tutor": "Shirin Primkulova",
-      "type": "lecture",
-      "start": 13.0,
-      "length": 1.0,
-      "location": "New206 H"
+      "name": "I, Citizen",
+      "tutor": "Ijobat Juraeva",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "SHB207"
     }
   ],
   "2": [
     {
       "name": "Academic English",
-      "tutor": "Israil Kurbanniyazov",
+      "tutor": "Dildora Tashpulatova",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "New407"
-    },
-    {
-      "name": "Fundamentals of Commercial Law",
-      "tutor": "Musojon Rizaev",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "IB302"
+      "location": "SHB503"
     }
   ],
   "3": [
     {
-      "name": "Academic English",
-      "tutor": "Israil Kurbanniyazov",
+      "name": "Developing Professional  Identity",
+      "tutor": "Jasur Khudoyberdiev",
       "type": "seminar",
-      "start": 11.0,
+      "start": 9.0,
       "length": 2.0,
-      "location": "New302"
+      "location": "SHB207"
     }
   ],
   "4": [
     {
-      "name": "Developing Professional Identity",
-      "tutor": "Rano Nurmanova",
+      "name": "Academic English",
+      "tutor": "Dildora Tashpulatova",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "New405"
-    },
-    {
-      "name": "Visual Programming",
-      "tutor": "Shirin Primkulova",
-      "type": "workshop",
-      "start": 15.0,
-      "length": 1.0,
-      "location": "New206 H"
+      "location": "SHB503"
     }
   ],
   "5": [
     {
-      "name": "Visual Programming",
-      "tutor": "Akmal Salikhov",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "New305 CL"
-    },
-    {
-      "name": "I, Citizen",
-      "tutor": "Shahzaib Ahmed Khan",
+      "name": "Quantitative Methods",
+      "tutor": "Kamolakhon Alikulova",
       "type": "seminar",
       "start": 11.0,
       "length": 2.0,
-      "location": "ATB218"
+      "location": "IB216"
     }
   ],
   "6": [],

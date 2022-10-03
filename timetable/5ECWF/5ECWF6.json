@@ -2,86 +2,85 @@
   "0": [],
   "1": [
     {
-      "name": "Corporate Finance",
-      "tutor": "Murodullo Bazarov",
-      "type": "lecture",
-      "start": 13.0,
+      "name": "Mathematics for Economists",
+      "tutor": "Farrukh Ataev",
+      "type": "online lecture",
+      "start": 11.0,
       "length": 2.0,
-      "location": "Lyceum hall"
+      "location": "IB301"
     },
     {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Gayrat Suyunov",
-      "type": "workshop",
+      "name": "Intermediate Microeconomics",
+      "tutor": "Muhammed Bilal",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
-      "location": "IB208 CL"
+      "location": "ATB207"
     }
   ],
   "2": [
     {
-      "name": "Intermediate Macroeconomics",
-      "tutor": "Muhammed Bilal",
-      "type": "lecture",
-      "start": 14.0,
+      "name": "Econometrics",
+      "tutor": "Murodullo Bazarov",
+      "type": "seminar",
+      "start": 9.0,
       "length": 2.0,
-      "location": "ATB314"
+      "location": "ATB212 CL"
     }
   ],
   "3": [
     {
-      "name": "Economics of Financial Crises",
-      "tutor": "Akhliddin Malikov",
-      "type": "lecture",
-      "start": 9.0,
+      "name": "Intermediate Microeconomics",
+      "tutor": "Muhammed Bilal",
+      "type": "online lecture",
+      "start": 10.0,
       "length": 2.0,
-      "location": "Harvard306"
+      "location": "IB311"
     },
     {
-      "name": "Corporate Finance",
-      "tutor": "Jahongir Negmatov",
-      "type": "seminar",
+      "name": "Management Accounting",
+      "tutor": "Feruza Yodgorova",
+      "type": "online lecture",
       "start": 12.0,
-      "length": 2.0,
-      "location": "ATB314"
+      "length": 1.0,
+      "location": "IB311"
     }
   ],
-  "4": [
-    {
-      "name": "Econometrics",
-      "tutor": "Murodullo Bazarov",
-      "type": "workshop",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "IB208 CL"
-    },
-    {
-      "name": "Economics of Financial Crises",
-      "tutor": "Akhliddin Malikov",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "ATB211"
-    }
-  ],
+  "4": [],
   "5": [
     {
-      "name": "Intermediate Macroeconomics",
-      "tutor": "Oybek Yuldashev",
+      "name": "Mathematics for Economists",
+      "tutor": "Farrukh Ataev",
       "type": "seminar",
-      "start": 12.0,
+      "start": 13.0,
       "length": 2.0,
-      "location": "ATB314"
+      "location": "ATB309"
+    },
+    {
+      "name": "Management Accounting",
+      "tutor": "Abdulaziz Djalilov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB313"
+    },
+    {
+      "name": "Management Accounting",
+      "tutor": "Abdulaziz Djalilov",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB202 CL"
     }
   ],
   "6": [
     {
       "name": "Econometrics",
       "tutor": "Obid Khakimov",
-      "type": "lecture",
+      "type": "online lecture",
       "start": 11.0,
       "length": 2.0,
-      "location": "Harvard306"
+      "location": "IB216"
     }
   ],
   "7": []

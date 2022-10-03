@@ -1,0 +1,78 @@
+{
+  "0": [],
+  "1": [
+    {
+      "name": "Strategic Management Accounting and Performance Me",
+      "tutor": "Nargiza Khuramova",
+      "type": "workshop",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB212 CL"
+    },
+    {
+      "name": "Investment and Risk Management",
+      "tutor": "Hamid Waqas",
+      "type": "online lecture",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB311"
+    }
+  ],
+  "2": [
+    {
+      "name": "Strategic Management Accounting and Performance Me",
+      "tutor": "Nargiza Khuramova",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB209"
+    },
+    {
+      "name": "Online",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "lecture",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "IB301"
+    }
+  ],
+  "3": [],
+  "4": [
+    {
+      "name": "Investment and Risk Management",
+      "tutor": "Ajay Jain",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "SHB304 CL"
+    },
+    {
+      "name": "Investment and Risk Management",
+      "tutor": "Ajay Jain",
+      "type": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "SHB304 CL"
+    }
+  ],
+  "5": [
+    {
+      "name": "Fixed Income Securities",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB215 CL"
+    },
+    {
+      "name": "Fixed Income Securities",
+      "tutor": "Saidgozi Saydumarov",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB215 CL"
+    }
+  ],
+  "6": [],
+  "7": []
+}
