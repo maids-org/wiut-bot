@@ -2,9 +2,9 @@
   "0": [],
   "1": [
     {
-      "name": "Online / Project Management",
+      "name": "Project Management",
       "tutor": "Iroda Komilova",
-      "type": "lecture",
+      "type": "online lecture",
       "start": 13.0,
       "length": 1.0,
       "location": "IB311"
@@ -36,9 +36,9 @@
       "location": "SHB301"
     },
     {
-      "name": "Online",
+      "name": "Fixed Income Securities",
       "tutor": "Saidgozi Saydumarov",
-      "type": "lecture",
+      "type": "online lecture",
       "start": 15.0,
       "length": 1.0,
       "location": "IB301"

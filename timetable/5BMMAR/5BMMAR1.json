@@ -42,7 +42,7 @@
       "tutor": "Lilya Memesheva",
       "type": "online lecture",
       "start": 9.0,
-      "length": 1.0,
+      "length": 2.0,
       "location": "IB208 CL"
     },
     {
@@ -52,14 +52,6 @@
       "start": 9.0,
       "length": 1.0,
       "location": "ATB209"
-    },
-    {
-      "name": "Financial Accounting",
-      "tutor": "Lilya Memesheva",
-      "type": "online lecture",
-      "start": 10.0,
-      "length": 1.0,
-      "location": "IB208 CL"
     },
     {
       "name": "Introduction to Management and Organisational Behaviour",

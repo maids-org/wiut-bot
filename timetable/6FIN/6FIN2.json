@@ -28,9 +28,9 @@
       "location": "ATB214 CL"
     },
     {
-      "name": "Online",
+      "name": "Fixed Income Securities",
       "tutor": "Saidgozi Saydumarov",
-      "type": "lecture",
+      "type": "online lecture",
       "start": 15.0,
       "length": 1.0,
       "location": "IB301"

@@ -18,9 +18,9 @@
       "location": "IB311"
     },
     {
-      "name": "Online / Project Management",
+      "name": "Project Management",
       "tutor": "Iroda Komilova",
-      "type": "lecture",
+      "type": "online lecture",
       "start": 13.0,
       "length": 1.0,
       "location": "IB311"
@@ -56,13 +56,13 @@
       "tutor": "Ulugbek Islamov",
       "type": "seminar",
       "start": 15.0,
-      "length": 1.0,
+      "length": 2.0,
       "location": "ATB214 CL"
     },
     {
-      "name": "Online",
+      "name": "Fixed Income Securities",
       "tutor": "Saidgozi Saydumarov",
-      "type": "lecture",
+      "type": "online lecture",
       "start": 15.0,
       "length": 1.0,
       "location": "IB301"
@@ -74,14 +74,6 @@
       "start": 15.0,
       "length": 2.0,
       "location": "IB215 CL"
-    },
-    {
-      "name": "Project Management",
-      "tutor": "Ulugbek Islamov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 1.0,
-      "location": "ATB214 CL"
     },
     {
       "name": "Project Management",
