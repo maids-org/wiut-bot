@@ -11,15 +11,10 @@ jobs:
     steps:
       - name: Initialize everything
       - uses: actions/checkout@v2
-      - uses: actions/checkout@v2
-        with:
-          repository: mad-maids/maid.felix
-          path: new-timetable
       - uses: actions/setup-node@v2
         with:
           node-version: 16
-
-      - name: Install yarn dependencies
+      - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
       - uses: actions/cache@v2
@@ -28,15 +23,16 @@ jobs:
           key: web-${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             web-${{ runner.os }}-yarn-
-      - run: yarn --frozen-lockfile
-
+      - uses: actions/checkout@v2
+        with:
+          repository: mad-maids/maid.felix
+          path: new-timetable
       - name: Update the timetable
       - run: |
           rm -rf timetable
           mv new-timetable/data timetable
           rm -rf new-timetable
       - run: yarn format
-
       - name: Apply the changes
       - run: |
           git config user.name github-actions
