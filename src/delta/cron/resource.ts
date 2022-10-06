@@ -12,7 +12,7 @@ export const message = (isTenMinuteLeft: boolean, subject, group) =>
       `\n` +
       `\n` +
       `The class is going to be held by <b>${subject.tutor}</b> ${
-        subject.type === "online"
+        subject.type === "online lecture"
           ? "on the internet <b>online</b>"
           : `at <code>${subject.location}</code>`
       } \n`
@@ -23,7 +23,7 @@ export const message = (isTenMinuteLeft: boolean, subject, group) =>
       `\n` +
       `\n` +
       `The class is going to be held by <b>${subject.tutor}</b> ${
-        subject.type === "online"
+        subject.type === "online lecture"
           ? "on the internet <b>online</b>"
           : `at <code>${subject.location}</code>`
       } \n`;
