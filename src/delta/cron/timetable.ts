@@ -16,9 +16,7 @@ import * as resource from "./resource";
           async () => {
             await bot.telegram
               .sendMessage(
-                (
-                  await dungeon.getByMod(group)
-                ).id,
+                (await dungeon.getByMod(group)).id,
                 resource.message(false, subject, group),
                 {
                   reply_markup: resource.keyboard(
@@ -41,9 +39,7 @@ import * as resource from "./resource";
           async () => {
             await bot.telegram
               .sendMessage(
-                (
-                  await dungeon.getByMod(group)
-                ).id,
+                (await dungeon.getByMod(group)).id,
                 resource.message(true, subject, group),
                 {
                   reply_markup: resource.keyboard(
