@@ -8,9 +8,6 @@ export const message = (isTenMinuteLeft: boolean, subject, group) =>
       `Please, get ready as soon as possible!` +
       `\n` +
       `\n` +
-      `It's up to you, whether you will you attend classes online on intranet or offline on campus. However, administration want you to attend classes offline.` +
-      `\n` +
-      `\n` +
       `The class is going to be held by <b>${subject.tutor}</b> ${
         subject.type === "online lecture"
           ? "on the internet <b>online</b>"
