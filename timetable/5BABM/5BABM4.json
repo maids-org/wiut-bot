@@ -23,7 +23,7 @@
       "type": "seminar",
       "start": 12.0,
       "length": 2.0,
-      "location": "IB216"
+      "location": "IB307"
     },
     {
       "name": "Introduction to Management and Organisational Behaviour",
@@ -99,7 +99,7 @@
       "type": "workshop",
       "start": 11.0,
       "length": 2.0,
-      "location": "IB101"
+      "location": "IB307"
     },
     {
       "name": "Management Accounting",

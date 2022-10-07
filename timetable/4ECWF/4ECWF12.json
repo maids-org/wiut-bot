@@ -67,11 +67,11 @@
   "5": [
     {
       "name": "Introduction to Statistics and Data Science",
-      "tutor": "Otabek Otajonov",
+      "tutor": "Otajon Otabekov",
       "type": "seminar",
-      "start": 16.0,
+      "start": 14.0,
       "length": 2.0,
-      "location": "IB309"
+      "location": "SHB503"
     }
   ],
   "6": [],

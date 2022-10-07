@@ -3,11 +3,11 @@
   "1": [
     {
       "name": "Cross Cultural Management",
-      "tutor": "Natalie Solveig Mikhaylov",
+      "tutor": "Olesya Smagina",
       "type": "seminar",
-      "start": 10.0,
+      "start": 12.0,
       "length": 2.0,
-      "location": "ATB302"
+      "location": "IB307"
     }
   ],
   "2": [
@@ -30,6 +30,14 @@
   ],
   "3": [
     {
+      "name": "Cross Cultural Management",
+      "tutor": "Olesya Smagina",
+      "type": "workshop",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB307"
+    },
+    {
       "name": "Marketing Management",
       "tutor": "Makhsuma Abdullaeva",
       "type": "seminar",
@@ -47,14 +55,6 @@
     }
   ],
   "4": [
-    {
-      "name": "Cross Cultural Management",
-      "tutor": "Natalie Solveig Mikhaylov",
-      "type": "workshop",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "ATB304"
-    },
     {
       "name": "Quality and Operations Management",
       "tutor": "Shakhnoza Asadova",
