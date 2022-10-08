@@ -33,7 +33,7 @@
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "ATB218"
+      "location": "IB202 CL"
     },
     {
       "name": "Project Management",
@@ -41,7 +41,7 @@
       "type": "workshop",
       "start": 11.0,
       "length": 1.0,
-      "location": "ATB218"
+      "location": "IB202 CL"
     },
     {
       "name": "Machine Learning and Data Analytics",

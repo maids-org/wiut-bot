@@ -44,20 +44,20 @@
       "location": "ATB309"
     },
     {
-      "name": "Cross Cultural Management",
-      "tutor": "Natalie Solveig Mikhaylov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB304"
-    },
-    {
       "name": "Comercial and Corporate Law",
       "tutor": "Nargiza Abdurakhmanova",
       "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "IB310"
+    },
+    {
+      "name": "Cross Cultural Management",
+      "tutor": "Kamola Ibragimova",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB304"
     }
   ],
   "3": [
@@ -105,7 +105,7 @@
     },
     {
       "name": "Cross Cultural Management",
-      "tutor": "Natalie Solveig Mikhaylov",
+      "tutor": "Kamola Ibragimova",
       "type": "workshop",
       "start": 14.0,
       "length": 2.0,
