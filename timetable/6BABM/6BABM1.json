@@ -21,7 +21,15 @@
   "2": [
     {
       "name": "Negotiations and Influence",
-      "tutor": "Natalie Solveig Mikhaylov",
+      "tutor": "Timur Perkov",
+      "type": "workshop",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB218"
+    },
+    {
+      "name": "Negotiations and Influence",
+      "tutor": "Timur Perkov",
       "type": "seminar",
       "start": 12.0,
       "length": 2.0,
@@ -96,14 +104,6 @@
       "start": 15.0,
       "length": 1.0,
       "location": "IB202 CL"
-    },
-    {
-      "name": "Negotiations and Influence",
-      "tutor": "Natalie Solveig Mikhaylov",
-      "type": "workshop",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "ATB307"
     }
   ],
   "6": [],

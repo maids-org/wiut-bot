@@ -30,6 +30,14 @@
   ],
   "3": [
     {
+      "name": "Academic English",
+      "tutor": "Saida Akbarova",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "SHB206 H"
+    },
+    {
       "name": "Developing Professional  Identity",
       "tutor": "Jasur Khudoyberdiev",
       "type": "seminar",
@@ -38,16 +46,7 @@
       "location": "SHB207"
     }
   ],
-  "4": [
-    {
-      "name": "Academic English",
-      "tutor": "Saida Akbarova",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "SHB407"
-    }
-  ],
+  "4": [],
   "5": [
     {
       "name": "I, Citizen",
