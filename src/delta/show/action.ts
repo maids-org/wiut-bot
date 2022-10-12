@@ -15,6 +15,8 @@ composer.action(/show_(.+)/gi, async (ctx: TelegrafContext) => {
     return await ctx.answerCbQuery(resource.message.notAdmin);
   }
 
+  console.log(ctx.match[1]);
+
   switch (ctx.match[1]) {
     case "on":
       await dungeon.toggleShow(ctx.chat.id, true);
