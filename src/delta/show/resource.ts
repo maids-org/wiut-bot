@@ -13,5 +13,5 @@ export const message = {
 export const keyboard = (mode: boolean) =>
   Markup.inlineKeyboard([
     Markup.callbackButton(`Show ${mode ? "✅" : ""}`, "show_on"),
-    Markup.callbackButton(`Hide ${mode ? "" : "✅"}`, "show_on"),
+    Markup.callbackButton(`Hide ${mode ? "" : "✅"}`, "show_off"),
   ]);
