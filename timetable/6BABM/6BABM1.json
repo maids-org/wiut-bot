@@ -72,20 +72,20 @@
   ],
   "4": [
     {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "SHB206 H"
+    },
+    {
       "name": "Cross Cultural Management",
       "tutor": "Kamola Ibragimova",
       "type": "workshop",
       "start": 14.0,
       "length": 2.0,
       "location": "ATB312"
-    },
-    {
-      "name": "Dissertation",
-      "tutor": "Julian Pinerez",
-      "type": "lecture",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "Harvard306"
     }
   ],
   "5": [

@@ -112,12 +112,20 @@
   ],
   "4": [
     {
-      "name": "Quality and Operations Management",
-      "tutor": "Shakhnoza Asadova",
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "SHB206 H"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
       "type": "seminar",
-      "start": 11.0,
+      "start": 10.0,
       "length": 2.0,
-      "location": "IB101"
+      "location": "SHB408 CL"
     },
     {
       "name": "New Venture Creation",
@@ -128,28 +136,12 @@
       "location": "ATB314"
     },
     {
-      "name": "Dissertation",
-      "tutor": "Julian Pinerez",
-      "type": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "ATB211"
-    },
-    {
       "name": "Fixed Income Securities",
       "tutor": "Saidgozi Saydumarov",
       "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "IB216"
-    },
-    {
-      "name": "Dissertation",
-      "tutor": "Julian Pinerez",
-      "type": "lecture",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "Harvard306"
     },
     {
       "name": "Fixed Income Securities",
@@ -161,6 +153,14 @@
     }
   ],
   "5": [
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Shakhnoza Asadova",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB302"
+    },
     {
       "name": "Applied Corporate Finance",
       "tutor": "Murtaza Niazi",

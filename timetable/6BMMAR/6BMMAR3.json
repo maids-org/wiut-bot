@@ -72,6 +72,14 @@
   ],
   "4": [
     {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "SHB206 H"
+    },
+    {
       "name": "Quality and Operations Management",
       "tutor": "Shakhnoza Asadova",
       "type": "seminar",
@@ -86,14 +94,6 @@
       "start": 14.0,
       "length": 2.0,
       "location": "IB215 CL"
-    },
-    {
-      "name": "Dissertation",
-      "tutor": "Julian Pinerez",
-      "type": "lecture",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "Harvard306"
     }
   ],
   "5": [

@@ -55,7 +55,7 @@
   "3": [
     {
       "name": "Financial Reporting",
-      "tutor": "Jamshid Nasretdinov",
+      "tutor": "Ravshan Kakharov",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
@@ -63,7 +63,7 @@
     },
     {
       "name": "Financial Reporting",
-      "tutor": "Jamshid Nasretdinov",
+      "tutor": "Ravshan Kakharov",
       "type": "workshop",
       "start": 11.0,
       "length": 1.0,
@@ -80,6 +80,14 @@
   ],
   "4": [
     {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "type": "lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "SHB206 H"
+    },
+    {
       "name": "Applied Corporate Finance",
       "tutor": "Murtaza Niazi",
       "type": "seminar",
@@ -94,14 +102,6 @@
       "start": 15.0,
       "length": 1.0,
       "location": "ATB214 CL"
-    },
-    {
-      "name": "Dissertation",
-      "tutor": "Julian Pinerez",
-      "type": "lecture",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "Harvard306"
     }
   ],
   "5": [
