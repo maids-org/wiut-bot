@@ -10,9 +10,9 @@ export const message = (isEdited: boolean, page?: number | string) =>
 
 export const keyboard = async (page: number): Promise<InlineKeyboardMarkup> => {
   const data = {
-    previous: await dungeon.getAllByCursor(10, (page - 1) * 10),
-    current: await dungeon.getAllByCursor(10, page * 10),
-    next: await dungeon.getAllByCursor(10, (page + 1) * 10),
+    previous: await dungeon.getAllVisibleByCursor(10, (page - 1) * 10),
+    current: await dungeon.getAllVisibleByCursor(10, page * 10),
+    next: await dungeon.getAllVisibleByCursor(10, (page + 1) * 10),
   };
 
   return Markup.inlineKeyboard([

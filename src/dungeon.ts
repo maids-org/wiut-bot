@@ -51,6 +51,31 @@ export default class Dungeon {
   }
 
   /**
+   * Get all visible group data from the Dungeon with Pagination.
+   * @returns Promise<Group[]>
+   */
+  async getAllVisibleByCursor(
+    limit?: number,
+    cursor?: number
+  ): Promise<Group[]> {
+    const config = {
+      limit: Number(limit) > 0 && Number(limit) <= 100 ? Number(limit) : 100,
+      cursor: Number(cursor) > 0 ? Number(cursor) : 0,
+    };
+
+    const { data: Groups, error } = await this.client
+      .from("Groups")
+      .select("*")
+      .eq("show", true)
+      .order("module")
+      .range(config.cursor, config.cursor + config.limit - 1);
+
+    if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
+
+    return Groups;
+  }
+
+  /**
    * Get all group ID from the Dungeon.
    * @returns Promise<OnlyId[]>
    */
@@ -124,7 +149,7 @@ export default class Dungeon {
   async newGroup(id: number, module: string, link: string): Promise<Group[]> {
     const { data: Group, error } = await this.client
       .from("Groups")
-      .insert([{ id, module, link }]);
+      .insert([{ id, module, link, show: true }]);
 
     if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
 
@@ -209,5 +234,22 @@ export default class Dungeon {
     if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
 
     return Admin;
+  }
+
+  /**
+   * Toggles the boolean "show" field.
+   * @param id The ID of the group chat
+   * @param show The show mode of the chat
+   * @returns Promise<Admin[]>
+   */
+  async toggleShow(id: number, show: boolean): Promise<Group> {
+    const { data: Group, error } = await this.client
+      .from("Groups")
+      .update({ show })
+      .match({ id: id });
+
+    if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
+
+    return Group[0];
   }
 }

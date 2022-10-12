@@ -10,6 +10,7 @@ export interface Group {
   id?: number;
   module?: string;
   link?: string;
+  show?: boolean;
 }
 
 export interface Admin {

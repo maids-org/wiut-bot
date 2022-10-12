@@ -1,5 +1,6 @@
 import "@delta/start";
 import "@delta/help";
+import "@delta/show";
 import "@delta/cron";
 import "@delta/send";
 import "@delta/stats";
