@@ -2,20 +2,15 @@ import { composer, dungeon, middleware } from "@src/core";
 import * as consoles from "@src/utils";
 import * as resource from "./resource";
 import { TelegrafContext } from "telegraf/typings/context";
-import { OnlyId } from "@type/dungeon";
 
 composer.action(/show_(.+)/gi, async (ctx: TelegrafContext) => {
   if (!(await dungeon.getAllID()).map((id) => id.id).includes(ctx.chat.id)) {
     return await ctx.editMessageText(resource.message.notRegistered);
   }
 
-  const admins = (await dungeon.getAllAdmins()).map((user: OnlyId) => user.id);
-
-  if (!admins.includes(ctx.from.id)) {
+  if (!(await resource.isAdmin(ctx))) {
     return await ctx.answerCbQuery(resource.message.notAdmin);
   }
-
-  console.log(ctx.match[1]);
 
   switch (ctx.match[1]) {
     case "on":
