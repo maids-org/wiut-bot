@@ -2,22 +2,22 @@
   "0": [],
   "1": [
     {
-      "name": "I, Citizen",
-      "tutor": "Ijobat Juraeva",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "SHB301"
-    }
-  ],
-  "2": [
-    {
       "name": "Quantitative Methods",
       "tutor": "Indira Khadjieva",
       "type": "online lecture",
       "start": 9.0,
       "length": 2.0,
       "location": "IB311"
+    }
+  ],
+  "2": [
+    {
+      "name": "I, Citizen",
+      "tutor": "Kamola Muradkasimova",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB207"
     }
   ],
   "3": [

@@ -8,14 +8,6 @@
       "start": 9.0,
       "length": 2.0,
       "location": "IB311"
-    },
-    {
-      "name": "I, Citizen",
-      "tutor": "Ijobat Juraeva",
-      "type": "seminar",
-      "start": 12.0,
-      "length": 2.0,
-      "location": "SHB207"
     }
   ],
   "2": [
@@ -46,6 +38,14 @@
       "start": 9.0,
       "length": 2.0,
       "location": "SHB503"
+    },
+    {
+      "name": "I, Citizen",
+      "tutor": "Shodiya Inakhodjaeva",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB304"
     }
   ],
   "5": [
