@@ -11,7 +11,9 @@ composer.action(/setup_(.+)/gi, async (ctx: TelegrafContext) => {
   const answer: boolean = ctx.match[1] === "yes";
 
   if (!answer) {
-    return await ctx.editMessageText(`<i>Ok...</i>`);
+    return await ctx.editMessageText(`<i>Ok...</i>`, {
+      parse_mode: "HTML",
+    });
   }
 
   if (!(await resource.isAdmin(ctx))) {
