@@ -17,6 +17,10 @@ export const message = (isAdmin: boolean): string => {
     `\n` +
     `/revoke - <code>reset this group's link</code>` +
     `\n` +
+    `/show - <code>show group|hide at /group</code>` +
+    `\n` +
+    `/setup - <code>let the bot do all dirty work</code>` +
+    `\n` +
     `/register - <code>register this group</code>` +
     `\n` +
     `/timetable - <code>today's timetable</code>` +
