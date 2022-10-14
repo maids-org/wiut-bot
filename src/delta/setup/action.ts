@@ -28,9 +28,7 @@ composer.action(/setup_(.+)/gi, async (ctx: TelegrafContext) => {
 
   await ctx.telegram.callApi("setChatPhoto", {
     chat_id: ctx.chat.id,
-    photo: {
-      source: `https://og.maid.uz/group?name=${group.module}`,
-    },
+    photo: `https://og.maid.uz/group?name=${group.module}`,
   });
 
   await ctx.telegram.callApi("setChatTitle", {
@@ -41,6 +39,10 @@ composer.action(/setup_(.+)/gi, async (ctx: TelegrafContext) => {
   await ctx.telegram.callApi("setChatDescription", {
     chat_id: ctx.chat.id,
     description: `Telegram group chat created for ${group.module}. Please, use /show command to hide or make group public~ Powered by Mad Maids!`,
+  });
+
+  await ctx.editMessageText(`<i>Done!</i>`, {
+    parse_mode: "HTML",
   });
 });
 
