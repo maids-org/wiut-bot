@@ -12,6 +12,8 @@ composer.command(`setup`, async (ctx: TelegrafContext) => {
     return await ctx.replyWithHTML(resource.message.noPrivate);
   }
 
+  console.log(ctx.chat.type === "private" || ctx.chat.type === "channel");
+
   if (!(await resource.isUserAdmin(ctx, ctx.from.id))) {
     return await ctx.replyWithHTML(resource.message.notAdmin);
   }
