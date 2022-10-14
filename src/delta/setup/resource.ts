@@ -30,7 +30,7 @@ export const message = {
   notRegistered: `<b>This group is not registered to our database</b> Use /register to register this group`,
   commandNoChangePerm:
     '<b>Are you kidding with me? You gave me admin, but with no</b> <i>"Change info & details"</i> <b>permission, huh?</b>',
-  notAdmin: `You don't <b>enough privileges</b> to run that comand`,
+  notAdmin: `You don't <b>enough privileges</b> to run that command`,
   noPrivate: `<b>Command can't be called on private chat or channels</b>`,
 };
 
