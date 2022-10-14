@@ -1,14 +1,14 @@
 import { composer, dungeon, middleware } from "@src/core";
 import * as consoles from "@src/utils";
 import * as resource from "./resource";
-import { TelegrafContext } from "telegraf/typings/context";
+import { TelegrafContext } from "@type/telegraf";
 
 composer.action(/show_(.+)/gi, async (ctx: TelegrafContext) => {
   if (!(await dungeon.getAllID()).map((id) => id.id).includes(ctx.chat.id)) {
     return await ctx.editMessageText(resource.message.notRegistered);
   }
 
-  if (!(await resource.isAdmin(ctx))) {
+  if (!(await resource.isAdmin(ctx, ctx.from.id))) {
     return await ctx.answerCbQuery(resource.message.notAdmin);
   }
 

@@ -8,7 +8,7 @@ composer.command("show", async (ctx: TelegrafContext) => {
     return await ctx.replyWithHTML(resource.message.notRegistered);
   }
 
-  if (!(await resource.isAdmin(ctx))) {
+  if (!(await resource.isAdmin(ctx, ctx.from.id))) {
     return await ctx.replyWithHTML(resource.message.notAdmin);
   }
 

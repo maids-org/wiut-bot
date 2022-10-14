@@ -1,13 +1,11 @@
 import { Markup } from "telegraf";
-import { TelegrafContext } from "telegraf/typings/context";
+import { TelegrafContext } from "@type/telegraf";
 
 export const admins = async (ctx: TelegrafContext) =>
   await ctx.telegram.getChatAdministrators(ctx.chat.id);
 
-export const isAdmin = async (ctx: TelegrafContext) => {
-  return (await admins(ctx))
-    .map((admin) => admin.user.id)
-    .includes((await ctx.telegram.getMe()).id);
+export const isAdmin = async (ctx: TelegrafContext, target: number) => {
+  return (await admins(ctx)).map((admin) => admin.user.id).includes(target);
 };
 
 export const message = {

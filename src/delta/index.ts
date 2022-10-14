@@ -14,5 +14,8 @@ import "@delta/register";
 import "@delta/timetable";
 import "@delta/contribute";
 
+// Testing commands
+import "@delta/setup";
+
 // Exclude must be last
 import "@delta/exclude";
