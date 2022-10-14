@@ -8,6 +8,10 @@ composer.command(`setup`, async (ctx: TelegrafContext) => {
     return await ctx.replyWithHTML(resource.message.notRegistered);
   }
 
+  if (ctx.chat.type === "private" || ctx.chat.type === "channel") {
+    return await ctx.replyWithHTML(resource.message.noPrivate);
+  }
+
   if (!(await resource.isUserAdmin(ctx, ctx.from.id))) {
     return await ctx.replyWithHTML(resource.message.notAdmin);
   }

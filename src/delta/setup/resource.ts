@@ -31,6 +31,7 @@ export const message = {
   commandNoChangePerm:
     '<b>Are you kidding with me? You gave me admin, but with no</b> <i>"Change info & details"</i> <b>permission, huh?</b>',
   notAdmin: `You don't <b>enough privileges</b> to see servers stats`,
+  noPrivate: `<b>Command can't be called on private chat or channels</b>`,
 };
 
 export const keyboard = Markup.inlineKeyboard([
