@@ -28,7 +28,10 @@ composer.action(/setup_(.+)/gi, async (ctx: TelegrafContext) => {
 
   await ctx.telegram.callApi("setChatPhoto", {
     chat_id: ctx.chat.id,
-    photo: `https://og.maid.uz/group?name=${group.module}`,
+    photo: {
+      url: `https://og.maid.uz/group?name=${group.module}`,
+      filename: `${group.module}.png`,
+    },
   });
 
   await ctx.telegram.callApi("setChatTitle", {
