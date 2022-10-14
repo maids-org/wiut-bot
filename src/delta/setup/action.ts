@@ -34,17 +34,23 @@ composer.action(/setup_(.+)/gi, async (ctx: TelegrafContext) => {
     },
   });
 
-  await ctx.telegram.callApi("setChatTitle", {
-    chat_id: ctx.chat.id,
-    title: `The ${group.module}`,
-  });
+  const title = `The ${group.module}`;
+  if (title !== ctx.chat.title) {
+    await ctx.telegram.callApi("setChatTitle", {
+      chat_id: ctx.chat.id,
+      title,
+    });
+  }
 
-  await ctx.telegram.callApi("setChatDescription", {
-    chat_id: ctx.chat.id,
-    description: `Telegram group chat created for ${group.module}. Please, use /show command to hide or make group public~ Powered by Mad Maids!`,
-  });
+  const description = `Telegram group chat created for ${group.module}. Please, use /show command to hide or make group public~ Powered by Mad Maids!`;
+  if (description !== ctx.chat.description) {
+    await ctx.telegram.callApi("setChatDescription", {
+      chat_id: ctx.chat.id,
+      description,
+    });
+  }
 
-  await ctx.editMessageText(`<i>Done!</i>`, {
+  await ctx.editMessageText(`✨ <i>Done!</i> ✨`, {
     parse_mode: "HTML",
   });
 });
