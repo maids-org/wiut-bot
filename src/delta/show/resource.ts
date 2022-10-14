@@ -10,7 +10,7 @@ export const isAdmin = async (ctx: TelegrafContext, target: number) => {
 
 export const message = {
   notRegistered: `<b>This group is not registered to our database</b> Use /register to register this group`,
-  notAdmin: `You don't <b>enough privileges</b> to see servers stats`,
+  notAdmin: `You don't <b>enough privileges</b> to change this kind of properties`,
   text: `<b>Choose whether shall we show your group at /group command or not...</b>`,
   call: (newMode: boolean) =>
     `<b>Choose whether shall we show your group at /group command or not...</b>` +
