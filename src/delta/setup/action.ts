@@ -11,7 +11,7 @@ composer.action(/setup_(.+)/gi, async (ctx: TelegrafContext) => {
   const answer: boolean = ctx.match[1] === "yes";
 
   if (!answer) {
-    return await ctx.deleteMessage(ctx.message.message_id);
+    return await ctx.editMessageText(`<i>Ok...</i>`);
   }
 
   if (!(await resource.isAdmin(ctx))) {
