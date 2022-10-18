@@ -106,20 +106,20 @@
   ],
   "5": [
     {
+      "name": "Mobile Application Development",
+      "tutor": "Valeriya Tsoy",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "SHB303 CL"
+    },
+    {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Ulugbek Rakhimov",
       "type": "seminar",
       "start": 13.0,
       "length": 2.0,
       "location": "ATB218"
-    },
-    {
-      "name": "Mobile Application Development",
-      "tutor": "Valeriya Tsoy",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "SHB304 CL"
     }
   ],
   "6": [],

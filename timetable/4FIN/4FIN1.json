@@ -26,7 +26,16 @@
       "location": "IB301"
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Azamat Salomov",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB316"
+    }
+  ],
   "3": [
     {
       "name": "Global  Business Environment",
@@ -37,16 +46,7 @@
       "location": "ATB307"
     }
   ],
-  "4": [
-    {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Rustam Suleymanov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB309"
-    }
-  ],
+  "4": [],
   "5": [
     {
       "name": "Financial Accounting",
