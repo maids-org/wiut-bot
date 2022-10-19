@@ -59,7 +59,7 @@
       "name": "Dissertation",
       "tutor": "Julian Pinerez",
       "type": "lecture",
-      "start": 9.0,
+      "start": 10.0,
       "length": 1.0,
       "location": "SHB206 H"
     },
@@ -67,7 +67,7 @@
       "name": "Dissertation",
       "tutor": "Julian Pinerez",
       "type": "seminar",
-      "start": 10.0,
+      "start": 11.0,
       "length": 2.0,
       "location": "SHB408 CL"
     }

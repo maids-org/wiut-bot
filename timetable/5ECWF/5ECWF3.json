@@ -20,6 +20,14 @@
   ],
   "2": [
     {
+      "name": "Intermediate Microeconomics",
+      "tutor": "Jahongir Negmatov",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB311"
+    },
+    {
       "name": "Management Accounting",
       "tutor": "Feruza Yodgorova",
       "type": "seminar",
@@ -63,14 +71,6 @@
       "start": 13.0,
       "length": 2.0,
       "location": "ATB314"
-    },
-    {
-      "name": "Intermediate Microeconomics",
-      "tutor": "Jahongir Negmatov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB302"
     }
   ],
   "6": [
