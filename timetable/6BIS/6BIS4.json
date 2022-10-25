@@ -80,6 +80,14 @@
       "location": "SHB305 CL"
     },
     {
+      "name": "Distributed Systems and Cloud Computing",
+      "tutor": "Isomiddin Abdunabiev",
+      "type": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "SHB305 CL"
+    },
+    {
       "name": "Business Information Systems Project",
       "tutor": "Shodiyabegim Bakhtiyorzoda",
       "type": "seminar",
@@ -104,14 +112,6 @@
       "start": 10.0,
       "length": 1.0,
       "location": "SHB206 H"
-    },
-    {
-      "name": "Distributed Systems and Cloud Computing",
-      "tutor": "Isomiddin Abdunabiev",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "SHB304 CL"
     },
     {
       "name": "Game Development",
