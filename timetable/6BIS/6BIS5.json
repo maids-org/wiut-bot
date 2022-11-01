@@ -44,14 +44,6 @@
       "location": "IB202 CL"
     },
     {
-      "name": "Developing Digital Enterprise",
-      "tutor": "Jakhongir Karimov",
-      "type": "seminar",
-      "start": 13.0,
-      "length": 2.0,
-      "location": "SHB304 CL"
-    },
-    {
       "name": "Machine Learning and Data Analytics",
       "tutor": "Hamid Shakhbazkia",
       "type": "seminar",
@@ -61,6 +53,14 @@
     }
   ],
   "3": [
+    {
+      "name": "Developing Digital Enterprise",
+      "tutor": "Jakhongir Karimov",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "SHB304 CL"
+    },
     {
       "name": "Machine Learning and Data Analytics",
       "tutor": "Hamid Shakhbazkia",

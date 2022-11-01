@@ -93,7 +93,7 @@
       "name": "Project Management",
       "tutor": "Iroda Komilova",
       "type": "seminar",
-      "start": 13.0,
+      "start": 14.0,
       "length": 2.0,
       "location": "IB202 CL"
     },
@@ -101,7 +101,7 @@
       "name": "Project Management",
       "tutor": "Iroda Komilova",
       "type": "workshop",
-      "start": 15.0,
+      "start": 16.0,
       "length": 1.0,
       "location": "IB202 CL"
     }

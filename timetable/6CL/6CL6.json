@@ -1,15 +1,6 @@
 {
   "0": [],
-  "1": [
-    {
-      "name": "International Economic Law",
-      "tutor": "Nargiza Abdurakhmanova",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB308"
-    }
-  ],
+  "1": [],
   "2": [
     {
       "name": "International Economic Law",
@@ -46,6 +37,14 @@
       "start": 13.0,
       "length": 2.0,
       "location": "IB301"
+    },
+    {
+      "name": "International Economic Law",
+      "tutor": "Khasan Sayfuddinov",
+      "type": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB309"
     }
   ],
   "5": [

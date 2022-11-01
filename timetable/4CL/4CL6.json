@@ -10,16 +10,7 @@
       "location": "SHB206 H"
     }
   ],
-  "2": [
-    {
-      "name": "Legal Skills",
-      "tutor": "Davron Abdigapparov",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB313"
-    }
-  ],
+  "2": [],
   "3": [
     {
       "name": "Public Law",
@@ -56,6 +47,14 @@
       "start": 9.0,
       "length": 2.0,
       "location": "IB301"
+    },
+    {
+      "name": "Legal Skills",
+      "tutor": "Davron Abdigapparov",
+      "type": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB215 CL"
     }
   ],
   "6": [],
