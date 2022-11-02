@@ -44,20 +44,20 @@
       "location": "ATB309"
     },
     {
-      "name": "Comercial and Corporate Law",
-      "tutor": "Nargiza Abdurakhmanova",
-      "type": "seminar",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB310"
-    },
-    {
       "name": "Cross Cultural Management",
       "tutor": "Kamola Ibragimova",
       "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "ATB304"
+    },
+    {
+      "name": "Comercial and Corporate Law",
+      "tutor": "Davron Abdigapparov",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB310"
     }
   ],
   "3": [
@@ -131,7 +131,7 @@
   "5": [
     {
       "name": "Comercial and Corporate Law",
-      "tutor": "Nargiza Abdurakhmanova",
+      "tutor": "Davron Abdigapparov",
       "type": "seminar",
       "start": 9.0,
       "length": 2.0,
