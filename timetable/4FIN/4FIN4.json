@@ -38,6 +38,14 @@
   ],
   "3": [
     {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Farrukh Ataev",
+      "type": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB218"
+    },
+    {
       "name": "Global  Business Environment",
       "tutor": "Dilshoda Rakhmonova",
       "type": "seminar",
@@ -47,16 +55,7 @@
     }
   ],
   "4": [],
-  "5": [
-    {
-      "name": "Introduction to Statistics and Data Science",
-      "tutor": "Farrukh Ataev",
-      "type": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "ATB309"
-    }
-  ],
+  "5": [],
   "6": [],
   "7": []
 }
