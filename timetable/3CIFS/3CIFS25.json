@@ -8,14 +8,6 @@
       "start": 9.0,
       "length": 2.0,
       "location": "IB306"
-    },
-    {
-      "name": "Academic English",
-      "tutor": "John Cena",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "ATB312"
     }
   ],
   "2": [
@@ -26,17 +18,17 @@
       "start": 9.0,
       "length": 2.0,
       "location": "IB311"
+    },
+    {
+      "name": "Academic English",
+      "tutor": "Gunjan Jain",
+      "type": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "SHB404"
     }
   ],
   "3": [
-    {
-      "name": "Academic English",
-      "tutor": "John Cena",
-      "type": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "SHB206 H"
-    },
     {
       "name": "Developing Professional  Identity",
       "tutor": "Jasur Khudoyberdiev",
@@ -46,7 +38,16 @@
       "location": "SHB207"
     }
   ],
-  "4": [],
+  "4": [
+    {
+      "name": "Academic English",
+      "tutor": "Gunjan Jain",
+      "type": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "SHB407"
+    }
+  ],
   "5": [
     {
       "name": "I, Citizen",
