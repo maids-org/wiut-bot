@@ -32,7 +32,7 @@ export const keyboard = (isTenMinuteLeft: boolean, link: string) =>
         [
           Markup.urlButton(
             "Open the intranet for online",
-            `https://intranet.wiut.uz/UserModuleMaterials`
+            `https://intranet.wiut.uz/UserModuleMaterials`,
           ),
         ],
       ])

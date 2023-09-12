@@ -8,7 +8,7 @@ composer.action(/confirm_yes_(.+)/gi, async (ctx: TelegrafContext) => {
     await dungeon.newGroup(
       ctx.chat.id,
       ctx.match[1],
-      await ctx.exportChatInviteLink()
+      await ctx.exportChatInviteLink(),
     );
     await ctx.editMessageText(await resource.message.accept(true), {
       parse_mode: "HTML",

@@ -9,13 +9,13 @@ composer.command(`timetable`, async (ctx: TelegrafContext) => {
     return await ctx.replyWithHTML(
       `<b>Look honey, there are tons of telegram users and me as a clueless maiden bot, ` +
         `I can't differentiate you which group from you are. ` +
-        `Please, run this command on your group chat, and then I can help you! Kiss 😘</b>`
+        `Please, run this command on your group chat, and then I can help you! Kiss 😘</b>`,
     );
   }
 
   if (!(await dungeon.getAllID()).map((id) => id.id).includes(ctx.chat.id)) {
     return await ctx.replyWithHTML(
-      "<b>This group is not registered to our database</b> Use /register to register this group"
+      "<b>This group is not registered to our database</b> Use /register to register this group",
     );
   }
 
@@ -30,7 +30,7 @@ composer.command(`timetable`, async (ctx: TelegrafContext) => {
       {
         disable_web_page_preview: true,
         reply_markup: await resource.keyboard(timetable, tomorrow, false),
-      }
+      },
     );
   } catch (error) {
     consoles.errors(error);

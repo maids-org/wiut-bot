@@ -45,7 +45,7 @@ composer.command("send", async (ctx: TelegrafContext) => {
   }
 
   return await ctx.replyWithHTML(
-    `Done. Sent to ${groups} groups out of ${chats.length}...`
+    `Done. Sent to ${groups} groups out of ${chats.length}...`,
   );
 });
 

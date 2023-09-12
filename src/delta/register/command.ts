@@ -84,11 +84,11 @@ composer.command("revoke", async (ctx: TelegrafContext) => {
 
   // Check is requester admin or not
   const admins = (await ctx.getChatAdministrators()).map(
-    (user) => user.user.id
+    (user) => user.user.id,
   );
   if (!admins.includes(ctx.message.from.id)) {
     return await ctx.replyWithHTML(
-      `<b>Hold on bud, you're not admin to do this action!`
+      `<b>Hold on bud, you're not admin to do this action!`,
     );
   }
 
@@ -106,11 +106,11 @@ composer.command("revoke", async (ctx: TelegrafContext) => {
   try {
     await dungeon.updateLink(ctx.chat.id, invite);
     await ctx.replyWithHTML(
-      `<b>I'm done bud! Don't worry to call me again if something happens with invite link!</b>`
+      `<b>I'm done bud! Don't worry to call me again if something happens with invite link!</b>`,
     );
   } catch (e) {
     await ctx.replyWithHTML(
-      `<b>I can't create an invite link for some reason!</b>`
+      `<b>I can't create an invite link for some reason!</b>`,
     );
   }
 });

@@ -56,7 +56,7 @@ export default class Dungeon {
    */
   async getAllVisibleByCursor(
     limit?: number,
-    cursor?: number
+    cursor?: number,
   ): Promise<Group[]> {
     const config = {
       limit: Number(limit) > 0 && Number(limit) <= 100 ? Number(limit) : 100,

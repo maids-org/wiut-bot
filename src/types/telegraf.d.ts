@@ -24,7 +24,7 @@ declare module "telegraf" {
     message?: IM;
     replyWithAnimation(
       animation: tt.InputFile,
-      extra?: ExtraAnimation
+      extra?: ExtraAnimation,
     ): Promise<tt.MessageAnimation>;
     startPayload?: string;
     scene: SceneContext<this>;

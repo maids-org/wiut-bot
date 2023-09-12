@@ -6,7 +6,7 @@ export const message = async (
   timetable,
   day,
   isEdited,
-  isTomorrow
+  isTomorrow,
 ) => {
   let text = `<b>⛓ ${isTomorrow ? "Tomorrow" : "Today"}'s Timetable for ${
     (await dungeon.getByID(ctx.chat.id)).module
@@ -38,7 +38,7 @@ export const message = async (
     const refreshTime = new Date(
       new Date().getTime() +
         new Date().getTimezoneOffset() * 60000 +
-        3600000 * 5
+        3600000 * 5,
     )
       .toString()
       .replace("GMT+0000 (Coordinated Universal Time)", "")

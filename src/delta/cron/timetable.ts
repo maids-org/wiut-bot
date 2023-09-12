@@ -16,23 +16,21 @@ import * as resource from "./resource";
           async () => {
             await bot.telegram
               .sendMessage(
-                (
-                  await dungeon.getByMod(group)
-                ).id,
+                (await dungeon.getByMod(group)).id,
                 resource.message(false, subject, group),
                 {
                   reply_markup: resource.keyboard(
                     false,
-                    timetable.getTimetableLink()
+                    timetable.getTimetableLink(),
                   ),
                   parse_mode: "HTML",
-                }
+                },
               )
               .catch(null);
           },
           {
             timezone: "Asia/Tashkent",
-          }
+          },
         );
 
         // 10 minutes before
@@ -41,23 +39,21 @@ import * as resource from "./resource";
           async () => {
             await bot.telegram
               .sendMessage(
-                (
-                  await dungeon.getByMod(group)
-                ).id,
+                (await dungeon.getByMod(group)).id,
                 resource.message(true, subject, group),
                 {
                   reply_markup: resource.keyboard(
                     true,
-                    timetable.getTimetableLink()
+                    timetable.getTimetableLink(),
                   ),
                   parse_mode: "HTML",
-                }
+                },
               )
               .catch(null);
           },
           {
             timezone: "Asia/Tashkent",
-          }
+          },
         );
       }
     }

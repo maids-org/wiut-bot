@@ -24,7 +24,7 @@ composer.on("inline_query", async (ctx: TelegrafContext) => {
           reply_markup: resource.keyboard.example,
         },
       ],
-      { cache_time: 43200 }
+      { cache_time: 43200 },
     );
   }
 
@@ -43,7 +43,7 @@ composer.on("inline_query", async (ctx: TelegrafContext) => {
           reply_markup: resource.keyboard.example,
         },
       ],
-      { cache_time: 10 }
+      { cache_time: 10 },
     );
   }
 

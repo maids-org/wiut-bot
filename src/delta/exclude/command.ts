@@ -14,7 +14,7 @@ composer.on("text", async (ctx: TelegrafContext) => {
             `If you want to <b>send it to all groups</b>, simply reply <code>/send</code> to this message`,
           {
             reply_to_message_id: ctx.message.message_id,
-          }
+          },
         );
       }
 

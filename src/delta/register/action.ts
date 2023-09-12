@@ -6,7 +6,7 @@ import { TelegrafContext } from "telegraf/typings/context";
 composer.action(/register_(.+)/gi, async (ctx: TelegrafContext) => {
   const registrar = await dungeon.getAllModule();
   const serialize = (await resource.available(ctx.match[1])).filter(
-    (group) => !registrar.map((data) => data.module).includes(group)
+    (group) => !registrar.map((data) => data.module).includes(group),
   );
 
   await ctx.editMessageText(resource.message.actionList, {

@@ -26,7 +26,7 @@ export class Offline {
     if (!fs.existsSync(join("data", `${this.type}.json`)))
       fs.writeFileSync(
         join("data", `${this.type}.json`),
-        JSON.stringify(defaults)
+        JSON.stringify(defaults),
       );
 
     this.path = join("data", `${type}.json`);
@@ -36,7 +36,7 @@ export class Offline {
     return JSON.parse(
       fs.readFileSync(join(this.path), {
         encoding: "utf8",
-      })
+      }),
     );
   }
 
@@ -297,7 +297,7 @@ export class Timetable {
     this.filePath = join(
       "timetable",
       this._level + this._module,
-      this._level + this._module + this._group + ".json"
+      this._level + this._module + this._group + ".json",
     );
     this.timetable = JSON.parse(fs.readFileSync(this.filePath, "utf8"));
   }

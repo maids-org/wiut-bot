@@ -8,7 +8,7 @@ export const keyboard = Markup.inlineKeyboard([
   [
     Markup.urlButton(
       `Leave it here`,
-      `https://github.com/mad-maids/maid.discussion/discussions`
+      `https://github.com/mad-maids/maid.discussion/discussions`,
     ),
   ],
 ]);

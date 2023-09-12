@@ -7,7 +7,7 @@ import { TelegrafContext } from "telegraf/typings/context";
 export const available = async (subgroup?) => {
   if (subgroup) {
     return (await promises.readdir(join("timetable", subgroup))).map((file) =>
-      file.replace(".json", "")
+      file.replace(".json", ""),
     );
   }
 
@@ -52,15 +52,15 @@ export const keyboard = {
   command: async (): Promise<InlineKeyboardMarkup> =>
     Markup.inlineKeyboard(
       (await available()).map((module) =>
-        Markup.callbackButton(module, `register_${module}`)
+        Markup.callbackButton(module, `register_${module}`),
       ),
-      { columns: 3 }
+      { columns: 3 },
     ),
   action: async (groups: string[]): Promise<InlineKeyboardMarkup> =>
     Markup.inlineKeyboard(
       groups.map((key) => Markup.callbackButton(key, `confirm_prompt_${key}`)),
       {
         columns: 3,
-      }
+      },
     ),
 };

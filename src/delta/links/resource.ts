@@ -10,7 +10,7 @@ export const keyboard = async (): Promise<InlineKeyboardMarkup> => {
     [
       Markup.urlButton(
         `Mad Maids General Community`,
-        `https://t.me/madmaids_wiut`
+        `https://t.me/madmaids_wiut`,
       ),
     ],
     [Markup.urlButton(`Anime focused chat group`, `https://t.me/wiutanime`)],

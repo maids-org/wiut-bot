@@ -12,7 +12,7 @@ export default class Maidoverflow {
    */
   public async search(anchor = ""): Promise<Search> {
     const response = await fetch(
-      encodeURI(this.base + this.args + "&q=" + anchor)
+      encodeURI(this.base + this.args + "&q=" + anchor),
     );
     return await response.json();
   }

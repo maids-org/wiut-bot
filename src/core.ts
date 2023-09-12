@@ -12,7 +12,7 @@ export const bot = new Telegraf<TelegrafContext>(env.TOKEN);
 export const composer = new Composer<TelegrafContext>();
 
 export const middleware = (
-  mod: Composer<TelegrafContext> | Stage<SceneContextMessageUpdate>
+  mod: Composer<TelegrafContext> | Stage<SceneContextMessageUpdate>,
 ): void => {
   bot.use(mod.middleware());
 };

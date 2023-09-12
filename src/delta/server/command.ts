@@ -15,7 +15,7 @@ composer.command(`server`, async (ctx: TelegrafContext) => {
     resource.message(false, (await dungeon.getAllID()).length),
     {
       reply_markup: resource.keyboard,
-    }
+    },
   );
 });
 

@@ -14,7 +14,7 @@ composer.command(`stats`, async (ctx: TelegrafContext) => {
           {
             parse_mode: "HTML",
             reply_markup: resource.keyboard,
-          }
+          },
         )
         .catch(null);
     } else {

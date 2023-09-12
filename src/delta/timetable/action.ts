@@ -16,7 +16,7 @@ composer.action(`timetable`, async (ctx: TelegrafContext) => {
       parse_mode: "HTML",
       disable_web_page_preview: true,
       reply_markup: await resource.keyboard(timetable, tomorrow, false),
-    }
+    },
   );
 });
 
@@ -30,7 +30,7 @@ composer.action(/tomorrow_(.+)/gi, async (ctx: TelegrafContext) => {
       parse_mode: "HTML",
       reply_markup: await resource.keyboard(timetable, tomorrow, true),
       disable_web_page_preview: true,
-    }
+    },
   );
 });
 
