@@ -1,12 +1,13 @@
-import { composer, middleware } from "@src/core";
-import * as consoles from "@src/utils";
-import * as resource from "./resource";
-import { TelegrafContext } from "telegraf/typings/context";
+import { composer } from "@/providers/composer";
+import { MaidContext } from "@type/conversation";
 
-composer.command(`contribute`, async (ctx: TelegrafContext) => {
+import * as consoles from "@/utils/log";
+import * as resource from "./resource";
+
+composer.command(`contribute`, async (ctx: MaidContext) => {
   try {
     await ctx
-      .replyWithHTML(resource.message, {
+      .reply(resource.message, {
         parse_mode: "HTML",
         reply_markup: resource.keyboard,
       })
@@ -16,5 +17,4 @@ composer.command(`contribute`, async (ctx: TelegrafContext) => {
   }
 });
 
-middleware(composer);
-consoles.module(__filename);
+consoles.moduler(__filename);

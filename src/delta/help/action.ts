@@ -1,11 +1,13 @@
-import { composer, middleware } from "@src/core";
-import * as consoles from "@src/utils";
-import { User } from "@src/database";
-import * as resource from "./resource";
-import { TelegrafContext } from "telegraf/typings/context";
+import { composer } from "@/providers/composer";
+import { MaidContext } from "@type/conversation";
 
-composer.action(`help`, async (ctx: TelegrafContext) => {
-  const database = new User(ctx.from.id);
+import * as consoles from "@/utils/log";
+import * as resource from "./resource";
+
+import { User } from "@/providers/user";
+
+composer.callbackQuery(`help`, async (ctx: MaidContext) => {
+  const database = new User(ctx.from!.id);
   if (database.admin)
     await ctx
       .editMessageText(resource.message(true), {
@@ -22,5 +24,4 @@ composer.action(`help`, async (ctx: TelegrafContext) => {
       .catch(null);
 });
 
-middleware(composer);
-consoles.module(__filename);
+consoles.moduler(__filename);

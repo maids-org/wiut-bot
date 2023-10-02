@@ -17,6 +17,7 @@
     "baseUrl": ".",
     "paths": {
       "*": ["node_modules/*"],
+      "@/*": ["src/*"],
       "@delta/*": ["src/delta/*"],
       "@assets/*": ["src/assets/*"],
       "@src/*": ["src/*"],
@@ -28,5 +29,5 @@
     }
   },
   "include": ["**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "src/archive/**/*"]
 }

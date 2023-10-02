@@ -2,7 +2,7 @@
   "name": "maid.ts",
   "version": "2.2.7",
   "description": "WIUT BIS group manager & handler",
-  "main": "app.js",
+  "main": "dist/app.js",
   "scripts": {
     "init": "git submodule update --init --recursive",
     "clean": "rm -rf node_modules && rm -rf dist && rm -rf data",
@@ -13,7 +13,7 @@
     "webhook:start": "next start",
     "polling:dev": "concurrently \"pnpm run polling:build\" \"pnpm run polling:start\"",
     "polling:build": "swc src -d dist -w",
-    "polling:start": "nodemon --watch \"dist/**/*\" -e js ./dist/utils/dev.js"
+    "polling:start": "nodemon --watch \"dist/**/*\" -e js ./dist/app.js"
   },
   "keywords": [
     "nyaasi",
@@ -28,6 +28,7 @@
   "license": "CC0-1.0",
   "dependencies": {
     "@2toad/profanity": "^1.3.1",
+    "@grammyjs/conversations": "^1.1.2",
     "@supabase/supabase-js": "^1.29.1",
     "chalk": "^4.1.2",
     "dotenv": "^8.2.0",
@@ -46,6 +47,7 @@
     "@typescript-eslint/eslint-plugin": "^6.7.3",
     "@typescript-eslint/parser": "^6.7.3",
     "chokidar": "^3.5.3",
+    "concurrently": "^8.2.1",
     "eslint": "^8.50.0",
     "eslint-config-prettier": "^9.0.0",
     "nodemon": "^3.0.1",
@@ -74,7 +76,8 @@
     },
     "rules": {
       "camelcase": "off",
-      "no-prototype-builtins": "off"
+      "no-prototype-builtins": "off",
+      "@typescript-eslint/no-explicit-any": "off"
     }
   }
 }

@@ -1,23 +1,25 @@
-import { composer, middleware } from "@src/core";
-import * as consoles from "@src/utils";
-import { User } from "@src/database";
-import * as resource from "./resource";
-import { TelegrafContext } from "telegraf/typings/context";
+import { composer } from "@/providers/composer";
+import { MaidContext } from "@type/conversation";
 
-composer.help(async (ctx: TelegrafContext) => {
-  const database = new User(ctx.from.id);
+import * as consoles from "@/utils/log";
+import * as resource from "./resource";
+
+import { User } from "@/providers/user";
+
+composer.command("help", async (ctx: MaidContext): Promise<void> => {
+  const database = new User(ctx.from!.id);
 
   try {
     if (database.admin) {
       await ctx
-        .replyWithHTML(resource.message(true), {
+        .reply(resource.message(true), {
           parse_mode: "HTML",
           reply_markup: resource.keyboard,
         })
         .catch(null);
     } else {
       await ctx
-        .replyWithHTML(resource.message(false), {
+        .reply(resource.message(false), {
           parse_mode: "HTML",
           reply_markup: resource.keyboard,
         })
@@ -28,5 +30,4 @@ composer.help(async (ctx: TelegrafContext) => {
   }
 });
 
-middleware(composer);
-consoles.module(__filename);
+consoles.moduler(__filename);

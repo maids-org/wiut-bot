@@ -1,4 +1,4 @@
-import { Markup } from "telegraf";
+import { InlineKeyboard } from "grammy";
 
 export const message =
   `<b>Welcome to Mad Maid's Northmaid Chan 😏!</b>` +
@@ -21,13 +21,8 @@ export const message =
   `\n` +
   `<i>In order to see full detailed usage information of the bot, press the button below.</i>`;
 
-export const keyboard = Markup.inlineKeyboard([
-  [Markup.callbackButton("Show more information", "help")],
-]);
+export const keyboard = new InlineKeyboard().text("Show more information", "help")
 
 export const payload = `<b>Shall we continue our exploration here?</b>`;
 
-export const inline = (search: string) =>
-  Markup.inlineKeyboard([
-    [Markup.switchToCurrentChatButton(`Restore inline window`, search)],
-  ]);
+export const inline = (search: string) => new InlineKeyboard().switchInlineCurrent("Restore inline window", search)

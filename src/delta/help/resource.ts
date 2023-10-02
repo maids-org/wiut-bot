@@ -1,4 +1,4 @@
-import { Markup } from "telegraf";
+import { InlineKeyboard } from "grammy";
 
 export const message = (isAdmin: boolean): string => {
   const base: string =
@@ -51,6 +51,5 @@ export const message = (isAdmin: boolean): string => {
   else return base;
 };
 
-export const keyboard = Markup.inlineKeyboard([
-  [Markup.urlButton("Announcement's Channel", "https://t.me/madmaids")],
-]);
+export const keyboard = new InlineKeyboard()
+  .url("Announcement's Channel", "https://t.me/madmaids")

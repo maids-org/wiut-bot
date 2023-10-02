@@ -1,22 +1,23 @@
-import { composer, middleware } from "@src/core";
-import { TelegrafContext } from "@type/telegraf";
-import * as consoles from "@src/utils";
+import { composer } from "@/providers/composer";
+import { MaidContext } from "@type/conversation";
+
+import * as consoles from "@/utils/log";
 import * as resource from "./resource";
 
-composer.start(async (ctx: TelegrafContext) => {
+composer.command("start", async (ctx: MaidContext): Promise<void> => {
   try {
-    if (ctx.startPayload) {
+    if (ctx.match) {
       await ctx
-        .replyWithHTML(resource.payload, {
+        .reply(resource.payload, {
           parse_mode: "HTML",
-          reply_markup: resource.inline(ctx.startPayload.replace(/-_-/gi, " ")),
+          reply_markup: resource.inline(ctx.match.toString().replace(/-_-/gi, " ")),
         })
         .catch(null);
     }
 
-    if (!ctx.startPayload) {
+    if (!ctx.match) {
       await ctx
-        .replyWithHTML(resource.message, {
+        .reply(resource.message, {
           parse_mode: "HTML",
           reply_markup: resource.keyboard,
         })
@@ -27,5 +28,4 @@ composer.start(async (ctx: TelegrafContext) => {
   }
 });
 
-middleware(composer);
-consoles.module(__filename);
+consoles.moduler(__filename);

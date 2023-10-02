@@ -1,0 +1,35 @@
+import { composer, dungeon, middleware } from "@/archive/core";
+import * as consoles from "@/archive/utils/log";
+import * as resource from "./resource";
+import { TelegrafContext } from "@type/telegraf";
+
+composer.action(/show_(.+)/gi, async (ctx: TelegrafContext) => {
+  if (!(await dungeon.getAllID()).map((id) => id.id).includes(ctx.chat.id)) {
+    return await ctx.editMessageText(resource.message.notRegistered);
+  }
+
+  if (!(await resource.isAdmin(ctx, ctx.from.id))) {
+    return await ctx.answerCbQuery(resource.message.notAdmin);
+  }
+
+  switch (ctx.match[1]) {
+    case "on":
+      await dungeon.toggleShow(ctx.chat.id, true);
+      break;
+    case "off":
+      await dungeon.toggleShow(ctx.chat.id, false);
+      break;
+  }
+
+  const group = await dungeon.getByID(ctx.chat.id);
+
+  await ctx
+    .editMessageText(resource.message.call(group.show), {
+      parse_mode: "HTML",
+      reply_markup: await resource.keyboard(group.show),
+    })
+    .catch(null);
+});
+
+middleware(composer);
+consoles.module(__filename);
