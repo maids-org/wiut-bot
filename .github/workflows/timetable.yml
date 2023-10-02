@@ -8,33 +8,26 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 16
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - uses: actions/cache@v2
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: web-${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            web-${{ runner.os }}-yarn-
-      - uses: actions/checkout@v2
-        with:
-          repository: mad-maids/maid.felix
-          path: new-timetable
-      - run: |
-          rm -rf timetable
-          mv new-timetable/data timetable
-          rm -rf new-timetable
-          yarn global add prettier
-          yarn format
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+      - uses: actions/checkout@v4
+
+      - name: Update data to the latest commit
+        run: |
+          git submodule foreach '
+            git fetch origin main;
+            git checkout main;
+            git pull origin main;
+          '
+
+      - name: Push changes to the main repo
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add .
-          [[ -z $(git status -uno --porcelain) ]] && echo "this branch is clean, no need to push..." && exit 0;
-          git commit -m "Updated timetable"
-          git push
+          [[ -z $(git status -uno --porcelain) ]] && echo "No updates detected, no need for push" && exit 0;
+          git commit -m "update timetable $(date -u)"
+          git push origin main --force
