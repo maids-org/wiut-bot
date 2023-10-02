@@ -22,8 +22,8 @@ happen.
 
 **Desktop (please complete the following information):**
 
--   OS: [e.g. Windows, Linux]
--   Package Manager [e.g. npm, yarn]
--   Node Version [e.g. 14]
+- OS: [e.g. Windows, Linux]
+- Package Manager [e.g. npm, yarn]
+- Node Version [e.g. 14]
 
 **Additional context** Add any other context about the problem here.

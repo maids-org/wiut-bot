@@ -14,27 +14,27 @@ you're ready to go!**
 
 ## Documentations
 
--   **Telegraf.js** - [Github](https://github.com/telegraf/telegraf)
--   **Telegram Bot API** - [Website](https://core.telegram.org/bots/api)
+- **Telegraf.js** - [Github](https://github.com/telegraf/telegraf)
+- **Telegram Bot API** - [Website](https://core.telegram.org/bots/api)
 
 ## Contributors
 
 This bot exists thankfully for those who contributed this project and they are:
 
--   [UwUssimo](https://github.com/uwussimo) _(Father)_ - The actual creator
-    of the project and active contributor
--   [Khassanboi](https://github.com/khassanboi) _(Uncle)_ - Active contributor
-    and the people who realise all feature
--   [Senpaichan](https://github.com/wiut-bis/senpai.deprecated) _(Mother)_ - The concept
-    where it was taken from. True inspiration for this bot!
+- [UwUssimo](https://github.com/uwussimo) _(Father)_ - The actual creator of the
+  project and active contributor
+- [Khassanboi](https://github.com/khassanboi) _(Uncle)_ - Active contributor and
+  the people who realise all feature
+- [Senpaichan](https://github.com/wiut-bis/senpai.deprecated) _(Mother)_ - The
+  concept where it was taken from. True inspiration for this bot!
 
 > Start contributing to become relative to maid!
 
 ---
 
 > The bot page is still in beta phase so feel free to
-> [open issues](https://github.com/mad-maids/maid.ts/issues/new) and give me some
-> suggestions.
+> [open issues](https://github.com/mad-maids/maid.ts/issues/new) and give me
+> some suggestions.
 
 ---
 

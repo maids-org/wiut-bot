@@ -4,14 +4,16 @@
   "description": "WIUT BIS group manager & handler",
   "main": "app.js",
   "scripts": {
-    "start": "node ./dist/app.js",
-    "build": "tsc",
-    "watch": "tsc -w",
-    "development": "nodemon ./dist/app.js",
-    "lint": "eslint ./src --ext .ts",
-    "format": "yarn format:check --write",
-    "format:check": "prettier --check \"src/**/*.ts\"",
-    "watch-js": "forever -c 'node --inspect=0.0.0.0:9222 --nolazy' --watchDirectory dist/ ./dist/app.js"
+    "init": "git submodule update --init --recursive",
+    "clean": "rm -rf node_modules && rm -rf dist && rm -rf data",
+    "lint": "eslint .",
+    "format": "prettier --check --write \"{**/*,*}.{ts,json,md}\"",
+    "webhook:dev": "next dev",
+    "webhook:build": "next build",
+    "webhook:start": "next start",
+    "polling:dev": "concurrently \"pnpm run polling:build\" \"pnpm run polling:start\"",
+    "polling:build": "swc src -d dist -w",
+    "polling:start": "nodemon --watch \"dist/**/*\" -e js ./dist/utils/dev.js"
   },
   "keywords": [
     "nyaasi",
@@ -27,43 +29,52 @@
   "dependencies": {
     "@2toad/profanity": "^1.3.1",
     "@supabase/supabase-js": "^1.29.1",
-    "axios": "^0.21.0",
     "chalk": "^4.1.2",
     "dotenv": "^8.2.0",
     "forever": "^4.0.1",
+    "grammy": "^1.19.0",
     "is-reachable": "^5.0.0",
     "node-cron": "^2.0.3",
     "telegraf": "^3.38.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.3",
-    "@babel/preset-typescript": "^7.12.1",
+    "@swc/cli": "^0.1.62",
+    "@swc/core": "^1.3.90",
     "@telegraf/core": "^1.1.0",
-    "@types/eslint": "^7.2.4",
-    "@types/node": "^14.14.6",
+    "@types/node": "^14.18.63",
     "@types/node-schedule": "^1.3.1",
-    "@typescript-eslint/eslint-plugin": "^4.6.0",
-    "@typescript-eslint/parser": "^4.6.0",
-    "babel-plugin-add-import-extension": "^1.4.3",
-    "eslint": "^7.12.1",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-config-standard": "^16.0.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.2",
-    "module-alias": "^2.2.2",
-    "nodemon": "^2.0.6",
-    "prettier": "^2.2.0",
-    "typescript": "^4.0.5"
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "chokidar": "^3.5.3",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
   },
-  "_moduleAliases": {
-    "@delta": "dist/delta",
-    "@src": "dist",
-    "@core": "dist/core",
-    "@modals": "dist/modals",
-    "@database": "dist/database",
-    "@layouts": "dist/layouts"
+  "prettier": {
+    "proseWrap": "always"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "extends": [
+      "prettier",
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    },
+    "rules": {
+      "camelcase": "off",
+      "no-prototype-builtins": "off"
+    }
   }
 }

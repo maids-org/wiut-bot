@@ -1,18 +1,20 @@
 {
   "compilerOptions": {
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
-    "module": "CommonJS",
-    "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": false,
-    "esModuleInterop": true,
-    "target": "ES5",
-    "sourceMap": true,
-    "moduleResolution": "Node",
-    "outDir": "dist",
-    "baseUrl": ".",
     "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
     "paths": {
       "*": ["node_modules/*"],
       "@delta/*": ["src/delta/*"],
@@ -25,7 +27,6 @@
       "@layouts/*": ["src/layouts/*"]
     }
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
 }

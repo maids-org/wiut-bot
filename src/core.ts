@@ -18,11 +18,11 @@ export const middleware = (
 };
 
 export const initEnv = async () => {
-  await dotenv.config();
+  dotenv.config();
   await bot.telegram.getMe().then((botInfo: User) => {
     bot.options.username = botInfo.username;
   });
-  await bot.use(session());
+  bot.use(session());
 };
 
 export const webhook = async () => {
@@ -31,7 +31,7 @@ export const webhook = async () => {
       webhook: {
         domain: env.DOMAIN,
         hookPath: "/bot",
-        port: parseInt(env.PORT),
+        port: parseInt(env.PORT || "3000"),
       },
     })
     .then(async () => {

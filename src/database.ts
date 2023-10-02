@@ -1,6 +1,5 @@
 import { join } from "path";
 import * as fs from "fs";
-import fetch from "node-fetch";
 import { Timetable as TT, Day } from "@type/database";
 import { Profanity } from "@2toad/profanity";
 

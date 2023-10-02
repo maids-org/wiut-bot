@@ -4,7 +4,7 @@
  */
 
 import { basename, dirname, sep } from "path";
-import chalk = require("chalk");
+import chalk from "chalk";
 
 export const errors = (error: Error): void => {
   console.log(chalk.red("[ERROR]"), error);
