@@ -4,7 +4,7 @@
 
 <p align="center"><a href="https://t.me/eastmaid_bot"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=docker&message=deployed&logoColor=eceff4&logo=github&colorA=000000&colorB=ffffff"/></a></p>
 
-<p align="center"> Elegant Network Manager for <a href="https://t.me/s/SeventyPlus" target="_blank">WIUT BIS</a> Groups.</p>
+<p align="center"> Elegant Network Manager for <a href="https://t.me/s/madmaids" target="_blank">WIUT BIS</a> Groups.</p>
 
 **This bot was built with [grammy.dev](https://github.com/grammyjs/grammY) in
 [Node.js](https://nodejs.org/en/). This bot works as package modular, so don't
