@@ -6,19 +6,20 @@ jobs:
   web:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 16
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - uses: actions/cache@v2
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: web-${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            web-${{ runner.os }}-yarn-
-      - run: yarn --frozen-lockfile
-      - run: yarn format:check
-      - run: yarn lint
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+
+      - name: Install pnpm package manager
+        run: npm install -g pnpm
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Check for lint issues
+        run: pnpm lint
+
+      - name: Build project
+        run: pnpm build
+
+      - name: Run tests
+        run: pnpm test
