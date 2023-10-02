@@ -23,11 +23,14 @@ FROM base AS runner
 # Bundle app source
 COPY . .
 
+# Install pnpm
+RUN npm install -g pnpm
+
 # Install only production app dependencies
-RUN pnpm ci --only=production
+RUN pnpm install --only=production
 
 USER node
 
 # Start the app
-EXPOSE 80
-CMD ["npm", "run", "start"]
+EXPOSE 9000
+CMD ["pnpm", "webhook:start"]

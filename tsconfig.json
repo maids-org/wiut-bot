@@ -29,5 +29,5 @@
     }
   },
   "include": ["**/*.ts"],
-  "exclude": ["node_modules", "src/archive/**/*"]
+  "exclude": ["node_modules", "src/archive/**/*.ts"]
 }
