@@ -1,10 +1,9 @@
-import { composer } from "@/providers/composer";
+import { composer } from "@/providers/global";
 import { MaidContext } from "@type/conversation";
+import { User } from "@/providers/user";
 
 import * as consoles from "@/utils/log";
 import * as resource from "./resource";
-
-import { User } from "@/providers/user";
 
 composer.command("help", async (ctx: MaidContext): Promise<void> => {
   const database = new User(ctx.from!.id);

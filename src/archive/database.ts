@@ -2,7 +2,7 @@ import { join } from "path";
 import * as fs from "fs";
 import { Timetable as TT, Day } from "@/archive/types/database";
 
-import Offline from "@/archive/provider/offline"
+import Offline from "@/archive/provider/offline";
 
 export const Constants: { [key: string]: string } = {
   EDIT_LINK: "https://github.com/mad-maids/maid.felix/",

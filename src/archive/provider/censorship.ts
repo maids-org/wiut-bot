@@ -40,4 +40,4 @@ export class Censorship {
   }
 }
 
-export default Censorship
+export default Censorship;

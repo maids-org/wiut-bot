@@ -12,21 +12,21 @@ import { MaidContext } from "@/archive/types/conversation";
 export const env = process.env;
 export const dungeon = new Dungeon(process.env.SUP_URL!, process.env.SUP_KEY!);
 export const bot = new Bot<MaidContext>(env.TOKEN!);
-export const composer = new Composer()
+export const composer = new Composer();
 
-export const middleware = (
-  mod: Composer<MaidContext>,
-): void => {
+export const middleware = (mod: Composer<MaidContext>): void => {
   bot.use(mod);
 };
 
 export const initEnv = async () => {
   dotenv.config();
-  bot.use(session({
-    initial() {
-      return {};
-    }
-  }))
+  bot.use(
+    session({
+      initial() {
+        return {};
+      },
+    }),
+  );
 
   bot.use(conversations());
 };

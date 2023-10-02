@@ -2,7 +2,7 @@ import { Bot, webhookCallback } from "grammy";
 import "@/utils/config";
 import chalk from "chalk";
 import * as process from "process";
-import composer from "@/providers/composer";
+import { composer } from "@/providers/global";
 import { MaidContext } from "@type/conversation";
 
 export const bot = new Bot<MaidContext>(process.env.TOKEN || "");

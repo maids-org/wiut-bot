@@ -4,5 +4,5 @@
  * @description executing point of application
  */
 
-import "@/delta"
-import "@/core"
+import "@/core";
+import "@/delta";

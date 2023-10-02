@@ -40,10 +40,10 @@ This bot exists thankfully for those who contributed this project and they are:
 
 > **Important Note:** Under the CC0-1.0 license, you are not allowed to run your
 > own instance unless orzklv won't permit
-> [(this repository)](https://github.com/mad-maids/wiut-bot). If you're modifying
-> this source and making your own bot, you have to ask for permission from
-> creator "orzklv" according to the CC0-1.0 license. Check [LICENSE](license)
-> for more info.
+> [(this repository)](https://github.com/mad-maids/wiut-bot). If you're
+> modifying this source and making your own bot, you have to ask for permission
+> from creator "orzklv" according to the CC0-1.0 license. Check
+> [LICENSE](license) for more info.
 
 <p align="center">Copyright &copy; 2020-2021 <a href="https://maid.uz" target="_blank">Mad Maids</a></p>
 

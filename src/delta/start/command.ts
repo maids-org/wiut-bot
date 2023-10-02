@@ -1,4 +1,4 @@
-import { composer } from "@/providers/composer";
+import { composer } from "@/providers/global";
 import { MaidContext } from "@type/conversation";
 
 import * as consoles from "@/utils/log";
@@ -10,7 +10,9 @@ composer.command("start", async (ctx: MaidContext): Promise<void> => {
       await ctx
         .reply(resource.payload, {
           parse_mode: "HTML",
-          reply_markup: resource.inline(ctx.match.toString().replace(/-_-/gi, " ")),
+          reply_markup: resource.inline(
+            ctx.match.toString().replace(/-_-/gi, " "),
+          ),
         })
         .catch(null);
     }

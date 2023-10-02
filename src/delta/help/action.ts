@@ -1,4 +1,4 @@
-import { composer } from "@/providers/composer";
+import { composer } from "@/providers/global";
 import { MaidContext } from "@type/conversation";
 
 import * as consoles from "@/utils/log";

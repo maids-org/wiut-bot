@@ -1,6 +1,6 @@
 import { composer, middleware } from "@/archive/core";
 import * as consoles from "@/archive/utils/log";
-import { TelegrafContext } from "@type/telegraf";
+import { TelegrafContext } from "@/archive/types/telegraf";
 import * as resource from "./resource";
 import { admins } from "./resource";
 

@@ -51,5 +51,7 @@ export const message = (isAdmin: boolean): string => {
   else return base;
 };
 
-export const keyboard = new InlineKeyboard()
-  .url("Announcement's Channel", "https://t.me/madmaids")
+export const keyboard = new InlineKeyboard().url(
+  "Announcement's Channel",
+  "https://t.me/madmaids",
+);
