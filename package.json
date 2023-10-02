@@ -7,6 +7,7 @@
     "init": "git submodule update --init --recursive",
     "clean": "rm -rf node_modules && rm -rf dist && rm -rf data",
     "lint": "eslint .",
+    "build": "swc src -d dist",
     "format": "prettier --check --write \"{**/*,*}.{ts,json,md}\"",
     "webhook:dev": "next dev",
     "webhook:build": "next build",
