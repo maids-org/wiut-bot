@@ -10,5 +10,7 @@ export const message = (mod: string, ctx: MaidContext, isAdmin: boolean) =>
     isAdmin ? "Yup... He is an admin." : "Nope... He is a civilian"
   }`;
 
-export const keyboard = new InlineKeyboard()
-.url('Other Services Health', 'https://maid.uz/status/')
+export const keyboard = new InlineKeyboard().url(
+  "Other Services Health",
+  "https://maid.uz/status/",
+);

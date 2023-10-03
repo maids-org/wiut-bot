@@ -6,15 +6,13 @@
   "scripts": {
     "init": "./update-module.sh",
     "clean": "rm -rf node_modules && rm -rf dist && rm -rf data",
-
     "lint": "eslint .",
     "format": "prettier --check --write \"{**/*,*}.{ts,json,md}\"",
-
     "build": "swc src -d dist",
     "build:watch": "swc src -d dist -w",
-
     "start": "node dist/app.js",
-    "dev": "concurrently \"pnpm run build:watch\" \"nodemon --watch \"dist/**/*\" -e js ./dist/app.js\""
+    "start:watch": "nodemon --watch \"dist/**/*\" -e js ./dist/app.js",
+    "dev": "concurrently \"pnpm run build:watch\" \"pnpm run start:watch\""
   },
   "keywords": [
     "nyaasi",

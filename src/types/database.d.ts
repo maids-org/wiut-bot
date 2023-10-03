@@ -1,4 +1,8 @@
-export interface Lesson {
+export type Timetable = {
+  [key: string | number]: Lesson[];
+};
+
+export type Lesson = {
   name: string;
   tutor: string;
   type: "online" | "seminar" | "lecture" | "workshop";
@@ -29,11 +33,7 @@ export interface Lesson {
     | 24.0;
   length: 1.0 | 2.0 | 3.0 | 4.0;
   location: string;
-}
-
-export interface Timetable {
-  [key: "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7"]: Lesson[];
-}
+};
 
 export type Day =
   | 0

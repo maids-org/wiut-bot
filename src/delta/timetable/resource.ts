@@ -1,18 +1,26 @@
 import { Markup } from "telegraf";
+import rnd from "@/utils/rnd";
+import Dungeon from "@/providers/dungeon";
+import { MaidContext, Parser } from "@type/global";
+import Timetable from "@/providers/timetable";
+
+export const parsers: Parser = {
+  query: /tomorrow_(.+)/gi
+}
 
 export const message = async (
-  dungeon,
-  ctx,
-  timetable,
-  day,
-  isEdited,
-  isTomorrow,
+  dungeon: Dungeon,
+  ctx: MaidContext,
+  timetable: Timetable,
+  day: string | number,
+  isEdited: boolean,
+  isTomorrow: boolean,
 ) => {
   let text = `<b>⛓ ${isTomorrow ? "Tomorrow" : "Today"}'s Timetable for ${
-    (await dungeon.getByID(ctx.chat.id)).module
+    (await dungeon.getByID(ctx.chat!.id)).module
   } ⛓</b>`;
 
-  for (const subject of timetable.getDayLessons(parseInt(day))) {
+  for (const subject of timetable.getDayLessons(parseInt(day.toString()))!) {
     const subText =
       `\n` +
       `\n` +
@@ -27,7 +35,7 @@ export const message = async (
     text += subText;
   }
 
-  if (timetable.getDayLessons(parseInt(day))[0] === undefined) {
+  if (timetable.getDayLessons(parseInt(day.toString()))![0] === undefined) {
     text +=
       `\n` +
       `\n` +
@@ -47,9 +55,7 @@ export const message = async (
     const editTime =
       `\n` +
       `\n` +
-      `<b>Last Refresh:</b> <code>${
-        refreshTime + (await identifier(5))
-      }</code>`;
+      `<b>Last Refresh:</b> <code>${refreshTime + (await rnd(5))}</code>`;
 
     text += editTime;
   }
@@ -63,7 +69,11 @@ export const message = async (
   return text;
 };
 
-export const keyboard = async (timetable, day, isTomorrow) =>
+export const keyboard = async (
+  timetable: Timetable,
+  day: string | number,
+  isTomorrow: boolean,
+) =>
   Markup.inlineKeyboard([
     !isTomorrow ? [Markup.callbackButton(`🔁 Refresh`, `timetable`)] : [],
     !isTomorrow
@@ -72,16 +82,3 @@ export const keyboard = async (timetable, day, isTomorrow) =>
     isTomorrow ? [Markup.callbackButton(`◀ Back`, `timetable`)] : [],
     [Markup.urlButton(`🕸 Webtable`, `${timetable.getTimetableLink()}`)],
   ]);
-
-export const identifier = async (length) => {
-  let result = "";
-  const characters =
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-  const charactersLength = characters.length;
-
-  for (let i = 0; i < length; i++) {
-    result += characters.charAt(Math.floor(Math.random() * charactersLength));
-  }
-
-  return result.toUpperCase();
-};

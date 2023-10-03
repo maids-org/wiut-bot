@@ -2,6 +2,7 @@ import { Bot, webhookCallback } from "grammy";
 import "@/utils/config";
 import chalk from "chalk";
 import fastify from "fastify";
+import * as dotenv from "dotenv";
 import * as process from "process";
 import { composer } from "@/providers/global";
 import { MaidContext } from "@type/global";
@@ -33,7 +34,7 @@ const webhook = async (): Promise<void> => {
     } catch (_) {
       return { status: "blyat!" };
     }
-  })
+  });
 
   const port: number = process.env.PORT ? parseInt(process.env.PORT) : 9000;
 
@@ -56,5 +57,6 @@ export const launch = async () => {
 };
 
 (async () => {
+  dotenv.config();
   await launch();
 })();

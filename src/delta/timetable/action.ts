@@ -1,12 +1,16 @@
-import { composer, middleware, dungeon } from "../../core";
-import * as consoles from "../../utils/log";
-import { TelegrafContext } from "telegraf/typings/context";
-import { Timetable, Time } from "../../database";
+import { composer, dungeon } from "@/providers/global";
+import { MaidContext } from "@type/global";
+
+import * as consoles from "@/utils/log";
 import * as resource from "./resource";
 
-composer.action(`timetable`, async (ctx: TelegrafContext) => {
+import Timetable from "@/providers/timetable";
+import Time from "@/providers/time";
+
+
+composer.callbackQuery(`timetable`, async (ctx: MaidContext) => {
   const time = new Time();
-  const timetable = new Timetable((await dungeon.getByID(ctx.chat.id)).module);
+  const timetable = new Timetable((await dungeon.getByID(ctx.chat!.id)).module!);
   const today = time.getUzbTimeString(false);
   const tomorrow = time.getUzbTimeString(true);
 
@@ -20,9 +24,11 @@ composer.action(`timetable`, async (ctx: TelegrafContext) => {
   );
 });
 
-composer.action(/tomorrow_(.+)/gi, async (ctx: TelegrafContext) => {
-  const timetable = new Timetable((await dungeon.getByID(ctx.chat.id)).module);
-  const tomorrow = parseInt(ctx.match[1]);
+composer.callbackQuery(resource.parsers.query, async (ctx: MaidContext) => {
+  const parsed = resource.parsers.query.exec(ctx.match![0]);
+
+  const timetable = new Timetable((await dungeon.getByID(ctx.chat!.id)).module!);
+  const tomorrow = parseInt(parsed![1]);
 
   await ctx.editMessageText(
     await resource.message(dungeon, ctx, timetable, tomorrow, false, true),
@@ -34,5 +40,4 @@ composer.action(/tomorrow_(.+)/gi, async (ctx: TelegrafContext) => {
   );
 });
 
-middleware(composer);
-consoles.module(__filename);
+consoles.moduler(__filename);

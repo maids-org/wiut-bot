@@ -4,11 +4,6 @@ import { Timetable as TT, Day } from "./types/database";
 
 import Offline from "./provider/offline";
 
-export const Constants: { [key: string]: string } = {
-  EDIT_LINK: "https://github.com/mad-maids/maid.felix/",
-  TIMETABLE_LINK: "https://hub.maid.uz/t/",
-};
-
 export const Online = async (url: string): Promise<any> => {
   const response = await fetch(url);
   return await response.json();
@@ -114,103 +109,5 @@ export class Users {
     this.database.write({
       users: this.users,
     });
-  }
-}
-
-export class Timetable {
-  protected _level: number;
-  protected _module: string;
-  protected _group: number;
-  protected filePath: string;
-  protected timetable: TT;
-
-  constructor(course: string) {
-    const data = course.match(/([0-9]+)([A-Z]+)([0-9]+)/);
-
-    this._level = parseInt(data![1]);
-    this._module = data![2];
-    this._group = parseInt(data![3]);
-
-    this.filePath = join(
-      "data",
-      "timetable",
-      this._level + this._module,
-      this._level + this._module + this._group + ".json",
-    );
-
-    this.timetable = JSON.parse(fs.readFileSync(this.filePath, "utf8"));
-  }
-
-  set level(level: number) {
-    this._level = level;
-  }
-
-  get level(): number {
-    return this._level;
-  }
-
-  set module(module: string) {
-    this._module = module;
-  }
-
-  get module(): string {
-    return this._module;
-  }
-
-  set group(group: number) {
-    this._group = group;
-  }
-
-  get group(): number {
-    return this._group;
-  }
-
-  getAllLessons(): TT {
-    return this.timetable;
-  }
-
-  getDayLessons(day: string | number | Day): TT | any {
-    switch (day) {
-      case 0:
-      case 7:
-      case "Sun":
-      case "Sunday":
-        return this.timetable[0];
-      case 1:
-      case "Mon":
-      case "Monday":
-        return this.timetable[1];
-      case 2:
-      case "Tue":
-      case "Tuesday":
-        return this.timetable[2];
-      case 3:
-      case "Wed":
-      case "Wednesday":
-        return this.timetable[3];
-      case 4:
-      case "Thu":
-      case "Thursday":
-        return this.timetable[4];
-      case 5:
-      case "Fri":
-      case "Friday":
-        return this.timetable[5];
-      case 6:
-      case "Sat":
-      case "Saturday":
-        return this.timetable[6];
-    }
-  }
-
-  getTimetableLink(): string {
-    return Constants.TIMETABLE_LINK + this._level + this._module;
-  }
-
-  getTimetableEditLink(): string {
-    return (
-      Constants.EDIT_LINK +
-      `blob/main/data/${this._level}${this._module}/${this._level}${this._module}${this._group}.json`
-    );
   }
 }

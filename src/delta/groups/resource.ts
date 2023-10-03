@@ -5,7 +5,7 @@ import { Parser } from "@type/global";
 
 export const parsers: Parser = {
   query: /groups_(.+)/gi,
-}
+};
 
 export const message = (isEdited: boolean, page?: number | string) =>
   isEdited
@@ -22,16 +22,16 @@ export const keyboard = async (page: number = 0): Promise<InlineKeyboard> => {
   const keyboard = new InlineKeyboard();
 
   data.current.map((group: Group) => {
-    keyboard.url(group.module!, group.link!)
-    keyboard.row()
-  })
+    keyboard.url(group.module!, group.link!);
+    keyboard.row();
+  });
 
   if (data.previous.length > 0 && page > 0) {
-    keyboard.text("⬅️ Previous", `groups_${page - 1}`, )
+    keyboard.text("⬅️ Previous", `groups_${page - 1}`);
   }
 
   if (data.next.length > 0 && data.current.length === 10) {
-    keyboard.text("Next ➡️", `groups_${page + 1}`)
+    keyboard.text("Next ➡️", `groups_${page + 1}`);
   }
 
   return keyboard;
