@@ -5,12 +5,13 @@ import * as consoles from "@/utils/log";
 import * as resource from "./resource";
 import { InputFile } from "grammy";
 
-composer.callbackQuery(/setup_(.+)/gi, async (ctx: MaidContext) => {
+composer.callbackQuery(resource.parsers.query, async (ctx: MaidContext) => {
   if (!(await resource.isUserAdmin(ctx, ctx.from!.id))) {
     return await ctx.answerCallbackQuery(resource.message.notAdmin);
   }
 
-  const answer: boolean = ctx.match![1] === "yes";
+  const parsed = resource.parsers.query.exec(ctx.match![0]);
+  const answer: boolean = parsed![1] === "yes";
 
   if (!answer) {
     return await ctx.editMessageText(`<i>Ok...</i>`, {
@@ -29,7 +30,7 @@ composer.callbackQuery(/setup_(.+)/gi, async (ctx: MaidContext) => {
   const group = await dungeon.getByID(ctx.chat!.id);
 
   await ctx.setChatPhoto(
-    new InputFile("https://og.maid.uz/group?name=${group.module}"),
+    new InputFile(new URL(`https://og.maid.uz/group?name=${group.module}`)),
   );
 
   const title = `The ${group.module}`;
@@ -38,11 +39,11 @@ composer.callbackQuery(/setup_(.+)/gi, async (ctx: MaidContext) => {
     await ctx.setChatTitle(title);
   }
 
-  const groupDescription =
-    "description" in ctx.chat! ? ctx.chat.description : "";
   const description = `Telegram group chat created for ${group.module}. Please, use /show command to hide or make group public~ Powered by Mad Maids!`;
-  if (description !== groupDescription) {
+  try {
     await ctx.setChatDescription(description);
+  } catch (error) {
+    console.log("Seems like we've done this already...");
   }
 
   await ctx.editMessageText(`✨ <i>Done!</i> ✨`, {

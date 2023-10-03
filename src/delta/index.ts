@@ -1,5 +1,9 @@
+// Essentials
 import "@/delta/help";
 import "@/delta/start";
+
+// Commands
+import "@/delta/show";
 import "@/delta/setup";
 import "@/delta/links";
 import "@/delta/register";

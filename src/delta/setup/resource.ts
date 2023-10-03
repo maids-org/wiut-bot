@@ -1,5 +1,9 @@
 import { InlineKeyboard } from "grammy";
-import { MaidContext } from "@type/global";
+import { MaidContext, Parser } from "@type/global";
+
+export const parsers: Parser = {
+  query: /setup_(.+)/gi
+}
 
 export const admins = async (ctx: MaidContext) =>
   await ctx.getChatAdministrators();
