@@ -99,7 +99,7 @@ class Timetable {
   getTimetableEditLink(): string {
     return (
       Constants.EDIT_LINK +
-      `blob/main/data/${this._level}${this._module}/${this._level}${this._module}${this._group}.json`
+      `blob/main/timetable/${this._level}${this._module.toUpperCase()}/${this._level.toUpperCase()}${this._module}${this._group}.json`
     );
   }
 }
