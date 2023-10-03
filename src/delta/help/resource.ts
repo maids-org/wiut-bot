@@ -12,8 +12,8 @@ export const message = (isAdmin: boolean): string => {
     `/links - <code>show url links</code>` +
     `\n` +
     `/groups - <code>show group links</code>` +
-    // `\n` +
-    // `/unregister - <code>remove this group from our database</code>` +
+    `\n` +
+    `/unregister - <code>remove this group from our database</code>` +
     `\n` +
     `/revoke - <code>reset this group's link</code>` +
     `\n` +

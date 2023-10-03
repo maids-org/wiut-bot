@@ -6,15 +6,15 @@
   "scripts": {
     "init": "git submodule update --init --recursive",
     "clean": "rm -rf node_modules && rm -rf dist && rm -rf data",
+
     "lint": "eslint .",
-    "build": "swc src -d dist",
     "format": "prettier --check --write \"{**/*,*}.{ts,json,md}\"",
-    "webhook:dev": "next dev",
-    "webhook:build": "next build",
-    "webhook:start": "next start",
-    "polling:dev": "concurrently \"pnpm run polling:build\" \"pnpm run polling:start\"",
-    "polling:build": "swc src -d dist -w",
-    "polling:start": "nodemon --watch \"dist/**/*\" -e js ./dist/app.js"
+
+    "build": "swc src -d dist",
+    "build:watch": "swc src -d dist -w",
+
+    "start": "node dist/app.js",
+    "dev": "concurrently \"pnpm run build:watch\" \"nodemon --watch \"dist/**/*\" -e js ./dist/app.js\""
   },
   "keywords": [
     "nyaasi",
@@ -33,6 +33,7 @@
     "@supabase/supabase-js": "^1.29.1",
     "chalk": "^4.1.2",
     "dotenv": "^8.2.0",
+    "fastify": "^4.23.2",
     "forever": "^4.0.1",
     "grammy": "^1.19.0",
     "is-reachable": "^5.0.0",
