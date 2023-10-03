@@ -2,7 +2,6 @@ import { join } from "path";
 import { promises } from "fs";
 import { InlineKeyboard } from "grammy";
 import { MaidContext, Parser } from "@type/global";
-import chalk from "chalk";
 
 export const parsers: Parser = {
   group: /register_(.+)/gi,
