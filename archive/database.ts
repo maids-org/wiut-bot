@@ -1,7 +1,3 @@
-import { join } from "path";
-import * as fs from "fs";
-import { Timetable as TT, Day } from "./types/database";
-
 import Offline from "./provider/offline";
 
 export const Online = async (url: string): Promise<any> => {
