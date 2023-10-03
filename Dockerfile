@@ -40,6 +40,9 @@ RUN pnpm install --only=production
 # Add executable permissions
 RUN chmod 0644 /app/update-data.sh
 
+# Run data checker
+RUN bash /app/update-data.sh
+
 # Run data checker every hour
 RUN crontab -l | { cat; echo "0 0 * * * bash /app/update-data.sh"; } | crontab -
 
