@@ -4,7 +4,7 @@
   "description": "WIUT BIS group manager & handler",
   "main": "dist/app.js",
   "scripts": {
-    "init": "git submodule update --init --recursive",
+    "init": "./update-module.sh",
     "clean": "rm -rf node_modules && rm -rf dist && rm -rf data",
 
     "lint": "eslint .",
