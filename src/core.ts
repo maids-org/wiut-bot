@@ -3,7 +3,7 @@ import "@/utils/config";
 import chalk from "chalk";
 import * as process from "process";
 import { composer } from "@/providers/global";
-import { MaidContext } from "@type/conversation";
+import { MaidContext } from "@type/global";
 
 export const bot = new Bot<MaidContext>(process.env.TOKEN || "");
 export const handle = webhookCallback(bot, "http");

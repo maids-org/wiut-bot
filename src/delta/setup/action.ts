@@ -1,5 +1,5 @@
 import { composer, dungeon } from "@/providers/global";
-import { MaidContext } from "@type/conversation";
+import { MaidContext } from "@type/global";
 
 import * as consoles from "@/utils/log";
 import * as resource from "./resource";

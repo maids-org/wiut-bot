@@ -1,5 +1,5 @@
 import { createClient, SupabaseClient } from "@supabase/supabase-js";
-import { Admin, Group, OnlyId, OnlyModule } from "@/archive/types/dungeon";
+import { Admin, Group, OnlyId, OnlyModule } from "../../archive/types/dungeon";
 
 export default class Dungeon {
   /**

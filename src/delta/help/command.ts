@@ -1,5 +1,5 @@
 import { composer } from "@/providers/global";
-import { MaidContext } from "@type/conversation";
+import { MaidContext } from "@type/global";
 import { User } from "@/providers/user";
 
 import * as consoles from "@/utils/log";

@@ -1,5 +1,5 @@
 import { InlineKeyboard } from "grammy";
-import { MaidContext } from "@type/conversation";
+import { MaidContext } from "@type/global";
 
 export const admins = async (ctx: MaidContext) =>
   await ctx.getChatAdministrators();
