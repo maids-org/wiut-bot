@@ -8,7 +8,7 @@ COPY package*.json .
 
 # Install dependencies
 RUN apt-get update
-RUN apt-get install -y python3 build-essential git
+RUN apt-get install -y python3 build-essential
 
 # Install pnpm
 RUN npm install -g pnpm
@@ -29,7 +29,7 @@ COPY . .
 
 # Install dependencies
 RUN apt-get update
-RUN apt-get install -y python3 build-essential git cron
+RUN apt-get install -y python3 build-essential cron unzip wget
 
 # Install pnpm
 RUN npm install -g pnpm
