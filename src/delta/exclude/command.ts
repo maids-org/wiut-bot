@@ -13,6 +13,7 @@ composer.on(":text", async (ctx: MaidContext) => {
             `\n` +
             `If you want to <b>send it to all groups</b>, simply reply <code>/send</code> to this message`,
           {
+            parse_mode: "HTML",
             reply_to_message_id: ctx.message!.message_id,
           },
         );
