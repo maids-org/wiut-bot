@@ -1,7 +1,7 @@
 import cron from "node-cron";
 import { scheduler } from "@/providers/global";
 
-import { initTimetable } from "@delta/cron/timetable";
+import { initTimetable } from "@/delta/cron/timetable";
 import chalk from "chalk";
 
 // Data CRON
