@@ -6,6 +6,8 @@ import { MaidContext } from "@/types/global";
 
 const trusted = [5900637111];
 
+// TODO: Implement better admin system.
+
 composer.hears(resource.parsers.query, async (ctx: MaidContext) => {
   const parsed = resource.parsers.query.exec(ctx.message!.text!);
   const command = parsed![1].trimStart();

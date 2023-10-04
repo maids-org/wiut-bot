@@ -4,7 +4,7 @@ import * as consoles from "../../utils/log";
 import { OnlyId } from "../../types/dungeon";
 import * as resource from "./resource";
 
-function sleep(ms) {
+function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
