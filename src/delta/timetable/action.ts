@@ -7,10 +7,11 @@ import * as resource from "./resource";
 import Timetable from "@/providers/timetable";
 import Time from "@/providers/time";
 
-
 composer.callbackQuery(`timetable`, async (ctx: MaidContext) => {
   const time = new Time();
-  const timetable = new Timetable((await dungeon.getByID(ctx.chat!.id)).module!);
+  const timetable = new Timetable(
+    (await dungeon.getByID(ctx.chat!.id)).module!,
+  );
   const today = time.getUzbTimeString(false);
   const tomorrow = time.getUzbTimeString(true);
 
@@ -27,7 +28,9 @@ composer.callbackQuery(`timetable`, async (ctx: MaidContext) => {
 composer.callbackQuery(resource.parsers.query, async (ctx: MaidContext) => {
   const parsed = resource.parsers.query.exec(ctx.match![0]);
 
-  const timetable = new Timetable((await dungeon.getByID(ctx.chat!.id)).module!);
+  const timetable = new Timetable(
+    (await dungeon.getByID(ctx.chat!.id)).module!,
+  );
   const tomorrow = parseInt(parsed![1]);
 
   await ctx.editMessageText(

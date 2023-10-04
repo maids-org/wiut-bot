@@ -5,7 +5,7 @@ export type Timetable = {
 export type Lesson = {
   name: string;
   tutor: string;
-  type: "online" | "seminar" | "lecture" | "workshop";
+  type: "online" | "seminar" | "lecture" | "workshop" | "online lecture";
   start:
     | 1.0
     | 2.0

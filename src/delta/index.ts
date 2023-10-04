@@ -2,6 +2,9 @@
 import "@/delta/help";
 import "@/delta/start";
 
+// Cron jobs
+import "@/delta/cron";
+
 // Commands
 import "@/delta/show";
 import "@/delta/setup";

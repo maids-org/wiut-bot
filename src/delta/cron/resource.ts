@@ -1,6 +1,11 @@
-import { Markup } from "telegraf";
+import { InlineKeyboard } from "grammy";
+import { Lesson } from "@type/database";
 
-export const message = (isTenMinuteLeft: boolean, subject, group) =>
+export const message = (
+  isTenMinuteLeft: boolean,
+  subject: Lesson,
+  group: string,
+): string =>
   isTenMinuteLeft
     ? `<b>⚠️ Upcoming Class Notification for ${group}</b> \n` +
       `\n` +
@@ -25,17 +30,16 @@ export const message = (isTenMinuteLeft: boolean, subject, group) =>
           : `at <code>${subject.location}</code>`
       } \n`;
 
-export const keyboard = (isTenMinuteLeft: boolean, link: string) =>
+export const keyboard = (
+  isTenMinuteLeft: boolean,
+  link: string,
+): InlineKeyboard =>
   isTenMinuteLeft
-    ? Markup.inlineKeyboard([
-        [Markup.urlButton("Check out the timetable", link)],
-        [
-          Markup.urlButton(
-            "Open the intranet for online",
-            `https://intranet.wiut.uz/UserModuleMaterials`,
-          ),
-        ],
-      ])
-    : Markup.inlineKeyboard([
-        [Markup.urlButton("Check out the timetable", link)],
-      ]);
+    ? new InlineKeyboard()
+        .url("Check out the timetable", link)
+        .row()
+        .url(
+          "Open the intranet for online",
+          `https://intranet.wiut.uz/UserModuleMaterials`,
+        )
+    : new InlineKeyboard().url("Check out the timetable", link);

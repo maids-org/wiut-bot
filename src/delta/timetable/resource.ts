@@ -5,8 +5,8 @@ import { MaidContext, Parser } from "@type/global";
 import Timetable from "@/providers/timetable";
 
 export const parsers: Parser = {
-  query: /tomorrow_(.+)/gi
-}
+  query: /tomorrow_(.+)/gi,
+};
 
 export const message = async (
   dungeon: Dungeon,
