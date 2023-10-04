@@ -208,18 +208,20 @@ export default class Dungeon {
   /**
    * Register a new admin in to the Dungeon.
    * @param id The ID of the group chat
-   * @param name The name of the admin
+   * @param first_name The first name of the admin
    * @param username The username of the admin
+   * @param last_name The last name of the admin
    * @returns Promise<Admin[]>
    */
   async newAdmin(
     id: number,
-    name?: string,
+    first_name?: string,
     username?: string,
+    last_name?: string,
   ): Promise<Admin[]> {
     const { data: Admin, error } = await this.client
       .from("Admins")
-      .insert([{ id, name, username }]);
+      .insert([{ id, first_name, username, last_name }]);
 
     if (error) throw new Error(`${error.message} (hint: ${error.hint})`);
 
