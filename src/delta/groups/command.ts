@@ -8,9 +8,12 @@ composer.command(`groups`, async (ctx: MaidContext) => {
   const groups = await dungeon.getAllVisibleByCursor(10, 0);
 
   if (groups.length === 0) {
-    return await ctx.reply("<b>Whoopsie!</b> Seems like nobody registered their group yet...", {
-      parse_mode: "HTML",
-    });
+    return await ctx.reply(
+      "<b>Whoopsie!</b> Seems like nobody registered their group yet...",
+      {
+        parse_mode: "HTML",
+      },
+    );
   }
 
   try {
