@@ -21,9 +21,9 @@ composer.on(":text", async (ctx: MaidContext) => {
 
       if (!ctx.message!.via_bot) {
         return await ctx
-          .reply(resource.message, {
+          .reply(resource.message.unknown, {
             parse_mode: "HTML",
-            reply_markup: resource.keyboard,
+            reply_markup: resource.keyboard.unknown,
           })
           .catch(null);
       }
