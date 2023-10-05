@@ -1,7 +1,7 @@
-import { dungeon } from "@/providers/global";
 import { Group } from "@/types/dungeon";
 import { InlineKeyboard } from "grammy";
 import { Parser } from "@type/global";
+import Dungeon from "@/providers/dungeon";
 
 export const parsers: Parser = {
   query: /groups_(.+)/gi,
@@ -12,7 +12,7 @@ export const message = (isEdited: boolean, page?: number | string) =>
     ? `<b>Navigate and choose your own group from ${page!.toString()}th page list below.</b>`
     : "<b>Navigate and choose your own group from the list below.</b>";
 
-export const keyboard = async (page: number = 0): Promise<InlineKeyboard> => {
+export const keyboard = async (dungeon: Dungeon, page: number = 0): Promise<InlineKeyboard> => {
   const data = {
     previous: await dungeon.getAllVisibleByCursor(10, (page - 1) * 10),
     current: await dungeon.getAllVisibleByCursor(10, page * 10),
