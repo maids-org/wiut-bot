@@ -1,7 +1,7 @@
 import { InlineKeyboard } from "grammy";
 
 export const message =
-  `<b>Welcome to Mad Maid's Northmaid Chan 😏!</b>` +
+  `<b>Welcome to Mad Maid's Eastmaid Chan 😏!</b>` +
   `\n` +
   `\n` +
   `With my help, you can do:` +
