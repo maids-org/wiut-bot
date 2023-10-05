@@ -47,7 +47,7 @@ composer.hears(resource.parsers.query, async (ctx: MaidContext) => {
         });
     }
   } catch (e) {
-    console.log(e)
+    console.log(e);
     return await ctx.reply(resource.message.error, {
       parse_mode: "HTML",
     });

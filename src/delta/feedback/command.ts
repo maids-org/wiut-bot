@@ -3,7 +3,6 @@ import * as consoles from "@/utils/log";
 import * as resource from "./resource";
 import { MaidContext } from "@type/global";
 
-
 composer.command(`feedback`, async (ctx: MaidContext) => {
   try {
     await ctx

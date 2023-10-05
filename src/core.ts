@@ -10,7 +10,7 @@ import { MaidContext } from "@type/global";
 export const bot = new Bot<MaidContext>(process.env.TOKEN || "");
 
 const initializer = async () => {
-  console.log(chalk.blue("[INFO]"), `bot is starting on ${process.env.HOST}`);
+  console.log(chalk.blue("[INFO]"), `bot is starting on ${process.env.METHOD}`);
 
   bot.use(composer);
   bot.catch((error) => {
@@ -21,12 +21,12 @@ const initializer = async () => {
 const webhook = async (): Promise<void> => {
   const server = fastify();
 
-  server.setErrorHandler(async (error, request, response) => {
+  server.setErrorHandler(async (_error, _request, response) => {
     await response.status(500).send({ error: "Oops! Something went wrong." });
   });
 
   server.get("/", (_, reply) => {
-    reply.redirect("https://t.me/eastmaid_bot")
+    reply.redirect("https://t.me/eastmaid_bot");
   });
   server.post("/", webhookCallback(bot, "fastify"));
   server.get("/set", () => {
@@ -38,12 +38,21 @@ const webhook = async (): Promise<void> => {
     }
   });
 
-  const port: number = process.env.PORT ? parseInt(process.env.PORT) : 9000;
-  server.listen({ port }).then(() => console.log(chalk.blue("[INFO]"), `webhook is starting on ${port}`));
+  const port = process.env.PORT ? parseInt(process.env.PORT) : 9000;
+
+  server
+    .listen({
+      host: process.env.HOST || "localhost",
+      path: process.env.PATH || "/",
+      port,
+    })
+    .then(() =>
+      console.log(chalk.blue("[INFO]"), `webhook is starting on ${port}`),
+    );
 };
 
 export const launch = async () => {
-  switch (process.env.HOST) {
+  switch (process.env.METHOD) {
     case "polling":
     case "POLLING":
       await initializer();

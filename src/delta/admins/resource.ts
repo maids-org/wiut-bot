@@ -2,7 +2,7 @@ import { Parser } from "@type/global";
 
 export const parsers: Parser = {
   query: /^\/admin(.*)/gi,
-}
+};
 
 export const message = {
   noPrivilege: `Ara-ara 😼... You don't have <b>enough privileges</b> to do this action!`,
