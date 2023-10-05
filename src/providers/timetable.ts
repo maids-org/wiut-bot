@@ -11,7 +11,7 @@ class Timetable {
   protected timetable: TT;
 
   constructor(course: string) {
-    const parser = new RegExp(/([0-9]+)([A-Z]+)([0-9]+)/gi);
+    const parser = new RegExp(/([0-9]+)([a-zA-Z\s]+)([0-9]+)/gi);
     const data = parser.exec(course);
 
     this._level = data![1];
