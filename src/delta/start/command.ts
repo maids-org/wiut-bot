@@ -5,7 +5,6 @@ import * as consoles from "@/utils/log";
 import * as resource from "./resource";
 
 composer.command("start", async (ctx: MaidContext): Promise<void> => {
-  console.log("An update")
   try {
     if (ctx.match) {
       await ctx
