@@ -3,7 +3,7 @@
  * @module layouts/consoles
  */
 
-import { basename, dirname, sep } from "path";
+import { basename, dirname, sep } from "node:path";
 import chalk from "chalk";
 
 export const errors = (error: Error | any): void => {

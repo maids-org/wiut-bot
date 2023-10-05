@@ -1,7 +1,7 @@
 FROM node:20-slim AS base
 
 # Create app directory
-WORKDIR /app
+WORKDIR /usr/src/app
 
 # Files required by npm install
 COPY package*.json .
@@ -24,6 +24,8 @@ RUN pnpm build
 
 FROM base AS runner
 
+WORKDIR /usr/src/app
+
 # Bundle app source
 COPY . .
 
@@ -38,15 +40,15 @@ RUN npm install -g pnpm
 RUN pnpm install --only=production
 
 # Add executable permissions
-RUN chmod 0644 /app/update-data.sh
+RUN chmod 0644 /usr/src/app/update-data.sh
 
 # Run data checker
-RUN bash /app/update-data.sh
+RUN bash /usr/src/app/update-data.sh
 
 # Run data checker every hour
-RUN crontab -l | { cat; echo "0 0 * * * bash /app/update-data.sh"; } | crontab -
+RUN crontab -l | { cat; echo "0 0 * * * bash /usr/src/app/update-data.sh"; } | crontab -
 
-# Switch to non-root
+# Non-root user
 USER node
 
 # Expose port 9000

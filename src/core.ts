@@ -25,7 +25,9 @@ const webhook = async (): Promise<void> => {
     await response.status(500).send({ error: "Oops! Something went wrong." });
   });
 
-  server.get("/", (_, rep) => rep.redirect("https://t.me/eastmaid_bot"));
+  server.get("/", (_, reply) => {
+    reply.redirect("https://t.me/eastmaid_bot")
+  });
   server.post("/", webhookCallback(bot, "fastify"));
   server.get("/set", () => {
     try {
@@ -37,16 +39,17 @@ const webhook = async (): Promise<void> => {
   });
 
   const port: number = process.env.PORT ? parseInt(process.env.PORT) : 9000;
-
-  await server.listen({ port });
+  server.listen({ port }).then(() => console.log(chalk.blue("[INFO]"), `webhook is starting on ${port}`));
 };
 
 export const launch = async () => {
   switch (process.env.HOST) {
+    case "polling":
     case "POLLING":
       await initializer();
       await bot.start();
       break;
+    case "webhook":
     case "WEBHOOK":
       await initializer();
       await webhook();

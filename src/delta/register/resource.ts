@@ -1,5 +1,5 @@
-import { join } from "path";
-import { promises } from "fs";
+import { join } from "node:path";
+import { promises } from "node:fs";
 import { InlineKeyboard } from "grammy";
 import { MaidContext, Parser } from "@type/global";
 

@@ -3,8 +3,8 @@
 readme.md
 license
 docker-compose.yml
-docker-compose.core.yml
 .env.sample
 .env
 **/node_modules
+node_modules
 data

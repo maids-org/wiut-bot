@@ -1,10 +1,9 @@
 version: '3'
 services:
   bot:
-    build:
-      context: .
+    build: .
+    restart: always
     env_file:
       - .env
-    volumes:
-      - ".:/app"
-    command: pnpm run dev
+    ports:
+      - "9000:9000"

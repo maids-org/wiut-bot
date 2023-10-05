@@ -1,6 +1,6 @@
 import { Day, Lesson, Timetable as TT } from "@/types/database";
-import { join } from "path";
-import fs from "fs";
+import { join } from "node:path";
+import fs from "node:fs";
 import { Constants } from "@/providers/consts";
 
 class Timetable {
@@ -21,7 +21,7 @@ class Timetable {
     this.filePath = join(
       "data",
       "timetable",
-      this._level + this._module,
+      this._level + this._module.toUpperCase(),
       this._level + this._module + this._group + ".json",
     );
 
